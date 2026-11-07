@@ -22,7 +22,7 @@ class TestFestivos(unittest.TestCase):
         self.assertTrue(all(p.get("acta") for p in partidos))
         self.assertTrue(all("2027" in p["inicio_madrid"] for p in partidos))
 
-    def test_sin duplicados(self):
+    def test_sin_duplicados(self):
         partidos = fuentes.generar_festivos(CONFIG, 2027, 2027)
         uids = [p["uid"] for p in partidos]
         self.assertEqual(len(uids), len(set(uids)))
