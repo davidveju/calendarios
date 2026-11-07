@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+
 from datetime import date, timedelta
 
 
@@ -93,4 +95,37 @@ def generar_festivos(config, desde: int, hasta: int) -> list[dict]:
 
 
 def obtener_festivos(texto: str, config) -> list[dict]:
-    return []
+    try:
+        data = json.loads(texto)
+    except Exception:
+        return []
+    partidos = []
+    vistos = set()
+    for h in data:
+        iso = h.get("startDate")
+        if not iso:
+            continue
+        nombre = h.get("name", [{}])[0].get("text", "Festivo") if isinstance(h.get("name"), list) else "Festivo"
+        for n in (h.get("name") or []):
+            if n.get("language") == "ES":
+                nombre = n.get("text", nombre)
+        uid = f"{config.uid_prefix}-{iso}@{config.uid_dominio}"
+        if uid in vistos:
+            continue
+        vistos.add(uid)
+        partidos.append(
+            {
+                "uid": uid,
+                "competicion": "festivo",
+                "competicion_nombre": config.nombre_calendario,
+                "estado": "pendiente",
+                "casa": True,
+                "rival": nombre,
+                "inicio_madrid": f"{iso}T00:00",
+                "fin_madrid": f"{iso}T23:59",
+                "fecha_provisional": False,
+                "acta": "https://openholidaysapi.org",
+                "ronda": nombre,
+            }
+        )
+    return partidos

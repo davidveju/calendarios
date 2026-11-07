@@ -135,6 +135,21 @@ def main() -> None:
     hasta = hoy.year + 2
     partidos = fuentes.generar_festivos(CONFIG, desde, hasta)
 
+    # Corrección oficial del año en curso (OpenHolidays) si está disponible.
+    try:
+        url = (
+            "https://openholidaysapi.org/PublicHolidays"
+            f"?countryIsoCode=ES&languageIsoCode=ES"
+            f"&validFrom={hoy.year}-01-01&validTo={hoy.year}-12-31"
+            f"&subdivisionCode={CONFIG.subdivision_code}"
+        )
+        respuesta = fetch(url, timeout=30)
+        oficiales = fuentes.obtener_festivos(respuesta, CONFIG)
+        if oficiales:
+            partidos = [p for p in partidos if not p["inicio_madrid"].startswith(f"{hoy.year}-")] + oficiales
+    except Exception as e:  # noqa: BLE001
+        warn(f"festivos: OpenHolidays ({e}); se mantienen los generados")
+
     # deduplicar por (día, nombre)
     unicos = []
     vistos = set()
