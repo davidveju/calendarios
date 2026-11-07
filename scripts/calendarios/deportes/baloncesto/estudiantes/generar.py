@@ -243,6 +243,9 @@ def main() -> None:
     copa = copa_hist + copa_nueva
 
     partidos = liga + copa
+    # Acumulación: conservar partidos de temporadas anteriores.
+    claves = {p["uid"] for p in partidos}
+    partidos = [p for p in prev if isinstance(p, dict) and p.get("uid") not in claves] + partidos
     hoy = datetime.now(zona).date()
     # Conservar inicio_madrid de pendientes que pasan a jugados (fecha real del evento)
     for p in partidos:

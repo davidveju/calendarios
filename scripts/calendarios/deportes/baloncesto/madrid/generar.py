@@ -131,6 +131,10 @@ def main() -> None:
         unicos.append(p)
     partidos = unicos
 
+    # Acumulación: mantener temporadas anteriores.
+    actuales = {p["uid"] for p in partidos}
+    partidos = [p for p in prev if p.get("uid") not in actuales] + partidos
+
     if not partidos and prev:
         warn("ACB: sin resultados, uso histórico")
         partidos = prev

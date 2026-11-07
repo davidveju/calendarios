@@ -196,6 +196,10 @@ def main() -> None:
         else:
             raise
 
+    # Acumulación: los partidos de temporadas anteriores se conservan.
+    claves_actuales = {p["uid"] for p in partidos}
+    partidos = [p for p in prev if p.get("uid") not in claves_actuales] + partidos
+
     for p in partidos:
         old = prev_by_uid.get(p["uid"])
         if (
