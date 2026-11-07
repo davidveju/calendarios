@@ -18,6 +18,18 @@ nada.
 
 ## 📲 Suscribirse
 
+La URL de suscripción debe ser siempre el enlace directo a `raw.githubusercontent.com`
+(nunca `/blob/`). Para Google Calendar, Apple Calendar u Outlook usa una de
+estas URLs según el calendario elegido:
+
+```text
+https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/estudiantes.ics
+https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/madrid.ics
+https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/getafe.ics
+https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/madrid.ics
+https://raw.githubusercontent.com/davidveju/calendarios/main/festivos/madrid.ics
+```
+
 ### Google Calendar
 
 1. Abre [Google Calendar](https://calendar.google.com).
