@@ -1,0 +1,103 @@
+name: Actualizar calendario (reusable)
+
+on:
+  workflow_call:
+    inputs:
+      id:
+        description: "ID del calendario, p. ej. deportes/baloncesto"
+        required: true
+        type: string
+      directorio:
+        description: "Directorio del calendario dentro del repo"
+        required: true
+        type: string
+      ics:
+        description: "Nombre del fichero .ics dentro del directorio"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    name: ${{ inputs.id }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0 # historial completo para pull --rebase antes del push
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12" # misma stdlib/zoneinfo en CI y local
+
+      - name: Tests compartidos
+        run: python3 -m unittest discover -s calendarios/tests -t . -v
+
+      - name: Tests del calendario
+        env:
+          DIRECTORIO: ${{ inputs.directorio }}
+        run: |
+          set -euo pipefail
+          if [ -d "$DIRECTORIO/tests" ]; then
+            python3 -m unittest discover -s "$DIRECTORIO/tests" -t . -v
+          fi
+
+      - name: Generar calendario
+        env:
+          ID: ${{ inputs.id }}
+        run: python3 -m calendarios actualizar --solo "$ID"
+
+      - name: Validar ICS y JSON
+        env:
+          DIRECTORIO: ${{ inputs.directorio }}
+          ICS: ${{ inputs.ics }}
+        run: |
+          set -euo pipefail
+          python3 -m calendarios validar "$DIRECTORIO/$ICS"
+          if [ -d "$DIRECTORIO/datos" ]; then
+            find "$DIRECTORIO/datos" -name '*.json' -print0 \
+              | xargs -0 -r -n1 python3 -m json.tool >/dev/null
+          fi
+          git diff --check -- . ":(exclude)$DIRECTORIO/$ICS"
+
+      - name: Commit y push si hay cambios reales
+        env:
+          DIRECTORIO: ${{ inputs.directorio }}
+          ID: ${{ inputs.id }}
+        run: |
+          set -euo pipefail
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- "$DIRECTORIO"
+
+          if git diff --cached --quiet -- "$DIRECTORIO"; then
+            echo "Sin cambios."
+            exit 0
+          fi
+
+          # DTSTAMP cambia en cada ejecución: si es lo único que cambia, no se publica.
+          if ! git diff --cached -U0 -- "$DIRECTORIO" \
+              | grep -E '^[+-][^-+]' \
+              | grep -v '^[+-]DTSTAMP:' \
+              | grep -q .; then
+            echo "Sin cambios reales (solo DTSTAMP)."
+            exit 0
+          fi
+
+          git commit -m "auto($ID): actualiza calendario $(date -u +%FT%H%MZ)"
+
+          # Varios calendarios pueden terminar a la vez: reintentar el rebase+push.
+          for intento in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              exit 0
+            fi
+            echo "Push falló (intento $intento/3); reintentando..."
+            sleep $((intento * 5))
+          done
+          echo "No se pudo publicar el calendario tras 3 intentos." >&2
+          exit 1

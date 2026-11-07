@@ -1,0 +1,10 @@
+# ICS con CRLF RFC 5545: no convertir finales de línea en ningún sistema.
+*.ics -text
+# El resto de ficheros generados y de código, siempre LF.
+*.json text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+LICENSE text eol=lf
