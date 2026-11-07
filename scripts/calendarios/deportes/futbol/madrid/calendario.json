@@ -1,0 +1,10 @@
+{
+  "nombre": "Real Madrid 26/27",
+  "descripcion": "Partidos del Real Madrid en todas las competiciones de la temporada 26/27.",
+  "ics": "deportes/futbol/madrid.ics",
+  "generador": "generar.py",
+  "datos": [
+    "partidos.json"
+  ],
+  "zona": "Europe/Madrid"
+}

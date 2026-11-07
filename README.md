@@ -11,6 +11,7 @@ nada.
 |---|---|---|
 | 🏀 [Movistar Estudiantes 26/27](deportes/baloncesto/) | [estudiantes.ics](deportes/baloncesto/estudiantes.ics) | lunes, miércoles y viernes 12:00 UTC |
 | ⚽ [Getafe CF 26/27](deportes/futbol/) | [getafe.ics](deportes/futbol/getafe.ics) | lunes, miércoles y viernes 12:00 UTC |
+| ⚽ [Real Madrid 26/27](deportes/futbol/) | [madrid.ics](deportes/futbol/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
 
 > El antiguo repo `davidveju/estudiantes-calendario` queda archivado. La nueva
 > URL de suscripción es:
