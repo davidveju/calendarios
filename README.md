@@ -15,8 +15,7 @@ nada.
 | ⚽ [Real Madrid 26/27](deportes/futbol/madrid.ics) | [madrid.ics](deportes/futbol/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
 | 🎉 [Festivos de Madrid](festivos/madrid.ics) | [madrid.ics](festivos/madrid.ics) | el 1 de cada mes 08:00 UTC |
 
-> El antiguo repo `davidveju/estudiantes-calendario` queda archivado. La nueva
-> URL de suscripción es:
+> La URL de suscripción es:
 >
 > ```text
 > https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/estudiantes.ics
