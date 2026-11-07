@@ -26,21 +26,24 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0 # historial completo para pull --rebase antes del push
 
       - name: Configurar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12" # misma stdlib/zoneinfo en CI y local
 
       - name: Tests compartidos
+        env:
+          CALENDARIOS_TEST: "1"
         run: python3 -m unittest discover -s calendarios/tests -t . -v
 
       - name: Tests del calendario
         env:
           DIRECTORIO: ${{ inputs.directorio }}
+          CALENDARIOS_TEST: "1"
         run: |
           set -euo pipefail
           if [ -d "$DIRECTORIO/tests" ]; then

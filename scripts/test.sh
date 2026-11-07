@@ -3,6 +3,9 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+# En tests los avisos son parte del caso de prueba, no anotaciones del workflow.
+export CALENDARIOS_TEST=1
+
 encontrados=0
 while IFS= read -r directorio; do
   if compgen -G "$directorio/test_*.py" >/dev/null; then
