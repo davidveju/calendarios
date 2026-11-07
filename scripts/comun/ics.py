@@ -31,6 +31,7 @@ class Evento:
     estado: str = "CONFIRMED"
     transparencia: str = "TRANSPARENT"
     secuencia: int = 0
+    todo_el_dia: bool = False
 
 
 def esc(texto: str) -> str:
@@ -155,18 +156,29 @@ def generar_ics(
     for evento in sorted(lista, key=lambda e: _a_utc(e.inicio, zona)):
         inicio, fin, resumen = _validar_evento(evento, zona)
         uid = _validar_texto_un_linea(evento.uid, "UID")
+        todo_el_dia = bool(evento.todo_el_dia)
         url = _validar_texto_un_linea(evento.url, f"URL {uid}")
         descripcion = str(evento.descripcion or "")
         lugar = str(evento.lugar or "")
         estado = str(evento.estado).upper()
         transparencia = str(evento.transparencia).upper()
 
+        if todo_el_dia:
+            base = evento.inicio if evento.inicio.tzinfo is not None else evento.inicio.replace(tzinfo=zona)
+            inicio_date = base.astimezone(zona).date()
+            fin_date = inicio_date + timedelta(days=1)
+            dtstart_line = f"DTSTART;VALUE=DATE:{inicio_date.strftime('%Y%m%d')}"
+            dtend_line = f"DTEND;VALUE=DATE:{fin_date.strftime('%Y%m%d')}"
+        else:
+            dtstart_line = f"DTSTART:{inicio.strftime('%Y%m%dT%H%M%SZ')}"
+            dtend_line = f"DTEND:{fin.strftime('%Y%m%dT%H%M%SZ')}"
+
         contenido = [
             "BEGIN:VEVENT",
             f"UID:{uid}",
             f"DTSTAMP:{dtstamp}",
-            f"DTSTART:{inicio.strftime('%Y%m%dT%H%M%SZ')}",
-            f"DTEND:{fin.strftime('%Y%m%dT%H%M%SZ')}",
+            dtstart_line,
+            dtend_line,
             f"SUMMARY:{esc(resumen)}",
         ]
         if descripcion:

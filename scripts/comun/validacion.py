@@ -52,14 +52,14 @@ def validar_bytes(data: bytes) -> list[str]:
         errores.append(f"UIDs ({len(uids)}) != VEVENT ({inicios})")
     if len(set(uids)) != len(uids):
         errores.append("hay UIDs duplicados")
-    for prefijo in (b"DTSTART:", b"DTEND:"):
+    for prefijo in (b"DTSTART", b"DTEND"):
         n = sum(1 for x in lineas if x.startswith(prefijo))
         if n != inicios:
             errores.append(f"{prefijo.decode()} ({n}) != VEVENT ({inicios})")
     for i, linea in enumerate(lineas, 1):
-        if linea.startswith((b"DTSTART:", b"DTEND:")) and not re.fullmatch(
-            rb"DT(?:START|END):\d{8}T\d{6}Z", linea
-        ):
+        all_day_shape = re.fullmatch(rb"DT(?:START|END);VALUE=DATE:\d{8}", linea)
+        utc_shape = re.fullmatch(rb"DT(?:START|END):\d{8}T\d{6}Z", linea)
+        if linea.startswith((b"DTSTART", b"DTEND")) and not (all_day_shape or utc_shape):
             errores.append(f"línea {i}: fecha no UTC/ISO básica ({linea[:40]!r})")
     return errores
 

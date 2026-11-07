@@ -75,6 +75,7 @@ def a_eventos(partidos: list[dict]) -> list[Evento]:
                     lugar="",
                     estado="CONFIRMED",
                     transparencia="OPAQUE",
+                    todo_el_dia=True,
                 )
             )
         except Exception as e:  # noqa: BLE001
