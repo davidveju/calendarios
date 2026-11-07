@@ -22,14 +22,15 @@ from scripts.proveedores.acb import fuentes
 
 def resumen(p: dict) -> str:
     emoji = "🏀"
-    tag = "Liga Endesa"
+    tag = "EuroLeague" if p.get("competicion") == "euroliga" else "Liga Endesa"
     local = "Real Madrid" if p.get("casa") else p.get("rival", "Rival")
     visitante = p.get("rival", "Rival") if p.get("casa") else "Real Madrid"
     return f"{emoji} {local} - {visitante} ({tag})"
 
 
 def descripcion(p: dict) -> str:
-    lineas = [f"Liga Endesa 26/27", f"Real Madrid {'en casa' if p.get('casa') else 'fuera'} vs {p.get('rival', 'Rival')}"]
+    nombre_comp = "EuroLeague 26/27" if p.get("competicion") == "euroliga" else "Liga Endesa 26/27"
+    lineas = [nombre_comp, f"Real Madrid {'en casa' if p.get('casa') else 'fuera'} vs {p.get('rival', 'Rival')}"]
     acta = p.get("acta", "")
     if acta:
         lineas.append(f"Acta: {acta}")
@@ -106,6 +107,30 @@ def main() -> None:
     prev = _cargar_previo(json_path)
     html = fetch(CONFIG.url, timeout=30)
     partidos = fuentes.extraer_partidos(html, CONFIG)
+    # Euroliga oficial desde el anuncio del calendario del Real Madrid.
+    try:
+        html_el = fetch(
+            "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/"
+            "el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+            timeout=30,
+        )
+        euro = fuentes.extraer_euroliga(html_el, CONFIG)
+        if euro:
+            partidos.extend(euro)
+    except Exception as e:  # noqa: BLE001
+        warn(f"euroleague: fallo ({e}); solo ACB disponible")
+
+    # Eliminar duplicados por (día, rival) tras combinar.
+    vistos = set()
+    unicos = []
+    for p in partidos:
+        clue = p["inicio_madrid"][:10] + "|" + p["rival"].lower()
+        if clue in vistos:
+            continue
+        vistos.add(clue)
+        unicos.append(p)
+    partidos = unicos
+
     if not partidos and prev:
         warn("ACB: sin resultados, uso histórico")
         partidos = prev

@@ -112,3 +112,89 @@ def extraer_partidos(html: str, config) -> list[dict]:
         vistos.add(clave)
         unicos.append(p)
     return unicos
+
+
+MESES_EN = {
+    "january": 1, "february": 2, "march": 3, "april": 4,
+    "may": 5, "june": 6, "july": 7, "august": 8,
+    "september": 9, "october": 10, "november": 11, "december": 12,
+}
+
+
+def extraer_euroliga(html: str, config) -> list[dict]:
+    """Parsea el calendario oficial de la EuroLeague del Real Madrid."""
+    partidos: list[dict] = []
+    vistos: set[str] = set()
+    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)
+        if len(cells) < 2:
+            continue
+        date_cell = cells[0]
+        match_cell = cells[1]
+        mround = re.search(r"(\d+)", _limpia(date_cell))
+        if not mround:
+            continue
+        round_num = int(mround.group(1))
+        mdate = re.search(
+            r"([A-Za-z]+)\s+(\d{1,2}),\s*(\d{1,2}):(\d{2})\s*(am|pm)",
+            _limpia(date_cell),
+            re.I,
+        )
+        if not mdate:
+            continue
+        mes_txt = mdate.group(1).lower()
+        mes = MESES_EN.get(mes_txt)
+        if mes is None:
+            continue
+        dia = int(mdate.group(2))
+        hh = int(mdate.group(3))
+        mm = int(mdate.group(4))
+        ampm = mdate.group(5).lower()
+        if ampm == "pm" and hh != 12:
+            hh += 12
+        if ampm == "am" and hh == 12:
+            hh = 0
+        anio_int = 2026 if mes >= 9 else 2027
+
+        raw_match = match_cell
+        home = re.search(r"<b>.{0,20}Real Madrid.{0,20}</b>\s*-", raw_match, re.I) is not None
+        away = re.search(r"-\s*<b>.{0,20}Real Madrid.{0,20}</b>", raw_match, re.I) is not None
+        if not (home ^ away):
+            # Determinar dirección por marcado o por posición textual.
+            texto = _limpia(match_cell)
+            if "Real Madrid-" in texto.replace(" ", ""):
+                home = True
+            elif "-Real Madrid" in texto.replace(" ", ""):
+                away = True
+            else:
+                continue
+        casa = home
+
+        # rival: todo el texto sin la marca Real Madrid
+        rival = _limpia(match_cell).replace("Real Madrid", "").strip(" -")
+        rival = re.sub(r"\s+", " ", rival).strip(" -")
+        if not rival:
+            continue
+
+        uid_code = f"el-g{round_num}-{rival.lower().replace(' ', '-')}"
+        uid = f"{config.uid_prefix}-{uid_code}@{config.uid_dominio}"
+        if uid in vistos:
+            continue
+        vistos.add(uid)
+
+        kickoff = f"{anio_int:04d}-{mes:02d}-{dia:02d}T{hh:02d}:{mm:02d}"
+        partidos.append(
+            {
+                "uid": uid,
+                "competicion": "euroliga",
+                "competicion_nombre": "EuroLeague 26/27",
+                "estado": "pendiente",
+                "casa": casa,
+                "rival": rival,
+                "inicio_madrid": kickoff,
+                "fecha_provisional": False,
+                "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+                "ronda": f"G. {round_num}",
+            }
+        )
+    return partidos
