@@ -164,7 +164,7 @@ def _cargar_previo(path: Path) -> list[dict]:
         data = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(data, list):
             return []
-        # Compatibilidad con el esquema antiguo: resultado_estu -> resultado_equipo.
+        # Compatibilidad con el esquema previo: resultado_estu -> resultado_equipo.
         for p in data:
             if isinstance(p, dict) and "resultado_estu" in p:
                 p.setdefault("resultado_equipo", p.pop("resultado_estu"))

@@ -21,7 +21,6 @@ nada.
 > https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/estudiantes.ics
 > ```
 >
-> Si ya estabas suscrito, elimina el calendario antiguo y añade esta URL.
 
 ## 📲 Suscribirse
 
