@@ -18,23 +18,12 @@ nada.
 
 ## 📲 Suscribirse
 
-La URL de suscripción debe ser siempre el enlace directo a `raw.githubusercontent.com`
-(nunca `/blob/`). Para Google Calendar, Apple Calendar u Outlook usa una de
-estas URLs según el calendario elegido:
+Copia el enlace directo del calendario que quieres (columna **Fichero** de la tabla,
+ya es una URL del tipo `raw.githubusercontent.com/.../<fichero>.ics`) y añádelo como
+calendario por URL en Google Calendar, Apple Calendar u Outlook.
 
-```text
-https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/estudiantes.ics
-https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/madrid.ics
-https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/getafe.ics
-https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/madrid.ics
-https://raw.githubusercontent.com/davidveju/calendarios/main/festivos/madrid.ics
-```
-
-### Google Calendar
-
-1. Abre [Google Calendar](https://calendar.google.com).
-2. En `Otros calendarios`, pulsa `+` → `Desde URL`.
-3. Pega la URL del `.ics` y pulsa `Añadir calendario`.
+De Google Calendar en concreto: `Otros calendarios` → `+` → `Desde URL` y pega la
+URL directa del `.ics`.
 
 ### Apple Calendar (iPhone / Mac)
 
