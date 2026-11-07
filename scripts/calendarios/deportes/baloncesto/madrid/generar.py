@@ -36,6 +36,14 @@ def resumen(p: dict) -> str:
         tag = "Copa del Rey"
     local = "Real Madrid" if p.get("casa") else p.get("rival", "Rival")
     visitante = p.get("rival", "Rival") if p.get("casa") else "Real Madrid"
+    if (
+        p.get("estado") == "jugado"
+        and "resultado_local" in p
+        and "resultado_visitante" in p
+    ):
+        marca = "✅" if p.get("victoria") else "❌"
+        gl, gv = p["resultado_local"], p["resultado_visitante"]
+        return f"{emoji} {local} - {visitante} ({tag}: {gl}-{gv} {marca})"
     return f"{emoji} {local} - {visitante} ({tag})"
 
 
@@ -48,6 +56,12 @@ def descripcion(p: dict) -> str:
     else:
         nombre_comp = "Copa del Rey"
     lineas = [nombre_comp, f"Real Madrid {'en casa' if p.get('casa') else 'fuera'} vs {p.get('rival', 'Rival')}"]
+    if p.get("estado") == "jugado" and "resultado_equipo" in p and "resultado_rival" in p:
+        lineas.append(
+            "Resultado: Real Madrid "
+            f"{p['resultado_equipo']}-{p['resultado_rival']} "
+            + ("victoria ✅" if p.get("victoria") else "derrota ❌")
+        )
     acta = p.get("acta", "")
     if acta:
         lineas.append(f"Acta: {acta}")
