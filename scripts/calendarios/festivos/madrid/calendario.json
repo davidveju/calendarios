@@ -1,6 +1,6 @@
 {
   "nombre": "Festivos de Madrid",
-  "descripcion": "Festivos oficiales de la Comunidad/Provincia de Madrid más las fiestas locales de la ciudad de Madrid.",
+  "descripcion": "Festivos oficiales de Madrid",
   "ics": "festivos/madrid.ics",
   "generador": "generar.py",
   "datos": [

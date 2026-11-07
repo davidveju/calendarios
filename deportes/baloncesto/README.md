@@ -3,7 +3,7 @@
 Calendarios independientes para equipos de baloncesto. Cada club mantiene su
 propio estado y su propio workflow.
 
-- [Movistar Estudiantes 26/27](estudiantes.ics): Primera FEB, Copa España y playoffs (FEB).
+- [Movistar Estudiantes](estudiantes.ics): Primera FEB, Copa España y playoffs (FEB).
   URL: `https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/estudiantes.ics`
 - [Real Madrid Baloncesto 26/27](madrid.ics): Liga Endesa (ACB oficial) + EuroLeague (calendario oficial).
   URL: `https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/madrid.ics`

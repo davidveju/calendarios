@@ -1,6 +1,6 @@
 {
-  "nombre": "Getafe CF 26/27",
-  "descripcion": "Partidos del Getafe CF en LaLiga 26/27.",
+  "nombre": "Getafe CF",
+  "descripcion": "Partidos del Getafe CF en todas las competiciones",
   "ics": "deportes/futbol/getafe.ics",
   "generador": "generar.py",
   "datos": [
