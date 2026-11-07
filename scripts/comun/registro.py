@@ -30,18 +30,34 @@ def descubrir_calendarios(raiz: Path, *, estricto: bool = False) -> list[Context
         return []
 
     calendarios: list[Contexto] = []
+    publicados: dict[Path, Contexto] = {}
     for manifiesto in sorted(base.rglob(MANIFIESTO)):
         rel = manifiesto.parent.relative_to(base)
         if any(part.startswith(".") or part == "__pycache__" for part in rel.parts):
             continue
         try:
-            calendarios.append(
-                cargar_contexto(rel.as_posix(), manifiesto.parent, raiz)
+            calendario = cargar_contexto(
+                rel.as_posix(), manifiesto.parent, raiz
             )
         except ErrorCalendario as e:
             if estricto:
                 raise
             warn(f"calendario omitido ({rel.as_posix()}): {e}")
+            continue
+
+        anterior = publicados.get(calendario.ruta_ics)
+        if anterior is not None:
+            mensaje = (
+                f"ICS duplicado {calendario.ics!r}: lo publican "
+                f"{anterior.id!r} y {calendario.id!r}"
+            )
+            if estricto:
+                raise ErrorCalendario(mensaje)
+            warn(f"calendario omitido ({calendario.id}): {mensaje}")
+            continue
+
+        publicados[calendario.ruta_ics] = calendario
+        calendarios.append(calendario)
     return sorted(calendarios, key=lambda c: c.id)
 
 

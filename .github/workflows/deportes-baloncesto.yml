@@ -19,5 +19,5 @@ jobs:
   actualizar:
     uses: ./.github/workflows/_calendario.yml
     with:
-      id: deportes/baloncesto
-      ics: estudiantes.ics
+      id: deportes/baloncesto/estudiantes
+      ics: deportes/baloncesto/estudiantes.ics

@@ -1,12 +1,12 @@
 {
   "nombre": "Movistar Estudiantes 26/27",
   "descripcion": "Partidos del Movistar Estudiantes masculino: Primera FEB, Copa España y playoffs.",
-  "ics": "estudiantes.ics",
+  "ics": "deportes/baloncesto/estudiantes.ics",
   "generador": "generar.py",
   "datos": [
-    "datos/partidos.json",
-    "datos/sedes.json",
-    "datos/fechas_reales.json"
+    "partidos.json",
+    "sedes.json",
+    "fechas_reales.json"
   ],
   "zona": "Europe/Madrid"
 }

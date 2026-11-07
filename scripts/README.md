@@ -1,7 +1,7 @@
 # 🧩 Código de los calendarios
 
-Todo el código vive en `scripts/`. Los directorios de datos (`<id>/`) solo
-contienen el `.ics` publicado y su estado/caché.
+Todo el código vive en `scripts/`. El estado interno vive en `estado/<id>/` y en
+las carpetas públicas (`deportes/...`) solo se publican los `.ics`.
 
 ## Capas
 
@@ -20,20 +20,40 @@ tiene sentido para un calendario, se queda en `calendarios/<id>`.
 `scripts/comun/contexto.py` es la única fuente de verdad:
 
 ```python
-from scripts.comun.contexto import contexto_desde_modulo
+from scripts.comun.contexto import contexto_desde_ejecucion
 
-ctx = contexto_desde_modulo(__name__)
+ctx = contexto_desde_ejecucion(__name__, __file__)
 ctx.raiz          # raíz del repositorio
 ctx.codigo        # scripts/calendarios/<id>
-ctx.salida        # <id>
-ctx.ruta_ics      # <id>/<ics del manifiesto>
-ctx.ruta_dato("datos/partidos.json")  # <id>/datos/partidos.json
+ctx.estado        # estado/<id>  (interno, persistente)
+ctx.publicacion   # carpeta del ICS público
+ctx.ruta_ics      # ruta pública declarada en el manifiesto
+ctx.ruta_estado("partidos.json")  # estado/<id>/partidos.json
 ```
 
 El `id` debe coincidir con la ruta bajo `scripts/calendarios/` y usar
 minúsculas, números y guiones bajos separados por `/`. Un manifiesto inválido se
 omite (con aviso) para no bloquear al resto de calendarios; `--estricto` lo
-convierte en error.
+convierte en error. Dos calendarios tampoco pueden declarar el mismo `ics`.
+
+## Manifiesto
+
+```json
+{
+  "nombre": "Movistar Estudiantes 26/27",
+  "descripcion": "Partidos de liga, Copa y playoffs",
+  "ics": "deportes/baloncesto/estudiantes.ics",
+  "generador": "generar.py",
+  "datos": ["partidos.json", "sedes.json", "fechas_reales.json"],
+  "zona": "Europe/Madrid"
+}
+```
+
+- `ics`: ruta relativa al repositorio. Es el único artefacto público.
+- `datos`: rutas relativas a `estado/<id>/`. No se publican como calendario.
+
+La carpeta pública puede ser compartida por varios equipos; lo que no se
+comparte es `estado/<id>/` ni el prefijo de UIDs.
 
 ## Añadir un equipo de la FEB
 
@@ -41,7 +61,7 @@ No hace falta duplicar `scripts/proveedores/feb/fuentes.py`. Crea el nuevo
 calendario y una configuración:
 
 ```python
-# scripts/calendarios/deportes/otro_equipo/config.py
+# scripts/calendarios/deportes/baloncesto/otro_equipo/config.py
 from scripts.proveedores.feb.config import ConfigFEB
 
 CONFIG = ConfigFEB(
@@ -58,8 +78,21 @@ CONFIG = ConfigFEB(
 )
 ```
 
-El prefijo y el dominio de los UIDs deben ser propios de cada calendario para
-que dos equipos no colisionen aunque compartan jornada y competición.
+Su manifiesto podría publicar el ICS junto al de Estudiantes:
+
+```json
+{
+  "nombre": "Otro equipo 26/27",
+  "ics": "deportes/baloncesto/otro_equipo.ics",
+  "generador": "generar.py",
+  "datos": ["partidos.json", "sedes.json"],
+  "zona": "Europe/Madrid"
+}
+```
+
+El código estaría en `scripts/calendarios/deportes/baloncesto/otro_equipo/` y su
+estado en `estado/deportes/baloncesto/otro_equipo/`. El prefijo y el dominio de
+los UIDs deben ser propios de cada calendario.
 
 ## Tests
 
@@ -67,7 +100,7 @@ que dos equipos no colisionen aunque compartan jornada y competición.
 ./scripts/test.sh                                      # todo
 python3 -m unittest discover -s scripts/comun/tests -t . -v
 python3 -m unittest discover -s scripts/proveedores/feb/tests -t . -v
-python3 -m unittest discover -s scripts/calendarios/deportes/baloncesto/tests -t . -v
+python3 -m unittest discover -s scripts/calendarios/deportes/baloncesto/estudiantes/tests -t . -v
 ```
 
 Los tests no usan red: los parsers reciben HTML de ejemplo y los generadores se

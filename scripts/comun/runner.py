@@ -36,7 +36,7 @@ def _validar_salidas(calendario: Contexto) -> list[str]:
         errores.extend(validar_ics(calendario.ruta_ics))
 
     for rel in calendario.datos:
-        ruta = calendario.salida / rel
+        ruta = calendario.estado / rel
         if ruta.suffix != ".json" or not ruta.exists():
             continue
         try:

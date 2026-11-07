@@ -4,11 +4,11 @@ on:
   workflow_call:
     inputs:
       id:
-        description: "ID del calendario, p. ej. deportes/baloncesto"
+        description: "ID del calendario, p. ej. deportes/baloncesto/estudiantes"
         required: true
         type: string
       ics:
-        description: "Nombre del fichero .ics dentro de <id>/"
+        description: "Ruta pública del .ics, p. ej. deportes/baloncesto/estudiantes.ics"
         required: true
         type: string
 
@@ -48,7 +48,7 @@ jobs:
           CALENDARIOS_TEST: "1"
         run: |
           set -euo pipefail
-          # El código vive en scripts/calendarios/<id>/; la salida, en <id>/.
+          # El código vive en scripts/calendarios/<id>/; el ICS y el estado, aparte.
           directorio="scripts/calendarios/$ID/tests"
           if [ -d "$directorio" ]; then
             python3 -m unittest discover -s "$directorio" -t . -v
@@ -63,31 +63,39 @@ jobs:
         env:
           ID: ${{ inputs.id }}
           ICS: ${{ inputs.ics }}
+          ESTADO: estado/${{ inputs.id }}
         run: |
           set -euo pipefail
-          python3 -m scripts validar "$ID/$ICS"
-          if [ -d "$ID/datos" ]; then
-            find "$ID/datos" -name '*.json' -print0 \
+          python3 -m scripts validar "$ICS"
+          if [ -d "$ESTADO" ]; then
+            find "$ESTADO" -name '*.json' -print0 \
               | xargs -0 -r -n1 python3 -m json.tool >/dev/null
           fi
-          git diff --check -- . ":(exclude)$ID/$ICS"
+          git diff --check -- . ":(exclude)$ICS"
 
       - name: Commit y push si hay cambios reales
         env:
           ID: ${{ inputs.id }}
+          ICS: ${{ inputs.ics }}
+          ESTADO: estado/${{ inputs.id }}
         run: |
           set -euo pipefail
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add -- "$ID"
 
-          if git diff --cached --quiet -- "$ID"; then
+          # Solo se publica el ICS de este calendario y su estado interno.
+          git add -- "$ICS"
+          if [ -d "$ESTADO" ]; then
+            git add -- "$ESTADO"
+          fi
+
+          if git diff --cached --quiet -- "$ICS" "$ESTADO"; then
             echo "Sin cambios."
             exit 0
           fi
 
           # DTSTAMP cambia en cada ejecución: si es lo único que cambia, no se publica.
-          if ! git diff --cached -U0 -- "$ID" \
+          if ! git diff --cached -U0 -- "$ICS" "$ESTADO" \
               | grep -E '^[+-][^-+]' \
               | grep -v '^[+-]DTSTAMP:' \
               | grep -q .; then

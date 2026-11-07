@@ -4,9 +4,10 @@
 Orquesta las fuentes de la FEB, conserva el histórico de Copa, aplica las horas
 verificadas manualmente y genera el ICS con el motor común ``scripts.comun``.
 
-Los datos y el ICS se escriben en ``deportes/baloncesto/`` (la ruta pública),
-nunca junto al código. Solo stdlib. Los UIDs son estables por jornada/ronda para
-que Google/Apple actualicen cada partido en su sitio, sin duplicados.
+Los datos se guardan en ``estado/<id>/`` y el ICS se publica en
+``deportes/baloncesto/estudiantes.ics``, nunca junto al código. Solo stdlib. Los
+UIDs son estables por jornada/ronda para que Google/Apple actualicen cada
+partido en su sitio, sin duplicados.
 """
 
 from __future__ import annotations
@@ -19,7 +20,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from scripts.calendarios.deportes.baloncesto.config import CONFIG
+from scripts.calendarios.deportes.baloncesto.estudiantes.config import CONFIG
 from scripts.comun.archivos import escribir_json, escritura_atomica
 from scripts.comun.contexto import contexto_desde_ejecucion
 from scripts.comun.http import fetch
@@ -175,9 +176,9 @@ def _cargar_previo(path: Path) -> list[dict]:
 
 def main() -> None:
     ctx = contexto_desde_ejecucion(__name__, __file__)
-    json_path = ctx.ruta_dato("datos/partidos.json")
-    sedes_path = ctx.ruta_dato("datos/sedes.json")
-    fechas_path = ctx.ruta_dato("datos/fechas_reales.json")
+    json_path = ctx.ruta_estado("partidos.json")
+    sedes_path = ctx.ruta_estado("sedes.json")
+    fechas_path = ctx.ruta_estado("fechas_reales.json")
     ics_path = ctx.ruta_ics
     zona = ZoneInfo(ctx.zona)
 

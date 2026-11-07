@@ -7,8 +7,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.calendarios.deportes.baloncesto import generar
-from scripts.calendarios.deportes.baloncesto.config import CONFIG
+from scripts.calendarios.deportes.baloncesto.estudiantes import generar
+from scripts.calendarios.deportes.baloncesto.estudiantes.config import CONFIG
 
 
 class TestEventos(unittest.TestCase):

@@ -42,9 +42,9 @@ nada.
 > Google y Apple refrescan los calendarios suscritos cada 12–24 h. No sirven
 > para seguir un evento en directo.
 
-## 🗂️ Estructura: código separado de datos
+## 🗂️ Estructura: código, estado y publicación separados
 
-El repositorio tiene dos zonas con responsabilidades distintas:
+El repositorio tiene tres zonas con responsabilidades distintas:
 
 ```text
 calendarios/
@@ -54,7 +54,7 @@ calendarios/
 │   │   ├── validacion.py           # validador RFC 5545 byte a byte
 │   │   ├── http.py                 # descargas con reintentos
 │   │   ├── archivos.py             # escritura atómica de JSON/ICS
-│   │   ├── contexto.py             # rutas de código y salida de cada calendario
+│   │   ├── contexto.py             # rutas de código, estado y publicación
 │   │   ├── registro.py             # descubre y valida los calendario.json
 │   │   ├── runner.py               # ejecuta calendarios aislados entre sí
 │   │   └── tests/                  # tests del motor
@@ -66,17 +66,24 @@ calendarios/
 │   ├── calendarios/                # código y configuración de cada calendario
 │   │   └── deportes/
 │   │       └── baloncesto/
-│   │           ├── calendario.json # manifiesto
-│   │           ├── config.py       # instancia de ConfigFEB para el Estu
-│   │           ├── generar.py      # orquestación + eventos ICS
-│   │           └── tests/
+│   │           └── estudiantes/
+│   │               ├── calendario.json
+│   │               ├── config.py   # instancia de ConfigFEB para el Estu
+│   │               ├── generar.py  # orquestación + eventos ICS
+│   │               └── tests/
 │   ├── __main__.py                 # CLI: listar / actualizar / validar
 │   ├── actualizar.sh               # atajo local del runner
 │   └── test.sh                     # tests de todo el monorepo
-├── deportes/                       # SOLO datos, caché y .ics publicados
+├── estado/                         # estado y caché interno, por calendario
+│   └── deportes/
+│       └── baloncesto/
+│           └── estudiantes/
+│               ├── partidos.json
+│               ├── sedes.json
+│               └── fechas_reales.json
+├── deportes/                       # SOLO artefactos públicos (.ics)
 │   └── baloncesto/
-│       ├── estudiantes.ics         # fichero publicado
-│       ├── datos/                  # estado, sedes y horas verificadas
+│       ├── estudiantes.ics
 │       └── README.md
 └── .github/workflows/
     ├── _calendario.yml             # workflow reutilizable
@@ -84,21 +91,27 @@ calendarios/
     └── tests.yml                   # tests en push/PR
 ```
 
-### El `id` lo namespacea todo
+### El `id` namespacea código y estado; el manifiesto declara la ruta pública
 
-Cada calendario se identifica con un `id` estable, por ejemplo
-`deportes/baloncesto`. Ese mismo id determina, sin ambigüedad:
+Cada calendario se identifica con un `id` estable. Para Estudiantes:
+
+```text
+deportes/baloncesto/estudiantes
+```
 
 | Uso | Ruta |
 |---|---|
-| Código | `scripts/calendarios/deportes/baloncesto/` |
-| Módulo Python | `scripts.calendarios.deportes.baloncesto.generar` |
-| Datos/caché y `.ics` | `deportes/baloncesto/` |
+| Código | `scripts/calendarios/deportes/baloncesto/estudiantes/` |
+| Módulo Python | `scripts.calendarios.deportes.baloncesto.estudiantes.generar` |
+| Estado/caché | `estado/deportes/baloncesto/estudiantes/` |
+| ICS publicado | `deportes/baloncesto/estudiantes.ics` |
 | URL pública | `…/main/deportes/baloncesto/estudiantes.ics` |
 
-Así dos equipos o competiciones no comparten directorios de estado por
-accidente, aunque usen el mismo proveedor. El código de la FEB es común; la
-configuración (equipo, temporada, URLs y prefijo de UIDs) es de cada calendario.
+La ruta del ICS se declara en el manifiesto, así que **varios calendarios pueden
+compartir una carpeta pública friendly** (por ejemplo
+`deportes/baloncesto/estudiantes.ics` y `deportes/baloncesto/madrid.ics`) sin
+compartir estado ni caché. El registro rechaza dos calendarios que intenten
+publicar exactamente el mismo fichero.
 
 Cada calendario se describe con un `calendario.json` que vive junto a su código:
 
@@ -106,15 +119,17 @@ Cada calendario se describe con un `calendario.json` que vive junto a su código
 {
   "nombre": "Nombre visible en el ICS",
   "descripcion": "Qué contiene",
-  "ics": "calendario.ics",
+  "ics": "deportes/baloncesto/estudiantes.ics",
   "generador": "generar.py",
-  "datos": ["datos/estado.json"],
+  "datos": ["partidos.json", "sedes.json"],
   "zona": "Europe/Madrid"
 }
 ```
 
-Las rutas de `datos` son relativas a la salida `<id>/`, nunca al código. El
-runner valida que existan y que sean JSON correctos después de generar.
+- `ics` es una ruta relativa al repositorio: el artefacto público.
+- `datos` son rutas relativas a `estado/<id>/`: estado y caché internos.
+
+El runner valida el ICS y los JSON de estado después de generar.
 
 ## ➕ Añadir un calendario
 
@@ -123,9 +138,9 @@ runner valida que existan y que sean JSON correctos después de generar.
 2. Reutiliza el motor de `scripts.comun`. Si la fuente es la FEB, crea una
    instancia de `ConfigFEB` en `config.py` y usa
    `scripts.proveedores.feb.fuentes`; no copies el parser.
-3. En el generador, obtén las rutas con `contexto_desde_modulo(__name__)` y
-   escribe en `ctx.ruta_ics` / `ctx.ruta_dato(...)`. Nunca escribas junto al
-   código.
+3. En el generador, obtén las rutas con `contexto_desde_ejecucion(__name__, __file__)`:
+   - `ctx.ruta_ics` → ICS público.
+   - `ctx.ruta_estado("partidos.json")` → estado interno.
 4. Añade `.github/workflows/<categoria>-<nombre>.yml` con su propio `schedule`,
    `workflow_dispatch` y `concurrency`, llamando al workflow reutilizable:
 
@@ -148,15 +163,15 @@ jobs:
   actualizar:
     uses: ./.github/workflows/_calendario.yml
     with:
-      id: categoria/nombre
-      ics: calendario.ics
+      id: categoria/nombre/equipo
+      ics: categoria/nombre/equipo.ics
 ```
 
 5. Comprueba que aparece y se ejecuta:
 
 ```bash
 python3 -m scripts listar
-python3 -m scripts actualizar --solo categoria/nombre
+python3 -m scripts actualizar --solo deportes/baloncesto/estudiantes
 ```
 
 Si el calendario usa un proveedor nuevo, créalo en
@@ -176,7 +191,7 @@ Requiere Python 3.10+ (solo librería estándar; el CI usa 3.12).
 python3 -m scripts listar
 
 # Genera uno o todos (si uno falla, sigue con el resto)
-python3 -m scripts actualizar --solo deportes/baloncesto
+python3 -m scripts actualizar --solo deportes/baloncesto/estudiantes
 python3 -m scripts actualizar
 
 # Valida un ICS (o un directorio con .ics)
@@ -193,8 +208,9 @@ python3 -m scripts validar deportes/baloncesto/estudiantes.ics
   los demás siguen ejecutándose.
 - **Código y tests:** el workflow deriva `scripts/calendarios/$ID/tests` de su
   propio id y no ejecuta los tests de otros calendarios.
-- **Commit:** cada workflow hace `git add` únicamente de su directorio de salida
-  `<id>/`. Un calendario nunca publica cambios de otro.
+- **Commit:** cada workflow hace `git add` únicamente de su ICS público y de
+  `estado/$ID`. Un calendario nunca publica cambios de otro, aunque compartan
+  carpeta pública.
 - **Runner local:** cada generador se ejecuta en un subproceso independiente.
   `python3 -m scripts actualizar` captura el fallo, lo muestra en el resumen y
   continúa con el siguiente.
@@ -208,8 +224,8 @@ python3 -m scripts validar deportes/baloncesto/estudiantes.ics
 
 1. El workflow del calendario se lanza por `schedule` o a mano.
 2. Se ejecutan los tests del motor, los proveedores y ese calendario.
-3. El generador descarga sus fuentes, actualiza su estado en `<id>/datos/` y
-   escribe el `.ics` en `<id>/`.
+3. El generador descarga sus fuentes, actualiza su estado en `estado/<id>/` y
+   escribe el `.ics` en la ruta pública declarada en el manifiesto.
 4. Se valida el ICS a nivel de bytes (CRLF, plegado ≤75 octetos, UIDs únicos).
 5. Si hay cambios reales (se ignora un `DTSTAMP` nuevo), se hace commit y push.
 6. GitHub sirve el `.ics` por `raw.githubusercontent.com` y tu calendario se

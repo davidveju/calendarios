@@ -93,7 +93,7 @@ def _parser() -> argparse.ArgumentParser:
         "--solo",
         action="append",
         metavar="ID",
-        help="actualiza solo este calendario (repetible), p. ej. deportes/baloncesto",
+        help="actualiza solo este calendario (repetible), p. ej. deportes/baloncesto/estudiantes",
     )
     actualizar.add_argument("--timeout", type=int, default=1800, help="timeout por calendario (s)")
     actualizar.add_argument("--estricto", action="store_true", help="falla si un manifiesto es inválido")

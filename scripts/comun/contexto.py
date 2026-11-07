@@ -1,13 +1,16 @@
-"""Contexto de un calendario: código, manifiesto y rutas de salida.
+"""Contexto de un calendario: código, estado interno y artefacto público.
 
 Convención del repo:
 
 - **Código:** ``scripts/calendarios/<id>/``.
-- **Datos/caché y .ics publicado:** ``<id>/`` en la raíz del repositorio.
+- **Estado/caché:** ``estado/<id>/`` (interno, persistente entre ejecuciones).
+- **ICS publicado:** la ruta que declare ``ics`` en el manifiesto, por ejemplo
+  ``deportes/baloncesto/estudiantes.ics``.
 
-El ``id`` (por ejemplo ``deportes/baloncesto``) es la única clave que une ambas
-rutas. Así cada calendario tiene su propio espacio de nombres y dos calendarios
-nunca comparten ficheros de estado por accidente.
+El ``id`` namespacea código y estado. La ruta pública se declara aparte para
+poder tener varios calendarios en una misma carpeta friendly (por ejemplo
+``deportes/baloncesto/estudiantes.ics`` y ``deportes/baloncesto/madrid.ics``)
+sin compartir caché ni permitir que un workflow publique datos de otro.
 """
 
 from __future__ import annotations
@@ -22,6 +25,7 @@ ID_RE = re.compile(r"^[a-z][a-z0-9_]*(/[a-z][a-z0-9_]*)*$")
 MODULO_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
 MANIFIESTO = "calendario.json"
 PREFIJO_MODULO = "scripts.calendarios."
+ESTADO_DIR = "estado"
 
 RAIZ_REPO = Path(__file__).resolve().parents[2]
 RAIZ_CODIGO = RAIZ_REPO / "scripts" / "calendarios"
@@ -38,20 +42,24 @@ class Contexto:
     id: str
     raiz: Path
     codigo: Path
-    salida: Path
+    estado: Path
     nombre: str
     descripcion: str
-    fichero_ics: str
+    ics: str
     generador: str
     datos: tuple[str, ...]
     zona: str
 
     @property
     def ruta_ics(self) -> Path:
-        return self.salida / self.fichero_ics
+        return self.raiz / self.ics
 
-    def ruta_dato(self, relativa: str) -> Path:
-        return self.salida / relativa
+    @property
+    def publicacion(self) -> Path:
+        return self.ruta_ics.parent
+
+    def ruta_estado(self, relativa: str) -> Path:
+        return self.estado / relativa
 
     @property
     def datos_json(self) -> tuple[str, ...]:
@@ -76,7 +84,7 @@ def _ruta_relativa(valor: str, campo: str) -> str:
     ruta = Path(valor)
     if ruta.is_absolute() or ".." in ruta.parts or not ruta.parts:
         raise ErrorCalendario(
-            f"{campo} debe ser una ruta relativa dentro del calendario: {valor!r}"
+            f"{campo} debe ser una ruta relativa sin '..': {valor!r}"
         )
     return ruta.as_posix()
 
@@ -90,7 +98,7 @@ def cargar_contexto(calendario_id: str, directorio_codigo: Path, raiz: Path) -> 
     if not ID_RE.fullmatch(calendario_id):
         raise ErrorCalendario(
             f"id de calendario no válido: {calendario_id!r}; usa minúsculas, números "
-            "y guiones bajos (por ejemplo deportes/baloncesto)"
+            "y guiones bajos (por ejemplo deportes/baloncesto/estudiantes)"
         )
 
     raiz = raiz.resolve()
@@ -118,9 +126,12 @@ def cargar_contexto(calendario_id: str, directorio_codigo: Path, raiz: Path) -> 
 
     nombre = _texto(datos, "nombre", obligatorio=True)
     descripcion = _texto(datos, "descripcion")
-    fichero_ics = _texto(datos, "ics", defecto="calendario.ics")
-    if Path(fichero_ics).name != fichero_ics or not fichero_ics.endswith(".ics"):
-        raise ErrorCalendario(f"ics debe ser un nombre de fichero .ics: {fichero_ics!r}")
+
+    ics = _ruta_relativa(_texto(datos, "ics", defecto="calendario.ics"), "ics")
+    if Path(ics).suffix != ".ics":
+        raise ErrorCalendario(f"ics debe ser un fichero .ics: {ics!r}")
+    if Path(ics).parts[0] == ESTADO_DIR:
+        raise ErrorCalendario(f"ics no puede publicarse dentro de {ESTADO_DIR}/: {ics!r}")
 
     generador = _ruta_relativa(
         _texto(datos, "generador", defecto="generar.py"), "generador"
@@ -145,10 +156,10 @@ def cargar_contexto(calendario_id: str, directorio_codigo: Path, raiz: Path) -> 
         id=calendario_id,
         raiz=raiz,
         codigo=directorio_codigo,
-        salida=raiz / calendario_id,
+        estado=raiz / ESTADO_DIR / calendario_id,
         nombre=nombre,
         descripcion=descripcion,
-        fichero_ics=fichero_ics,
+        ics=ics,
         generador=generador,
         datos=datos_rel,
         zona=zona,
@@ -162,7 +173,7 @@ def contexto(calendario_id: str, raiz: Path = RAIZ_REPO) -> Contexto:
 
 
 def id_desde_modulo(modulo: str) -> str:
-    """``scripts.calendarios.deportes.baloncesto.generar`` -> ``deportes/baloncesto``."""
+    """``scripts.calendarios.deportes.baloncesto.estudiantes.generar`` -> ``deportes/baloncesto/estudiantes``."""
     if not modulo.startswith(PREFIJO_MODULO):
         raise ErrorCalendario(f"módulo fuera de scripts.calendarios: {modulo!r}")
     partes = modulo[len(PREFIJO_MODULO) :].split(".")
