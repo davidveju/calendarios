@@ -50,7 +50,7 @@ class TestFuentes(unittest.TestCase):
         self.assertEqual(p["estado"], "pendiente")
 
     def test_extraer_partidos(self):
-        html = self._leer("alaves.html") + self._leer("iberia.html")
+        html = "<table><tbody>" + self._leer("alaves.html") + self._leer("iberia.html") + "</tbody></table>"
         partidos = fuentes.extraer_partidos(html, CONFIG)
         self.assertEqual(len(partidos), 2)
         self.assertEqual(len({p["uid"] for p in partidos}), 2)

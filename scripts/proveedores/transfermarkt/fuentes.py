@@ -89,7 +89,7 @@ def _competicion_oculta(config, etapa: str) -> str:
     return _competicion_por_etapa(etapa)
 
 
-def parse_partido(row_html: str, config) -> dict | None:
+def parse_partido(row_html: str, config, competicion_override: str | None = None) -> dict | None:
     """Normaliza una fila HTML de Transfermarkt. None si no es partido del equipo."""
     cells = re.findall(r"<td[^>]*>(.*?)</td>", row_html, re.S)
     if len(cells) < 11:
@@ -138,10 +138,12 @@ def parse_partido(row_html: str, config) -> dict | None:
     uid_code = enlace.rsplit("/", 1)[-1]
     uid = f"{config.uid_prefix}-{uid_code}@{config.uid_dominio}"
 
-    competicion = _competicion_por_etapa(etapa_txt)
+    competicion = competicion_override or _competicion_por_etapa(etapa_txt)
     competicion_nombre = {
         "liga": f"LaLiga {config.temporada}",
         "copa": f"Copa del Rey {config.temporada}",
+        "champions": f"Champions League {config.temporada}",
+        "europa": f"Europa League {config.temporada}",
         "conference": f"Conference League {config.temporada}",
     }.get(competicion, f"Fútbol {config.temporada}")
 
@@ -180,9 +182,47 @@ def extraer_partidos(html: str, config) -> list[dict]:
     """Extrae partidos de nuestro equipo de una página HTML de Transfermarkt."""
     out: list[dict] = []
     vistos: set[str] = set()
-    for row in re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.S):
-        if re.search(r"spielbericht/index/spielbericht/\d+", row):
-            p = parse_partido(row, config)
+    # El HTML puede tener varias tablas o cabeceras; reconstruiremos el contexto
+    # por tabla/competición.
+    for table_match in re.finditer(r"<table\b[^>]*>(.*?)</table>", html, re.S):
+        content = table_match.group(1)
+        if "spielbericht/index/spielbericht/" not in content:
+            continue
+        preceding = html[max(0, table_match.start() - 2500):table_match.start()].lower()
+        current_comp = "liga"
+        candidatos = []
+        for key, comp in (
+            ("champions", "champions"),
+            ("conference", "conference"),
+            ("europa league", "europa"),
+            ("copa", "copa"),
+            ("laliga", "liga"),
+        ):
+            pos = preceding.rfind(key)
+            if pos != -1:
+                candidatos.append((pos, comp))
+        if candidatos:
+            candidatos.sort()
+            current_comp = candidatos[-1][1]
+        for tag_match in re.finditer(r"<(thead|tr)\b[^>]*>(.*?)</\1>", content, re.S):
+            tag = tag_match.group(1)
+            inner = tag_match.group(2)
+            if tag == "thead":
+                low = inner.lower()
+                if "champions" in low or "champions-league" in low:
+                    current_comp = "champions"
+                elif "europa league" in low:
+                    current_comp = "europa"
+                elif "conference" in low:
+                    current_comp = "conference"
+                elif "copa" in low or "copa-del-rey" in low:
+                    current_comp = "copa"
+                elif "laliga" in low or "primera" in low or ("la liga" in low):
+                    current_comp = "liga"
+                continue
+            if "spielbericht/index/spielbericht/" not in inner:
+                continue
+            p = parse_partido(inner, config, current_comp)
             if p is not None and p["uid"] not in vistos:
                 vistos.add(p["uid"])
                 out.append(p)

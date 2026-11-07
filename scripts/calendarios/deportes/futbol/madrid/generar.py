@@ -40,6 +40,10 @@ def etiqueta(p: dict) -> str:
         return "Liga"
     if comp == "copa":
         return f"Copa {ronda}".strip()
+    if comp == "champions":
+        return f"Champions {ronda}".strip()
+    if comp == "europa":
+        return f"Europa {ronda}".strip()
     if comp == "conference":
         return f"Conf {ronda}".strip()
     return ronda or comp or "Partido"
