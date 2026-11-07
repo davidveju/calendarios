@@ -9,9 +9,11 @@ nada.
 
 | Calendario | Fichero | Actualización |
 |---|---|---|
-| 🏀 [Movistar Estudiantes 26/27](deportes/baloncesto/) | [estudiantes.ics](deportes/baloncesto/estudiantes.ics) | lunes, miércoles y viernes 12:00 UTC |
-| ⚽ [Getafe CF 26/27](deportes/futbol/) | [getafe.ics](deportes/futbol/getafe.ics) | lunes, miércoles y viernes 12:00 UTC |
-| ⚽ [Real Madrid 26/27](deportes/futbol/) | [madrid.ics](deportes/futbol/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
+| 🏀 [Movistar Estudiantes 26/27](deportes/baloncesto/estudiantes.ics) | [estudiantes.ics](deportes/baloncesto/estudiantes.ics) | lunes, miércoles y viernes 12:00 UTC |
+| 🏀 [Real Madrid Baloncesto 26/27](deportes/baloncesto/madrid.ics) | [madrid.ics](deportes/baloncesto/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
+| ⚽ [Getafe CF 26/27](deportes/futbol/getafe.ics) | [getafe.ics](deportes/futbol/getafe.ics) | lunes, miércoles y viernes 12:00 UTC |
+| ⚽ [Real Madrid 26/27](deportes/futbol/madrid.ics) | [madrid.ics](deportes/futbol/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
+| 🎉 [Festivos de Madrid](festivos/madrid.ics) | [madrid.ics](festivos/madrid.ics) | el 1 de cada mes 08:00 UTC |
 
 > El antiguo repo `davidveju/estudiantes-calendario` queda archivado. La nueva
 > URL de suscripción es:
@@ -232,10 +234,6 @@ python3 -m scripts validar deportes/baloncesto/estudiantes.ics
 5. Si hay cambios reales (se ignora un `DTSTAMP` nuevo), se hace commit y push.
 6. GitHub sirve el `.ics` por `raw.githubusercontent.com` y tu calendario se
    actualiza en la siguiente sincronización.
-
-## Calendarios adicionales
-
-| 🎉 [Festivos de Madrid](festivos/) | [madrid.ics](festivos/madrid.ics) | el 1 de cada mes 08:00 UTC |
 
 ## 📄 Licencia
 
