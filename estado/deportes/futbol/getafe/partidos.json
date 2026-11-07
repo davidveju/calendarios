@@ -1,627 +1,698 @@
 [
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882926/getafe-alaves",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909440",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-08-15T19:30",
     "resultado_equipo": 0,
     "resultado_local": 3,
     "resultado_rival": 3,
     "resultado_visitante": 0,
     "rival": "Alavés",
-    "sede": {
-      "direccion": "Vitoria-Gasteiz, Spain",
-      "pabellon": "Mendizorrotza"
-    },
-    "uid": "getafe-2627-e401882926@getafe-calendario",
-    "uid_evento": "401882926",
+    "ronda": "1",
+    "uid": "getafe-2627-4909440@getafe-calendario",
+    "uid_evento": "4909440",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882911/racing-santander-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909473",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-08-23T19:30",
     "resultado_equipo": 1,
     "resultado_local": 1,
     "resultado_rival": 0,
     "resultado_visitante": 0,
-    "rival": "Racing Santander",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882911@getafe-calendario",
-    "uid_evento": "401882911",
+    "rival": "Racing",
+    "ronda": "2",
+    "uid": "getafe-2627-4909473@getafe-calendario",
+    "uid_evento": "4909473",
     "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882901/getafe-osasuna",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909483",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-08-31T19:30",
     "resultado_equipo": 0,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 0,
-    "rival": "Osasuna",
-    "sede": {
-      "direccion": "Pamplona, Spain",
-      "pabellon": "El Sadar"
-    },
-    "uid": "getafe-2627-e401882901@getafe-calendario",
-    "uid_evento": "401882901",
+    "rival": "CA Osasuna",
+    "ronda": "3",
+    "uid": "getafe-2627-4909483@getafe-calendario",
+    "uid_evento": "4909483",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882891/celta-vigo-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909501",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-09-07T19:00",
     "resultado_equipo": 1,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 1,
-    "rival": "Celta Vigo",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882891@getafe-calendario",
-    "uid_evento": "401882891",
+    "rival": "Celta",
+    "ronda": "4",
+    "uid": "getafe-2627-4909501@getafe-calendario",
+    "uid_evento": "4909501",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882884/deportivo-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909526",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-09-13T18:30",
     "resultado_equipo": 1,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 1,
-    "rival": "Deportivo",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882884@getafe-calendario",
-    "uid_evento": "401882884",
+    "rival": "Dep. A Coruña",
+    "ronda": "5",
+    "uid": "getafe-2627-4909526@getafe-calendario",
+    "uid_evento": "4909526",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882874/getafe-real-betis",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909562",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-09-17T19:00",
     "resultado_equipo": 0,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 0,
     "rival": "Real Betis",
-    "sede": {
-      "direccion": "Sevilla, Spain",
-      "pabellon": "Estadio Benito Villamarín"
-    },
-    "uid": "getafe-2627-e401882874@getafe-calendario",
-    "uid_evento": "401882874",
+    "ronda": "6",
+    "uid": "getafe-2627-4909562@getafe-calendario",
+    "uid_evento": "4909562",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882861/malaga-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909613",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-09-20T14:00",
     "resultado_equipo": 1,
     "resultado_local": 1,
     "resultado_rival": 0,
     "resultado_visitante": 0,
-    "rival": "Málaga",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882861@getafe-calendario",
-    "uid_evento": "401882861",
+    "rival": "Málaga CF",
+    "ronda": "7",
+    "uid": "getafe-2627-4909613@getafe-calendario",
+    "uid_evento": "4909613",
     "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882853/getafe-barcelona",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909721",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-10-10T18:30",
     "resultado_equipo": 0,
     "resultado_local": 3,
     "resultado_rival": 3,
     "resultado_visitante": 0,
     "rival": "Barcelona",
-    "sede": {
-      "direccion": "Barcelona, Spain",
-      "pabellon": "Spotify Camp Nou"
-    },
-    "uid": "getafe-2627-e401882853@getafe-calendario",
-    "uid_evento": "401882853",
+    "ronda": "8",
+    "uid": "getafe-2627-4909721@getafe-calendario",
+    "uid_evento": "4909721",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882842/rayo-vallecano-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909732",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-10-19T21:00",
     "resultado_equipo": 1,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 1,
     "rival": "Rayo Vallecano",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882842@getafe-calendario",
-    "uid_evento": "401882842",
+    "ronda": "9",
+    "uid": "getafe-2627-4909732@getafe-calendario",
+    "uid_evento": "4909732",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882835/getafe-athletic-club",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918416",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-10-25T14:00",
     "resultado_equipo": 0,
     "resultado_local": 4,
     "resultado_rival": 4,
     "resultado_visitante": 0,
     "rival": "Athletic Club",
-    "sede": {
-      "direccion": "Bilbao, Spain",
-      "pabellon": "San Mamés"
-    },
-    "uid": "getafe-2627-e401882835@getafe-calendario",
-    "uid_evento": "401882835",
+    "ronda": "10",
+    "uid": "getafe-2627-4918416@getafe-calendario",
+    "uid_evento": "4918416",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882821/sevilla-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918430",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-11-01T14:00",
     "resultado_equipo": 3,
     "resultado_local": 3,
     "resultado_rival": 1,
     "resultado_visitante": 1,
-    "rival": "Sevilla",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882821@getafe-calendario",
-    "uid_evento": "401882821",
+    "rival": "Sevilla FC",
+    "ronda": "11",
+    "uid": "getafe-2627-4918430@getafe-calendario",
+    "uid_evento": "4918430",
     "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882807/getafe-villarreal",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918444",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-11-08T18:30",
     "rival": "Villarreal",
-    "sede": {
-      "direccion": "Villarreal, Spain",
-      "pabellon": "Estadio de la Cerámica"
-    },
-    "uid": "getafe-2627-e401882807@getafe-calendario",
-    "uid_evento": "401882807"
+    "ronda": "12",
+    "uid": "getafe-2627-4918444@getafe-calendario",
+    "uid_evento": "4918444"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918448",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-11-22T21:00",
-    "rival": "Atlético Madrid",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882803@getafe-calendario",
-    "uid_evento": "401882803"
+    "rival": "Atlético",
+    "ronda": "13",
+    "uid": "getafe-2627-4918448@getafe-calendario",
+    "uid_evento": "4918448"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882792/getafe-espanyol",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918459",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
+    "fecha_provisional": false,
     "inicio_madrid": "2026-11-30T21:00",
     "rival": "Espanyol",
-    "sede": {
-      "direccion": "Barcelona, Spain",
-      "pabellon": "RCDE Stadium"
-    },
-    "uid": "getafe-2627-e401882792@getafe-calendario",
-    "uid_evento": "401882792"
+    "ronda": "14",
+    "uid": "getafe-2627-4918459@getafe-calendario",
+    "uid_evento": "4918459"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882782/valencia-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918469",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2026-12-06T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2026-12-06T12:00",
     "rival": "Valencia",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882782@getafe-calendario",
-    "uid_evento": "401882782"
+    "ronda": "15",
+    "uid": "getafe-2627-4918469@getafe-calendario",
+    "uid_evento": "4918469"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882768/getafe-real-sociedad",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918483",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2026-12-13T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2026-12-13T12:00",
     "rival": "Real Sociedad",
-    "sede": {
-      "direccion": "San Sebastian, Spain",
-      "pabellon": "Reale Arena"
-    },
-    "uid": "getafe-2627-e401882768@getafe-calendario",
-    "uid_evento": "401882768"
+    "ronda": "16",
+    "uid": "getafe-2627-4918483@getafe-calendario",
+    "uid_evento": "4918483"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882761/levante-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918490",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2026-12-20T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2026-12-20T12:00",
     "rival": "Levante",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882761@getafe-calendario",
-    "uid_evento": "401882761"
+    "ronda": "17",
+    "uid": "getafe-2627-4918490@getafe-calendario",
+    "uid_evento": "4918490"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882749/getafe-real-madrid",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918502",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-01-03T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-01-03T12:00",
     "rival": "Real Madrid",
-    "sede": {
-      "direccion": "Madrid, Spain",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "getafe-2627-e401882749@getafe-calendario",
-    "uid_evento": "401882749"
+    "ronda": "18",
+    "uid": "getafe-2627-4918502@getafe-calendario",
+    "uid_evento": "4918502"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882742/getafe-elche",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918509",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-01-10T21:00",
-    "rival": "Elche",
-    "sede": {
-      "direccion": "Elche, Spain",
-      "pabellon": "Estadio Martínez Valero"
-    },
-    "uid": "getafe-2627-e401882742@getafe-calendario",
-    "uid_evento": "401882742"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-01-10T12:00",
+    "rival": "Elche CF",
+    "ronda": "19",
+    "uid": "getafe-2627-4918509@getafe-calendario",
+    "uid_evento": "4918509"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882732/athletic-club-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918519",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-01-17T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-01-17T12:00",
     "rival": "Athletic Club",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882732@getafe-calendario",
-    "uid_evento": "401882732"
+    "ronda": "20",
+    "uid": "getafe-2627-4918519@getafe-calendario",
+    "uid_evento": "4918519"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882721/osasuna-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918530",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-01-24T21:00",
-    "rival": "Osasuna",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882721@getafe-calendario",
-    "uid_evento": "401882721"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-01-24T12:00",
+    "rival": "CA Osasuna",
+    "ronda": "21",
+    "uid": "getafe-2627-4918530@getafe-calendario",
+    "uid_evento": "4918530"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882714/getafe-celta-vigo",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918537",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-01-31T21:00",
-    "rival": "Celta Vigo",
-    "sede": {
-      "direccion": "Vigo, Spain",
-      "pabellon": "Balaidos"
-    },
-    "uid": "getafe-2627-e401882714@getafe-calendario",
-    "uid_evento": "401882714"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-01-31T12:00",
+    "rival": "Celta",
+    "ronda": "22",
+    "uid": "getafe-2627-4918537@getafe-calendario",
+    "uid_evento": "4918537"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882699/villarreal-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918552",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-02-07T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-02-07T12:00",
     "rival": "Villarreal",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882699@getafe-calendario",
-    "uid_evento": "401882699"
+    "ronda": "23",
+    "uid": "getafe-2627-4918552@getafe-calendario",
+    "uid_evento": "4918552"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882692/getafe-racing-santander",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918559",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-02-14T21:00",
-    "rival": "Racing Santander",
-    "sede": {
-      "direccion": "Santander, Spain",
-      "pabellon": "El Sardineros"
-    },
-    "uid": "getafe-2627-e401882692@getafe-calendario",
-    "uid_evento": "401882692"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-02-14T12:00",
+    "rival": "Racing",
+    "ronda": "24",
+    "uid": "getafe-2627-4918559@getafe-calendario",
+    "uid_evento": "4918559"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882679/getafe-rayo-vallecano",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918572",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-02-21T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-02-21T12:00",
     "rival": "Rayo Vallecano",
-    "sede": {
-      "direccion": "Madrid, Spain",
-      "pabellon": "Estadio de Vallecas"
-    },
-    "uid": "getafe-2627-e401882679@getafe-calendario",
-    "uid_evento": "401882679"
+    "ronda": "25",
+    "uid": "getafe-2627-4918572@getafe-calendario",
+    "uid_evento": "4918572"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882673/alaves-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918578",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-02-28T21:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-02-28T12:00",
     "rival": "Alavés",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882673@getafe-calendario",
-    "uid_evento": "401882673"
+    "ronda": "26",
+    "uid": "getafe-2627-4918578@getafe-calendario",
+    "uid_evento": "4918578"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882664/getafe-deportivo",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918587",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-03-07T21:00",
-    "rival": "Deportivo",
-    "sede": {
-      "direccion": "La Coruña, Spain",
-      "pabellon": "Riazor"
-    },
-    "uid": "getafe-2627-e401882664@getafe-calendario",
-    "uid_evento": "401882664"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-03-07T12:00",
+    "rival": "Dep. A Coruña",
+    "ronda": "27",
+    "uid": "getafe-2627-4918587@getafe-calendario",
+    "uid_evento": "4918587"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882651/real-sociedad-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918600",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-03-14T19:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-03-14T12:00",
     "rival": "Real Sociedad",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882651@getafe-calendario",
-    "uid_evento": "401882651"
+    "ronda": "28",
+    "uid": "getafe-2627-4918600@getafe-calendario",
+    "uid_evento": "4918600"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882646/getafe-atletico-madrid",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918605",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-03-21T19:00",
-    "rival": "Atlético Madrid",
-    "sede": {
-      "direccion": "Madrid, Spain",
-      "pabellon": "Riyadh Air Metropolitano"
-    },
-    "uid": "getafe-2627-e401882646@getafe-calendario",
-    "uid_evento": "401882646"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-03-21T12:00",
+    "rival": "Atlético",
+    "ronda": "29",
+    "uid": "getafe-2627-4918605@getafe-calendario",
+    "uid_evento": "4918605"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882631/espanyol-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918628",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-04-04T20:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-04-04T12:00",
     "rival": "Espanyol",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882631@getafe-calendario",
-    "uid_evento": "401882631"
+    "ronda": "30",
+    "uid": "getafe-2627-4918628@getafe-calendario",
+    "uid_evento": "4918628"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882618/getafe-valencia",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918641",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-04-11T20:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-04-11T12:00",
     "rival": "Valencia",
-    "sede": {
-      "direccion": "Manises, Spain",
-      "pabellon": "Mestalla Stadium"
-    },
-    "uid": "getafe-2627-e401882618@getafe-calendario",
-    "uid_evento": "401882618"
+    "ronda": "31",
+    "uid": "getafe-2627-4918641@getafe-calendario",
+    "uid_evento": "4918641"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882610/real-madrid-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918649",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-04-18T20:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-04-18T12:00",
     "rival": "Real Madrid",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882610@getafe-calendario",
-    "uid_evento": "401882610"
+    "ronda": "32",
+    "uid": "getafe-2627-4918649@getafe-calendario",
+    "uid_evento": "4918649"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882603/real-betis-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918656",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-04-21T20:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-04-21T12:00",
     "rival": "Real Betis",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882603@getafe-calendario",
-    "uid_evento": "401882603"
+    "ronda": "33",
+    "uid": "getafe-2627-4918656@getafe-calendario",
+    "uid_evento": "4918656"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882589/getafe-malaga",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918670",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-05-02T20:00",
-    "rival": "Málaga",
-    "sede": {
-      "direccion": "Malaga, Spain",
-      "pabellon": "La Rosaleda"
-    },
-    "uid": "getafe-2627-e401882589@getafe-calendario",
-    "uid_evento": "401882589"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-05-02T12:00",
+    "rival": "Málaga CF",
+    "ronda": "34",
+    "uid": "getafe-2627-4918670@getafe-calendario",
+    "uid_evento": "4918670"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882583/elche-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918676",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-05-09T20:00",
-    "rival": "Elche",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882583@getafe-calendario",
-    "uid_evento": "401882583"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-05-09T12:00",
+    "rival": "Elche CF",
+    "ronda": "35",
+    "uid": "getafe-2627-4918676@getafe-calendario",
+    "uid_evento": "4918676"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882572/getafe-levante",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918687",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-05-16T20:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-05-16T12:00",
     "rival": "Levante",
-    "sede": {
-      "direccion": "Manises, Spain",
-      "pabellon": "Estadi Ciutat de València"
-    },
-    "uid": "getafe-2627-e401882572@getafe-calendario",
-    "uid_evento": "401882572"
+    "ronda": "36",
+    "uid": "getafe-2627-4918687@getafe-calendario",
+    "uid_evento": "4918687"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882559/getafe-sevilla",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918710",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-05-23T20:00",
-    "rival": "Sevilla",
-    "sede": {
-      "direccion": "Sevilla, Spain",
-      "pabellon": "Ramón Sánchez Pizjuán Stadium"
-    },
-    "uid": "getafe-2627-e401882559@getafe-calendario",
-    "uid_evento": "401882559"
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-05-23T12:00",
+    "rival": "Sevilla FC",
+    "ronda": "37",
+    "uid": "getafe-2627-4918710@getafe-calendario",
+    "uid_evento": "4918710"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882552/barcelona-getafe",
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918697",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "inicio_madrid": "2027-05-30T20:00",
+    "fecha_provisional": true,
+    "inicio_madrid": "2027-05-30T12:00",
     "rival": "Barcelona",
-    "sede": {
-      "direccion": "Getafe, Spain",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-e401882552@getafe-calendario",
-    "uid_evento": "401882552"
+    "ronda": "38",
+    "uid": "getafe-2627-4918697@getafe-calendario",
+    "uid_evento": "4918697"
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5037582",
+    "casa": false,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-15T18:45",
+    "resultado_equipo": 1,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Univ. Craiova",
+    "ronda": "Group Stage",
+    "uid": "getafe-2627-5037582@getafe-calendario",
+    "uid_evento": "5037582",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5037552",
+    "casa": true,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-22T18:45",
+    "resultado_equipo": 2,
+    "resultado_local": 2,
+    "resultado_rival": 5,
+    "resultado_visitante": 5,
+    "rival": "Lugano",
+    "ronda": "Group Stage",
+    "uid": "getafe-2627-5037552@getafe-calendario",
+    "uid_evento": "5037552",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5037551",
+    "casa": true,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-11-05T21:00",
+    "resultado_equipo": 0,
+    "resultado_local": 0,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Brighton",
+    "ronda": "Group Stage",
+    "uid": "getafe-2627-5037551@getafe-calendario",
+    "uid_evento": "5037551",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5037615",
+    "casa": false,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-11-26T18:45",
+    "rival": "Iberia Tbilisi",
+    "ronda": "Group Stage",
+    "uid": "getafe-2627-5037615@getafe-calendario",
+    "uid_evento": "5037615"
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5037553",
+    "casa": true,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-10T18:45",
+    "rival": "Inter Escaldes",
+    "ronda": "Group Stage",
+    "uid": "getafe-2627-5037553@getafe-calendario",
+    "uid_evento": "5037553"
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5037511",
+    "casa": false,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-17T21:00",
+    "rival": "Ajax",
+    "ronda": "Group Stage",
+    "uid": "getafe-2627-5037511@getafe-calendario",
+    "uid_evento": "5037511"
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5013826",
+    "casa": true,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-08-20T21:00",
+    "resultado_equipo": 3,
+    "resultado_local": 3,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Partizan",
+    "ronda": "Qualifying Round 1st leg",
+    "uid": "getafe-2627-5013826@getafe-calendario",
+    "uid_evento": "5013826",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5013850",
+    "casa": false,
+    "competicion": "conference",
+    "competicion_nombre": "Conference League 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-08-27T21:00",
+    "resultado_equipo": 1,
+    "resultado_local": 2,
+    "resultado_rival": 2,
+    "resultado_visitante": 1,
+    "rival": "Partizan",
+    "ronda": "Qualifying Round 2nd leg",
+    "uid": "getafe-2627-5013850@getafe-calendario",
+    "uid_evento": "5013850",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/5074788",
+    "casa": false,
+    "competicion": "copa",
+    "competicion_nombre": "Copa del Rey 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-29T19:00",
+    "resultado_equipo": 3,
+    "resultado_local": 2,
+    "resultado_rival": 2,
+    "resultado_visitante": 3,
+    "rival": "UB Lebrijana",
+    "ronda": "First Round",
+    "uid": "getafe-2627-5074788@getafe-calendario",
+    "uid_evento": "5074788",
+    "victoria": true
   }
 ]

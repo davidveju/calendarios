@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Getafe CF (26/27): LaLiga -> getafe.ics.
+"""Getafe CF (26/27) -> getafe.ics.
 
-Orquesta la API pública de ESPN, mantiene el histórico y genera el ICS con el
-motor común. Los datos se guardan en ``estado/<id>/`` y el ICS se publica en
-``deportes/futbol/getafe.ics``. Solo stdlib.
+Agrega todas las competiciones en una misma tabla (Transfermarkt: LaLiga, Copa
+del Rey, Conference League...). Los datos se guardan en ``estado/<id>/`` y el ICS
+se publica en ``deportes/futbol/getafe.ics``. Solo stdlib.
 """
 
 from __future__ import annotations
 
 import json
 import sys
+from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -19,27 +20,36 @@ from scripts.comun.contexto import contexto_desde_ejecucion
 from scripts.comun.http import fetch
 from scripts.comun.ics import MADRID, Evento, generar_ics
 from scripts.comun.log import log, warn
-from scripts.proveedores.espn import fuentes
 
 from scripts.calendarios.deportes.futbol.getafe.config import CONFIG
+from scripts.proveedores.transfermarkt import fuentes
 
 
-ESPN_BASE = fuentes.ESPN_BASE
+BASE_URL = (
+    "https://www.transfermarkt.com/{slug}/spielplan/verein/"
+    "{team_id}/saison_id/{season_id}/plus/1"
+)
 
 
-def etiqueta(_p: dict) -> str:
-    return "Liga"
+def etiqueta(p: dict) -> str:
+    comp = p.get("competicion")
+    ronda = (p.get("ronda") or "").strip()
+    if comp == "liga":
+        if ronda.isdigit():
+            return f"J{ronda}"
+        return "Liga"
+    if comp == "copa":
+        return f"Copa {ronda}".strip()
+    if comp == "conference":
+        return f"Conf {ronda}".strip()
+    return ronda or comp or "Partido"
 
 
 def resumen(p: dict) -> str:
     emoji = "⚽"
     tag = etiqueta(p)
-    local = (
-        CONFIG.equipo_corto if p.get("casa") else p.get("rival", "Rival")
-    )
-    visitante = (
-        p.get("rival", "Rival") if p.get("casa") else CONFIG.equipo_corto
-    )
+    local = CONFIG.team_name if p.get("casa") else p.get("rival", "Rival")
+    visitante = p.get("rival", "Rival") if p.get("casa") else CONFIG.team_name
     if (
         p.get("estado") == "jugado"
         and "resultado_local" in p
@@ -52,12 +62,13 @@ def resumen(p: dict) -> str:
 
 
 def descripcion(p: dict) -> str:
-    ambito = f"{p.get('competicion_nombre', CONFIG.liga_nombre)} · {etiqueta(p)}"
+    ambito = f"{p.get('competicion_nombre', '')} · {etiqueta(p)}"
     lineas = [
         ambito,
         (
-            (f"{CONFIG.equipo_corto} en casa" if p.get("casa") else f"{CONFIG.equipo_corto} fuera")
-            + f" vs {p.get('rival', 'Rival')}"
+            f"{CONFIG.team_name} en casa vs {p.get('rival', 'Rival')}"
+            if p.get("casa")
+            else f"{CONFIG.team_name} fuera vs {p.get('rival', 'Rival')}"
         ),
     ]
     if (
@@ -66,7 +77,7 @@ def descripcion(p: dict) -> str:
         and "resultado_rival" in p
     ):
         lineas.append(
-            f"Resultado: {CONFIG.equipo_corto} {p['resultado_equipo']}-{p['resultado_rival']} "
+            f"Resultado: {CONFIG.team_name} {p['resultado_equipo']}-{p['resultado_rival']} "
             + ("victoria ✅" if p.get("victoria") else "derrota ❌")
         )
     else:
@@ -76,7 +87,12 @@ def descripcion(p: dict) -> str:
         except (TypeError, ValueError):
             dt = None
         if dt is not None:
-            lineas.append(f"Inicio: {dt.strftime('%d/%m/%Y %H:%M')} (Madrid)")
+            if p.get("fecha_provisional"):
+                lineas.append(
+                    f"Inicio provisional: {dt.strftime('%d/%m/%Y %H:%M')} (Madrid, por confirmar)"
+                )
+            else:
+                lineas.append(f"Inicio: {dt.strftime('%d/%m/%Y %H:%M')} (Madrid)")
         else:
             lineas.append("Fecha por determinar (por confirmar)")
     acta = p.get("acta", "")
@@ -86,8 +102,7 @@ def descripcion(p: dict) -> str:
 
 
 def sede_txt(p: dict) -> str:
-    s = p.get("sede") or {}
-    return ", ".join(x for x in (s.get("pabellon"), s.get("direccion")) if x)
+    return CONFIG.casa_pabellon if p.get("casa") else ""
 
 
 def _inicio_evento(p: dict):
@@ -115,7 +130,7 @@ def a_eventos(partidos: list[dict]) -> list[Evento]:
             inicio = _inicio_evento(p)
             if inicio is None:
                 raise ValueError("sin fecha")
-            lugar = sede_txt(p) or (CONFIG.casa_pabellon if p.get("casa") else "")
+            lugar = sede_txt(p)
             eventos.append(
                 Evento(
                     uid=uid,
@@ -151,28 +166,15 @@ def _cargar_previo(path: Path) -> list[dict]:
 
 
 def _fetch_liga() -> list[dict]:
-    # 1) Vista por defecto: calendario anual de la liga.
-    base_url = f"{ESPN_BASE}/{CONFIG.liga_slug}/scoreboard"
-    base_payload = fetch(base_url)
-    fechas = fuentes.fechas_calendario(base_payload)
-    if not fechas:
-        warn("liga: no se pudo leer el calendario de fechas; se abandona la carga")
-        return []
-
-    seen: set[str] = set()
-    partidos: list[dict] = []
-    for compacto in fechas:
-        url = f"{base_url}?dates={compacto}&limit=1000"
-        try:
-            payload = fetch(url, retries=2)
-        except Exception as e:  # noqa: BLE001
-            warn(f"liga: fecha {compacto} falló ({e}); se salta")
-            continue
-        for p in fuentes.extraer_eventos(payload, CONFIG):
-            if p["uid"] not in seen:
-                seen.add(p["uid"])
-                partidos.append(p)
-
+    url = BASE_URL.format(
+        slug=CONFIG.slug,
+        team_id=CONFIG.team_id,
+        season_id=CONFIG.season_id,
+    )
+    html = fetch(url, user_agent=fuentes.USER_AGENT)
+    partidos = fuentes.extraer_partidos(html, CONFIG)
+    if not partidos:
+        raise ValueError("transfermarkt: no se obtuvo ningún partido")
     return partidos
 
 
@@ -185,22 +187,16 @@ def main() -> None:
     prev = _cargar_previo(json_path)
     prev_by_uid = {p["uid"]: p for p in prev if isinstance(p, dict) and p.get("uid")}
 
-    feb_fallback = False
     try:
-        liga = _fetch_liga()
-        if not liga:
-            raise ValueError("liga: no se obtuvo ningún partido")
+        partidos = _fetch_liga()
     except Exception as e:  # noqa: BLE001
         if prev:
-            warn(f"liga: fallo ({e}); se reutilizan {len(prev)} partidos previos")
-            liga = prev
-            feb_fallback = True
+            warn(f"transfermarkt: fallo ({e}); se reutilizan {len(prev)} partidos previos")
+            partidos = prev
         else:
             raise
 
-    # Revisar la kickoff publicada previamente si el nuevo scrape perdió la hora.
-    hoy = datetime.now(zona).date()
-    for p in liga:
+    for p in partidos:
         old = prev_by_uid.get(p["uid"])
         if (
             old
@@ -210,30 +206,26 @@ def main() -> None:
         ):
             p["inicio_madrid"] = old["inicio_madrid"]
 
-    # Validar UIDs
-    from collections import Counter
-
-    conteo = Counter(p.get("uid", "?") for p in liga)
+    conteo = Counter(p.get("uid", "?") for p in partidos)
     dups = sorted(u for u, n in conteo.items() if n > 1)
     if dups:
         raise ValueError(f"UIDs duplicados {dups}")
 
-    eventos = a_eventos(liga)
+    eventos = a_eventos(partidos)
     ics = generar_ics(ctx.nombre, eventos, zona=zona)
 
-    escribir_json(json_path, liga)
+    escribir_json(json_path, partidos)
     escritura_atomica(ics_path, ics.encode("utf-8"))
 
-    jug = sum(1 for p in liga if p.get("estado") == "jugado")
+    jug = sum(1 for p in partidos if p.get("estado") == "jugado")
+    bycomp = Counter(p.get("competicion", "?") for p in partidos)
     log(
-        f"liga={len(liga)} jugados={jug} pendientes={len(liga) - jug} "
-        f"eventos_ics={len(eventos)}"
+        f"partidos={len(partidos)} por_competicion={dict(bycomp)} "
+        f"jugados={jug} pendientes={len(partidos) - jug} eventos_ics={len(eventos)}"
     )
     log(
         f"json={json_path.relative_to(ctx.raiz)} ics={ics_path.relative_to(ctx.raiz)}"
     )
-    if feb_fallback:
-        warn("ESPN_FALLBACK=true: una fuente falló y se usó histórico; revisar logs")
 
 
 if __name__ == "__main__":

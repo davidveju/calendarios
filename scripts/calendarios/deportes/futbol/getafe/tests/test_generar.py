@@ -14,15 +14,15 @@ from scripts.calendarios.deportes.futbol.getafe.config import CONFIG
 class TestEventos(unittest.TestCase):
     def _partido(self, **extra) -> dict:
         p = {
-            "uid": "getafe-2627-e1@getafe-calendario",
-            "acta": "https://example.com/1",
+            "uid": "getafe-2627-4909440@getafe-calendario",
+            "acta": "https://www.transfermarkt.com/x/1",
             "competicion": "liga",
             "competicion_nombre": "LaLiga 26/27",
+            "ronda": "12",
             "casa": True,
             "rival": "Rival",
             "estado": "pendiente",
             "inicio_madrid": "2027-01-01T12:00:00",
-            "sede": {"pabellon": "Coliseum", "direccion": "Getafe, Spain"},
         }
         p.update(extra)
         return p
@@ -31,12 +31,12 @@ class TestEventos(unittest.TestCase):
         eventos = generar.a_eventos([self._partido()])
         self.assertEqual(len(eventos), 1)
         evento = eventos[0]
-        self.assertEqual(evento.uid, "getafe-2627-e1@getafe-calendario")
-        self.assertEqual(evento.resumen, "⚽ Getafe - Rival (Liga)")
-        self.assertEqual(evento.lugar, "Coliseum, Getafe, Spain")
+        self.assertEqual(evento.uid, "getafe-2627-4909440@getafe-calendario")
+        self.assertEqual(evento.resumen, "⚽ Getafe - Rival (J12)")
+        self.assertEqual(evento.lugar, CONFIG.casa_pabellon)
         self.assertEqual(evento.estado, "CONFIRMED")
         self.assertEqual(evento.inicio.hour, 12)
-        self.assertIn("LaLiga 26/27 · Liga", evento.descripcion)
+        self.assertIn("LaLiga 26/27 · J12", evento.descripcion)
         self.assertIn("Acta:", evento.descripcion)
 
     def test_jugado(self):
@@ -49,7 +49,7 @@ class TestEventos(unittest.TestCase):
             victoria=True,
         )
         evento = generar.a_eventos([p])[0]
-        self.assertIn("Liga: 2-1 ✅", evento.resumen)
+        self.assertIn("J12: 2-1 ✅", evento.resumen)
         self.assertIn("Resultado: Getafe 2-1 victoria ✅", evento.descripcion)
 
     def test_derrota(self):
@@ -76,11 +76,18 @@ class TestEventos(unittest.TestCase):
         p.pop("acta")
         self.assertEqual(generar.a_eventos([p]), [])
 
-    def test_sede_fallback(self):
-        p = self._partido()
-        p["sede"] = {}
+    def test_conference(self):
+        p = self._partido(
+            uid="getafe-2627-1@getafe-calendario",
+            acta="https://www.transfermarkt.com/x/2",
+            competicion="conference",
+            competicion_nombre="Conference League 26/27",
+            ronda="Group Stage",
+        )
         evento = generar.a_eventos([p])[0]
-        self.assertEqual(evento.lugar, CONFIG.casa_pabellon)
+        self.assertEqual(
+            evento.resumen, "⚽ Getafe - Rival (Conf Group Stage)"
+        )
 
 
 class TestCompatibilidad(unittest.TestCase):
@@ -94,7 +101,7 @@ class TestCompatibilidad(unittest.TestCase):
 class TestConfig(unittest.TestCase):
     def test_config(self):
         self.assertIs(generar.CONFIG, CONFIG)
-        self.assertEqual(CONFIG.team_id, "2922")
+        self.assertEqual(CONFIG.team_id, "3709")
         self.assertEqual(CONFIG.uid_prefix, "getafe-2627")
 
 

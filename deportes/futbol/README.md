@@ -6,7 +6,7 @@ partidos jugados aparecen con el resultado y los horarios se actualizan solos.
 | | |
 |---|---|
 | 📅 Fichero | [`getafe.ics`](getafe.ics) — LaLiga 26/27 |
-| 📡 Fuente | [ESPN](https://www.espn.com/soccer/team/_/id/2922/getafe) (API pública, sin claves) |
+| 📡 Fuente | [Transfermarkt](https://www.transfermarkt.com/getafe-cf/spielplan/verein/3709/saison_id/2026): LaLiga, Copa del Rey, Conference League y previas |
 | 🔄 Actualización | lunes, miércoles y viernes 12:00 UTC |
 | 🆔 ID | `deportes/futbol/getafe` |
 

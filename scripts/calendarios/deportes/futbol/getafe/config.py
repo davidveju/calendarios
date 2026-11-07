@@ -2,16 +2,15 @@
 
 from __future__ import annotations
 
-from scripts.proveedores.espn.config import ConfigESPN
+from scripts.proveedores.transfermarkt.config import ConfigTM
 
-CONFIG = ConfigESPN(
-    team_id="2922",
+CONFIG = ConfigTM(
     team_name="Getafe",
-    equipo_corto="Getafe",
+    slug="getafe-cf",
+    team_id="3709",
     temporada="26/27",
     uid_prefix="getafe-2627",
     uid_dominio="getafe-calendario",
-    liga_slug="esp.1",
-    liga_nombre="LaLiga",
+    season_id="2026",
     casa_pabellon="Coliseum, Getafe",
 )
