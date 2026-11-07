@@ -233,6 +233,10 @@ python3 -m scripts validar deportes/baloncesto/estudiantes.ics
 6. GitHub sirve el `.ics` por `raw.githubusercontent.com` y tu calendario se
    actualiza en la siguiente sincronización.
 
+## Calendarios adicionales
+
+| 🎉 [Festivos de Madrid](festivos/) | [madrid.ics](festivos/madrid.ics) | el 1 de cada mes 08:00 UTC |
+
 ## 📄 Licencia
 
 [MIT](LICENSE)
