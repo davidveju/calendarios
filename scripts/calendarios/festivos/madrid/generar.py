@@ -147,7 +147,11 @@ def main() -> None:
         respuesta = fetch(url, timeout=30)
         oficiales = fuentes.obtener_festivos(respuesta, CONFIG)
         if oficiales:
-            partidos = [p for p in partidos if not p["inicio_madrid"].startswith(f"{hoy.year}-")] + oficiales
+            fechas_oficiales = {p["inicio_madrid"][:10] for p in oficiales}
+            partidos = [
+                p for p in partidos
+                if not (p["inicio_madrid"].startswith(f"{hoy.year}-") and p["inicio_madrid"][:10] in fechas_oficiales)
+            ] + oficiales
     except Exception as e:  # noqa: BLE001
         warn(f"festivos: OpenHolidays ({e}); se mantienen los generados")
 
