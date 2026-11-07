@@ -1,78 +1,108 @@
 [
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-09-27T19:00",
+    "resultado_equipo": 89,
+    "resultado_local": 89,
+    "resultado_rival": 87,
+    "resultado_visitante": 87,
     "rival": "Unicaja",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20260927-unicaja@madridbaloncesto-calendario"
+    "ronda": "J1",
+    "uid": "madrid-b-2627-acb105383@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-10-04T12:30",
-    "rival": "Monbus Obradoiro",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261004-monbus-obradoiro@madridbaloncesto-calendario"
+    "resultado_equipo": 114,
+    "resultado_local": 107,
+    "resultado_rival": 107,
+    "resultado_visitante": 114,
+    "rival": "Monbus Obra",
+    "ronda": "J2",
+    "uid": "madrid-b-2627-acb105389@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-10-11T12:00",
+    "resultado_equipo": 120,
+    "resultado_local": 120,
+    "resultado_rival": 83,
+    "resultado_visitante": 83,
     "rival": "Kids&Us Manresa",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261011-kids&us-manresa@madridbaloncesto-calendario"
+    "ronda": "J3",
+    "uid": "madrid-b-2627-acb105397@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-10-18T12:30",
+    "resultado_equipo": 119,
+    "resultado_local": 119,
+    "resultado_rival": 84,
+    "resultado_visitante": 84,
     "rival": "Surne Bilbao",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261018-surne-bilbao@madridbaloncesto-calendario"
+    "ronda": "J4",
+    "uid": "madrid-b-2627-acb105407@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-10-25T19:00",
+    "resultado_equipo": 122,
+    "resultado_local": 86,
+    "resultado_rival": 86,
+    "resultado_visitante": 122,
     "rival": "iLERNA Lleida",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261025-ilerna-lleida@madridbaloncesto-calendario"
+    "ronda": "J5",
+    "uid": "madrid-b-2627-acb105419@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-01T12:30",
-    "rival": "Recoletas Salud San Pablo Burgos",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261101-recoletas-salud-san-pablo-burgos@madridbaloncesto-calendario"
+    "resultado_equipo": 90,
+    "resultado_local": 90,
+    "resultado_rival": 79,
+    "resultado_visitante": 79,
+    "rival": "Recoletas Salud",
+    "ronda": "J6",
+    "uid": "madrid-b-2627-acb105425@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -80,11 +110,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-08T19:00",
     "rival": "UCAM Murcia",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261108-ucam-murcia@madridbaloncesto-calendario"
+    "ronda": "J7",
+    "uid": "madrid-b-2627-acb105437@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -92,11 +122,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-15T19:00",
     "rival": "Kosner Baskonia",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261115-kosner-baskonia@madridbaloncesto-calendario"
+    "ronda": "J8",
+    "uid": "madrid-b-2627-acb105446@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -104,23 +134,23 @@
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-22T19:00",
     "rival": "Asisa Joventut",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261122-asisa-joventut@madridbaloncesto-calendario"
+    "ronda": "J9",
+    "uid": "madrid-b-2627-acb105455@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
     "inicio_madrid": "2026-12-06T12:30",
-    "rival": "MoraBanc Andorra",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261206-morabanc-andorra@madridbaloncesto-calendario"
+    "rival": "MoraBanc And",
+    "ronda": "J10",
+    "uid": "madrid-b-2627-acb105461@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -128,11 +158,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2026-12-08T17:00",
     "rival": "Leyma Coruña",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261208-leyma-coruña@madridbaloncesto-calendario"
+    "ronda": "J11",
+    "uid": "madrid-b-2627-acb105467@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -140,23 +170,23 @@
     "fecha_provisional": false,
     "inicio_madrid": "2026-12-12T21:00",
     "rival": "Río Breogán",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261212-río-breogán@madridbaloncesto-calendario"
+    "ronda": "J12",
+    "uid": "madrid-b-2627-acb105475@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
     "inicio_madrid": "2026-12-20T19:00",
-    "rival": "Casademont Zaragoza",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261220-casademont-zaragoza@madridbaloncesto-calendario"
+    "rival": "Casademont Zgz",
+    "ronda": "J13",
+    "uid": "madrid-b-2627-acb105491@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -164,11 +194,23 @@
     "fecha_provisional": false,
     "inicio_madrid": "2026-12-27T21:00",
     "rival": "Barça",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20261227-barça@madridbaloncesto-calendario"
+    "ronda": "J14",
+    "uid": "madrid-b-2627-acb105500@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
+    "casa": true,
+    "competicion": "acb",
+    "competicion_nombre": "Liga Endesa 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-01-02T21:00",
+    "rival": "La Laguna TFE",
+    "ronda": "J16",
+    "uid": "madrid-b-2627-acb105512@madridbaloncesto-calendario"
+  },
+  {
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -176,23 +218,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-01-04T20:00",
     "rival": "Valencia Basket",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270104-valencia-basket@madridbaloncesto-calendario"
+    "ronda": "J15",
+    "uid": "madrid-b-2627-acb105506@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
-    "casa": true,
-    "competicion": "acb",
-    "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-01-02T21:00",
-    "rival": "La Laguna Tenerife",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270102-la-laguna-tenerife@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -200,23 +230,23 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-01-10T12:00",
     "rival": "FIATC Girona",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270110-fiatc-girona@madridbaloncesto-calendario"
+    "ronda": "J17",
+    "uid": "madrid-b-2627-acb105520@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
     "inicio_madrid": "2027-01-16T19:30",
-    "rival": "Recoletas Salud San Pablo Burgos",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270116-recoletas-salud-san-pablo-burgos@madridbaloncesto-calendario"
+    "rival": "Recoletas Salud",
+    "ronda": "J18",
+    "uid": "madrid-b-2627-acb105529@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -224,11 +254,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-01-24T12:00",
     "rival": "Leyma Coruña",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270124-leyma-coruña@madridbaloncesto-calendario"
+    "ronda": "J19",
+    "uid": "madrid-b-2627-acb105540@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -236,11 +266,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-01-31T19:00",
     "rival": "UCAM Murcia",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270131-ucam-murcia@madridbaloncesto-calendario"
+    "ronda": "J20",
+    "uid": "madrid-b-2627-acb105554@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -248,11 +278,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-02-07T19:00",
     "rival": "Kosner Baskonia",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270207-kosner-baskonia@madridbaloncesto-calendario"
+    "ronda": "J21",
+    "uid": "madrid-b-2627-acb105563@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -260,23 +290,23 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-02-14T19:00",
     "rival": "Kids&Us Manresa",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270214-kids&us-manresa@madridbaloncesto-calendario"
+    "ronda": "J22",
+    "uid": "madrid-b-2627-acb105572@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
     "inicio_madrid": "2027-03-07T18:00",
-    "rival": "Monbus Obradoiro",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270307-monbus-obradoiro@madridbaloncesto-calendario"
+    "rival": "Monbus Obra",
+    "ronda": "J23",
+    "uid": "madrid-b-2627-acb105580@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -284,11 +314,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-03-14T19:00",
     "rival": "Valencia Basket",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270314-valencia-basket@madridbaloncesto-calendario"
+    "ronda": "J24",
+    "uid": "madrid-b-2627-acb105590@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -296,11 +326,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-03-21T19:00",
     "rival": "FIATC Girona",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270321-fiatc-girona@madridbaloncesto-calendario"
+    "ronda": "J25",
+    "uid": "madrid-b-2627-acb105599@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -308,11 +338,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-03-28T19:00",
     "rival": "Barça",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270328-barça@madridbaloncesto-calendario"
+    "ronda": "J26",
+    "uid": "madrid-b-2627-acb105608@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -320,23 +350,23 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-04-04T17:00",
     "rival": "Asisa Joventut",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270404-asisa-joventut@madridbaloncesto-calendario"
+    "ronda": "J27",
+    "uid": "madrid-b-2627-acb105615@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
     "inicio_madrid": "2027-04-11T19:00",
-    "rival": "La Laguna Tenerife",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270411-la-laguna-tenerife@madridbaloncesto-calendario"
+    "rival": "La Laguna TFE",
+    "ronda": "J28",
+    "uid": "madrid-b-2627-acb105626@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -344,11 +374,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-04-18T12:30",
     "rival": "Río Breogán",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270418-río-breogán@madridbaloncesto-calendario"
+    "ronda": "J29",
+    "uid": "madrid-b-2627-acb105632@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -356,11 +386,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-04-25T12:30",
     "rival": "iLERNA Lleida",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270425-ilerna-lleida@madridbaloncesto-calendario"
+    "ronda": "J30",
+    "uid": "madrid-b-2627-acb105641@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -368,11 +398,11 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-05-02T19:00",
     "rival": "Surne Bilbao",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270502-surne-bilbao@madridbaloncesto-calendario"
+    "ronda": "J31",
+    "uid": "madrid-b-2627-acb105653@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
@@ -380,20 +410,32 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-05-09T19:00",
     "rival": "Unicaja",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270509-unicaja@madridbaloncesto-calendario"
+    "ronda": "J32",
+    "uid": "madrid-b-2627-acb105662@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-horarios-145767",
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
     "inicio_madrid": "2027-05-16T12:30",
-    "rival": "Casademont Zaragoza",
-    "ronda": "Regular",
-    "uid": "madrid-b-2627-20270516-casademont-zaragoza@madridbaloncesto-calendario"
+    "rival": "Casademont Zgz",
+    "ronda": "J33",
+    "uid": "madrid-b-2627-acb105668@madridbaloncesto-calendario"
+  },
+  {
+    "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
+    "casa": false,
+    "competicion": "acb",
+    "competicion_nombre": "Liga Endesa 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-05-21T14:00",
+    "rival": "MoraBanc And",
+    "ronda": "J34",
+    "uid": "madrid-b-2627-acb105672@madridbaloncesto-calendario"
   },
   {
     "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",

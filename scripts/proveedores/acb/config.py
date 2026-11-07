@@ -11,6 +11,7 @@ class ConfigACB:
     temporada: str
     uid_prefix: str
     uid_dominio: str
+    club_id: int = 9
     casa_pabellon: str = ""
     url: str = (
         "https://acb.com/es/liga/noticias/"

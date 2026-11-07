@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+
 import html as _html
 import re
 
@@ -197,4 +199,86 @@ def extraer_euroliga(html: str, config) -> list[dict]:
                 "ronda": f"G. {round_num}",
             }
         )
+    return partidos
+
+
+API_KEY_DEFAULT = "0dd94928-6f57-4c08-a3bd-b1b2f092976e"
+ACB_DEFAULT_KEY = os.environ.get("ACB_API_KEY") if 'os' in globals() else None
+
+
+def fetch_partidos(config) -> list[dict]:
+    import json as _json
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+
+    from scripts.comun.http import fetch
+
+    if getattr(config, "club_id", None) is None:
+        raise ValueError("ConfigACB requiere club_id")
+    year = datetime.now().year
+    season_end = year + 1 if datetime.now().month >= 9 else year
+    url = (
+        "https://api2.acb.com/api/seasondata/TeamProfile/team-matches"
+        f"?clubId={config.club_id}&competitionId=1&season={season_end}"
+    )
+    import urllib.request
+
+    ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept": "application/json", "X-APIKEY": API_KEY_DEFAULT})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = _json.load(resp)
+
+    partidos: list[dict] = []
+    Madrid = ZoneInfo("Europe/Madrid")
+    for m in (data.get("matches") or []):
+        match_id = m.get("id")
+        home = m.get("homeTeam") or {}
+        away = m.get("awayTeam") or {}
+        casa = (home.get("clubId") == config.club_id)
+        rival = (away if casa else home).get("shortName") or (away if casa else home).get("fullName") or "Rival"
+
+        utc_raw = m.get("startDateTime") or m.get("delayedStartDateTime")
+        if utc_raw is None:
+            continue
+        try:
+            dt = datetime.fromisoformat(str(utc_raw).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        inicio_local = dt.astimezone(Madrid).replace(tzinfo=None)
+
+        played = (str(m.get("matchStatus", "")).upper() == "FINALIZED")
+        home_score = m.get("homeScore")
+        away_score = m.get("awayScore")
+
+        estado = "jugado" if played else "pendiente"
+        uid = f"{config.uid_prefix}-acb{match_id}@{config.uid_dominio}"
+        partido = {
+            "uid": uid,
+            "competicion": "acb",
+            "competicion_nombre": f"Liga Endesa {config.temporada}",
+            "estado": estado,
+            "casa": casa,
+            "rival": rival,
+            "inicio_madrid": inicio_local.isoformat(timespec="minutes"),
+            "fecha_provisional": False,
+            "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
+            "ronda": f"J{m.get('roundNumber', '?')}",
+        }
+        if played and (home_score is not None or away_score is not None):
+            hs = 0 if home_score is None else int(home_score)
+            as_ = 0 if away_score is None else int(away_score)
+            if casa:
+                victory = hs > as_
+                partido["resultado_local"] = hs
+                partido["resultado_visitante"] = as_
+                partido["resultado_equipo"] = hs
+                partido["resultado_rival"] = as_
+            else:
+                victory = as_ > hs
+                partido["resultado_local"] = hs
+                partido["resultado_visitante"] = as_
+                partido["resultado_equipo"] = as_
+                partido["resultado_rival"] = hs
+            partido["victoria"] = bool(victory)
+        partidos.append(partido)
     return partidos

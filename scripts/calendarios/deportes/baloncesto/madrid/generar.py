@@ -136,8 +136,7 @@ def main() -> None:
     zona = ZoneInfo(ctx.zona)
 
     prev = _cargar_previo(json_path)
-    html = fetch(CONFIG.url, timeout=30)
-    partidos = fuentes.extraer_partidos(html, CONFIG)
+    partidos = fuentes.fetch_partidos(CONFIG)
     # EuroLeague oficial (api pública, sin claves) con resultados.
     try:
         euro = el_fuentes.fetch_partidos(CONFIG_EL)
