@@ -1,0 +1,10 @@
+{
+  "nombre": "Real Madrid Baloncesto · Liga Endesa 26/27",
+  "descripcion": "Partidos del Real Madrid en la Liga Endesa 26/27 (fuente oficial ACB).",
+  "ics": "deportes/baloncesto/madrid.ics",
+  "generador": "generar.py",
+  "datos": [
+    "partidos.json"
+  ],
+  "zona": "Europe/Madrid"
+}

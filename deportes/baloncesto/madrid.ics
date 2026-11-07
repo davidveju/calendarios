@@ -1,0 +1,522 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//davidveju//calendarios//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Real Madrid Baloncesto · Liga Endesa 26/27
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:madrid-b-2627-20260927-unicaja@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20260927T170000Z
+DTEND:20260927T190000Z
+SUMMARY:🏀 Real Madrid - Unicaja (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Unicaja\nActa: https:
+ //acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas
+ -y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261004-monbus-obradoiro@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261004T103000Z
+DTEND:20261004T123000Z
+SUMMARY:🏀 Monbus Obradoiro - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Monbus Obradoiro\nActa:
+  https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las
+ -fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261011-kids&us-manresa@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261011T100000Z
+DTEND:20261011T120000Z
+SUMMARY:🏀 Real Madrid - Kids&Us Manresa (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Kids&Us Manresa\nActa
+ : https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-la
+ s-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261018-surne-bilbao@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261018T103000Z
+DTEND:20261018T123000Z
+SUMMARY:🏀 Real Madrid - Surne Bilbao (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Surne Bilbao\nActa: h
+ ttps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-f
+ echas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261025-ilerna-lleida@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261025T180000Z
+DTEND:20261025T200000Z
+SUMMARY:🏀 iLERNA Lleida - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs iLERNA Lleida\nActa: ht
+ tps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fe
+ chas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261101-recoletas-salud-san-pablo-burgos@madridbaloncest
+ o-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261101T113000Z
+DTEND:20261101T133000Z
+SUMMARY:🏀 Real Madrid - Recoletas Salud San Pablo Burgos (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Recoletas Salud San P
+ ablo Burgos\nActa: https://acb.com/es/liga/noticias/calendario-liga-endesa
+ -2026-27-todas-las-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261108-ucam-murcia@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261108T180000Z
+DTEND:20261108T200000Z
+SUMMARY:🏀 Real Madrid - UCAM Murcia (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs UCAM Murcia\nActa: ht
+ tps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fe
+ chas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261115-kosner-baskonia@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:🏀 Kosner Baskonia - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Kosner Baskonia\nActa: 
+ https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-
+ fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261122-asisa-joventut@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+SUMMARY:🏀 Real Madrid - Asisa Joventut (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Asisa Joventut\nActa:
+  https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las
+ -fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261206-morabanc-andorra@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261206T113000Z
+DTEND:20261206T133000Z
+SUMMARY:🏀 Real Madrid - MoraBanc Andorra (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs MoraBanc Andorra\nAct
+ a: https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261208-leyma-coruña@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261208T160000Z
+DTEND:20261208T180000Z
+SUMMARY:🏀 Leyma Coruña - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Leyma Coruña\nActa: ht
+ tps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fe
+ chas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261212-río-breogán@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261212T200000Z
+DTEND:20261212T220000Z
+SUMMARY:🏀 Río Breogán - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Río Breogán\nActa: ht
+ tps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fe
+ chas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261220-casademont-zaragoza@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261220T180000Z
+DTEND:20261220T200000Z
+SUMMARY:🏀 Casademont Zaragoza - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Casademont Zaragoza\nAc
+ ta: https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-
+ las-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20261227-barça@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20261227T200000Z
+DTEND:20261227T220000Z
+SUMMARY:🏀 Barça - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Barça\nActa: https://a
+ cb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y-
+ horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270102-la-laguna-tenerife@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270102T200000Z
+DTEND:20270102T220000Z
+SUMMARY:🏀 Real Madrid - La Laguna Tenerife (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs La Laguna Tenerife\nA
+ cta: https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas
+ -las-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270104-valencia-basket@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270104T190000Z
+DTEND:20270104T210000Z
+SUMMARY:🏀 Valencia Basket - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Valencia Basket\nActa: 
+ https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-
+ fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270110-fiatc-girona@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270110T110000Z
+DTEND:20270110T130000Z
+SUMMARY:🏀 Real Madrid - FIATC Girona (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs FIATC Girona\nActa: h
+ ttps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-f
+ echas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270116-recoletas-salud-san-pablo-burgos@madridbaloncest
+ o-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270116T183000Z
+DTEND:20270116T203000Z
+SUMMARY:🏀 Recoletas Salud San Pablo Burgos - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Recoletas Salud San Pab
+ lo Burgos\nActa: https://acb.com/es/liga/noticias/calendario-liga-endesa-2
+ 026-27-todas-las-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270124-leyma-coruña@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270124T110000Z
+DTEND:20270124T130000Z
+SUMMARY:🏀 Real Madrid - Leyma Coruña (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Leyma Coruña\nActa: 
+ https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-
+ fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270131-ucam-murcia@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270131T180000Z
+DTEND:20270131T200000Z
+SUMMARY:🏀 UCAM Murcia - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs UCAM Murcia\nActa: http
+ s://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fech
+ as-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270207-kosner-baskonia@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270207T180000Z
+DTEND:20270207T200000Z
+SUMMARY:🏀 Real Madrid - Kosner Baskonia (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Kosner Baskonia\nActa
+ : https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-la
+ s-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270214-kids&us-manresa@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270214T180000Z
+DTEND:20270214T200000Z
+SUMMARY:🏀 Kids&Us Manresa - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Kids&Us Manresa\nActa: 
+ https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-
+ fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270307-monbus-obradoiro@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270307T170000Z
+DTEND:20270307T190000Z
+SUMMARY:🏀 Real Madrid - Monbus Obradoiro (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Monbus Obradoiro\nAct
+ a: https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270314-valencia-basket@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270314T180000Z
+DTEND:20270314T200000Z
+SUMMARY:🏀 Real Madrid - Valencia Basket (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Valencia Basket\nActa
+ : https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-la
+ s-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270321-fiatc-girona@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270321T180000Z
+DTEND:20270321T200000Z
+SUMMARY:🏀 FIATC Girona - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs FIATC Girona\nActa: htt
+ ps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fec
+ has-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270328-barça@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270328T170000Z
+DTEND:20270328T190000Z
+SUMMARY:🏀 Real Madrid - Barça (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Barça\nActa: https:/
+ /acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-
+ y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270404-asisa-joventut@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270404T150000Z
+DTEND:20270404T170000Z
+SUMMARY:🏀 Asisa Joventut - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Asisa Joventut\nActa: h
+ ttps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-f
+ echas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270411-la-laguna-tenerife@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270411T170000Z
+DTEND:20270411T190000Z
+SUMMARY:🏀 La Laguna Tenerife - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs La Laguna Tenerife\nAct
+ a: https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270418-río-breogán@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270418T103000Z
+DTEND:20270418T123000Z
+SUMMARY:🏀 Real Madrid - Río Breogán (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Río Breogán\nActa: 
+ https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-
+ fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270425-ilerna-lleida@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270425T103000Z
+DTEND:20270425T123000Z
+SUMMARY:🏀 Real Madrid - iLERNA Lleida (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs iLERNA Lleida\nActa: 
+ https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-
+ fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270502-surne-bilbao@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270502T170000Z
+DTEND:20270502T190000Z
+SUMMARY:🏀 Surne Bilbao - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Surne Bilbao\nActa: htt
+ ps://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fec
+ has-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270509-unicaja@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270509T170000Z
+DTEND:20270509T190000Z
+SUMMARY:🏀 Unicaja - Real Madrid (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid fuera vs Unicaja\nActa: https://
+ acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-las-fechas-y
+ -horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:madrid-b-2627-20270516-casademont-zaragoza@madridbaloncesto-calendario
+DTSTAMP:20261107T063832Z
+DTSTART:20270516T103000Z
+DTEND:20270516T123000Z
+SUMMARY:🏀 Real Madrid - Casademont Zaragoza (Liga Endesa)
+DESCRIPTION:Liga Endesa 26/27\nReal Madrid en casa vs Casademont Zaragoza\n
+ Acta: https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-toda
+ s-las-fechas-y-horarios-145767
+URL:https://acb.com/es/liga/noticias/calendario-liga-endesa-2026-27-todas-l
+ as-fechas-y-horarios-145767
+LOCATION:Movistar Arena\, Madrid
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
