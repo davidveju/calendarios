@@ -1,0 +1,588 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//davidveju//calendarios//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Getafe CF 26/27
+X-WR-TIMEZONE:Europe/Madrid
+BEGIN:VEVENT
+UID:getafe-2627-e401882926@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20260815T173000Z
+DTEND:20260815T193000Z
+SUMMARY:⚽ Alavés - Getafe (Liga: 3-0 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Alavés\nResultado: Getaf
+ e 0-3 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/401882
+ 926/getafe-alaves
+URL:https://www.espn.com/soccer/match/_/gameId/401882926/getafe-alaves
+LOCATION:Mendizorrotza\, Vitoria-Gasteiz\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882911@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20260823T173000Z
+DTEND:20260823T193000Z
+SUMMARY:⚽ Getafe - Racing Santander (Liga: 1-0 ✅)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Racing Santander\nResul
+ tado: Getafe 1-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/g
+ ameId/401882911/racing-santander-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882911/racing-santander-g
+ etafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882901@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20260831T173000Z
+DTEND:20260831T193000Z
+SUMMARY:⚽ Osasuna - Getafe (Liga: 1-0 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Osasuna\nResultado: Getaf
+ e 0-1 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/401882
+ 901/getafe-osasuna
+URL:https://www.espn.com/soccer/match/_/gameId/401882901/getafe-osasuna
+LOCATION:El Sadar\, Pamplona\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882891@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20260907T170000Z
+DTEND:20260907T190000Z
+SUMMARY:⚽ Getafe - Celta Vigo (Liga: 1-1 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Celta Vigo\nResultado: 
+ Getafe 1-1 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/4
+ 01882891/celta-vigo-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882891/celta-vigo-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882884@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20260913T163000Z
+DTEND:20260913T183000Z
+SUMMARY:⚽ Getafe - Deportivo (Liga: 1-1 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Deportivo\nResultado: G
+ etafe 1-1 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/40
+ 1882884/deportivo-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882884/deportivo-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882874@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20260917T170000Z
+DTEND:20260917T190000Z
+SUMMARY:⚽ Real Betis - Getafe (Liga: 1-0 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Real Betis\nResultado: Ge
+ tafe 0-1 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882874/getafe-real-betis
+URL:https://www.espn.com/soccer/match/_/gameId/401882874/getafe-real-betis
+LOCATION:Estadio Benito Villamarín\, Sevilla\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882861@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20260920T120000Z
+DTEND:20260920T140000Z
+SUMMARY:⚽ Getafe - Málaga (Liga: 1-0 ✅)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Málaga\nResultado: Get
+ afe 1-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882861/malaga-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882861/malaga-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882853@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261010T163000Z
+DTEND:20261010T183000Z
+SUMMARY:⚽ Barcelona - Getafe (Liga: 3-0 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Barcelona\nResultado: Get
+ afe 0-3 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/4018
+ 82853/getafe-barcelona
+URL:https://www.espn.com/soccer/match/_/gameId/401882853/getafe-barcelona
+LOCATION:Spotify Camp Nou\, Barcelona\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882842@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261019T190000Z
+DTEND:20261019T210000Z
+SUMMARY:⚽ Getafe - Rayo Vallecano (Liga: 1-1 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Rayo Vallecano\nResulta
+ do: Getafe 1-1 derrota ❌\nActa: https://www.espn.com/soccer/match/_/game
+ Id/401882842/rayo-vallecano-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882842/rayo-vallecano-get
+ afe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882835@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261025T130000Z
+DTEND:20261025T150000Z
+SUMMARY:⚽ Athletic Club - Getafe (Liga: 4-0 ❌)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Athletic Club\nResultado:
+  Getafe 0-4 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/
+ 401882835/getafe-athletic-club
+URL:https://www.espn.com/soccer/match/_/gameId/401882835/getafe-athletic-cl
+ ub
+LOCATION:San Mamés\, Bilbao\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882821@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261101T130000Z
+DTEND:20261101T150000Z
+SUMMARY:⚽ Getafe - Sevilla (Liga: 3-1 ✅)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Sevilla\nResultado: Get
+ afe 3-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882821/sevilla-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882821/sevilla-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882807@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261108T173000Z
+DTEND:20261108T193000Z
+SUMMARY:⚽ Villarreal - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Villarreal\nInicio: 08/11
+ /2026 18:30 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882807/getafe-villarreal
+URL:https://www.espn.com/soccer/match/_/gameId/401882807/getafe-villarreal
+LOCATION:Estadio de la Cerámica\, Villarreal\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882803@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261122T200000Z
+DTEND:20261122T220000Z
+SUMMARY:⚽ Getafe - Atlético Madrid (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Atlético Madrid\nInici
+ o: 22/11/2026 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/ga
+ meId/401882803/atletico-madrid-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-ge
+ tafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882792@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261130T200000Z
+DTEND:20261130T220000Z
+SUMMARY:⚽ Espanyol - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Espanyol\nInicio: 30/11/2
+ 026 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/40188
+ 2792/getafe-espanyol
+URL:https://www.espn.com/soccer/match/_/gameId/401882792/getafe-espanyol
+LOCATION:RCDE Stadium\, Barcelona\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882782@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261206T200000Z
+DTEND:20261206T220000Z
+SUMMARY:⚽ Getafe - Valencia (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Valencia\nInicio: 06/12
+ /2026 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882782/valencia-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882782/valencia-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882768@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261213T200000Z
+DTEND:20261213T220000Z
+SUMMARY:⚽ Real Sociedad - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Real Sociedad\nInicio: 13
+ /12/2026 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/
+ 401882768/getafe-real-sociedad
+URL:https://www.espn.com/soccer/match/_/gameId/401882768/getafe-real-socied
+ ad
+LOCATION:Reale Arena\, San Sebastian\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882761@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20261220T200000Z
+DTEND:20261220T220000Z
+SUMMARY:⚽ Getafe - Levante (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Levante\nInicio: 20/12/
+ 2026 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018
+ 82761/levante-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882761/levante-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882749@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270103T200000Z
+DTEND:20270103T220000Z
+SUMMARY:⚽ Real Madrid - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Real Madrid\nInicio: 03/0
+ 1/2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/40
+ 1882749/getafe-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882749/getafe-real-madrid
+LOCATION:Santiago Bernabéu\, Madrid\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882742@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270110T200000Z
+DTEND:20270110T220000Z
+SUMMARY:⚽ Elche - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Elche\nInicio: 10/01/2027
+  21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/40188274
+ 2/getafe-elche
+URL:https://www.espn.com/soccer/match/_/gameId/401882742/getafe-elche
+LOCATION:Estadio Martínez Valero\, Elche\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882732@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270117T200000Z
+DTEND:20270117T220000Z
+SUMMARY:⚽ Getafe - Athletic Club (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Athletic Club\nInicio: 
+ 17/01/2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameI
+ d/401882732/athletic-club-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882732/athletic-club-geta
+ fe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882721@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270124T200000Z
+DTEND:20270124T220000Z
+SUMMARY:⚽ Getafe - Osasuna (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Osasuna\nInicio: 24/01/
+ 2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018
+ 82721/osasuna-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882721/osasuna-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882714@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270131T200000Z
+DTEND:20270131T220000Z
+SUMMARY:⚽ Celta Vigo - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Celta Vigo\nInicio: 31/01
+ /2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882714/getafe-celta-vigo
+URL:https://www.espn.com/soccer/match/_/gameId/401882714/getafe-celta-vigo
+LOCATION:Balaidos\, Vigo\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882699@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270207T200000Z
+DTEND:20270207T220000Z
+SUMMARY:⚽ Getafe - Villarreal (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Villarreal\nInicio: 07/
+ 02/2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4
+ 01882699/villarreal-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882699/villarreal-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882692@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270214T200000Z
+DTEND:20270214T220000Z
+SUMMARY:⚽ Racing Santander - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Racing Santander\nInicio:
+  14/02/2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/game
+ Id/401882692/getafe-racing-santander
+URL:https://www.espn.com/soccer/match/_/gameId/401882692/getafe-racing-sant
+ ander
+LOCATION:El Sardineros\, Santander\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882679@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270221T200000Z
+DTEND:20270221T220000Z
+SUMMARY:⚽ Rayo Vallecano - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Rayo Vallecano\nInicio: 2
+ 1/02/2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId
+ /401882679/getafe-rayo-vallecano
+URL:https://www.espn.com/soccer/match/_/gameId/401882679/getafe-rayo-vallec
+ ano
+LOCATION:Estadio de Vallecas\, Madrid\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882673@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270228T200000Z
+DTEND:20270228T220000Z
+SUMMARY:⚽ Getafe - Alavés (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Alavés\nInicio: 28/02/
+ 2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018
+ 82673/alaves-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882673/alaves-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882664@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270307T200000Z
+DTEND:20270307T220000Z
+SUMMARY:⚽ Deportivo - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Deportivo\nInicio: 07/03/
+ 2027 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018
+ 82664/getafe-deportivo
+URL:https://www.espn.com/soccer/match/_/gameId/401882664/getafe-deportivo
+LOCATION:Riazor\, La Coruña\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882651@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270314T180000Z
+DTEND:20270314T200000Z
+SUMMARY:⚽ Getafe - Real Sociedad (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Real Sociedad\nInicio: 
+ 14/03/2027 19:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameI
+ d/401882651/real-sociedad-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882651/real-sociedad-geta
+ fe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882646@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270321T180000Z
+DTEND:20270321T200000Z
+SUMMARY:⚽ Atlético Madrid - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Atlético Madrid\nInicio:
+  21/03/2027 19:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/game
+ Id/401882646/getafe-atletico-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882646/getafe-atletico-ma
+ drid
+LOCATION:Riyadh Air Metropolitano\, Madrid\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882631@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270404T180000Z
+DTEND:20270404T200000Z
+SUMMARY:⚽ Getafe - Espanyol (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Espanyol\nInicio: 04/04
+ /2027 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882631/espanyol-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882631/espanyol-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882618@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270411T180000Z
+DTEND:20270411T200000Z
+SUMMARY:⚽ Valencia - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Valencia\nInicio: 11/04/2
+ 027 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/40188
+ 2618/getafe-valencia
+URL:https://www.espn.com/soccer/match/_/gameId/401882618/getafe-valencia
+LOCATION:Mestalla Stadium\, Manises\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882610@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270418T180000Z
+DTEND:20270418T200000Z
+SUMMARY:⚽ Getafe - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Real Madrid\nInicio: 18
+ /04/2027 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/
+ 401882610/real-madrid-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882610/real-madrid-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882603@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270421T180000Z
+DTEND:20270421T200000Z
+SUMMARY:⚽ Getafe - Real Betis (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Real Betis\nInicio: 21/
+ 04/2027 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4
+ 01882603/real-betis-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882603/real-betis-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882589@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270502T180000Z
+DTEND:20270502T200000Z
+SUMMARY:⚽ Málaga - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Málaga\nInicio: 02/05/20
+ 27 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401882
+ 589/getafe-malaga
+URL:https://www.espn.com/soccer/match/_/gameId/401882589/getafe-malaga
+LOCATION:La Rosaleda\, Malaga\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882583@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270509T180000Z
+DTEND:20270509T200000Z
+SUMMARY:⚽ Getafe - Elche (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Elche\nInicio: 09/05/20
+ 27 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401882
+ 583/elche-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882583/elche-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882572@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270516T180000Z
+DTEND:20270516T200000Z
+SUMMARY:⚽ Levante - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Levante\nInicio: 16/05/20
+ 27 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401882
+ 572/getafe-levante
+URL:https://www.espn.com/soccer/match/_/gameId/401882572/getafe-levante
+LOCATION:Estadi Ciutat de València\, Manises\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882559@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270523T180000Z
+DTEND:20270523T200000Z
+SUMMARY:⚽ Sevilla - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe fuera vs Sevilla\nInicio: 23/05/20
+ 27 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401882
+ 559/getafe-sevilla
+URL:https://www.espn.com/soccer/match/_/gameId/401882559/getafe-sevilla
+LOCATION:Ramón Sánchez Pizjuán Stadium\, Sevilla\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:getafe-2627-e401882552@getafe-calendario
+DTSTAMP:20261107T061443Z
+DTSTART:20270530T180000Z
+DTEND:20270530T200000Z
+SUMMARY:⚽ Getafe - Barcelona (Liga)
+DESCRIPTION:LaLiga 26/27 · Liga\nGetafe en casa vs Barcelona\nInicio: 30/0
+ 5/2027 20:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/40
+ 1882552/barcelona-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882552/barcelona-getafe
+LOCATION:Estadio Coliseum\, Getafe\, Spain
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

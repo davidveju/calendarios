@@ -1,0 +1,10 @@
+{
+  "nombre": "Getafe CF 26/27",
+  "descripcion": "Partidos del Getafe CF en LaLiga 26/27.",
+  "ics": "deportes/futbol/getafe.ics",
+  "generador": "generar.py",
+  "datos": [
+    "partidos.json"
+  ],
+  "zona": "Europe/Madrid"
+}
