@@ -6,7 +6,7 @@ import time
 import urllib.error
 import urllib.request
 
-from calendarios.log import log
+from scripts.comun.log import log
 
 USER_AGENT = "Mozilla/5.0 (calendarios)"
 

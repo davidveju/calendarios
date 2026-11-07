@@ -7,12 +7,8 @@ on:
         description: "ID del calendario, p. ej. deportes/baloncesto"
         required: true
         type: string
-      directorio:
-        description: "Directorio del calendario dentro del repo"
-        required: true
-        type: string
       ics:
-        description: "Nombre del fichero .ics dentro del directorio"
+        description: "Nombre del fichero .ics dentro de <id>/"
         required: true
         type: string
 
@@ -35,56 +31,63 @@ jobs:
         with:
           python-version: "3.12" # misma stdlib/zoneinfo en CI y local
 
-      - name: Tests compartidos
+      - name: Tests del motor y los proveedores
         env:
-          CALENDARIOS_TEST: "1"
-        run: python3 -m unittest discover -s calendarios/tests -t . -v
-
-      - name: Tests del calendario
-        env:
-          DIRECTORIO: ${{ inputs.directorio }}
           CALENDARIOS_TEST: "1"
         run: |
           set -euo pipefail
-          if [ -d "$DIRECTORIO/tests" ]; then
-            python3 -m unittest discover -s "$DIRECTORIO/tests" -t . -v
+          python3 -m unittest discover -s scripts/comun/tests -t . -v
+          for directorio in scripts/proveedores/*/tests; do
+            [ -d "$directorio" ] || continue
+            python3 -m unittest discover -s "$directorio" -t . -v
+          done
+
+      - name: Tests del calendario
+        env:
+          ID: ${{ inputs.id }}
+          CALENDARIOS_TEST: "1"
+        run: |
+          set -euo pipefail
+          # El código vive en scripts/calendarios/<id>/; la salida, en <id>/.
+          directorio="scripts/calendarios/$ID/tests"
+          if [ -d "$directorio" ]; then
+            python3 -m unittest discover -s "$directorio" -t . -v
           fi
 
       - name: Generar calendario
         env:
           ID: ${{ inputs.id }}
-        run: python3 -m calendarios actualizar --solo "$ID"
+        run: python3 -m scripts actualizar --solo "$ID"
 
       - name: Validar ICS y JSON
         env:
-          DIRECTORIO: ${{ inputs.directorio }}
+          ID: ${{ inputs.id }}
           ICS: ${{ inputs.ics }}
         run: |
           set -euo pipefail
-          python3 -m calendarios validar "$DIRECTORIO/$ICS"
-          if [ -d "$DIRECTORIO/datos" ]; then
-            find "$DIRECTORIO/datos" -name '*.json' -print0 \
+          python3 -m scripts validar "$ID/$ICS"
+          if [ -d "$ID/datos" ]; then
+            find "$ID/datos" -name '*.json' -print0 \
               | xargs -0 -r -n1 python3 -m json.tool >/dev/null
           fi
-          git diff --check -- . ":(exclude)$DIRECTORIO/$ICS"
+          git diff --check -- . ":(exclude)$ID/$ICS"
 
       - name: Commit y push si hay cambios reales
         env:
-          DIRECTORIO: ${{ inputs.directorio }}
           ID: ${{ inputs.id }}
         run: |
           set -euo pipefail
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add -- "$DIRECTORIO"
+          git add -- "$ID"
 
-          if git diff --cached --quiet -- "$DIRECTORIO"; then
+          if git diff --cached --quiet -- "$ID"; then
             echo "Sin cambios."
             exit 0
           fi
 
           # DTSTAMP cambia en cada ejecución: si es lo único que cambia, no se publica.
-          if ! git diff --cached -U0 -- "$DIRECTORIO" \
+          if ! git diff --cached -U0 -- "$ID" \
               | grep -E '^[+-][^-+]' \
               | grep -v '^[+-]DTSTAMP:' \
               | grep -q .; then

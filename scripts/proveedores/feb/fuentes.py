@@ -12,32 +12,25 @@ Fuentes:
       sale del desplegable de grupos ("Play-offs 1/8 Final"). "Por determinar"
       en fecha => pendiente con fecha provisional de la jornada.
 
-Este módulo no escribe ficheros: solo devuelve partidos normalizados. La
-orquestación y la generación del ICS viven en ``generar.py``.
+El parser es genérico para cualquier equipo de la FEB: recibe una
+:class:`ConfigFEB` con el id del equipo, sus URLs y el prefijo de UIDs. No
+escribe ficheros; la orquestación vive en el generador de cada calendario.
 """
 
 from __future__ import annotations
 
 import html as _html
 import re
-from collections import Counter
-from http.client import HTTPException
-from urllib.error import URLError
 
-from calendarios.http import fetch
-from calendarios.log import log, warn
+from scripts.comun.http import fetch
+from scripts.comun.log import log, warn
+from scripts.proveedores.feb.config import ConfigFEB
 
-LIGA_URL = "https://competiciones.feb.es/estadisticas/Calendario.aspx"
-COPA_URL = "https://www.feb.es/competiciones/resultados/copaespaa/73/2026"
 PARTIDO_URL = "https://baloncestoenvivo.feb.es/Partido.aspx?p={pid}"
-
-ESTU_ID = "1010493"
-LIGA_NOMBRE = "Primera FEB 26/27"
-COPA_NOMBRE = "Copa España 26/27"
+ACTA_LIGA_URL = "https://baloncestoenvivo.feb.es/Partido.aspx?p={pid}"
+ACTA_COPA_URL = "https://www.feb.es/competiciones/Partido.aspx?p={pid}"
 RONDAS_COPA = {1: "1/16", 2: "1/8", 3: "1/4", 4: "Semifinal", 5: "Final"}
 RONDA_A_JNUM = {v: k for k, v in RONDAS_COPA.items()}
-CASA_PABELLON = "Movistar Arena, Madrid"
-ESTU_RE = re.compile(r"[?&]i=" + re.escape(ESTU_ID) + r"\b", re.I)
 
 # Resultados que significan "pendiente" aunque no haya marcador (FEB varía el texto).
 PENDIENTE_TXT = {
@@ -168,7 +161,13 @@ def _dedup_uid(partidos: list[dict], ambito: str) -> dict[str, dict]:
     return por_uid
 
 
-def parse_liga(html: str) -> list[dict]:
+def _equipo_re(equipo_id: str) -> re.Pattern[str]:
+    """Regex para localizar el id del equipo propio en los enlaces de la FEB."""
+    return re.compile(r"[?&]i=" + re.escape(equipo_id) + r"\b", re.I)
+
+
+def parse_liga(html: str, config: ConfigFEB) -> list[dict]:
+    equipo_re = _equipo_re(config.equipo_id)
     h2 = _html.unescape(html).replace("\xa0", " ")
     blocks = re.findall(
         r"Jornada\s+(\d+)\s+(\d{1,2}[/-]\d{1,2}[/-]\d{4})(.*?)"
@@ -182,7 +181,7 @@ def parse_liga(html: str) -> list[dict]:
     for jnum, jdate_raw, body in blocks:
         jdate = re.sub(r"-", "/", jdate_raw)
         for r in re.findall(r"<tr[^>]*>(.*?)</tr\s*>", body, re.S | re.I):
-            if not ESTU_RE.search(r):
+            if not equipo_re.search(r):
                 continue
             snippet = re.sub(r"\s+", " ", r)[:2000]
             m_pid = re.search(r"Partido\.aspx\?p=(\d+)\b", r, re.I)
@@ -195,11 +194,12 @@ def parse_liga(html: str) -> list[dict]:
             if len(equipos) < 2:
                 raise ValueError(f"liga: sin 2 equipos J{jnum} pid={pid}: {snippet[:500]}")
             ids = [e[0] for e in equipos]
-            if ESTU_ID not in ids:
+            if config.equipo_id not in ids:
                 raise ValueError(
-                    f"liga: Estu no está entre los ids J{jnum} pid={pid}: {ids}"
+                    f"liga: el equipo {config.equipo_id} no está entre los ids "
+                    f"J{jnum} pid={pid}: {ids}"
                 )
-            casa = ids[0] == ESTU_ID
+            casa = ids[0] == config.equipo_id
             rival_raw = equipos[1][1] if casa else equipos[0][1]
             m = re.search(
                 r'<td[^>]*\bclass\s*=\s*["\']?[^"\'<>]*\b(resultado|fecha)\b[^"\'<>]*'
@@ -218,20 +218,20 @@ def parse_liga(html: str) -> list[dict]:
             p = {
                 "jornada": int(jnum),
                 "fecha_jornada": jdate,
-                "uid": f"estu-2627-j{int(jnum):02d}@estudiantes-calendario",
+                "uid": f"{config.uid_prefix}-j{int(jnum):02d}@{config.uid_dominio}",
                 "competicion": "liga",
-                "competicion_nombre": LIGA_NOMBRE,
+                "competicion_nombre": config.liga_nombre,
                 "casa": casa,
                 "rival": title_case(_limpia(rival_raw)),
                 "feb_partido_id": pid,
-                "acta": f"https://baloncestoenvivo.feb.es/Partido.aspx?p={pid}",
+                "acta": ACTA_LIGA_URL.format(pid=pid),
                 "estado": "jugado" if score else "pendiente",
             }
             if score:
                 gl, gv = score
                 p["resultado_local"], p["resultado_visitante"] = gl, gv
                 pe, pr = (gl, gv) if casa else (gv, gl)
-                p["resultado_estu"], p["resultado_rival"] = pe, pr
+                p["resultado_equipo"], p["resultado_rival"] = pe, pr
                 p["victoria"] = pe > pr
                 # La FEB borra la hora al publicar el resultado: sin hora conocida,
                 # el evento va a las 12:00 y se marca provisional (TENTATIVE).
@@ -358,13 +358,15 @@ def _celdas(r: str) -> list[str]:
     return [_limpia(c) for c in re.findall(r"<td[^>]*>(.*?)</td\s*>", r, re.S | re.I)]
 
 
-def parse_copa(html: str) -> list[dict]:
+def parse_copa(html: str, config: ConfigFEB) -> list[dict]:
     """Copa España: eliminatorias a partido único; fecha+hora en columnas propias.
 
     Acepta 'Por determinar' en fecha/hora: deja el partido pendiente con fecha
     provisional de la jornada (dropdown) para no tumbar toda la ejecución.
-    Si el Estu no está en la fase actual (eliminado o aún no publicada), devuelve [].
+    Si el equipo no está en la fase actual (eliminado o aún no publicada),
+    devuelve [].
     """
+    equipo_re = _equipo_re(config.equipo_id)
     grupo_txt = _grupo_copa(html)
     j_jornada, fecha_dropdown = _jornada_copa_seleccionada(html)
     ronda, jnum = _ronda_copa(grupo_txt, j_jornada)
@@ -378,7 +380,7 @@ def parse_copa(html: str) -> list[dict]:
     if not filas:
         raise ValueError("copa: sin filas <tr> (cambió la página FEB)")
     for r in filas:
-        if not ESTU_RE.search(r) or "equipo.aspx" not in r.lower():
+        if not equipo_re.search(r) or "equipo.aspx" not in r.lower():
             continue
         snippet = re.sub(r"\s+", " ", r)[:2000]
         eq = re.search(
@@ -390,7 +392,7 @@ def parse_copa(html: str) -> list[dict]:
         rs = re.search(r"Partido\.aspx\?p=(\d+)\b[^>]*>(.*?)</a>", r, re.S | re.I)
         if not (eq and rs):
             raise ValueError(
-                f"copa: fila del Estu no parseable (eq={bool(eq)} rs={bool(rs)}): "
+                f"copa: fila del equipo no parseable (eq={bool(eq)} rs={bool(rs)}): "
                 f"{snippet[:1000]}"
             )
         id_loc, nom_loc, id_vis, nom_vis = eq.groups()
@@ -413,7 +415,7 @@ def parse_copa(html: str) -> list[dict]:
         hora_raw = hora_m.group(1) if hora_m else ""
         if not fecha_raw:
             raise ValueError(f"copa: sin fecha en la fila pid={pid}: {snippet[:1000]}")
-        casa = id_loc == ESTU_ID
+        casa = id_loc == config.equipo_id
         score = _score(res_txt)
         if not (score or _es_pendiente(res_txt)):
             warn(
@@ -429,13 +431,13 @@ def parse_copa(html: str) -> list[dict]:
             "jornada": jnum,
             "ronda": ronda,
             "fecha_jornada": fecha_jornada if fecha_jornada else fecha_raw,
-            "uid": f"estu-2627-copa-j{jnum:02d}@estudiantes-calendario",
+            "uid": f"{config.uid_prefix}-copa-j{jnum:02d}@{config.uid_dominio}",
             "competicion": "copa",
-            "competicion_nombre": COPA_NOMBRE,
+            "competicion_nombre": config.copa_nombre,
             "casa": casa,
             "rival": title_case(_limpia(nom_vis if casa else nom_loc)),
             "feb_partido_id": pid,
-            "acta": f"https://www.feb.es/competiciones/Partido.aspx?p={pid}",
+            "acta": ACTA_COPA_URL.format(pid=pid),
             "estado": "jugado" if score else "pendiente",
         }
         if tbd:
@@ -454,12 +456,12 @@ def parse_copa(html: str) -> list[dict]:
             gl, gv = score
             p["resultado_local"], p["resultado_visitante"] = gl, gv
             pe, pr = (gl, gv) if casa else (gv, gl)
-            p["resultado_estu"], p["resultado_rival"] = pe, pr
+            p["resultado_equipo"], p["resultado_rival"] = pe, pr
             p["victoria"] = pe > pr
         partidos.append(p)
     if not partidos:
         warn(
-            "copa: el Estu no aparece en la fase actual (eliminado o fase nueva sin publicar); "
+            "copa: el equipo no aparece en la fase actual (eliminado o fase nueva sin publicar); "
             "se conserva el histórico"
         )
     por_uid = _dedup_uid(partidos, "copa")

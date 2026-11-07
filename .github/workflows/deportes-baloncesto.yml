@@ -20,5 +20,4 @@ jobs:
     uses: ./.github/workflows/_calendario.yml
     with:
       id: deportes/baloncesto
-      directorio: deportes/baloncesto
       ics: estudiantes.ics

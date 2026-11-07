@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Ejecuta todos los tests del monorepo (paquete común + cada calendario).
+# Ejecuta los tests del motor, los proveedores y todos los calendarios.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 

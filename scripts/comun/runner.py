@@ -15,20 +15,20 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 
-from calendarios.log import error, log, warn
-from calendarios.registro import Calendario
-from calendarios.validacion import validar_ics
+from scripts.comun.contexto import Contexto
+from scripts.comun.log import error, log, warn
+from scripts.comun.validacion import validar_ics
 
 
 @dataclass(frozen=True)
 class Resultado:
-    calendario: Calendario
+    calendario: Contexto
     ok: bool
     duracion: float
     detalle: str = ""
 
 
-def _validar_salidas(calendario: Calendario) -> list[str]:
+def _validar_salidas(calendario: Contexto) -> list[str]:
     errores: list[str] = []
     if not calendario.ruta_ics.exists():
         errores.append(f"no se generó {calendario.ruta_ics}")
@@ -36,7 +36,7 @@ def _validar_salidas(calendario: Calendario) -> list[str]:
         errores.extend(validar_ics(calendario.ruta_ics))
 
     for rel in calendario.datos:
-        ruta = calendario.directorio / rel
+        ruta = calendario.salida / rel
         if ruta.suffix != ".json" or not ruta.exists():
             continue
         try:
@@ -47,7 +47,7 @@ def _validar_salidas(calendario: Calendario) -> list[str]:
 
 
 def ejecutar_calendario(
-    calendario: Calendario,
+    calendario: Contexto,
     raiz: Path,
     *,
     timeout: int = 1800,
@@ -102,7 +102,7 @@ def ejecutar_calendario(
 
 
 def ejecutar_calendarios(
-    calendarios: list[Calendario],
+    calendarios: list[Contexto],
     raiz: Path,
     *,
     timeout: int = 1800,

@@ -5,7 +5,7 @@ from __future__ import annotations
 import unittest
 from datetime import datetime, timezone
 
-from calendarios.ics import Evento, esc, fold_line, generar_ics
+from scripts.comun.ics import Evento, esc, fold_line, generar_ics
 
 
 class TestEscapado(unittest.TestCase):

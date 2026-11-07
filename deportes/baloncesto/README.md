@@ -39,43 +39,59 @@ https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto
 
 ## ⚙️ Cómo funciona
 
-- [`fuentes.py`](fuentes.py) (solo librería estándar) lee la liga y la Copa de la
-  FEB y normaliza los partidos. La Copa conserva las rondas anteriores aunque
-  la FEB ya solo muestre la fase actual.
-- [`generar.py`](generar.py) mantiene el estado, aplica las horas verificadas
-  (`datos/fechas_reales.json`), cachea las sedes (`datos/sedes.json`) y genera
+El código está separado de los datos publicados:
+
+- [`config.py`](../../scripts/calendarios/deportes/baloncesto/config.py) define
+  los parámetros del Estu (id FEB, temporada, URLs y prefijo de UIDs).
+- [`generar.py`](../../scripts/calendarios/deportes/baloncesto/generar.py)
+  mantiene el estado, aplica las horas verificadas, cachea las sedes y genera
   `estudiantes.ics` con UIDs estables por jornada/ronda.
-- [`calendario.json`](calendario.json) declara el nombre, el ICS de salida y los
-  ficheros de estado que el runner debe validar.
+- [`fuentes.py`](../../scripts/proveedores/feb/fuentes.py) es el parser común de
+  la FEB: sirve para cualquier equipo creando otra `ConfigFEB`. La Copa conserva
+  las rondas anteriores aunque la FEB ya solo muestre la fase actual.
+- [`calendario.json`](../../scripts/calendarios/deportes/baloncesto/calendario.json)
+  declara el nombre, el ICS de salida y los ficheros de estado que el runner
+  debe validar.
+- El motor compartido de ICS, HTTP, validación y runner vive en
+  [`scripts/comun/`](../../scripts/comun/).
 - El workflow `.github/workflows/deportes-baloncesto.yml` se ejecuta lunes,
   miércoles y viernes; si no hay cambios reales (ni horarios nuevos ni
   resultados) no se publica nada.
-- Los tests de los parsers y de los eventos se ejecutan en cada actualización
-  (`python3 -m unittest discover -s deportes/baloncesto/tests -t .`), y el ICS
-  se valida a nivel de bytes (CRLF, plegado RFC 5545 y UIDs únicos) antes de
-  publicarlo.
 
-## 🗃️ Estado
+## 🗃️ Datos y estado
+
+Este directorio solo contiene datos y el fichero publicado:
 
 ```text
 deportes/baloncesto/
 ├── estudiantes.ics            # el fichero al que te suscribes
-├── calendario.json            # manifiesto para el runner
-├── generar.py                 # orquesta fuentes + estado + ICS
-├── fuentes.py                 # parsers de la FEB
 ├── datos/partidos.json        # horarios, resultados y actas
 ├── datos/sedes.json           # caché de pabellones por partido
 ├── datos/fechas_reales.json   # horas verificadas que mandan sobre la FEB
+└── README.md
+```
+
+El código y los tests están en:
+
+```text
+scripts/calendarios/deportes/baloncesto/
+├── calendario.json            # manifiesto para el runner
+├── config.py                  # configuración de este equipo
+├── generar.py                 # orquesta fuentes + estado + ICS
 └── tests/                     # tests sin red
 ```
+
+Cada calendario tiene su propio `id` (`deportes/baloncesto`), que namespacea su
+código (`scripts/calendarios/<id>/`) y su salida (`<id>/`). Así se pueden añadir
+más equipos sin que compartan caché ni UIDs.
 
 ## 🧪 Uso local
 
 ```bash
 # Desde la raíz del repo
-python3 -m calendarios actualizar --solo deportes/baloncesto
-python3 -m calendarios validar deportes/baloncesto/estudiantes.ics
-python3 -m unittest discover -s deportes/baloncesto/tests -t . -v
+python3 -m scripts actualizar --solo deportes/baloncesto
+python3 -m scripts validar deportes/baloncesto/estudiantes.ics
+python3 -m unittest discover -s scripts/calendarios/deportes/baloncesto/tests -t . -v
 ```
 
 Si una fuente falla, se reutiliza el histórico guardado y se avisa en el log;

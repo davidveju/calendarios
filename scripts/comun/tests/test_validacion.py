@@ -5,8 +5,8 @@ from __future__ import annotations
 import unittest
 from datetime import datetime
 
-from calendarios.ics import Evento, generar_ics
-from calendarios.validacion import validar_bytes
+from scripts.comun.ics import Evento, generar_ics
+from scripts.comun.validacion import validar_bytes
 
 
 class TestValidacion(unittest.TestCase):

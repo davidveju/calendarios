@@ -2,9 +2,13 @@
 
 from __future__ import annotations
 
+import json
+import tempfile
 import unittest
+from pathlib import Path
 
-from deportes.baloncesto import generar
+from scripts.calendarios.deportes.baloncesto import generar
+from scripts.calendarios.deportes.baloncesto.config import CONFIG
 
 
 class TestEventos(unittest.TestCase):
@@ -45,7 +49,7 @@ class TestEventos(unittest.TestCase):
             estado="jugado",
             resultado_local=80,
             resultado_visitante=70,
-            resultado_estu=80,
+            resultado_equipo=80,
             resultado_rival=70,
             victoria=True,
         )
@@ -75,6 +79,32 @@ class TestEventos(unittest.TestCase):
         evento = generar.a_eventos([p])[0]
         self.assertEqual(evento.resumen, "🏆 Rival - Estu (Copa 1/8)")
         self.assertIn("Copa España 26/27 · Copa 1/8", evento.descripcion)
+
+
+class TestCompatibilidad(unittest.TestCase):
+    def test_carga_previo_normaliza_resultado_estu(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "partidos.json"
+            path.write_text(
+                json.dumps([{"uid": "x", "resultado_estu": 80}]),
+                encoding="utf-8",
+            )
+            datos = generar._cargar_previo(path)
+        self.assertEqual(datos[0]["resultado_equipo"], 80)
+        self.assertNotIn("resultado_estu", datos[0])
+
+    def test_carga_previo_ilegible_no_tumba_la_generacion(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "partidos.json"
+            path.write_text("{no es json", encoding="utf-8")
+            self.assertEqual(generar._cargar_previo(path), [])
+
+
+class TestConfig(unittest.TestCase):
+    def test_el_generador_usa_la_configuracion_del_calendario(self):
+        self.assertIs(generar.CONFIG, CONFIG)
+        self.assertEqual(CONFIG.equipo_id, "1010493")
+        self.assertEqual(CONFIG.uid_prefix, "estu-2627")
 
 
 if __name__ == "__main__":

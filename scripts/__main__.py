@@ -1,4 +1,4 @@
-"""CLI del monorepo: ``python3 -m calendarios <comando>``."""
+"""CLI del monorepo: ``python3 -m scripts <comando>``."""
 
 from __future__ import annotations
 
@@ -6,11 +6,15 @@ import argparse
 import sys
 from pathlib import Path
 
-from calendarios import __version__
-from calendarios.log import error, log, warn
-from calendarios.registro import ErrorCalendario, descubrir_calendarios, obtener_calendario
-from calendarios.runner import ejecutar_calendarios
-from calendarios.validacion import validar_ics
+from scripts import __version__
+from scripts.comun.log import error, log, warn
+from scripts.comun.registro import (
+    ErrorCalendario,
+    descubrir_calendarios,
+    obtener_calendario,
+)
+from scripts.comun.runner import ejecutar_calendarios
+from scripts.comun.validacion import validar_ics
 
 RAIZ = Path(__file__).resolve().parent.parent
 
@@ -74,7 +78,7 @@ def _cmd_validar(args: argparse.Namespace) -> int:
 
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="python3 -m calendarios",
+        prog="python3 -m scripts",
         description="Genera y valida los calendarios iCalendar del repositorio.",
     )
     parser.add_argument("--version", action="version", version=__version__)

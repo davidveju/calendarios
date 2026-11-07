@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Movistar Estudiantes (masculino, 26/27) -> partidos.json + estudiantes.ics.
+"""Movistar Estudiantes (masculino, 26/27) -> datos + estudiantes.ics.
 
 Orquesta las fuentes de la FEB, conserva el histórico de Copa, aplica las horas
-verificadas manualmente y genera el ICS con el paquete común ``calendarios``.
+verificadas manualmente y genera el ICS con el motor común ``scripts.comun``.
 
-Solo stdlib. Los UIDs son estables por jornada/ronda para que Google/Apple
-actualicen cada partido en su sitio, sin duplicados.
+Los datos y el ICS se escriben en ``deportes/baloncesto/`` (la ruta pública),
+nunca junto al código. Solo stdlib. Los UIDs son estables por jornada/ronda para
+que Google/Apple actualicen cada partido en su sitio, sin duplicados.
 """
 
 from __future__ import annotations
@@ -16,25 +17,15 @@ import sys
 from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
-# Permite ejecutar tanto `python3 -m deportes.baloncesto.generar` como
-# `python3 deportes/baloncesto/generar.py` desde la raíz del repo.
-BASE_REPO = Path(__file__).resolve().parents[2]
-if str(BASE_REPO) not in sys.path:
-    sys.path.insert(0, str(BASE_REPO))
-
-from calendarios.archivos import escribir_json, escritura_atomica  # noqa: E402
-from calendarios.ics import MADRID, Evento, generar_ics  # noqa: E402
-from calendarios.log import log, warn  # noqa: E402
-from deportes.baloncesto import fuentes  # noqa: E402
-
-DIRECTORIO = Path(__file__).resolve().parent
-JSON_PATH = DIRECTORIO / "datos" / "partidos.json"
-SEDES_PATH = DIRECTORIO / "datos" / "sedes.json"
-FECHAS_PATH = DIRECTORIO / "datos" / "fechas_reales.json"
-ICS_PATH = DIRECTORIO / "estudiantes.ics"
-
-CALENDARIO_NOMBRE = "Movistar Estudiantes 26/27"
+from scripts.calendarios.deportes.baloncesto.config import CONFIG
+from scripts.comun.archivos import escribir_json, escritura_atomica
+from scripts.comun.contexto import contexto_desde_ejecucion
+from scripts.comun.http import fetch
+from scripts.comun.ics import MADRID, Evento, generar_ics
+from scripts.comun.log import log, warn
+from scripts.proveedores.feb import fuentes
 
 
 def etiqueta(p: dict) -> str:
@@ -46,8 +37,8 @@ def etiqueta(p: dict) -> str:
 def resumen(p: dict) -> str:
     emoji = "🏆" if p.get("competicion") == "copa" else "🏀"
     tag = etiqueta(p)
-    local = "Estu" if p.get("casa") else p.get("rival", "Rival")
-    visitante = p.get("rival", "Rival") if p.get("casa") else "Estu"
+    local = CONFIG.equipo_corto if p.get("casa") else p.get("rival", "Rival")
+    visitante = p.get("rival", "Rival") if p.get("casa") else CONFIG.equipo_corto
     if (
         p.get("estado") == "jugado"
         and "resultado_local" in p
@@ -63,16 +54,18 @@ def descripcion(p: dict) -> str:
     ambito = f"{p.get('competicion_nombre', '')} · {etiqueta(p)}"
     lineas = [
         ambito,
-        (("Estu en casa" if p.get("casa") else "Estu fuera")
-         + f" vs {p.get('rival', 'Rival')}"),
+        (
+            (f"{CONFIG.equipo_corto} en casa" if p.get("casa") else f"{CONFIG.equipo_corto} fuera")
+            + f" vs {p.get('rival', 'Rival')}"
+        ),
     ]
     if (
         p.get("estado") == "jugado"
-        and "resultado_estu" in p
+        and "resultado_equipo" in p
         and "resultado_rival" in p
     ):
         lineas.append(
-            f"Resultado: Estu {p['resultado_estu']}-{p['resultado_rival']} "
+            f"Resultado: {CONFIG.equipo_corto} {p['resultado_equipo']}-{p['resultado_rival']} "
             + ("victoria ✅" if p.get("victoria") else "derrota ❌")
         )
     else:
@@ -92,7 +85,9 @@ def descripcion(p: dict) -> str:
         else:
             fj = p.get("fecha_jornada", "")
             if re.match(r"\d{1,2}[/-]\d{1,2}[/-]\d{4}", str(fj or "")):
-                lineas.append(f"Fecha por determinar (semana del {fj}, por confirmar FEB)")
+                lineas.append(
+                    f"Fecha por determinar (semana del {fj}, por confirmar FEB)"
+                )
             else:
                 lineas.append("Fecha por determinar (por confirmar FEB)")
     lineas.append(f"Acta FEB: {p.get('acta', '')}")
@@ -139,7 +134,7 @@ def a_eventos(partidos: list[dict]) -> list[Evento]:
             inicio = _inicio_evento(p)
             if inicio is None:
                 raise ValueError("sin fecha (TBD sin provisional)")
-            lugar = sede_txt(p) or (fuentes.CASA_PABELLON if p.get("casa") else "")
+            lugar = sede_txt(p) or (CONFIG.casa_pabellon if p.get("casa") else "")
             eventos.append(
                 Evento(
                     uid=uid,
@@ -161,19 +156,32 @@ def a_eventos(partidos: list[dict]) -> list[Evento]:
     return eventos
 
 
-def _cargar_previo() -> list[dict]:
-    if not JSON_PATH.exists():
+def _cargar_previo(path: Path) -> list[dict]:
+    if not path.exists():
         return []
     try:
-        data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
-        return data if isinstance(data, list) else []
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(data, list):
+            return []
+        # Compatibilidad con el esquema antiguo: resultado_estu -> resultado_equipo.
+        for p in data:
+            if isinstance(p, dict) and "resultado_estu" in p:
+                p.setdefault("resultado_equipo", p.pop("resultado_estu"))
+        return data
     except Exception as e:  # noqa: BLE001 - se puede regenerar desde cero
-        warn(f"previo {JSON_PATH} ilegible ({e}); se sigue sin histórico")
+        warn(f"previo {path} ilegible ({e}); se sigue sin histórico")
         return []
 
 
 def main() -> None:
-    prev = _cargar_previo()
+    ctx = contexto_desde_ejecucion(__name__, __file__)
+    json_path = ctx.ruta_dato("datos/partidos.json")
+    sedes_path = ctx.ruta_dato("datos/sedes.json")
+    fechas_path = ctx.ruta_dato("datos/fechas_reales.json")
+    ics_path = ctx.ruta_ics
+    zona = ZoneInfo(ctx.zona)
+
+    prev = _cargar_previo(json_path)
     prev_by_uid = {p["uid"]: p for p in prev if isinstance(p, dict) and p.get("uid")}
     prev_liga = [
         p
@@ -188,9 +196,11 @@ def main() -> None:
     feb_fallback = False
 
     try:
-        liga = fuentes.parse_liga(fuentes.fetch(fuentes.LIGA_URL))
-        if len(liga) != 34:
-            raise ValueError(f"liga: esperaba 34 jornadas, hay {len(liga)}")
+        liga = fuentes.parse_liga(fetch(CONFIG.liga_url), CONFIG)
+        if len(liga) != CONFIG.jornadas_liga:
+            raise ValueError(
+                f"liga: esperaba {CONFIG.jornadas_liga} jornadas, hay {len(liga)}"
+            )
     except Exception as e:  # noqa: BLE001 - fallback al histórico
         if prev_liga:
             warn(
@@ -203,7 +213,7 @@ def main() -> None:
             raise
 
     try:
-        copa_nueva = fuentes.parse_copa(fuentes.fetch(fuentes.COPA_URL))
+        copa_nueva = fuentes.parse_copa(fetch(CONFIG.copa_url), CONFIG)
     except Exception as e:  # noqa: BLE001 - fallback al histórico
         if prev_copa:
             warn(
@@ -232,11 +242,16 @@ def main() -> None:
     copa = copa_hist + copa_nueva
 
     partidos = liga + copa
-    hoy = datetime.now(MADRID).date()
+    hoy = datetime.now(zona).date()
     # Conservar inicio_madrid de pendientes que pasan a jugados (fecha real del evento)
     for p in partidos:
         old = prev_by_uid.get(p["uid"])
-        if old and p.get("estado") == "jugado" and old.get("inicio_madrid") and "inicio_madrid" not in p:
+        if (
+            old
+            and p.get("estado") == "jugado"
+            and old.get("inicio_madrid")
+            and "inicio_madrid" not in p
+        ):
             p["inicio_madrid"] = old["inicio_madrid"]
             if old.get("fecha_provisional"):
                 p["fecha_provisional"] = True
@@ -258,11 +273,11 @@ def main() -> None:
                     p.pop("fecha_provisional", None)
 
     # Rescates manuales verificados (partidos jugados antes del primer scrape): mandan sobre todo
-    if FECHAS_PATH.exists():
+    if fechas_path.exists():
         try:
-            seed = json.loads(FECHAS_PATH.read_text(encoding="utf-8"))
+            seed = json.loads(fechas_path.read_text(encoding="utf-8"))
         except Exception as e:  # noqa: BLE001
-            warn(f"seed {FECHAS_PATH} ilegible ({e})")
+            warn(f"seed {fechas_path} ilegible ({e})")
             seed = {}
         if isinstance(seed, dict):
             for k, v in seed.items():
@@ -286,14 +301,14 @@ def main() -> None:
 
     # Sedes: caché por partido (un fallo de sede nunca tumba la ejecución)
     try:
-        sedes = json.loads(SEDES_PATH.read_text(encoding="utf-8")) if SEDES_PATH.exists() else {}
+        sedes = json.loads(sedes_path.read_text(encoding="utf-8")) if sedes_path.exists() else {}
         if not isinstance(sedes, dict):
-            warn(f"sedes {SEDES_PATH} no es un objeto; se empieza vacío")
+            warn(f"sedes {sedes_path} no es un objeto; se empieza vacío")
             sedes = {}
         else:
             sedes = {k: v for k, v in sedes.items() if isinstance(v, dict)}
     except Exception as e:  # noqa: BLE001
-        warn(f"sedes {SEDES_PATH} ilegible ({e}); se empieza vacío")
+        warn(f"sedes {sedes_path} ilegible ({e}); se empieza vacío")
         sedes = {}
     for p in partidos:
         pid = p.get("feb_partido_id")
@@ -314,19 +329,22 @@ def main() -> None:
             p["sede"] = sedes[pid]
 
     eventos = a_eventos(partidos)
-    ics = generar_ics(CALENDARIO_NOMBRE, eventos, zona=MADRID)
+    ics = generar_ics(ctx.nombre, eventos, zona=zona)
 
-    escribir_json(JSON_PATH, partidos)
+    escribir_json(json_path, partidos)
     sedes = {k: v for k, v in sedes.items() if v}
-    escribir_json(SEDES_PATH, sedes)
-    escritura_atomica(ICS_PATH, ics.encode("utf-8"))
+    escribir_json(sedes_path, sedes)
+    escritura_atomica(ics_path, ics.encode("utf-8"))
 
     jug = sum(1 for p in partidos if p.get("estado") == "jugado")
     log(
         f"liga={len(liga)} copa={len(copa)} jugados={jug} "
         f"pendientes={len(partidos) - jug} eventos_ics={len(eventos)}"
     )
-    log(f"json={JSON_PATH.relative_to(BASE_REPO)} ics={ICS_PATH.relative_to(BASE_REPO)}")
+    log(
+        f"json={json_path.relative_to(ctx.raiz)} "
+        f"ics={ics_path.relative_to(ctx.raiz)}"
+    )
     if feb_fallback:
         warn("FEB_FALLBACK=true: una fuente falló y se usó histórico; revisar logs")
 

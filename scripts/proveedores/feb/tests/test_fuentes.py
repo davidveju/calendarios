@@ -3,8 +3,24 @@
 from __future__ import annotations
 
 import unittest
+from dataclasses import replace
 
-from deportes.baloncesto import fuentes
+from scripts.proveedores.feb import fuentes
+from scripts.proveedores.feb.config import ConfigFEB
+
+CONFIG = ConfigFEB(
+    equipo_id="1010493",
+    equipo_corto="Estu",
+    temporada="26/27",
+    uid_prefix="estu-2627",
+    uid_dominio="estudiantes-calendario",
+    liga_url="https://competiciones.feb.es/estadisticas/Calendario.aspx",
+    copa_url="https://www.feb.es/competiciones/resultados/copaespaa/73/2026",
+    liga_nombre="Primera FEB 26/27",
+    copa_nombre="Copa España 26/27",
+    casa_pabellon="Movistar Arena, Madrid",
+    jornadas_liga=34,
+)
 
 
 LIGA_FECHA = """Jornada 1 23/10/2026
@@ -118,7 +134,7 @@ class TestPendiente(unittest.TestCase):
 
 class TestParseLiga(unittest.TestCase):
     def test_fecha_con_nbsp(self):
-        p = fuentes.parse_liga(LIGA_FECHA)[0]
+        p = fuentes.parse_liga(LIGA_FECHA, CONFIG)[0]
         self.assertEqual(p["inicio_madrid"], "2026-10-25T18:00:00")
         self.assertEqual(p["jornada"], 1)
         self.assertTrue(p["casa"])
@@ -127,14 +143,14 @@ class TestParseLiga(unittest.TestCase):
 
     def test_fecha_con_guiones_no_se_lee_como_marcador(self):
         html = LIGA_FECHA.replace("25/10/2026&nbsp;<br/>18:00", "25-10-2026<br/>18:00")
-        p = fuentes.parse_liga(html)[0]
+        p = fuentes.parse_liga(html, CONFIG)[0]
         self.assertEqual(p["inicio_madrid"], "2026-10-25T18:00:00")
         self.assertEqual(p["estado"], "pendiente")
 
     def test_jugado_marca_hora_provisional(self):
-        p = fuentes.parse_liga(LIGA_JUGADO)[0]
+        p = fuentes.parse_liga(LIGA_JUGADO, CONFIG)[0]
         self.assertEqual(p["estado"], "jugado")
-        self.assertEqual((p["resultado_estu"], p["resultado_rival"]), (80, 70))
+        self.assertEqual((p["resultado_equipo"], p["resultado_rival"]), (80, 70))
         self.assertTrue(p["victoria"])
         self.assertTrue(p.get("fecha_provisional"))
 
@@ -148,14 +164,26 @@ class TestParseLiga(unittest.TestCase):
   <td><a href="Partido.aspx?p=123">x</a></td>
 </tr></table>""",
         )
-        p = fuentes.parse_liga(html)[0]
+        p = fuentes.parse_liga(html, CONFIG)[0]
         self.assertEqual(p["estado"], "jugado")
-        self.assertEqual((p["resultado_estu"], p["resultado_rival"]), (80, 70))
+        self.assertEqual((p["resultado_equipo"], p["resultado_rival"]), (80, 70))
+
+    def test_otra_configuracion_no_reutiliza_uids_ni_equipo(self):
+        otro = replace(
+            CONFIG,
+            equipo_id="999",
+            equipo_corto="Otro",
+            uid_prefix="otro-2627",
+            uid_dominio="otro-calendario",
+        )
+        p = fuentes.parse_liga(LIGA_JUGADO.replace("1010493", "999"), otro)[0]
+        self.assertEqual(p["uid"], "otro-2627-j01@otro-calendario")
+        self.assertEqual((p["resultado_equipo"], p["resultado_rival"]), (80, 70))
 
 
 class TestParseCopa(unittest.TestCase):
     def test_tbd_usa_fecha_de_jornada(self):
-        p = fuentes.parse_copa(COPA_TBD)[0]
+        p = fuentes.parse_copa(COPA_TBD, CONFIG)[0]
         self.assertEqual(p["uid"], "estu-2627-copa-j02@estudiantes-calendario")
         self.assertEqual(p["ronda"], "1/8")
         self.assertEqual(p["estado"], "pendiente")
@@ -164,11 +192,11 @@ class TestParseCopa(unittest.TestCase):
         self.assertFalse(p["casa"])
 
     def test_jugado(self):
-        p = fuentes.parse_copa(COPA_JUGADO)[0]
+        p = fuentes.parse_copa(COPA_JUGADO, CONFIG)[0]
         self.assertEqual(p["uid"], "estu-2627-copa-j01@estudiantes-calendario")
         self.assertEqual(p["ronda"], "1/16")
         self.assertEqual(p["estado"], "jugado")
-        self.assertEqual((p["resultado_estu"], p["resultado_rival"]), (86, 76))
+        self.assertEqual((p["resultado_equipo"], p["resultado_rival"]), (86, 76))
         self.assertTrue(p["victoria"])
         self.assertNotIn("fecha_provisional", p)
 
