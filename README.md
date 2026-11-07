@@ -9,11 +9,11 @@ nada.
 
 | Calendario | Fichero | Actualización |
 |---|---|---|
-| 🏀 [Movistar Estudiantes 26/27](deportes/baloncesto/estudiantes.ics) | [estudiantes.ics](deportes/baloncesto/estudiantes.ics) | lunes, miércoles y viernes 12:00 UTC |
-| 🏀 [Real Madrid Baloncesto 26/27](deportes/baloncesto/madrid.ics) | [madrid.ics](deportes/baloncesto/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
-| ⚽ [Getafe CF 26/27](deportes/futbol/getafe.ics) | [getafe.ics](deportes/futbol/getafe.ics) | lunes, miércoles y viernes 12:00 UTC |
-| ⚽ [Real Madrid 26/27](deportes/futbol/madrid.ics) | [madrid.ics](deportes/futbol/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
-| 🎉 [Festivos de Madrid](festivos/madrid.ics) | [madrid.ics](festivos/madrid.ics) | el 1 de cada mes 08:00 UTC |
+| 🏀 Movistar Estudiantes 26/27 | [estudiantes.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/estudiantes.ics) | lunes, miércoles y viernes 12:00 UTC |
+| 🏀 Real Madrid Baloncesto 26/27 | [madrid.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
+| ⚽ Getafe CF 26/27 | [getafe.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/getafe.ics) | lunes, miércoles y viernes 12:00 UTC |
+| ⚽ Real Madrid 26/27 | [madrid.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
+| 🎉 Festivos de Madrid | [madrid.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/festivos/madrid.ics) | el 1 de cada mes 08:00 UTC |
 
 
 ## 📲 Suscribirse
