@@ -396,415 +396,58 @@
     "uid": "madrid-b-2627-20270516-casademont-zaragoza@madridbaloncesto-calendario"
   },
   {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
     "casa": false,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "inicio_madrid": "2026-09-24T18:00",
-    "rival": "Dubai Basketball",
-    "ronda": "G. 1",
-    "uid": "madrid-b-2627-el-g1-dubai-basketball@madridbaloncesto-calendario"
+    "inicio_madrid": "2027-04-15T20:15",
+    "rival": "Panathinaikos AKTOR Athens",
+    "ronda": "Round 38",
+    "sede": {
+      "direccion": "37 Kifisias Avenue, 15123 Marousi",
+      "pabellon": "TELEKOM CENTER ATHENS"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el376@madridbaloncesto-calendario",
+    "uid_evento": "376"
   },
   {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
     "casa": false,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "inicio_madrid": "2026-09-29T19:00",
-    "rival": "Anadolu Efes",
-    "ronda": "G. 2",
-    "uid": "madrid-b-2627-el-g2-anadolu-efes@madridbaloncesto-calendario"
+    "inicio_madrid": "2027-04-08T20:00",
+    "rival": "LDLC ASVEL Villeurbanne",
+    "ronda": "Round 37",
+    "sede": {
+      "direccion": "Avenue Simone Veil 5, 69150 Décines-Charpieu - France",
+      "pabellon": "LDLC ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el362@madridbaloncesto-calendario",
+    "uid_evento": "362"
   },
   {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-10-01T19:00",
-    "rival": "Hapoel Tel Aviv",
-    "ronda": "G. 3",
-    "uid": "madrid-b-2627-el-g3-hapoel-tel-aviv@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
     "casa": true,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "inicio_madrid": "2026-10-08T20:45",
-    "rival": "Partizan Belgrade",
-    "ronda": "G. 4",
-    "uid": "madrid-b-2627-el-g4-partizan-belgrade@madridbaloncesto-calendario"
+    "inicio_madrid": "2027-04-06T20:45",
+    "rival": "Armani Olimpia Milan",
+    "ronda": "Round 36",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el358@madridbaloncesto-calendario",
+    "uid_evento": "358"
   },
   {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-10-13T20:30",
-    "rival": "EA7 Emporio Armani Milan",
-    "ronda": "G. 5",
-    "uid": "madrid-b-2627-el-g5-ea7-emporio-armani-milan@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-10-15T21:00",
-    "rival": "Asvel Villeurbanne",
-    "ronda": "G. 6",
-    "uid": "madrid-b-2627-el-g6-asvel-villeurbanne@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-10-22T19:05",
-    "rival": "Maccabi Tel Aviv",
-    "ronda": "G. 7",
-    "uid": "madrid-b-2627-el-g7-maccabi-tel-aviv@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-10-27T21:00",
-    "rival": "Baskonia",
-    "ronda": "G. 8",
-    "uid": "madrid-b-2627-el-g8-baskonia@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-10-29T20:45",
-    "rival": "Fenerbahce",
-    "ronda": "G. 9",
-    "uid": "madrid-b-2627-el-g9-fenerbahce@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-11-04T20:45",
-    "rival": "Panathinaikos",
-    "ronda": "G. 10",
-    "uid": "madrid-b-2627-el-g10-panathinaikos@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-11-12T21:00",
-    "rival": "Red Star",
-    "ronda": "G. 11",
-    "uid": "madrid-b-2627-el-g11-red-star@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-11-18T18:00",
-    "rival": "Besiktas",
-    "ronda": "G. 12",
-    "uid": "madrid-b-2627-el-g12-besiktas@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-11-20T20:15",
-    "rival": "Olympiacos",
-    "ronda": "G. 13",
-    "uid": "madrid-b-2627-el-g13-olympiacos@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-11-25T20:45",
-    "rival": "Zalgiris Kaunas",
-    "ronda": "G. 14",
-    "uid": "madrid-b-2627-el-g14-zalgiris-kaunas@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-12-03T20:45",
-    "rival": "Barcelona",
-    "ronda": "G. 15",
-    "uid": "madrid-b-2627-el-g15-barcelona@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-12-10T20:45",
-    "rival": "Paris Basketball",
-    "ronda": "G. 16",
-    "uid": "madrid-b-2627-el-g16-paris-basketball@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-12-15T20:45",
-    "rival": "Bayern Munich",
-    "ronda": "G. 17",
-    "uid": "madrid-b-2627-el-g17-bayern-munich@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-12-17T20:45",
-    "rival": "Valencia Basket",
-    "ronda": "G. 18",
-    "uid": "madrid-b-2627-el-g18-valencia-basket@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-12-22T20:30",
-    "rival": "Virtus Bologna",
-    "ronda": "G. 19",
-    "uid": "madrid-b-2627-el-g19-virtus-bologna@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2026-12-29T21:00",
-    "rival": "Dubai Basketball",
-    "ronda": "G. 20",
-    "uid": "madrid-b-2627-el-g20-dubai-basketball@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-01-08T20:45",
-    "rival": "Olympiacos",
-    "ronda": "G. 21",
-    "uid": "madrid-b-2627-el-g21-olympiacos@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-01-12T20:00",
-    "rival": "Red Star",
-    "ronda": "G. 22",
-    "uid": "madrid-b-2627-el-g22-red-star@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-01-14T20:45",
-    "rival": "Anadolu Efes",
-    "ronda": "G. 23",
-    "uid": "madrid-b-2627-el-g23-anadolu-efes@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-01-21T20:45",
-    "rival": "Maccabi Tel Aviv",
-    "ronda": "G. 24",
-    "uid": "madrid-b-2627-el-g24-maccabi-tel-aviv@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-01-29T18:45",
-    "rival": "Fenerbahce",
-    "ronda": "G. 25",
-    "uid": "madrid-b-2627-el-g25-fenerbahce@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-02-02T20:45",
-    "rival": "Partizan Belgrade",
-    "ronda": "G. 26",
-    "uid": "madrid-b-2627-el-g26-partizan-belgrade@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-02-04T20:45",
-    "rival": "Paris Basketball",
-    "ronda": "G. 27",
-    "uid": "madrid-b-2627-el-g27-paris-basketball@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-02-12T19:00",
-    "rival": "Zalgiris Kaunas",
-    "ronda": "G. 28",
-    "uid": "madrid-b-2627-el-g28-zalgiris-kaunas@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-03-05T20:30",
-    "rival": "Barcelona",
-    "ronda": "G. 29",
-    "uid": "madrid-b-2627-el-g29-barcelona@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-03-09T20:45",
-    "rival": "Hapoel Tel Aviv",
-    "ronda": "G. 30",
-    "uid": "madrid-b-2627-el-g30-hapoel-tel-aviv@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-03-11T20:45",
-    "rival": "Virtus Bologna",
-    "ronda": "G. 31",
-    "uid": "madrid-b-2627-el-g31-virtus-bologna@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-03-18T20:45",
-    "rival": "Baskonia",
-    "ronda": "G. 32",
-    "uid": "madrid-b-2627-el-g32-baskonia@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": false,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-03-24T20:30",
-    "rival": "Bayern Munich",
-    "ronda": "G. 33",
-    "uid": "madrid-b-2627-el-g33-bayern-munich@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-    "casa": true,
-    "competicion": "euroliga",
-    "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": false,
-    "inicio_madrid": "2027-03-26T20:45",
-    "rival": "Besiktas",
-    "ronda": "G. 34",
-    "uid": "madrid-b-2627-el-g34-besiktas@madridbaloncesto-calendario"
-  },
-  {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
     "casa": false,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
@@ -812,31 +455,640 @@
     "fecha_provisional": false,
     "inicio_madrid": "2027-04-01T20:30",
     "rival": "Valencia Basket",
-    "ronda": "G. 35",
-    "uid": "madrid-b-2627-el-g35-valencia-basket@madridbaloncesto-calendario"
+    "ronda": "Round 35",
+    "sede": {
+      "direccion": "C/ del Bomber Ramon Duart, 12, Quatre Carreres, 46013 Valencia ",
+      "pabellon": "ROIG ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el346@madridbaloncesto-calendario",
+    "uid_evento": "346"
   },
   {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-03-26T20:45",
+    "rival": "Besiktas Istanbul",
+    "ronda": "Round 34",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el339@madridbaloncesto-calendario",
+    "uid_evento": "339"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
     "casa": false,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "inicio_madrid": "2027-04-08T20:00",
-    "rival": "Asvel Villeurbanne",
-    "ronda": "G. 37",
-    "uid": "madrid-b-2627-el-g37-asvel-villeurbanne@madridbaloncesto-calendario"
+    "inicio_madrid": "2027-03-24T20:00",
+    "rival": "FC Bayern Munich",
+    "ronda": "Round 33",
+    "sede": {
+      "direccion": "Toni-Merkens-Weg 4, 80809 Munich - Germany",
+      "pabellon": "SAP GARDEN"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el328@madridbaloncesto-calendario",
+    "uid_evento": "328"
   },
   {
-    "acta": "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-03-18T20:45",
+    "rival": "Kosner Baskonia Vitoria-Gasteiz",
+    "ronda": "Round 32",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el314@madridbaloncesto-calendario",
+    "uid_evento": "314"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-03-11T20:45",
+    "rival": "Virtus Bologna",
+    "ronda": "Round 31",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el305@madridbaloncesto-calendario",
+    "uid_evento": "305"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-03-09T20:45",
+    "rival": "Hapoel IBI Tel Aviv",
+    "ronda": "Round 30",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el298@madridbaloncesto-calendario",
+    "uid_evento": "298"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
     "casa": false,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "inicio_madrid": "2027-04-15T20:15",
-    "rival": "Panathinaikos",
-    "ronda": "G. 38",
-    "uid": "madrid-b-2627-el-g38-panathinaikos@madridbaloncesto-calendario"
+    "inicio_madrid": "2027-03-05T20:30",
+    "rival": "FC Barcelona",
+    "ronda": "Round 29",
+    "sede": {
+      "direccion": "Aristides Maillol Av S/N, 08028 Barcelona",
+      "pabellon": "PALAU BLAUGRANA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el289@madridbaloncesto-calendario",
+    "uid_evento": "289"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-02-12T19:00",
+    "rival": "Zalgiris Kaunas",
+    "ronda": "Round 28",
+    "sede": {
+      "direccion": "Karaliaus Mindaugo Av. 50, 44287 Kaunas",
+      "pabellon": "ZALGIRIO ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el278@madridbaloncesto-calendario",
+    "uid_evento": "278"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-02-04T20:45",
+    "rival": "Paris Basketball",
+    "ronda": "Round 27",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el264@madridbaloncesto-calendario",
+    "uid_evento": "264"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-02-02T20:45",
+    "rival": "Partizan Mozzart Bet Belgrade",
+    "ronda": "Round 26",
+    "sede": {
+      "direccion": "Bulevar Arsenija Carnojevica 58, 11070 Belgrade - Serbia",
+      "pabellon": "BELGRADE ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el255@madridbaloncesto-calendario",
+    "uid_evento": "255"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-01-29T18:45",
+    "rival": "Fenerbahce Tarfin Istanbul",
+    "ronda": "Round 25",
+    "sede": {
+      "direccion": "Barbaros Mah. Ihlamur Sok. Batı Ataşehir, 34764 Istanbul, Turkiye ",
+      "pabellon": "ULKER SPORTS AND EVENT HALL"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el249@madridbaloncesto-calendario",
+    "uid_evento": "249"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-01-21T20:45",
+    "rival": "Maccabi Rapyd Tel Aviv",
+    "ronda": "Round 24",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el236@madridbaloncesto-calendario",
+    "uid_evento": "236"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-01-14T20:45",
+    "rival": "Anadolu Efes Istanbul",
+    "ronda": "Round 23",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el224@madridbaloncesto-calendario",
+    "uid_evento": "224"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-01-12T20:00",
+    "rival": "Crvena Zvezda Meridianbet Belgrade",
+    "ronda": "Round 22",
+    "sede": {
+      "direccion": "Bulevar Arsenija Carnojevica 58, 11070 Belgrade - Serbia",
+      "pabellon": "BELGRADE ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el211@madridbaloncesto-calendario",
+    "uid_evento": "211"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2027-01-07T20:45",
+    "rival": "Olympiacos Piraeus",
+    "ronda": "Round 21",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el210@madridbaloncesto-calendario",
+    "uid_evento": "210"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-29T21:00",
+    "rival": "Dubai Basketball",
+    "ronda": "Round 20",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el195@madridbaloncesto-calendario",
+    "uid_evento": "195"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-22T20:30",
+    "rival": "Virtus Bologna",
+    "ronda": "Round 19",
+    "sede": {
+      "direccion": "Viale della Fiera, 40128, Bologna",
+      "pabellon": "VIRTUS ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el185@madridbaloncesto-calendario",
+    "uid_evento": "185"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-17T20:45",
+    "rival": "Valencia Basket",
+    "ronda": "Round 18",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el174@madridbaloncesto-calendario",
+    "uid_evento": "174"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-15T20:45",
+    "rival": "FC Bayern Munich",
+    "ronda": "Round 17",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el166@madridbaloncesto-calendario",
+    "uid_evento": "166"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-10T20:45",
+    "rival": "Paris Basketball",
+    "ronda": "Round 16",
+    "sede": {
+      "direccion": "56 Boulevard Ney, 75018 Paris, France",
+      "pabellon": "ADIDAS ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el154@madridbaloncesto-calendario",
+    "uid_evento": "154"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-12-03T20:45",
+    "rival": "FC Barcelona",
+    "ronda": "Round 15",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el145@madridbaloncesto-calendario",
+    "uid_evento": "145"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-11-25T20:45",
+    "rival": "Zalgiris Kaunas",
+    "ronda": "Round 14",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el139@madridbaloncesto-calendario",
+    "uid_evento": "139"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-11-20T20:15",
+    "rival": "Olympiacos Piraeus",
+    "ronda": "Round 13",
+    "sede": {
+      "direccion": "Konstantinoupoleos 59, Ano Liosia, 13342 Athens, Greece",
+      "pabellon": "SUNEL ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el130@madridbaloncesto-calendario",
+    "uid_evento": "130"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-11-18T18:00",
+    "rival": "Besiktas Istanbul",
+    "ronda": "Round 12",
+    "sede": {
+      "direccion": "Kazliçesme Mah. 10. Yil Caddesi No: 2/1 Zeytinburnu / Turkiye",
+      "pabellon": "TURKCELL BASKETBALL DEVELOPMENT CENTER"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el120@madridbaloncesto-calendario",
+    "uid_evento": "120"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-11-12T21:00",
+    "rival": "Crvena Zvezda Meridianbet Belgrade",
+    "ronda": "Round 11",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el106@madridbaloncesto-calendario",
+    "uid_evento": "106"
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-11-04T20:45",
+    "resultado_equipo": 112,
+    "resultado_local": 112,
+    "resultado_rival": 115,
+    "resultado_visitante": 115,
+    "rival": "Panathinaikos AKTOR Athens",
+    "ronda": "Round 10",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el91@madridbaloncesto-calendario",
+    "uid_evento": "91",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-29T20:45",
+    "resultado_equipo": 95,
+    "resultado_local": 95,
+    "resultado_rival": 76,
+    "resultado_visitante": 76,
+    "rival": "Fenerbahce Tarfin Istanbul",
+    "ronda": "Round 9",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el83@madridbaloncesto-calendario",
+    "uid_evento": "83",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-27T21:00",
+    "resultado_equipo": 104,
+    "resultado_local": 86,
+    "resultado_rival": 86,
+    "resultado_visitante": 104,
+    "rival": "Kosner Baskonia Vitoria-Gasteiz",
+    "ronda": "Round 8",
+    "sede": {
+      "direccion": "Ctra.  Zurbano s/n, 01013 Vitoria",
+      "pabellon": "BUESA ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el73@madridbaloncesto-calendario",
+    "uid_evento": "73",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-22T20:05",
+    "resultado_equipo": 113,
+    "resultado_local": 99,
+    "resultado_rival": 99,
+    "resultado_visitante": 113,
+    "rival": "Maccabi Rapyd Tel Aviv",
+    "ronda": "Round 7",
+    "sede": {
+      "direccion": "Carlija Caplina 39, Belgrade 11000, Serbia",
+      "pabellon": "ALEKSANDAR NIKOLIC HALL"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el62@madridbaloncesto-calendario",
+    "uid_evento": "62",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-15T21:00",
+    "resultado_equipo": 111,
+    "resultado_local": 111,
+    "resultado_rival": 92,
+    "resultado_visitante": 92,
+    "rival": "LDLC ASVEL Villeurbanne",
+    "ronda": "Round 6",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el53@madridbaloncesto-calendario",
+    "uid_evento": "53",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-13T20:30",
+    "resultado_equipo": 98,
+    "resultado_local": 89,
+    "resultado_rival": 89,
+    "resultado_visitante": 98,
+    "rival": "Armani Olimpia Milan",
+    "ronda": "Round 5",
+    "sede": {
+      "direccion": "Via G. Di Vittorio 6, 20090 Assago",
+      "pabellon": "UNIPOL FORUM"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el43@madridbaloncesto-calendario",
+    "uid_evento": "43",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": true,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-08T20:45",
+    "resultado_equipo": 86,
+    "resultado_local": 86,
+    "resultado_rival": 76,
+    "resultado_visitante": 76,
+    "rival": "Partizan Mozzart Bet Belgrade",
+    "ronda": "Round 4",
+    "sede": {
+      "direccion": "Avenida de Felipe II 1, 28009, Madrid",
+      "pabellon": "MOVISTAR ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el35@madridbaloncesto-calendario",
+    "uid_evento": "35",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-10-01T18:00",
+    "resultado_equipo": 98,
+    "resultado_local": 102,
+    "resultado_rival": 102,
+    "resultado_visitante": 98,
+    "rival": "Hapoel IBI Tel Aviv",
+    "ronda": "Round 3",
+    "sede": {
+      "direccion": "",
+      "pabellon": "ARENA 8888 SOFIA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el22@madridbaloncesto-calendario",
+    "uid_evento": "22",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-09-29T19:00",
+    "resultado_equipo": 84,
+    "resultado_local": 94,
+    "resultado_rival": 94,
+    "resultado_visitante": 84,
+    "rival": "Anadolu Efes Istanbul",
+    "ronda": "Round 2",
+    "sede": {
+      "direccion": "Kazliçesme Mah. 10. Yil Caddesi No: 2/1 Zeytinburnu / Turkiye",
+      "pabellon": "TURKCELL BASKETBALL DEVELOPMENT CENTER"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el11@madridbaloncesto-calendario",
+    "uid_evento": "11",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
+    "casa": false,
+    "competicion": "euroliga",
+    "competicion_nombre": "EuroLeague 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "inicio_madrid": "2026-09-24T18:00",
+    "resultado_equipo": 77,
+    "resultado_local": 78,
+    "resultado_rival": 78,
+    "resultado_visitante": 77,
+    "rival": "Dubai Basketball",
+    "ronda": "Round 1",
+    "sede": {
+      "direccion": "Al Wasl - سٹی واک - Dubai - United Arab Emirates",
+      "pabellon": "COCA-COLA ARENA"
+    },
+    "uid": "madridbaloncesto-calendario-2026-el2@madridbaloncesto-calendario",
+    "uid_evento": "2",
+    "victoria": false
   }
 ]

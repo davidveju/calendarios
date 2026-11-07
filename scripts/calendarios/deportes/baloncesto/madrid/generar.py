@@ -18,18 +18,35 @@ from scripts.comun.log import log, warn
 
 from scripts.calendarios.deportes.baloncesto.madrid.config import CONFIG
 from scripts.proveedores.acb import fuentes
+from scripts.proveedores.euroleague.config import config_actual
+from scripts.proveedores.euroleague import fuentes as el_fuentes
+
+
+CONFIG_EL = config_actual("MAD", "Real Madrid", "madridbaloncesto-calendario", "Movistar Arena, Madrid")
 
 
 def resumen(p: dict) -> str:
     emoji = "🏀"
-    tag = "EuroLeague" if p.get("competicion") == "euroliga" else "Liga Endesa"
+    comp = p.get("competicion")
+    if comp == "euroliga":
+        tag = "EuroLeague"
+    elif comp == "acb":
+        tag = "Liga Endesa"
+    else:
+        tag = "Copa del Rey"
     local = "Real Madrid" if p.get("casa") else p.get("rival", "Rival")
     visitante = p.get("rival", "Rival") if p.get("casa") else "Real Madrid"
     return f"{emoji} {local} - {visitante} ({tag})"
 
 
 def descripcion(p: dict) -> str:
-    nombre_comp = "EuroLeague 26/27" if p.get("competicion") == "euroliga" else "Liga Endesa 26/27"
+    comp = p.get("competicion")
+    if comp == "euroliga":
+        nombre_comp = "EuroLeague 26/27"
+    elif comp == "acb":
+        nombre_comp = "Liga Endesa 26/27"
+    else:
+        nombre_comp = "Copa del Rey"
     lineas = [nombre_comp, f"Real Madrid {'en casa' if p.get('casa') else 'fuera'} vs {p.get('rival', 'Rival')}"]
     acta = p.get("acta", "")
     if acta:
@@ -107,14 +124,9 @@ def main() -> None:
     prev = _cargar_previo(json_path)
     html = fetch(CONFIG.url, timeout=30)
     partidos = fuentes.extraer_partidos(html, CONFIG)
-    # Euroliga oficial desde el anuncio del calendario del Real Madrid.
+    # EuroLeague oficial (api pública, sin claves) con resultados.
     try:
-        html_el = fetch(
-            "https://www.realmadrid.com/en-US/news/basket/first-team/latest-news/"
-            "el-calendario-del-real-madrid-para-la-euroliga-2026-27-29-07-2026",
-            timeout=30,
-        )
-        euro = fuentes.extraer_euroliga(html_el, CONFIG)
+        euro = el_fuentes.fetch_partidos(CONFIG_EL)
         if euro:
             partidos.extend(euro)
     except Exception as e:  # noqa: BLE001
