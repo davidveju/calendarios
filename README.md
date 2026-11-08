@@ -57,10 +57,9 @@ calendarios/
 │   │   ├── runner.py               # ejecuta calendarios aislados entre sí
 │   │   └── tests/                  # tests del motor
 │   ├── proveedores/                # lógica compartida de fuentes externas
-│   │   └── feb/                    # parser configurable de la FEB
-│   │       ├── config.py           # ConfigFEB (equipo, URLs, UIDs…)
-│   │       ├── fuentes.py          # parsers de liga y Copa
-│   │       └── tests/
+│   │   ├── feb/ acb/ euroleague/   # baloncesto
+│   │   ├── transfermarkt/ uefa/ fifa/  # fútbol (oficiales + respaldo)
+│   │   └── openholidays/           # festivos
 │   ├── calendarios/                # código y configuración de cada calendario
 │   │   └── deportes/
 │   │       └── baloncesto/

@@ -8,7 +8,7 @@ las carpetas públicas (`deportes/...`) solo se publican los `.ics`.
 | Carpeta | Responsabilidad | Puede importar de |
 |---|---|---|
 | `scripts/comun/` | Motor genérico: ICS, HTTP, validación, escritura atómica, contexto, registro y runner. | Nada del repo salvo `scripts.comun`. |
-| `scripts/proveedores/<fuente>/` | Parser y configuración de una fuente externa (por ahora la FEB). No conoce calendarios concretos. | `scripts.comun`. |
+| `scripts/proveedores/<fuente>/` | Parser y configuración de una fuente externa (FEB, ACB, EuroLeague, UEFA, FIFA, Transfermarkt, OpenHolidays...). No conoce calendarios concretos. | `scripts.comun`. |
 | `scripts/calendarios/<id>/` | Configuración, orquestación y tests de un calendario concreto. | `scripts.comun` y `scripts.proveedores`. |
 
 Regla práctica: si una pieza sirve para dos equipos de la misma competición,
@@ -102,6 +102,9 @@ python3 -m unittest discover -s scripts/comun/tests -t . -v
 python3 -m unittest discover -s scripts/proveedores/feb/tests -t . -v
 python3 -m unittest discover -s scripts/calendarios/deportes/baloncesto/estudiantes/tests -t . -v
 ```
+
+`./scripts/test.sh` descubre automáticamente los tests de `scripts/comun/`,
+cada proveedor con `tests/` y todos los calendarios.
 
 Los tests no usan red: los parsers reciben HTML de ejemplo y los generadores se
 prueban con partidos normalizados.

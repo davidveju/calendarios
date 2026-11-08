@@ -1,0 +1,68 @@
+[
+  {
+    "id": "2047742",
+    "status": "FINISHED",
+    "kickOffTime": {"dateTime": "2026-09-08T19:00:00Z"},
+    "homeTeam": {
+      "id": "50051",
+      "internationalName": "Real Madrid",
+      "translations": {"displayName": {"ES": "Real Madrid"}}
+    },
+    "awayTeam": {
+      "id": "50138",
+      "internationalName": "Inter",
+      "translations": {"displayName": {"ES": "Inter"}}
+    },
+    "score": {"total": {"home": 2, "away": 1}},
+    "round": {
+      "metaData": {"name": "League Phase"},
+      "translations": {"name": {"ES": "Fase liga"}}
+    },
+    "group": {"translations": {"name": {"ES": "League"}}},
+    "matchday": {"sequenceNumber": "1"}
+  },
+  {
+    "id": "2047743",
+    "status": "UPCOMING",
+    "kickOffTime": {"dateTime": "2026-10-14T19:00:00Z"},
+    "homeTeam": {
+      "id": "50137",
+      "internationalName": "Roma",
+      "translations": {"displayName": {"ES": "Roma"}}
+    },
+    "awayTeam": {
+      "id": "50051",
+      "internationalName": "Real Madrid",
+      "translations": {"displayName": {"ES": "Real Madrid"}}
+    },
+    "score": null,
+    "round": {
+      "metaData": {"name": "League Phase"},
+      "translations": {"name": {"ES": "Fase liga"}}
+    },
+    "group": {"translations": {"name": {"ES": "League"}}},
+    "matchday": {"sequenceNumber": "2"}
+  },
+  {
+    "id": "2047744",
+    "status": "CANCELED",
+    "kickOffTime": {"dateTime": "2026-11-04T20:00:00Z"},
+    "homeTeam": {
+      "id": "50051",
+      "internationalName": "Real Madrid",
+      "translations": {"displayName": {"ES": "Real Madrid"}}
+    },
+    "awayTeam": {
+      "id": "50080",
+      "internationalName": "Barcelona",
+      "translations": {"displayName": {"ES": "Barcelona"}}
+    },
+    "score": null,
+    "round": {
+      "metaData": {"name": "League Phase"},
+      "translations": {"name": {"ES": "Fase liga"}}
+    },
+    "group": {"translations": {"name": {"ES": "League"}}},
+    "matchday": {"sequenceNumber": "3"}
+  }
+]

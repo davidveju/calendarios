@@ -275,6 +275,7 @@ def parse_partido(row_html: str, config, competicion_override: str | None = None
         "inicio_madrid": kickoff,
         "fecha_provisional": provisional,
         "uid_evento": uid_code,
+        "fuente": "transfermarkt",
         "acta": enlace,
         "ronda": etapa_txt,
     }

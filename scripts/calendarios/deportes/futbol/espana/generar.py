@@ -17,12 +17,19 @@ from zoneinfo import ZoneInfo
 
 from scripts.comun.archivos import escribir_json, escritura_atomica
 from scripts.comun.contexto import contexto_desde_ejecucion
+from scripts.comun.fusion import fusionar, recolectar
 from scripts.comun.http import fetch
 from scripts.comun.ics import MADRID, Evento, generar_ics
 from scripts.comun.log import log, warn
 
-from scripts.calendarios.deportes.futbol.espana.config import CONFIG
+from scripts.calendarios.deportes.futbol.espana.config import (
+    CONFIG,
+    CONFIG_FIFA,
+    CONFIG_UEFA,
+)
+from scripts.proveedores.fifa import fuentes as fifa
 from scripts.proveedores.transfermarkt import fuentes
+from scripts.proveedores.uefa import fuentes as uefa
 
 
 BASE_URL = (
@@ -248,6 +255,28 @@ def _fetch_partidos() -> list[dict]:
     return partidos
 
 
+def _fuentes_oficiales():
+    """FIFA para amistosos y Mundial; UEFA para Nations y Finalissima."""
+    oficiales = []
+    for comp in CONFIG_FIFA.competiciones:
+        oficiales.append(
+            (
+                f"FIFA {comp.nombre.format(temporada=CONFIG_FIFA.temporada)}",
+                {comp.codigo},
+                lambda comp=comp: fifa.fetch_competicion(CONFIG_FIFA, comp),
+            )
+        )
+    for comp in CONFIG_UEFA.competiciones:
+        oficiales.append(
+            (
+                f"UEFA {comp.nombre.format(temporada=CONFIG_UEFA.temporada)}",
+                {comp.codigo},
+                lambda comp=comp: uefa.fetch_competicion(CONFIG_UEFA, comp),
+            )
+        )
+    return oficiales
+
+
 def main() -> None:
     ctx = contexto_desde_ejecucion(__name__, __file__)
     json_path = ctx.ruta_estado("partidos.json")
@@ -258,13 +287,18 @@ def main() -> None:
     prev_by_uid = {p["uid"]: p for p in prev if isinstance(p, dict) and p.get("uid")}
 
     try:
-        partidos = _fetch_partidos()
+        tm_partidos = _fetch_partidos()
     except Exception as e:  # noqa: BLE001
-        if prev:
-            warn(f"transfermarkt: fallo ({e}); se reutilizan {len(prev)} partidos previos")
-            partidos = prev
-        else:
+        warn(f"transfermarkt: fallo ({e}); se usan solo las fuentes oficiales")
+        tm_partidos = None
+
+    try:
+        partidos = fusionar(prev, recolectar(tm_partidos, _fuentes_oficiales()))
+    except Exception as e:  # noqa: BLE001
+        if not prev:
             raise
+        warn(f"fuentes: fallo ({e}); se reutilizan {len(prev)} partidos previos")
+        partidos = []
 
     # Acumulación: los partidos de temporadas anteriores se conservan.
     claves_actuales = {p["uid"] for p in partidos}

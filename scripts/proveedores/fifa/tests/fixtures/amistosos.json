@@ -1,0 +1,46 @@
+{
+  "Results": [
+    {
+      "IdMatch": "400021001",
+      "IdCompetition": "cesdwwnxbc5fmajgroc0hqzy2",
+      "IdSeason": "dezv8l0fzgcxtejl0dwmy1gyc",
+      "IdStage": "stage1",
+      "Date": "2026-06-04T19:00:00Z",
+      "TimeDefined": true,
+      "MatchStatus": 1,
+      "Home": {
+        "IdTeam": "43969",
+        "TeamName": [{"Locale": "es-es", "Description": "España"}],
+        "Score": null
+      },
+      "Away": {
+        "IdTeam": "43818",
+        "TeamName": [{"Locale": "es-es", "Description": "Irak"}],
+        "Score": null
+      },
+      "StageName": [{"Locale": "es-es", "Description": "Amistosos 1"}],
+      "GroupName": []
+    },
+    {
+      "IdMatch": "400021002",
+      "IdCompetition": "cesdwwnxbc5fmajgroc0hqzy2",
+      "IdSeason": "dezv8l0fzgcxtejl0dwmy1gyc",
+      "IdStage": "stage1",
+      "Date": "2026-03-27T20:00:00Z",
+      "TimeDefined": true,
+      "MatchStatus": 0,
+      "Home": {
+        "IdTeam": "43969",
+        "TeamName": [{"Locale": "es-es", "Description": "España"}],
+        "Score": 2
+      },
+      "Away": {
+        "IdTeam": "43965",
+        "TeamName": [{"Locale": "es-es", "Description": "Serbia"}],
+        "Score": 0
+      },
+      "StageName": [{"Locale": "es-es", "Description": "Amistosos 1"}],
+      "GroupName": []
+    }
+  ]
+}
