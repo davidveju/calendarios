@@ -22,6 +22,55 @@ def _normalizar(texto: str) -> str:
     return texto.encode("latin-1", "backslashreplace").decode("unicode_escape") if False else texto
 
 
+def parse_arena(html: str) -> dict:
+    """Extrae el pabellón de una ficha de equipo de acb.com (JSON-LD).
+
+    Devuelve ``{"pabellon": ..., "direccion": ...}`` con las claves
+    disponibles, o ``{}`` si no se puede determinar.
+    """
+    import json as _json
+
+    for m in re.finditer(
+        r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+        html,
+        re.S | re.I,
+    ):
+        try:
+            data = _json.loads(m.group(1))
+        except Exception:  # noqa: BLE001 - JSON-LD ajeno
+            continue
+        items = data if isinstance(data, list) else [data]
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            loc = item.get("location")
+            if not isinstance(loc, dict):
+                continue
+            nombre = str(loc.get("name") or "").strip()
+            if not nombre:
+                continue
+            arena: dict = {"pabellon": _html.unescape(nombre)}
+            addr = loc.get("address")
+            if isinstance(addr, dict):
+                calle = str(addr.get("streetAddress") or "").strip()
+                if calle:
+                    arena["direccion"] = _html.unescape(calle)
+            return arena
+    return {}
+
+
+def fetch_arena(club_id: int, *, retries: int = 2, timeout: int = 20) -> dict:
+    """Descarga la ficha de equipo de acb.com y devuelve su pabellón."""
+    from scripts.comun.http import fetch
+
+    url = f"https://www.acb.com/es/liga/equipos/{club_id}"
+    ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+    try:
+        return parse_arena(fetch(url, user_agent=ua, retries=retries, timeout=timeout))
+    except Exception as e:  # noqa: BLE001 - la sede es opcional
+        raise ValueError(f"arena acb club {club_id} falló ({e})") from e
+
+
 def extraer_partidos(html: str, config) -> list[dict]:
     texto = _limpia(html)
     # Entradas: **FECHA**. EQUIPO - EQUIPO, (con posibles comas dentro)
@@ -252,6 +301,7 @@ def fetch_partidos(config) -> list[dict]:
 
         estado = "jugado" if played else "pendiente"
         uid = f"{config.uid_prefix}-acb{match_id}@{config.uid_dominio}"
+        sede_club_id = home.get("clubId")
         partido = {
             "uid": uid,
             "competicion": "acb",
@@ -264,6 +314,8 @@ def fetch_partidos(config) -> list[dict]:
             "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
             "ronda": f"J{m.get('roundNumber', '?')}",
         }
+        if sede_club_id is not None:
+            partido["sede_club_id"] = sede_club_id
         if played and (home_score is not None or away_score is not None):
             hs = 0 if home_score is None else int(home_score)
             as_ = 0 if away_score is None else int(away_score)

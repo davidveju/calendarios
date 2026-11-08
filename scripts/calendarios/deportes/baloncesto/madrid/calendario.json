@@ -4,7 +4,8 @@
   "ics": "deportes/baloncesto/madrid.ics",
   "generador": "generar.py",
   "datos": [
-    "partidos.json"
+    "partidos.json",
+    "sedes.json"
   ],
   "zona": "Europe/Madrid"
 }

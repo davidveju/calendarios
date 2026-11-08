@@ -13,6 +13,11 @@
     "resultado_visitante": 87,
     "rival": "Unicaja",
     "ronda": "J1",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105383@madridbaloncesto-calendario",
     "victoria": true
   },
@@ -30,6 +35,11 @@
     "resultado_visitante": 114,
     "rival": "Monbus Obra",
     "ronda": "J2",
+    "sede": {
+      "direccion": "Rua Diego Bernal, s/n",
+      "pabellon": "Multiusos Fontes do Sar"
+    },
+    "sede_club_id": 57,
     "uid": "madrid-b-2627-acb105389@madridbaloncesto-calendario",
     "victoria": true
   },
@@ -47,6 +57,11 @@
     "resultado_visitante": 83,
     "rival": "Kids&Us Manresa",
     "ronda": "J3",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105397@madridbaloncesto-calendario",
     "victoria": true
   },
@@ -64,6 +79,11 @@
     "resultado_visitante": 84,
     "rival": "Surne Bilbao",
     "ronda": "J4",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105407@madridbaloncesto-calendario",
     "victoria": true
   },
@@ -81,6 +101,11 @@
     "resultado_visitante": 122,
     "rival": "iLERNA Lleida",
     "ronda": "J5",
+    "sede": {
+      "direccion": "AV. PRAT DE L A RIBA 113-117",
+      "pabellon": "Espai Fruita Barris Nord"
+    },
+    "sede_club_id": 658,
     "uid": "madrid-b-2627-acb105419@madridbaloncesto-calendario",
     "victoria": true
   },
@@ -98,6 +123,11 @@
     "resultado_visitante": 79,
     "rival": "Recoletas Salud",
     "ronda": "J6",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105425@madridbaloncesto-calendario",
     "victoria": true
   },
@@ -111,6 +141,11 @@
     "inicio_madrid": "2026-11-08T19:00",
     "rival": "UCAM Murcia",
     "ronda": "J7",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105437@madridbaloncesto-calendario"
   },
   {
@@ -123,6 +158,11 @@
     "inicio_madrid": "2026-11-15T19:00",
     "rival": "Kosner Baskonia",
     "ronda": "J8",
+    "sede": {
+      "direccion": "Ctra. Zurbano, s/n  - Torre 12",
+      "pabellon": "Fernando Buesa Arena"
+    },
+    "sede_club_id": 3,
     "uid": "madrid-b-2627-acb105446@madridbaloncesto-calendario"
   },
   {
@@ -135,6 +175,11 @@
     "inicio_madrid": "2026-11-22T19:00",
     "rival": "Asisa Joventut",
     "ronda": "J9",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105455@madridbaloncesto-calendario"
   },
   {
@@ -147,6 +192,11 @@
     "inicio_madrid": "2026-12-06T12:30",
     "rival": "MoraBanc And",
     "ronda": "J10",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105461@madridbaloncesto-calendario"
   },
   {
@@ -159,6 +209,11 @@
     "inicio_madrid": "2026-12-08T17:00",
     "rival": "Leyma Coruña",
     "ronda": "J11",
+    "sede": {
+      "direccion": "C/Francisco Pérez Carballo, 2",
+      "pabellon": "Coliseum"
+    },
+    "sede_club_id": 657,
     "uid": "madrid-b-2627-acb105467@madridbaloncesto-calendario"
   },
   {
@@ -171,6 +226,11 @@
     "inicio_madrid": "2026-12-12T21:00",
     "rival": "Río Breogán",
     "ronda": "J12",
+    "sede": {
+      "direccion": "Avda. Filarmónica Lucense, S/N",
+      "pabellon": "Pazo Provincial dos Deportes de Lugo"
+    },
+    "sede_club_id": 25,
     "uid": "madrid-b-2627-acb105475@madridbaloncesto-calendario"
   },
   {
@@ -183,6 +243,11 @@
     "inicio_madrid": "2026-12-20T19:00",
     "rival": "Casademont Zgz",
     "ronda": "J13",
+    "sede": {
+      "direccion": "Avda. Cesareo Alierta, 120",
+      "pabellon": "Pabellón Príncipe Felipe"
+    },
+    "sede_club_id": 16,
     "uid": "madrid-b-2627-acb105491@madridbaloncesto-calendario"
   },
   {
@@ -195,6 +260,11 @@
     "inicio_madrid": "2026-12-27T21:00",
     "rival": "Barça",
     "ronda": "J14",
+    "sede": {
+      "direccion": "C/ Arístides Maillol, s/n",
+      "pabellon": "Palau Blaugrana"
+    },
+    "sede_club_id": 2,
     "uid": "madrid-b-2627-acb105500@madridbaloncesto-calendario"
   },
   {
@@ -207,6 +277,11 @@
     "inicio_madrid": "2027-01-02T21:00",
     "rival": "La Laguna TFE",
     "ronda": "J16",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105512@madridbaloncesto-calendario"
   },
   {
@@ -219,6 +294,11 @@
     "inicio_madrid": "2027-01-04T20:00",
     "rival": "Valencia Basket",
     "ronda": "J15",
+    "sede": {
+      "direccion": "Ángel Villena, 16 Accesorio, (Roig Arena, Puerta L1)",
+      "pabellon": "Roig Arena"
+    },
+    "sede_club_id": 13,
     "uid": "madrid-b-2627-acb105506@madridbaloncesto-calendario"
   },
   {
@@ -231,6 +311,11 @@
     "inicio_madrid": "2027-01-10T12:00",
     "rival": "FIATC Girona",
     "ronda": "J17",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105520@madridbaloncesto-calendario"
   },
   {
@@ -243,6 +328,11 @@
     "inicio_madrid": "2027-01-16T19:30",
     "rival": "Recoletas Salud",
     "ronda": "J18",
+    "sede": {
+      "direccion": "C/ La Chopera, s/n",
+      "pabellon": "Coliseum Burgos"
+    },
+    "sede_club_id": 549,
     "uid": "madrid-b-2627-acb105529@madridbaloncesto-calendario"
   },
   {
@@ -255,6 +345,11 @@
     "inicio_madrid": "2027-01-24T12:00",
     "rival": "Leyma Coruña",
     "ronda": "J19",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105540@madridbaloncesto-calendario"
   },
   {
@@ -267,6 +362,11 @@
     "inicio_madrid": "2027-01-31T19:00",
     "rival": "UCAM Murcia",
     "ronda": "J20",
+    "sede": {
+      "direccion": "Avda. Del Rocío, 7",
+      "pabellon": "Palacio de Deportes de Murcia"
+    },
+    "sede_club_id": 12,
     "uid": "madrid-b-2627-acb105554@madridbaloncesto-calendario"
   },
   {
@@ -279,6 +379,11 @@
     "inicio_madrid": "2027-02-07T19:00",
     "rival": "Kosner Baskonia",
     "ronda": "J21",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105563@madridbaloncesto-calendario"
   },
   {
@@ -291,6 +396,11 @@
     "inicio_madrid": "2027-02-14T19:00",
     "rival": "Kids&Us Manresa",
     "ronda": "J22",
+    "sede": {
+      "direccion": "Ctra. Sant Joan de Vilatorrada, s/n.",
+      "pabellon": "Pavelló Nou Congost"
+    },
+    "sede_club_id": 10,
     "uid": "madrid-b-2627-acb105572@madridbaloncesto-calendario"
   },
   {
@@ -303,6 +413,11 @@
     "inicio_madrid": "2027-03-07T18:00",
     "rival": "Monbus Obra",
     "ronda": "J23",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105580@madridbaloncesto-calendario"
   },
   {
@@ -315,6 +430,11 @@
     "inicio_madrid": "2027-03-14T19:00",
     "rival": "Valencia Basket",
     "ronda": "J24",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105590@madridbaloncesto-calendario"
   },
   {
@@ -327,6 +447,11 @@
     "inicio_madrid": "2027-03-21T19:00",
     "rival": "FIATC Girona",
     "ronda": "J25",
+    "sede": {
+      "direccion": "Avda. Josep Tarradellas, 22-24",
+      "pabellon": "Palau Girona-Fontajau"
+    },
+    "sede_club_id": 591,
     "uid": "madrid-b-2627-acb105599@madridbaloncesto-calendario"
   },
   {
@@ -339,6 +464,11 @@
     "inicio_madrid": "2027-03-28T19:00",
     "rival": "Barça",
     "ronda": "J26",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105608@madridbaloncesto-calendario"
   },
   {
@@ -351,6 +481,11 @@
     "inicio_madrid": "2027-04-04T17:00",
     "rival": "Asisa Joventut",
     "ronda": "J27",
+    "sede": {
+      "direccion": "C/ Ponent, 143 - 161",
+      "pabellon": "Palau Municipal D´Esports de Badalona"
+    },
+    "sede_club_id": 8,
     "uid": "madrid-b-2627-acb105615@madridbaloncesto-calendario"
   },
   {
@@ -363,6 +498,11 @@
     "inicio_madrid": "2027-04-11T19:00",
     "rival": "La Laguna TFE",
     "ronda": "J28",
+    "sede": {
+      "direccion": "C/ Mercedes, S/N – Los Majuelos",
+      "pabellon": "Pab. Dep. Tenerife Santiago Martín"
+    },
+    "sede_club_id": 28,
     "uid": "madrid-b-2627-acb105626@madridbaloncesto-calendario"
   },
   {
@@ -375,6 +515,11 @@
     "inicio_madrid": "2027-04-18T12:30",
     "rival": "Río Breogán",
     "ronda": "J29",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105632@madridbaloncesto-calendario"
   },
   {
@@ -387,6 +532,11 @@
     "inicio_madrid": "2027-04-25T12:30",
     "rival": "iLERNA Lleida",
     "ronda": "J30",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105641@madridbaloncesto-calendario"
   },
   {
@@ -399,6 +549,11 @@
     "inicio_madrid": "2027-05-02T19:00",
     "rival": "Surne Bilbao",
     "ronda": "J31",
+    "sede": {
+      "direccion": "Avenida Askatasuna, 13",
+      "pabellon": "Bilbao Arena"
+    },
+    "sede_club_id": 4,
     "uid": "madrid-b-2627-acb105653@madridbaloncesto-calendario"
   },
   {
@@ -411,6 +566,11 @@
     "inicio_madrid": "2027-05-09T19:00",
     "rival": "Unicaja",
     "ronda": "J32",
+    "sede": {
+      "direccion": "C/ Miguel Mérida Nicolich, 2",
+      "pabellon": "Palacio de Deportes José María Martín Carpena"
+    },
+    "sede_club_id": 14,
     "uid": "madrid-b-2627-acb105662@madridbaloncesto-calendario"
   },
   {
@@ -423,6 +583,11 @@
     "inicio_madrid": "2027-05-16T12:30",
     "rival": "Casademont Zgz",
     "ronda": "J33",
+    "sede": {
+      "direccion": "Av. Felipe II, S/N",
+      "pabellon": "Movistar Arena"
+    },
+    "sede_club_id": 9,
     "uid": "madrid-b-2627-acb105668@madridbaloncesto-calendario"
   },
   {
@@ -435,6 +600,11 @@
     "inicio_madrid": "2027-05-21T14:00",
     "rival": "MoraBanc And",
     "ronda": "J34",
+    "sede": {
+      "direccion": "c/ Baixada del Molí 31-35",
+      "pabellon": "Pavelló Toni Martí"
+    },
+    "sede_club_id": 22,
     "uid": "madrid-b-2627-acb105672@madridbaloncesto-calendario"
   },
   {

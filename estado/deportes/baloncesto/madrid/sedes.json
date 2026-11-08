@@ -1,0 +1,74 @@
+{
+  "10": {
+    "direccion": "Ctra. Sant Joan de Vilatorrada, s/n.",
+    "pabellon": "Pavelló Nou Congost"
+  },
+  "12": {
+    "direccion": "Avda. Del Rocío, 7",
+    "pabellon": "Palacio de Deportes de Murcia"
+  },
+  "13": {
+    "direccion": "Ángel Villena, 16 Accesorio, (Roig Arena, Puerta L1)",
+    "pabellon": "Roig Arena"
+  },
+  "14": {
+    "direccion": "C/ Miguel Mérida Nicolich, 2",
+    "pabellon": "Palacio de Deportes José María Martín Carpena"
+  },
+  "16": {
+    "direccion": "Avda. Cesareo Alierta, 120",
+    "pabellon": "Pabellón Príncipe Felipe"
+  },
+  "2": {
+    "direccion": "C/ Arístides Maillol, s/n",
+    "pabellon": "Palau Blaugrana"
+  },
+  "22": {
+    "direccion": "c/ Baixada del Molí 31-35",
+    "pabellon": "Pavelló Toni Martí"
+  },
+  "25": {
+    "direccion": "Avda. Filarmónica Lucense, S/N",
+    "pabellon": "Pazo Provincial dos Deportes de Lugo"
+  },
+  "28": {
+    "direccion": "C/ Mercedes, S/N – Los Majuelos",
+    "pabellon": "Pab. Dep. Tenerife Santiago Martín"
+  },
+  "3": {
+    "direccion": "Ctra. Zurbano, s/n  - Torre 12",
+    "pabellon": "Fernando Buesa Arena"
+  },
+  "4": {
+    "direccion": "Avenida Askatasuna, 13",
+    "pabellon": "Bilbao Arena"
+  },
+  "549": {
+    "direccion": "C/ La Chopera, s/n",
+    "pabellon": "Coliseum Burgos"
+  },
+  "57": {
+    "direccion": "Rua Diego Bernal, s/n",
+    "pabellon": "Multiusos Fontes do Sar"
+  },
+  "591": {
+    "direccion": "Avda. Josep Tarradellas, 22-24",
+    "pabellon": "Palau Girona-Fontajau"
+  },
+  "657": {
+    "direccion": "C/Francisco Pérez Carballo, 2",
+    "pabellon": "Coliseum"
+  },
+  "658": {
+    "direccion": "AV. PRAT DE L A RIBA 113-117",
+    "pabellon": "Espai Fruita Barris Nord"
+  },
+  "8": {
+    "direccion": "C/ Ponent, 143 - 161",
+    "pabellon": "Palau Municipal D´Esports de Badalona"
+  },
+  "9": {
+    "direccion": "Av. Felipe II, S/N",
+    "pabellon": "Movistar Arena"
+  }
+}

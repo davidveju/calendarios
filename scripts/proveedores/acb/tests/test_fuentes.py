@@ -23,6 +23,27 @@ HTML = """
 """
 
 
+from pathlib import Path
+
+FIXTURES = Path(__file__).parent / "fixtures"
+
+
+class TestArena(unittest.TestCase):
+    def test_parse_arena(self):
+        html = (FIXTURES / "equipo.html").read_text(encoding="utf-8")
+        arena = fuentes.parse_arena(html)
+        self.assertEqual(
+            arena,
+            {
+                "pabellon": "Palacio de Deportes José María Martín Carpena",
+                "direccion": "C/ Miguel Mérida Nicolich, 2",
+            },
+        )
+
+    def test_parse_arena_vacia(self):
+        self.assertEqual(fuentes.parse_arena("<html></html>"), {})
+
+
 class TestACB(unittest.TestCase):
     def test_extrae_partidos(self):
         partidos = fuentes.extraer_partidos(HTML, CONFIG)

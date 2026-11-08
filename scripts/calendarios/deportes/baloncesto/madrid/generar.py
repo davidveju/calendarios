@@ -137,6 +137,7 @@ def _cargar_previo(path: Path) -> list[dict]:
 def main() -> None:
     ctx = contexto_desde_ejecucion(__name__, __file__)
     json_path = ctx.ruta_estado("partidos.json")
+    sedes_path = ctx.ruta_estado("sedes.json")
     ics_path = ctx.ruta_ics
     zona = ZoneInfo(ctx.zona)
 
@@ -171,6 +172,32 @@ def main() -> None:
     if not partidos:
         raise ValueError("ACB: no se obtuvo ningún partido")
 
+    # Sedes ACB: pabellón del equipo local (clubId), caché opcional.
+    try:
+        sedes = json.loads(sedes_path.read_text(encoding="utf-8")) if sedes_path.exists() else {}
+        if not isinstance(sedes, dict):
+            sedes = {}
+    except Exception as e:  # noqa: BLE001
+        warn(f"sedes {sedes_path} ilegible ({e}); se empieza vacío")
+        sedes = {}
+    for p in partidos:
+        if p.get("sede") or p.get("competicion") != "acb":
+            continue
+        club_id = p.get("sede_club_id")
+        if club_id is None:
+            continue
+        clave = str(club_id)
+        if clave not in sedes:
+            try:
+                sedes[clave] = fuentes.fetch_arena(int(club_id))
+                if sedes[clave]:
+                    log(f"arena acb {club_id} ({p.get('rival')}): {sedes[clave]}")
+            except Exception as e:  # noqa: BLE001
+                warn(f"arena acb {club_id}: {e}")
+                sedes[clave] = {}
+        if sedes.get(clave):
+            p["sede"] = sedes[clave]
+
     conteo = Counter(p.get("uid", "?") for p in partidos)
     dups = sorted(u for u, n in conteo.items() if n > 1)
     if dups:
@@ -180,6 +207,7 @@ def main() -> None:
     ics = generar_ics(ctx.nombre, eventos, zona=zona)
 
     escribir_json(json_path, partidos)
+    escribir_json(sedes_path, {k: v for k, v in sedes.items() if v})
     escritura_atomica(ics_path, ics.encode("utf-8"))
 
     log(f"partidos={len(partidos)} eventos_ics={len(eventos)}")
