@@ -1,0 +1,118 @@
+name: Actualizar calendarios (mensual)
+
+on:
+  schedule:
+    # Mensual: calendarios de consulta poco frecuente (festivos y similares).
+    # Se ejecuta el día 1 a las 08:00 UTC.
+    - cron: "0 8 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-calendarios-mensual
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        env:
+          CALENDARIOS_TEST: "1"
+        run: ./scripts/test.sh
+
+      - name: Generar calendarios mensuales (best-effort)
+        id: generar
+        run: |
+          set +e
+          # Añade aquí otros calendarios de consulta mensual con más --solo, p. ej.:
+          #   --solo festivos/madrid --solo otra/categoria/mensual
+          python3 -m scripts actualizar --solo festivos/madrid
+          estado=$?
+          echo "estado=$estado" >> "$GITHUB_OUTPUT"
+          if [ "$estado" -ne 0 ]; then
+            echo "::warning::Algunos calendarios fallaron durante la generación (ver resumen). Se publicarán los que se hayan podido actualizar."
+          fi
+          exit 0
+
+      - name: Validar ICS y JSON
+        id: validar
+        run: |
+          set +e
+          fallos=0
+          while IFS= read -r -d '' ics; do
+            if ! python3 -m scripts validar "$ics"; then
+              fallos=$((fallos + 1))
+            fi
+          done < <(find deportes festivos -name '*.ics' -print0 2>/dev/null)
+          while IFS= read -r -d '' json; do
+            if ! python3 -m json.tool "$json" >/dev/null; then
+              echo "::error::JSON inválido: $json"
+              fallos=$((fallos + 1))
+            fi
+          done < <(find estado -name '*.json' -print0 2>/dev/null)
+          echo "fallos=$fallos" >> "$GITHUB_OUTPUT"
+          if [ "$fallos" -ne 0 ]; then
+            echo "::warning::$fallos fichero(s) no superaron la validación."
+          fi
+          exit 0
+
+      - name: Commit y push si hay cambios reales
+        run: |
+          set -euo pipefail
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -- deportes festivos estado
+
+          if git diff --cached --quiet -- deportes festivos estado; then
+            echo "Sin cambios."
+          else
+            if ! git diff --cached -U0 -- deportes festivos estado \
+                | grep -E '^[+-][^-+]' \
+                | grep -v '^[+-]DTSTAMP:' \
+                | grep -q .; then
+              echo "Sin cambios reales (solo DTSTAMP)."
+              git reset --quiet
+            else
+              git commit -m "auto(mensual): actualiza calendarios $(date -u +%FT%H%MZ)"
+              for intento in 1 2 3; do
+                if git pull --rebase --autostash origin main && git push; then
+                  break
+                fi
+                echo "Push falló (intento $intento/3); reintentando..."
+                if [ "$intento" -eq 3 ]; then
+                  echo "No se pudo publicar tras 3 intentos." >&2
+                  exit 1
+                fi
+                sleep $((intento * 5))
+              done
+            fi
+          fi
+
+      - name: Resultado
+        if: always()
+        env:
+          GENERAR: ${{ steps.generar.outputs.estado }}
+          VALIDAR_FALLOS: ${{ steps.validar.outputs.fallos }}
+        run: |
+          gen=${GENERAR:-1}
+          val=${VALIDAR_FALLOS:-0}
+          if [ "$gen" -ne 0 ] || [ "$val" -ne 0 ]; then
+            echo "::error::Actualización mensual completada con errores: generación=$gen, validaciones_fallidas=$val"
+            exit 1
+          fi
+          echo "Los calendarios mensuales se actualizaron correctamente."

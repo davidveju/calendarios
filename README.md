@@ -1,7 +1,7 @@
 # 📅 Calendarios automáticos
 
 Calendarios personales en formato iCalendar (`.ics`) generados desde sus fuentes
-originales y actualizados solos con GitHub Actions. Te suscribes una vez por
+originales y actualizados con GitHub Actions. Te suscribes una vez por
 calendario y los cambios (horarios, resultados, nuevas citas…) llegan sin hacer
 nada.
 
@@ -83,9 +83,9 @@ calendarios/
 │       ├── estudiantes.ics
 │       └── README.md
 └── .github/workflows/
-    ├── _calendario.yml             # workflow reutilizable
-    ├── deportes-baloncesto.yml     # schedule propio de este calendario
-    └── tests.yml                   # tests en push/PR
+    ├── actualizar-calendarios.yml          # cron diario (00:00 UTC), deportes
+    ├── actualizar-calendarios-mensual.yml  # cron mensual (día 1), festivos/consulta mensual
+    └── tests.yml                           # tests en push/PR
 ```
 
 ### El `id` namespacea código y estado; el manifiesto declara la ruta pública
@@ -138,31 +138,13 @@ El runner valida el ICS y los JSON de estado después de generar.
 3. En el generador, obtén las rutas con `contexto_desde_ejecucion(__name__, __file__)`:
    - `ctx.ruta_ics` → ICS público.
    - `ctx.ruta_estado("partidos.json")` → estado interno.
-4. Añade `.github/workflows/<categoria>-<nombre>.yml` con su propio `schedule`,
-   `workflow_dispatch` y `concurrency`, llamando al workflow reutilizable:
-
-```yaml
-name: Calendario · Categoría · Nombre
-
-on:
-  schedule:
-    - cron: "0 9 * * 1" # el horario que necesite
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: calendario-categoria-nombre
-  cancel-in-progress: false
-
-jobs:
-  actualizar:
-    uses: ./.github/workflows/_calendario.yml
-    with:
-      id: categoria/nombre/equipo
-      ics: categoria/nombre/equipo.ics
-```
+4. No hace falta añadir un workflow propio:
+   - Calendarios de actualización frecuente (deportes): `actualizar-calendarios.yml`
+     los descubre y actualiza a diario (00:00 UTC, excluye `festivos/*`).
+   - Calendarios de consulta mensual (festivos o similares): añádelos en
+     `actualizar-calendarios-mensual.yml` (otro `--solo <id>` en el paso de
+     generación). Se ejecuta el día 1 de cada mes.
+   Ambos pueden lanzarse a mano desde *Actions* (`workflow_dispatch`).
 
 5. Comprueba que aparece y se ejecuta:
 
@@ -200,32 +182,36 @@ python3 -m scripts validar deportes/baloncesto/estudiantes.ics
 
 ## 🛡️ Aislamiento de fallos
 
-- **GitHub Actions:** cada calendario tiene su propio workflow y su propio
-  `schedule`. Si la FEB cambia o un calendario falla, solo falla ese workflow;
-  los demás siguen ejecutándose.
-- **Código y tests:** el workflow deriva `scripts/calendarios/$ID/tests` de su
-  propio id y no ejecuta los tests de otros calendarios.
-- **Commit:** cada workflow hace `git add` únicamente de su ICS público y de
-  `estado/$ID`. Un calendario nunca publica cambios de otro, aunque compartan
-  carpeta pública.
-- **Runner local:** cada generador se ejecuta en un subproceso independiente.
+- **GitHub Actions:** dos workflows con comportamiento *best-effort*:
+  `actualizar-calendarios.yml` (diario, 00:00 UTC, calendarios deportivos) y
+  `actualizar-calendarios-mensual.yml` (día 1, calendarios de consulta mensual).
+  Si un calendario falla, el run continúa con el resto, publica los cambios
+  reales que se hayan podido generar y marca el workflow como fallido al final
+  indicando qué pasos/calendarios fallaron.
+- **Runner:** cada generador se ejecuta en un subproceso independiente.
   `python3 -m scripts actualizar` captura el fallo, lo muestra en el resumen y
   continúa con el siguiente.
 - **Dentro de un calendario:** las fuentes que fallan usan el histórico guardado
-  cuando es posible (por ejemplo, la liga o la Copa de la FEB), y las sedes son
-  opcionales: nunca tumban la generación del ICS.
-- **Publicación concurrente:** si dos calendarios terminan a la vez, el workflow
-  reintenta `pull --rebase` + `push` antes de darse por vencido.
+  cuando es posible, y los datos opcionales (sedes, etc.) no tumban la generación
+  del ICS.
+- **Commit:** solo se publican cambios reales (se ignora un `DTSTAMP` nuevo) en
+  las carpetas del workflow (`deportes/`, `festivos/`, `estado/`), con reintentos
+  de `pull --rebase` + `push`.
 
 ## 🔄 Cómo funciona una actualización
 
-1. El workflow del calendario se lanza por `schedule` o a mano.
-2. Se ejecutan los tests del motor, los proveedores y ese calendario.
-3. El generador descarga sus fuentes, actualiza su estado en `estado/<id>/` y
-   escribe el `.ics` en la ruta pública declarada en el manifiesto.
-4. Se valida el ICS a nivel de bytes (CRLF, plegado ≤75 octetos, UIDs únicos).
+1. `actualizar-calendarios.yml` se lanza a diario (00:00 UTC) para deportes, o
+   `actualizar-calendarios-mensual.yml` el día 1 para festivos/consulta mensual
+   (ambos también a mano).
+2. Se ejecutan los tests de todo el monorepo (`scripts/test.sh`).
+3. Se generan los calendarios de ese workflow. El runner ejecuta cada generador
+   en un subproceso aislado y continúa aunque alguno falle.
+4. Se validan los `.ics` (CRLF, plegado ≤75 octetos, RFC 5545) y los JSON de
+   `estado/`.
 5. Si hay cambios reales (se ignora un `DTSTAMP` nuevo), se hace commit y push.
-6. GitHub sirve el `.ics` por `raw.githubusercontent.com` y tu calendario se
+6. Si hubo fallos de generación o validación, el workflow termina en error tras
+   publicar lo posible, para notificar qué falló.
+7. GitHub sirve los `.ics` por `raw.githubusercontent.com` y tu calendario se
    actualiza en la siguiente sincronización.
 
 ## 📄 Licencia

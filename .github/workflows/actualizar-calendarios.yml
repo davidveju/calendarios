@@ -1,0 +1,128 @@
+name: Actualizar calendarios
+
+on:
+  schedule:
+    # Diario a las 00:00 UTC: calendarios deportivos (continúa ante fallos y
+    # marca el run como fallido al final si hubo errores).
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-calendarios
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        env:
+          CALENDARIOS_TEST: "1"
+        run: ./scripts/test.sh
+
+      - name: Generar calendarios deportivos (best-effort)
+        id: generar
+        run: |
+          set +e
+          echo "Actualizando calendarios deportivos."
+          args=()
+          while IFS= read -r id; do
+            case "$id" in festivos/*) continue ;; esac
+            args+=(--solo "$id")
+          done < <(python3 -c "from pathlib import Path; from scripts.comun.registro import descubrir_calendarios; [print(c.id) for c in descubrir_calendarios(Path('.'))]")
+          if [ "${#args[@]}" -eq 0 ]; then
+            echo "::warning::No hay calendarios deportivos que actualizar."
+            echo "estado=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python3 -m scripts actualizar "${args[@]}"
+          estado=$?
+          echo "estado=$estado" >> "$GITHUB_OUTPUT"
+          if [ "$estado" -ne 0 ]; then
+            echo "::warning::Algunos calendarios fallaron durante la generación (ver resumen). Se publicarán los que se hayan podido actualizar."
+          fi
+          exit 0
+
+      - name: Validar ICS generados
+        id: validar
+        run: |
+          set +e
+          fallos=0
+          while IFS= read -r -d '' ics; do
+            if ! python3 -m scripts validar "$ics"; then
+              fallos=$((fallos + 1))
+            fi
+          done < <(find deportes festivos -name '*.ics' -print0 2>/dev/null)
+          while IFS= read -r -d '' json; do
+            if ! python3 -m json.tool "$json" >/dev/null; then
+              echo "::error::JSON inválido: $json"
+              fallos=$((fallos + 1))
+            fi
+          done < <(find estado -name '*.json' -print0 2>/dev/null)
+          echo "fallos=$fallos" >> "$GITHUB_OUTPUT"
+          if [ "$fallos" -ne 0 ]; then
+            echo "::warning::$fallos fichero(s) no superaron la validación."
+          fi
+          exit 0
+
+      - name: Commit y push si hay cambios reales
+        run: |
+          set -euo pipefail
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -- deportes festivos estado
+
+          if git diff --cached --quiet -- deportes festivos estado; then
+            echo "Sin cambios."
+          else
+            # DTSTAMP cambia en cada ejecución: si es lo único que cambia, no se publica.
+            if ! git diff --cached -U0 -- deportes festivos estado \
+                | grep -E '^[+-][^-+]' \
+                | grep -v '^[+-]DTSTAMP:' \
+                | grep -q .; then
+              echo "Sin cambios reales (solo DTSTAMP)."
+              git reset --quiet
+            else
+              git commit -m "auto: actualiza calendarios $(date -u +%FT%H%MZ)"
+              for intento in 1 2 3; do
+                if git pull --rebase --autostash origin main && git push; then
+                  break
+                fi
+                echo "Push falló (intento $intento/3); reintentando..."
+                if [ "$intento" -eq 3 ]; then
+                  echo "No se pudo publicar tras 3 intentos." >&2
+                  exit 1
+                fi
+                sleep $((intento * 5))
+              done
+            fi
+          fi
+
+      - name: Resultado
+        if: always()
+        env:
+          GENERAR: ${{ steps.generar.outputs.estado }}
+          VALIDAR_FALLOS: ${{ steps.validar.outputs.fallos }}
+        run: |
+          gen=${GENERAR:-1}
+          val=${VALIDAR_FALLOS:-0}
+          if [ "$gen" -ne 0 ] || [ "$val" -ne 0 ]; then
+            echo "::error::Actualización completada con errores: generación=$gen, validaciones_fallidas=$val"
+            exit 1
+          fi
+          echo "Todos los calendarios se actualizaron correctamente."

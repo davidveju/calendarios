@@ -79,16 +79,11 @@ Tests:
 2. Reuse `scripts.comun` and (preferred) a provider in `scripts/proveedores/<fuente>`.
    Providers must be generic: they receive a config and return normalised data.
 3. In the generator, obtain paths with `contexto_desde_ejecucion(__name__, __file__)`.
-4. Add a workflow in `.github/workflows/` calling the reusable one:
-   ```yaml
-   jobs:
-     actualizar:
-       uses: ./.github/workflows/_calendario.yml
-       with:
-         id: deportes/futbol/madrid
-         ics: deportes/futbol/madrid.ics
-   ```
-5. Add the public README and entry in the top `README.md`.
+4. No extra workflow is needed. Sports calendars are picked up daily by
+   `.github/workflows/actualizar-calendarios.yml` (00:00 UTC, excludes
+   `festivos/*`). Monthly/low-frequency calendars (e.g. festivos) are added to
+   `.github/workflows/actualizar-calendarios-mensual.yml`. Add the public README
+   and an entry in the top `README.md`.
 
 ## Stable UIDs
 Use a uid derived from a stable source id:
@@ -98,12 +93,13 @@ Stable ids prevent duplicate events after updates and merges.
 ## Failure isolation
 - Automatic fail-over: if one data source fails, generators try the historical
   state first.
-- CLI and CI execute each generator in its own subprocess.
+- CLI and CI execute each generator in its own subprocess. The update workflows
+  continue on calendar failures, publish what they can, and fail at the end.
 
 ## State
-State files are committed by each workflow. Do not commit generated files that live
-in public folders beyond the declared ICS. Do not put internal JSON under the public
-ICS folder.
+State files (`estado/<id>/`) are committed by the updater workflows together with
+the public ICS. Do not commit generated files in public folders beyond the
+declared ICS. Do not put internal JSON under the public ICS folder.
 
 ## Development etiquette
 - Run `./scripts/test.sh` before committing.
