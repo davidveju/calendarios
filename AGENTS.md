@@ -101,6 +101,10 @@ State files (`estado/<id>/`) are committed by the updater workflows together wit
 the public ICS. Do not commit generated files in public folders beyond the
 declared ICS. Do not put internal JSON under the public ICS folder.
 
+Optional enrichment caches (e.g. `sedes.json`/arena caches) may live under
+`estado/<id>/` and be listed in `datos`. They must be non-fatal: if a venue
+lookup fails, keep generating the calendar without that `LOCATION`.
+
 ## Development etiquette
 - Run `./scripts/test.sh` before committing.
 - Keep doc and comments in Spanish where existing style is Spanish.

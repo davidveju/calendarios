@@ -1,6 +1,6 @@
 {
   "nombre": "Real Madrid Baloncesto",
-  "descripcion": "Partidos del Real Madrid en la Liga Endesa (fuente oficial ACB)",
+  "descripcion": "Partidos del Real Madrid en Liga Endesa (ACB) y EuroLeague",
   "ics": "deportes/baloncesto/madrid.ics",
   "generador": "generar.py",
   "datos": [

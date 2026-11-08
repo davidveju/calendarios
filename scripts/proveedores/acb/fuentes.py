@@ -1,4 +1,11 @@
-"""Parsea el calendario oficial de la Liga Endesa desde la noticia de acb.com."""
+"""Proveedor ACB/Liga Endesa: calendario, resultados y sedes.
+
+Obtiene partidos vía ``api2.acb.com`` (``team-matches``) y, opcionalmente,
+enriquece la sede de cada partido con el pabellón del equipo local
+(``homeTeam.clubId``) a partir del JSON-LD de la ficha de club en acb.com.
+Las sedes son un enriquecimiento opcional: los generadores deben cachearlas
+y no fallar si no se pueden resolver.
+"""
 
 from __future__ import annotations
 
