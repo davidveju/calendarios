@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Getafe CF (26/27) -> getafe.ics.
+"""Real Madrid (26/27) -> madrid.ics.
 
 Agrega todas las competiciones en una misma tabla (Transfermarkt: LaLiga, Copa
-del Rey, Conference League...). Los datos se guardan en ``estado/<id>/`` y el ICS
-se publica en ``deportes.futbol.madrid.ics``. Solo stdlib.
+del Rey, Champions League...). Los datos se guardan en ``estado/<id>/`` y el ICS
+se publica en ``deportes/futbol/madrid.ics``. Solo stdlib.
 """
 
 from __future__ import annotations
@@ -31,22 +31,39 @@ BASE_URL = (
 )
 
 
+def _ronda_txt(p: dict) -> str:
+    ronda = fuentes.traducir_ronda(p.get("ronda", ""))
+    if p.get("competicion") == "liga" and ronda.isdigit():
+        return f"J{ronda}"
+    return ronda
+
+
 def etiqueta(p: dict) -> str:
     comp = p.get("competicion")
-    ronda = (p.get("ronda") or "").strip()
+    ronda = _ronda_txt(p)
     if comp == "liga":
-        if ronda.isdigit():
-            return f"J{ronda}"
-        return "Liga"
+        return ronda or "Liga"
     if comp == "copa":
-        return f"Copa {ronda}".strip()
+        return f"Copa · {ronda}" if ronda else "Copa"
     if comp == "champions":
-        return f"Champions {ronda}".strip()
+        return f"Champions · {ronda}" if ronda else "Champions"
     if comp == "europa":
-        return f"Europa {ronda}".strip()
+        return f"Europa · {ronda}" if ronda else "Europa"
     if comp == "conference":
-        return f"Conf {ronda}".strip()
+        return f"Conf · {ronda}" if ronda else "Conf"
     return ronda or comp or "Partido"
+
+
+def _marca(p: dict) -> str:
+    gl = p.get("resultado_equipo")
+    gv = p.get("resultado_rival")
+    if gl is None or gv is None:
+        return ""
+    if gl > gv:
+        return "✅"
+    if gl < gv:
+        return "❌"
+    return "🤝"
 
 
 def resumen(p: dict) -> str:
@@ -59,14 +76,16 @@ def resumen(p: dict) -> str:
         and "resultado_local" in p
         and "resultado_visitante" in p
     ):
-        marca = "✅" if p.get("victoria") else "❌"
         gl, gv = p["resultado_local"], p["resultado_visitante"]
-        return f"{emoji} {local} - {visitante} ({tag}: {gl}-{gv} {marca})"
+        return f"{emoji} {local} - {visitante} ({tag}: {gl}-{gv} {_marca(p)})"
     return f"{emoji} {local} - {visitante} ({tag})"
 
 
 def descripcion(p: dict) -> str:
-    ambito = f"{p.get('competicion_nombre', '')} · {etiqueta(p)}"
+    ambito = p.get("competicion_nombre", "")
+    ronda = _ronda_txt(p)
+    if ronda:
+        ambito = f"{ambito} · {ronda}" if ambito else ronda
     lineas = [
         ambito,
         (
@@ -80,9 +99,11 @@ def descripcion(p: dict) -> str:
         and "resultado_equipo" in p
         and "resultado_rival" in p
     ):
+        marca = _marca(p)
+        texto = {"✅": "victoria", "❌": "derrota", "🤝": "empate"}.get(marca, "")
         lineas.append(
             f"Resultado: {CONFIG.team_name} {p['resultado_equipo']}-{p['resultado_rival']} "
-            + ("victoria ✅" if p.get("victoria") else "derrota ❌")
+            f"{texto} {marca}".rstrip()
         )
     else:
         dt_raw = p.get("inicio_madrid") or ""

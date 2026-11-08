@@ -66,6 +66,19 @@ class TestEventos(unittest.TestCase):
         evento = generar.a_eventos([p])[0]
         self.assertIn("❌", evento.resumen)
 
+    def test_empate(self):
+        p = self._partido(
+            estado="jugado",
+            resultado_local=1,
+            resultado_visitante=1,
+            resultado_equipo=1,
+            resultado_rival=1,
+            victoria=False,
+        )
+        evento = generar.a_eventos([p])[0]
+        self.assertIn("J12: 1-1 🤝", evento.resumen)
+        self.assertIn("Resultado: Getafe 1-1 empate 🤝", evento.descripcion)
+
     def test_sin_fecha_se_omite(self):
         p = self._partido()
         p.pop("inicio_madrid")
@@ -86,7 +99,10 @@ class TestEventos(unittest.TestCase):
         )
         evento = generar.a_eventos([p])[0]
         self.assertEqual(
-            evento.resumen, "⚽ Getafe - Rival (Conf Group Stage)"
+            evento.resumen, "⚽ Getafe - Rival (Conf · Fase de grupos)"
+        )
+        self.assertIn(
+            "Conference League 26/27 · Fase de grupos", evento.descripcion
         )
 
 

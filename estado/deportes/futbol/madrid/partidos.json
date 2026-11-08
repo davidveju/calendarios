@@ -202,13 +202,18 @@
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-07T21:00",
+    "resultado_equipo": 3,
+    "resultado_local": 0,
+    "resultado_rival": 0,
+    "resultado_visitante": 3,
     "rival": "Valencia",
     "ronda": "12",
     "uid": "madrid-2627-4918443@madrid-calendario",
-    "uid_evento": "4918443"
+    "uid_evento": "4918443",
+    "victoria": true
   },
   {
     "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918453",

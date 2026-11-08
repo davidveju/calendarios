@@ -7,7 +7,7 @@ X-WR-CALNAME:Getafe CF
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:getafe-2627-4909440@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260815T173000Z
 DTEND:20260815T193000Z
 SUMMARY:⚽ Alavés - Getafe (J1: 3-0 ❌)
@@ -21,13 +21,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5013826@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260820T190000Z
 DTEND:20260820T210000Z
-SUMMARY:⚽ Getafe - Partizan (Conf Qualifying Round 1st leg: 3-1 ✅)
-DESCRIPTION:Conference League 26/27 · Conf Qualifying Round 1st leg\nGetaf
- e en casa vs Partizan\nResultado: Getafe 3-1 victoria ✅\nActa: https://w
- ww.transfermarkt.com/spielbericht/index/spielbericht/5013826
+SUMMARY:⚽ Getafe - Partizan (Conf · Ronda previa\, ida: 3-1 ✅)
+DESCRIPTION:Conference League 26/27 · Ronda previa\, ida\nGetafe en casa v
+ s Partizan\nResultado: Getafe 3-1 victoria ✅\nActa: https://www.transfer
+ markt.com/spielbericht/index/spielbericht/5013826
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5013826
 LOCATION:Coliseum\, Getafe
 TRANSP:TRANSPARENT
@@ -36,7 +36,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909473@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260823T173000Z
 DTEND:20260823T193000Z
 SUMMARY:⚽ Getafe - Racing (J2: 1-0 ✅)
@@ -51,13 +51,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5013850@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260827T190000Z
 DTEND:20260827T210000Z
-SUMMARY:⚽ Partizan - Getafe (Conf Qualifying Round 2nd leg: 2-1 ❌)
-DESCRIPTION:Conference League 26/27 · Conf Qualifying Round 2nd leg\nGetaf
- e fuera vs Partizan\nResultado: Getafe 1-2 derrota ❌\nActa: https://www.
- transfermarkt.com/spielbericht/index/spielbericht/5013850
+SUMMARY:⚽ Partizan - Getafe (Conf · Ronda previa\, vuelta: 2-1 ❌)
+DESCRIPTION:Conference League 26/27 · Ronda previa\, vuelta\nGetafe fuera 
+ vs Partizan\nResultado: Getafe 1-2 derrota ❌\nActa: https://www.transfer
+ markt.com/spielbericht/index/spielbericht/5013850
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5013850
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -65,7 +65,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909483@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260831T173000Z
 DTEND:20260831T193000Z
 SUMMARY:⚽ CA Osasuna - Getafe (J3: 1-0 ❌)
@@ -79,12 +79,12 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909501@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260907T170000Z
 DTEND:20260907T190000Z
-SUMMARY:⚽ Getafe - Celta (J4: 1-1 ❌)
+SUMMARY:⚽ Getafe - Celta (J4: 1-1 🤝)
 DESCRIPTION:LaLiga 26/27 · J4\nGetafe en casa vs Celta\nResultado: Getafe 
- 1-1 derrota ❌\nActa: https://www.transfermarkt.com/spielbericht/index/sp
+ 1-1 empate 🤝\nActa: https://www.transfermarkt.com/spielbericht/index/sp
  ielbericht/4909501
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909501
 LOCATION:Coliseum\, Getafe
@@ -94,12 +94,12 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909526@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260913T163000Z
 DTEND:20260913T183000Z
-SUMMARY:⚽ Getafe - Dep. A Coruña (J5: 1-1 ❌)
+SUMMARY:⚽ Getafe - Dep. A Coruña (J5: 1-1 🤝)
 DESCRIPTION:LaLiga 26/27 · J5\nGetafe en casa vs Dep. A Coruña\nResultado
- : Getafe 1-1 derrota ❌\nActa: https://www.transfermarkt.com/spielbericht
+ : Getafe 1-1 empate 🤝\nActa: https://www.transfermarkt.com/spielbericht
  /index/spielbericht/4909526
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909526
 LOCATION:Coliseum\, Getafe
@@ -109,7 +109,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909562@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260917T170000Z
 DTEND:20260917T190000Z
 SUMMARY:⚽ Real Betis - Getafe (J6: 1-0 ❌)
@@ -123,7 +123,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909613@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20260920T120000Z
 DTEND:20260920T140000Z
 SUMMARY:⚽ Getafe - Málaga CF (J7: 1-0 ✅)
@@ -138,7 +138,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909721@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261010T163000Z
 DTEND:20261010T183000Z
 SUMMARY:⚽ Barcelona - Getafe (J8: 3-0 ❌)
@@ -152,13 +152,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5037582@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261015T164500Z
 DTEND:20261015T184500Z
-SUMMARY:⚽ Univ. Craiova - Getafe (Conf Group Stage: 1-1 ❌)
-DESCRIPTION:Conference League 26/27 · Conf Group Stage\nGetafe fuera vs Un
- iv. Craiova\nResultado: Getafe 1-1 derrota ❌\nActa: https://www.transfer
- markt.com/spielbericht/index/spielbericht/5037582
+SUMMARY:⚽ Univ. Craiova - Getafe (Conf · Fase de grupos: 1-1 🤝)
+DESCRIPTION:Conference League 26/27 · Fase de grupos\nGetafe fuera vs Univ
+ . Craiova\nResultado: Getafe 1-1 empate 🤝\nActa: https://www.transferma
+ rkt.com/spielbericht/index/spielbericht/5037582
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5037582
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -166,12 +166,12 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4909732@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261019T190000Z
 DTEND:20261019T210000Z
-SUMMARY:⚽ Getafe - Rayo Vallecano (J9: 1-1 ❌)
+SUMMARY:⚽ Getafe - Rayo Vallecano (J9: 1-1 🤝)
 DESCRIPTION:LaLiga 26/27 · J9\nGetafe en casa vs Rayo Vallecano\nResultado
- : Getafe 1-1 derrota ❌\nActa: https://www.transfermarkt.com/spielbericht
+ : Getafe 1-1 empate 🤝\nActa: https://www.transfermarkt.com/spielbericht
  /index/spielbericht/4909732
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909732
 LOCATION:Coliseum\, Getafe
@@ -181,13 +181,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5037552@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261022T164500Z
 DTEND:20261022T184500Z
-SUMMARY:⚽ Getafe - Lugano (Conf Group Stage: 2-5 ❌)
-DESCRIPTION:Conference League 26/27 · Conf Group Stage\nGetafe en casa vs 
- Lugano\nResultado: Getafe 2-5 derrota ❌\nActa: https://www.transfermarkt
- .com/spielbericht/index/spielbericht/5037552
+SUMMARY:⚽ Getafe - Lugano (Conf · Fase de grupos: 2-5 ❌)
+DESCRIPTION:Conference League 26/27 · Fase de grupos\nGetafe en casa vs Lu
+ gano\nResultado: Getafe 2-5 derrota ❌\nActa: https://www.transfermarkt.c
+ om/spielbericht/index/spielbericht/5037552
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5037552
 LOCATION:Coliseum\, Getafe
 TRANSP:TRANSPARENT
@@ -196,7 +196,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918416@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261025T130000Z
 DTEND:20261025T150000Z
 SUMMARY:⚽ Athletic Club - Getafe (J10: 4-0 ❌)
@@ -210,13 +210,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5074788@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261029T180000Z
 DTEND:20261029T200000Z
-SUMMARY:⚽ UB Lebrijana - Getafe (Copa First Round: 2-3 ✅)
-DESCRIPTION:Copa del Rey 26/27 · Copa First Round\nGetafe fuera vs UB Lebr
- ijana\nResultado: Getafe 3-2 victoria ✅\nActa: https://www.transfermarkt
- .com/spielbericht/index/spielbericht/5074788
+SUMMARY:⚽ UB Lebrijana - Getafe (Copa · Primera ronda: 2-3 ✅)
+DESCRIPTION:Copa del Rey 26/27 · Primera ronda\nGetafe fuera vs UB Lebrija
+ na\nResultado: Getafe 3-2 victoria ✅\nActa: https://www.transfermarkt.co
+ m/spielbericht/index/spielbericht/5074788
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5074788
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -224,7 +224,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918430@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261101T130000Z
 DTEND:20261101T150000Z
 SUMMARY:⚽ Getafe - Sevilla FC (J11: 3-1 ✅)
@@ -239,13 +239,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5037551@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261105T200000Z
 DTEND:20261105T220000Z
-SUMMARY:⚽ Getafe - Brighton (Conf Group Stage: 0-1 ❌)
-DESCRIPTION:Conference League 26/27 · Conf Group Stage\nGetafe en casa vs 
- Brighton\nResultado: Getafe 0-1 derrota ❌\nActa: https://www.transfermar
- kt.com/spielbericht/index/spielbericht/5037551
+SUMMARY:⚽ Getafe - Brighton (Conf · Fase de grupos: 0-1 ❌)
+DESCRIPTION:Conference League 26/27 · Fase de grupos\nGetafe en casa vs Br
+ ighton\nResultado: Getafe 0-1 derrota ❌\nActa: https://www.transfermarkt
+ .com/spielbericht/index/spielbericht/5037551
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5037551
 LOCATION:Coliseum\, Getafe
 TRANSP:TRANSPARENT
@@ -254,7 +254,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918444@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261108T173000Z
 DTEND:20261108T193000Z
 SUMMARY:⚽ Villarreal - Getafe (J12)
@@ -268,7 +268,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918448@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261122T200000Z
 DTEND:20261122T220000Z
 SUMMARY:⚽ Getafe - Atlético (J13)
@@ -283,13 +283,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5037615@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261126T174500Z
 DTEND:20261126T194500Z
-SUMMARY:⚽ Iberia Tbilisi - Getafe (Conf Group Stage)
-DESCRIPTION:Conference League 26/27 · Conf Group Stage\nGetafe fuera vs Ib
- eria Tbilisi\nInicio: 26/11/2026 18:45 (Madrid)\nActa: https://www.transfe
- rmarkt.com/spielbericht/index/spielbericht/5037615
+SUMMARY:⚽ Iberia Tbilisi - Getafe (Conf · Fase de grupos)
+DESCRIPTION:Conference League 26/27 · Fase de grupos\nGetafe fuera vs Iber
+ ia Tbilisi\nInicio: 26/11/2026 18:45 (Madrid)\nActa: https://www.transferm
+ arkt.com/spielbericht/index/spielbericht/5037615
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5037615
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -297,7 +297,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918459@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261130T200000Z
 DTEND:20261130T220000Z
 SUMMARY:⚽ Espanyol - Getafe (J14)
@@ -311,7 +311,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918469@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261206T110000Z
 DTEND:20261206T130000Z
 SUMMARY:⚽ Getafe - Valencia (J15)
@@ -326,13 +326,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5037553@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261210T174500Z
 DTEND:20261210T194500Z
-SUMMARY:⚽ Getafe - Inter Escaldes (Conf Group Stage)
-DESCRIPTION:Conference League 26/27 · Conf Group Stage\nGetafe en casa vs 
- Inter Escaldes\nInicio: 10/12/2026 18:45 (Madrid)\nActa: https://www.trans
- fermarkt.com/spielbericht/index/spielbericht/5037553
+SUMMARY:⚽ Getafe - Inter Escaldes (Conf · Fase de grupos)
+DESCRIPTION:Conference League 26/27 · Fase de grupos\nGetafe en casa vs In
+ ter Escaldes\nInicio: 10/12/2026 18:45 (Madrid)\nActa: https://www.transfe
+ rmarkt.com/spielbericht/index/spielbericht/5037553
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5037553
 LOCATION:Coliseum\, Getafe
 TRANSP:TRANSPARENT
@@ -341,7 +341,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918483@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261213T110000Z
 DTEND:20261213T130000Z
 SUMMARY:⚽ Real Sociedad - Getafe (J16)
@@ -355,13 +355,13 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-5037511@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261217T200000Z
 DTEND:20261217T220000Z
-SUMMARY:⚽ Ajax - Getafe (Conf Group Stage)
-DESCRIPTION:Conference League 26/27 · Conf Group Stage\nGetafe fuera vs Aj
- ax\nInicio: 17/12/2026 21:00 (Madrid)\nActa: https://www.transfermarkt.com
- /spielbericht/index/spielbericht/5037511
+SUMMARY:⚽ Ajax - Getafe (Conf · Fase de grupos)
+DESCRIPTION:Conference League 26/27 · Fase de grupos\nGetafe fuera vs Ajax
+ \nInicio: 17/12/2026 21:00 (Madrid)\nActa: https://www.transfermarkt.com/s
+ pielbericht/index/spielbericht/5037511
 URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/5037511
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -369,7 +369,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918490@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20261220T110000Z
 DTEND:20261220T130000Z
 SUMMARY:⚽ Getafe - Levante (J17)
@@ -384,7 +384,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918502@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270103T110000Z
 DTEND:20270103T130000Z
 SUMMARY:⚽ Real Madrid - Getafe (J18)
@@ -398,7 +398,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918509@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270110T110000Z
 DTEND:20270110T130000Z
 SUMMARY:⚽ Elche CF - Getafe (J19)
@@ -412,7 +412,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918519@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270117T110000Z
 DTEND:20270117T130000Z
 SUMMARY:⚽ Getafe - Athletic Club (J20)
@@ -427,7 +427,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918530@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270124T110000Z
 DTEND:20270124T130000Z
 SUMMARY:⚽ Getafe - CA Osasuna (J21)
@@ -442,7 +442,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918537@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270131T110000Z
 DTEND:20270131T130000Z
 SUMMARY:⚽ Celta - Getafe (J22)
@@ -456,7 +456,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918552@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270207T110000Z
 DTEND:20270207T130000Z
 SUMMARY:⚽ Getafe - Villarreal (J23)
@@ -471,7 +471,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918559@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270214T110000Z
 DTEND:20270214T130000Z
 SUMMARY:⚽ Racing - Getafe (J24)
@@ -485,7 +485,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918572@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270221T110000Z
 DTEND:20270221T130000Z
 SUMMARY:⚽ Rayo Vallecano - Getafe (J25)
@@ -499,7 +499,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918578@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270228T110000Z
 DTEND:20270228T130000Z
 SUMMARY:⚽ Getafe - Alavés (J26)
@@ -514,7 +514,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918587@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270307T110000Z
 DTEND:20270307T130000Z
 SUMMARY:⚽ Dep. A Coruña - Getafe (J27)
@@ -528,7 +528,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918600@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270314T110000Z
 DTEND:20270314T130000Z
 SUMMARY:⚽ Getafe - Real Sociedad (J28)
@@ -543,7 +543,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918605@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270321T110000Z
 DTEND:20270321T130000Z
 SUMMARY:⚽ Atlético - Getafe (J29)
@@ -557,7 +557,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918628@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270404T100000Z
 DTEND:20270404T120000Z
 SUMMARY:⚽ Getafe - Espanyol (J30)
@@ -572,7 +572,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918641@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270411T100000Z
 DTEND:20270411T120000Z
 SUMMARY:⚽ Valencia - Getafe (J31)
@@ -586,7 +586,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918649@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270418T100000Z
 DTEND:20270418T120000Z
 SUMMARY:⚽ Getafe - Real Madrid (J32)
@@ -601,7 +601,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918656@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270421T100000Z
 DTEND:20270421T120000Z
 SUMMARY:⚽ Getafe - Real Betis (J33)
@@ -616,7 +616,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918670@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270502T100000Z
 DTEND:20270502T120000Z
 SUMMARY:⚽ Málaga CF - Getafe (J34)
@@ -630,7 +630,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918676@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270509T100000Z
 DTEND:20270509T120000Z
 SUMMARY:⚽ Getafe - Elche CF (J35)
@@ -645,7 +645,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918687@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270516T100000Z
 DTEND:20270516T120000Z
 SUMMARY:⚽ Levante - Getafe (J36)
@@ -659,7 +659,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918710@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270523T100000Z
 DTEND:20270523T120000Z
 SUMMARY:⚽ Sevilla FC - Getafe (J37)
@@ -673,7 +673,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:getafe-2627-4918697@getafe-calendario
-DTSTAMP:20261107T072005Z
+DTSTAMP:20261108T065054Z
 DTSTART:20270530T100000Z
 DTEND:20270530T120000Z
 SUMMARY:⚽ Getafe - Barcelona (J38)
