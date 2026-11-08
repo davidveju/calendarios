@@ -80,6 +80,20 @@ class TestFuentes(unittest.TestCase):
         self.assertEqual(fuentes.extraer_partidos("nonsense", CONFIG), [])
 
 
+class TestSede(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.html = (
+            Path(__file__).parent / "fixtures" / "sede.html"
+        ).read_text(encoding="utf-8")
+
+    def test_parse_sede(self):
+        self.assertEqual(fuentes.parse_sede(self.html), {"pabellon": "RCDE Stadium"})
+
+    def test_parse_sede_vacia(self):
+        self.assertEqual(fuentes.parse_sede("<html></html>"), {})
+
+
 class TestSeleccion(unittest.TestCase):
     def _leer(self, nombre: str) -> str:
         return (FIXTURES / nombre).read_text(encoding="utf-8")

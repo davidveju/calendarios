@@ -183,6 +183,9 @@
     "resultado_visitante": 0,
     "rival": "Alavés",
     "ronda": "1",
+    "sede": {
+      "pabellon": "Mendizorroza"
+    },
     "uid": "getafe-2627-4909440@getafe-calendario",
     "uid_evento": "4909440",
     "victoria": false
@@ -202,6 +205,9 @@
     "resultado_visitante": 0,
     "rival": "Racing",
     "ronda": "2",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4909473@getafe-calendario",
     "uid_evento": "4909473",
     "victoria": true
@@ -221,6 +227,9 @@
     "resultado_visitante": 0,
     "rival": "CA Osasuna",
     "ronda": "3",
+    "sede": {
+      "pabellon": "El Sadar"
+    },
     "uid": "getafe-2627-4909483@getafe-calendario",
     "uid_evento": "4909483",
     "victoria": false
@@ -240,6 +249,9 @@
     "resultado_visitante": 1,
     "rival": "Celta",
     "ronda": "4",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4909501@getafe-calendario",
     "uid_evento": "4909501",
     "victoria": false
@@ -259,6 +271,9 @@
     "resultado_visitante": 1,
     "rival": "Dep. A Coruña",
     "ronda": "5",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4909526@getafe-calendario",
     "uid_evento": "4909526",
     "victoria": false
@@ -278,6 +293,9 @@
     "resultado_visitante": 0,
     "rival": "Real Betis",
     "ronda": "6",
+    "sede": {
+      "pabellon": "La Cartuja"
+    },
     "uid": "getafe-2627-4909562@getafe-calendario",
     "uid_evento": "4909562",
     "victoria": false
@@ -297,6 +315,9 @@
     "resultado_visitante": 0,
     "rival": "Málaga CF",
     "ronda": "7",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4909613@getafe-calendario",
     "uid_evento": "4909613",
     "victoria": true
@@ -316,6 +337,9 @@
     "resultado_visitante": 0,
     "rival": "Barcelona",
     "ronda": "8",
+    "sede": {
+      "pabellon": "Spotify Camp Nou"
+    },
     "uid": "getafe-2627-4909721@getafe-calendario",
     "uid_evento": "4909721",
     "victoria": false
@@ -335,6 +359,9 @@
     "resultado_visitante": 1,
     "rival": "Rayo Vallecano",
     "ronda": "9",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4909732@getafe-calendario",
     "uid_evento": "4909732",
     "victoria": false
@@ -354,6 +381,9 @@
     "resultado_visitante": 0,
     "rival": "Athletic Club",
     "ronda": "10",
+    "sede": {
+      "pabellon": "San Mamés"
+    },
     "uid": "getafe-2627-4918416@getafe-calendario",
     "uid_evento": "4918416",
     "victoria": false
@@ -373,6 +403,9 @@
     "resultado_visitante": 1,
     "rival": "Sevilla FC",
     "ronda": "11",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918430@getafe-calendario",
     "uid_evento": "4918430",
     "victoria": true
@@ -388,6 +421,9 @@
     "inicio_madrid": "2026-11-08T18:30",
     "rival": "Villarreal",
     "ronda": "12",
+    "sede": {
+      "pabellon": "La Cerámica"
+    },
     "uid": "getafe-2627-4918444@getafe-calendario",
     "uid_evento": "4918444"
   },
@@ -402,6 +438,9 @@
     "inicio_madrid": "2026-11-22T21:00",
     "rival": "Atlético",
     "ronda": "13",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918448@getafe-calendario",
     "uid_evento": "4918448"
   },
@@ -416,6 +455,9 @@
     "inicio_madrid": "2026-11-30T21:00",
     "rival": "Espanyol",
     "ronda": "14",
+    "sede": {
+      "pabellon": "RCDE Stadium"
+    },
     "uid": "getafe-2627-4918459@getafe-calendario",
     "uid_evento": "4918459"
   },
@@ -430,6 +472,9 @@
     "inicio_madrid": "2026-12-06T12:00",
     "rival": "Valencia",
     "ronda": "15",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918469@getafe-calendario",
     "uid_evento": "4918469"
   },
@@ -444,6 +489,9 @@
     "inicio_madrid": "2026-12-13T12:00",
     "rival": "Real Sociedad",
     "ronda": "16",
+    "sede": {
+      "pabellon": "Anoeta"
+    },
     "uid": "getafe-2627-4918483@getafe-calendario",
     "uid_evento": "4918483"
   },
@@ -458,6 +506,9 @@
     "inicio_madrid": "2026-12-20T12:00",
     "rival": "Levante",
     "ronda": "17",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918490@getafe-calendario",
     "uid_evento": "4918490"
   },
@@ -472,6 +523,9 @@
     "inicio_madrid": "2027-01-03T12:00",
     "rival": "Real Madrid",
     "ronda": "18",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "getafe-2627-4918502@getafe-calendario",
     "uid_evento": "4918502"
   },
@@ -486,6 +540,9 @@
     "inicio_madrid": "2027-01-10T12:00",
     "rival": "Elche CF",
     "ronda": "19",
+    "sede": {
+      "pabellon": "Manuel Martínez Valero"
+    },
     "uid": "getafe-2627-4918509@getafe-calendario",
     "uid_evento": "4918509"
   },
@@ -500,6 +557,9 @@
     "inicio_madrid": "2027-01-17T12:00",
     "rival": "Athletic Club",
     "ronda": "20",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918519@getafe-calendario",
     "uid_evento": "4918519"
   },
@@ -514,6 +574,9 @@
     "inicio_madrid": "2027-01-24T12:00",
     "rival": "CA Osasuna",
     "ronda": "21",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918530@getafe-calendario",
     "uid_evento": "4918530"
   },
@@ -528,6 +591,9 @@
     "inicio_madrid": "2027-01-31T12:00",
     "rival": "Celta",
     "ronda": "22",
+    "sede": {
+      "pabellon": "Abanca Balaídos"
+    },
     "uid": "getafe-2627-4918537@getafe-calendario",
     "uid_evento": "4918537"
   },
@@ -542,6 +608,9 @@
     "inicio_madrid": "2027-02-07T12:00",
     "rival": "Villarreal",
     "ronda": "23",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918552@getafe-calendario",
     "uid_evento": "4918552"
   },
@@ -556,6 +625,9 @@
     "inicio_madrid": "2027-02-14T12:00",
     "rival": "Racing",
     "ronda": "24",
+    "sede": {
+      "pabellon": "El Sardinero"
+    },
     "uid": "getafe-2627-4918559@getafe-calendario",
     "uid_evento": "4918559"
   },
@@ -570,6 +642,9 @@
     "inicio_madrid": "2027-02-21T12:00",
     "rival": "Rayo Vallecano",
     "ronda": "25",
+    "sede": {
+      "pabellon": "Estadio de Vallecas"
+    },
     "uid": "getafe-2627-4918572@getafe-calendario",
     "uid_evento": "4918572"
   },
@@ -584,6 +659,9 @@
     "inicio_madrid": "2027-02-28T12:00",
     "rival": "Alavés",
     "ronda": "26",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918578@getafe-calendario",
     "uid_evento": "4918578"
   },
@@ -598,6 +676,9 @@
     "inicio_madrid": "2027-03-07T12:00",
     "rival": "Dep. A Coruña",
     "ronda": "27",
+    "sede": {
+      "pabellon": "Abanca Riazor"
+    },
     "uid": "getafe-2627-4918587@getafe-calendario",
     "uid_evento": "4918587"
   },
@@ -612,6 +693,9 @@
     "inicio_madrid": "2027-03-14T12:00",
     "rival": "Real Sociedad",
     "ronda": "28",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918600@getafe-calendario",
     "uid_evento": "4918600"
   },
@@ -626,6 +710,9 @@
     "inicio_madrid": "2027-03-21T12:00",
     "rival": "Atlético",
     "ronda": "29",
+    "sede": {
+      "pabellon": "Riyadh Air Metropolitano"
+    },
     "uid": "getafe-2627-4918605@getafe-calendario",
     "uid_evento": "4918605"
   },
@@ -640,6 +727,9 @@
     "inicio_madrid": "2027-04-04T12:00",
     "rival": "Espanyol",
     "ronda": "30",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918628@getafe-calendario",
     "uid_evento": "4918628"
   },
@@ -654,6 +744,9 @@
     "inicio_madrid": "2027-04-11T12:00",
     "rival": "Valencia",
     "ronda": "31",
+    "sede": {
+      "pabellon": "Mestalla"
+    },
     "uid": "getafe-2627-4918641@getafe-calendario",
     "uid_evento": "4918641"
   },
@@ -668,6 +761,9 @@
     "inicio_madrid": "2027-04-18T12:00",
     "rival": "Real Madrid",
     "ronda": "32",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918649@getafe-calendario",
     "uid_evento": "4918649"
   },
@@ -682,6 +778,9 @@
     "inicio_madrid": "2027-04-21T12:00",
     "rival": "Real Betis",
     "ronda": "33",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918656@getafe-calendario",
     "uid_evento": "4918656"
   },
@@ -696,6 +795,9 @@
     "inicio_madrid": "2027-05-02T12:00",
     "rival": "Málaga CF",
     "ronda": "34",
+    "sede": {
+      "pabellon": "La Rosaleda"
+    },
     "uid": "getafe-2627-4918670@getafe-calendario",
     "uid_evento": "4918670"
   },
@@ -710,6 +812,9 @@
     "inicio_madrid": "2027-05-09T12:00",
     "rival": "Elche CF",
     "ronda": "35",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918676@getafe-calendario",
     "uid_evento": "4918676"
   },
@@ -724,6 +829,9 @@
     "inicio_madrid": "2027-05-16T12:00",
     "rival": "Levante",
     "ronda": "36",
+    "sede": {
+      "pabellon": "Ciutat de València"
+    },
     "uid": "getafe-2627-4918687@getafe-calendario",
     "uid_evento": "4918687"
   },
@@ -738,6 +846,9 @@
     "inicio_madrid": "2027-05-23T12:00",
     "rival": "Sevilla FC",
     "ronda": "37",
+    "sede": {
+      "pabellon": "Ramón Sánchez-Pizjuán"
+    },
     "uid": "getafe-2627-4918710@getafe-calendario",
     "uid_evento": "4918710"
   },
@@ -752,6 +863,9 @@
     "inicio_madrid": "2027-05-30T12:00",
     "rival": "Barcelona",
     "ronda": "38",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-4918697@getafe-calendario",
     "uid_evento": "4918697"
   },
@@ -770,6 +884,9 @@
     "resultado_visitante": 3,
     "rival": "UB Lebrijana",
     "ronda": "First Round",
+    "sede": {
+      "pabellon": "Municipal de Lebrija"
+    },
     "uid": "getafe-2627-5074788@getafe-calendario",
     "uid_evento": "5074788",
     "victoria": true

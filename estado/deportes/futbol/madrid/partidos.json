@@ -178,6 +178,9 @@
     "resultado_visitante": 1,
     "rival": "Real Sociedad",
     "ronda": "1",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4909447@madrid-calendario",
     "uid_evento": "4909447",
     "victoria": true
@@ -197,6 +200,9 @@
     "resultado_visitante": 2,
     "rival": "Espanyol",
     "ronda": "2",
+    "sede": {
+      "pabellon": "RCDE Stadium"
+    },
     "uid": "madrid-2627-4909472@madrid-calendario",
     "uid_evento": "4909472",
     "victoria": true
@@ -216,6 +222,9 @@
     "resultado_visitante": 0,
     "rival": "Málaga CF",
     "ronda": "3",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4909485@madrid-calendario",
     "uid_evento": "4909485",
     "victoria": true
@@ -235,6 +244,9 @@
     "resultado_visitante": 0,
     "rival": "Real Betis",
     "ronda": "4",
+    "sede": {
+      "pabellon": "La Cartuja"
+    },
     "uid": "madrid-2627-4909498@madrid-calendario",
     "uid_evento": "4909498",
     "victoria": false
@@ -254,6 +266,9 @@
     "resultado_visitante": 1,
     "rival": "Rayo Vallecano",
     "ronda": "5",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4909530@madrid-calendario",
     "uid_evento": "4909530",
     "victoria": true
@@ -273,6 +288,9 @@
     "resultado_visitante": 3,
     "rival": "Elche CF",
     "ronda": "6",
+    "sede": {
+      "pabellon": "Manuel Martínez Valero"
+    },
     "uid": "madrid-2627-4909564@madrid-calendario",
     "uid_evento": "4909564",
     "victoria": true
@@ -292,6 +310,9 @@
     "resultado_visitante": 1,
     "rival": "Atlético",
     "ronda": "7",
+    "sede": {
+      "pabellon": "Riyadh Air Metropolitano"
+    },
     "uid": "madrid-2627-4909609@madrid-calendario",
     "uid_evento": "4909609",
     "victoria": false
@@ -311,6 +332,9 @@
     "resultado_visitante": 0,
     "rival": "Villarreal",
     "ronda": "8",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4909726@madrid-calendario",
     "uid_evento": "4909726",
     "victoria": true
@@ -330,6 +354,9 @@
     "resultado_visitante": 1,
     "rival": "Sevilla FC",
     "ronda": "9",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4909735@madrid-calendario",
     "uid_evento": "4909735",
     "victoria": true
@@ -349,6 +376,9 @@
     "resultado_visitante": 2,
     "rival": "Barcelona",
     "ronda": "10",
+    "sede": {
+      "pabellon": "Spotify Camp Nou"
+    },
     "uid": "madrid-2627-4918419@madrid-calendario",
     "uid_evento": "4918419",
     "victoria": true
@@ -368,6 +398,9 @@
     "resultado_visitante": 3,
     "rival": "Racing",
     "ronda": "11",
+    "sede": {
+      "pabellon": "El Sardinero"
+    },
     "uid": "madrid-2627-4918432@madrid-calendario",
     "uid_evento": "4918432",
     "victoria": true
@@ -387,6 +420,9 @@
     "resultado_visitante": 3,
     "rival": "Valencia",
     "ronda": "12",
+    "sede": {
+      "pabellon": "Mestalla"
+    },
     "uid": "madrid-2627-4918443@madrid-calendario",
     "uid_evento": "4918443",
     "victoria": true
@@ -402,6 +438,9 @@
     "inicio_madrid": "2026-11-21T21:00",
     "rival": "Celta",
     "ronda": "13",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918453@madrid-calendario",
     "uid_evento": "4918453"
   },
@@ -416,6 +455,9 @@
     "inicio_madrid": "2026-11-28T21:00",
     "rival": "Alavés",
     "ronda": "14",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918462@madrid-calendario",
     "uid_evento": "4918462"
   },
@@ -430,6 +472,9 @@
     "inicio_madrid": "2026-12-06T12:00",
     "rival": "Athletic Club",
     "ronda": "15",
+    "sede": {
+      "pabellon": "San Mamés"
+    },
     "uid": "madrid-2627-4918466@madrid-calendario",
     "uid_evento": "4918466"
   },
@@ -444,6 +489,9 @@
     "inicio_madrid": "2026-12-13T12:00",
     "rival": "CA Osasuna",
     "ronda": "16",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918482@madrid-calendario",
     "uid_evento": "4918482"
   },
@@ -458,6 +506,9 @@
     "inicio_madrid": "2026-12-20T12:00",
     "rival": "Dep. A Coruña",
     "ronda": "17",
+    "sede": {
+      "pabellon": "Abanca Riazor"
+    },
     "uid": "madrid-2627-4918488@madrid-calendario",
     "uid_evento": "4918488"
   },
@@ -472,6 +523,9 @@
     "inicio_madrid": "2027-01-03T12:00",
     "rival": "Getafe",
     "ronda": "18",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918502@madrid-calendario",
     "uid_evento": "4918502"
   },
@@ -486,6 +540,9 @@
     "inicio_madrid": "2027-01-10T12:00",
     "rival": "Levante",
     "ronda": "19",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918512@madrid-calendario",
     "uid_evento": "4918512"
   },
@@ -500,6 +557,9 @@
     "inicio_madrid": "2027-01-17T12:00",
     "rival": "Málaga CF",
     "ronda": "20",
+    "sede": {
+      "pabellon": "La Rosaleda"
+    },
     "uid": "madrid-2627-4918521@madrid-calendario",
     "uid_evento": "4918521"
   },
@@ -514,6 +574,9 @@
     "inicio_madrid": "2027-01-24T12:00",
     "rival": "Real Betis",
     "ronda": "21",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918532@madrid-calendario",
     "uid_evento": "4918532"
   },
@@ -528,6 +591,9 @@
     "inicio_madrid": "2027-01-31T12:00",
     "rival": "Rayo Vallecano",
     "ronda": "22",
+    "sede": {
+      "pabellon": "Estadio de Vallecas"
+    },
     "uid": "madrid-2627-4918542@madrid-calendario",
     "uid_evento": "4918542"
   },
@@ -542,6 +608,9 @@
     "inicio_madrid": "2026-12-02T19:00",
     "rival": "Real Sociedad",
     "ronda": "23",
+    "sede": {
+      "pabellon": "Anoeta"
+    },
     "uid": "madrid-2627-4918553@madrid-calendario",
     "uid_evento": "4918553"
   },
@@ -556,6 +625,9 @@
     "inicio_madrid": "2027-02-14T12:00",
     "rival": "Athletic Club",
     "ronda": "24",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918560@madrid-calendario",
     "uid_evento": "4918560"
   },
@@ -570,6 +642,9 @@
     "inicio_madrid": "2027-02-21T12:00",
     "rival": "Sevilla FC",
     "ronda": "25",
+    "sede": {
+      "pabellon": "Ramón Sánchez-Pizjuán"
+    },
     "uid": "madrid-2627-4918573@madrid-calendario",
     "uid_evento": "4918573"
   },
@@ -584,6 +659,9 @@
     "inicio_madrid": "2027-02-28T12:00",
     "rival": "Valencia",
     "ronda": "26",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918583@madrid-calendario",
     "uid_evento": "4918583"
   },
@@ -598,6 +676,9 @@
     "inicio_madrid": "2027-03-07T12:00",
     "rival": "Villarreal",
     "ronda": "27",
+    "sede": {
+      "pabellon": "La Cerámica"
+    },
     "uid": "madrid-2627-4918594@madrid-calendario",
     "uid_evento": "4918594"
   },
@@ -612,6 +693,9 @@
     "inicio_madrid": "2027-03-14T12:00",
     "rival": "Espanyol",
     "ronda": "28",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918604@madrid-calendario",
     "uid_evento": "4918604"
   },
@@ -626,6 +710,9 @@
     "inicio_madrid": "2027-03-21T12:00",
     "rival": "Celta",
     "ronda": "29",
+    "sede": {
+      "pabellon": "Abanca Balaídos"
+    },
     "uid": "madrid-2627-4918606@madrid-calendario",
     "uid_evento": "4918606"
   },
@@ -640,6 +727,9 @@
     "inicio_madrid": "2027-04-04T12:00",
     "rival": "Atlético",
     "ronda": "30",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918631@madrid-calendario",
     "uid_evento": "4918631"
   },
@@ -654,6 +744,9 @@
     "inicio_madrid": "2027-04-11T12:00",
     "rival": "CA Osasuna",
     "ronda": "31",
+    "sede": {
+      "pabellon": "El Sadar"
+    },
     "uid": "madrid-2627-4918637@madrid-calendario",
     "uid_evento": "4918637"
   },
@@ -668,6 +761,9 @@
     "inicio_madrid": "2027-04-18T12:00",
     "rival": "Getafe",
     "ronda": "32",
+    "sede": {
+      "pabellon": "Coliseum"
+    },
     "uid": "madrid-2627-4918649@madrid-calendario",
     "uid_evento": "4918649"
   },
@@ -682,6 +778,9 @@
     "inicio_madrid": "2027-04-21T12:00",
     "rival": "Elche CF",
     "ronda": "33",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918659@madrid-calendario",
     "uid_evento": "4918659"
   },
@@ -696,6 +795,9 @@
     "inicio_madrid": "2027-05-02T12:00",
     "rival": "Levante",
     "ronda": "34",
+    "sede": {
+      "pabellon": "Ciutat de València"
+    },
     "uid": "madrid-2627-4918669@madrid-calendario",
     "uid_evento": "4918669"
   },
@@ -710,6 +812,9 @@
     "inicio_madrid": "2027-05-09T12:00",
     "rival": "Barcelona",
     "ronda": "35",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918680@madrid-calendario",
     "uid_evento": "4918680"
   },
@@ -724,6 +829,9 @@
     "inicio_madrid": "2027-05-16T12:00",
     "rival": "Racing",
     "ronda": "36",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918690@madrid-calendario",
     "uid_evento": "4918690"
   },
@@ -738,6 +846,9 @@
     "inicio_madrid": "2027-05-23T12:00",
     "rival": "Alavés",
     "ronda": "37",
+    "sede": {
+      "pabellon": "Mendizorroza"
+    },
     "uid": "madrid-2627-4918703@madrid-calendario",
     "uid_evento": "4918703"
   },
@@ -752,6 +863,9 @@
     "inicio_madrid": "2027-05-30T12:00",
     "rival": "Dep. A Coruña",
     "ronda": "38",
+    "sede": {
+      "pabellon": "Santiago Bernabéu"
+    },
     "uid": "madrid-2627-4918701@madrid-calendario",
     "uid_evento": "4918701"
   }

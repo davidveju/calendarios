@@ -340,5 +340,42 @@ def extraer_partidos(html: str, config) -> list[dict]:
     return out
 
 
+def parse_sede(html: str) -> dict:
+    """Extrae el estadio de una ficha ``spielbericht`` de Transfermarkt.
+
+    Devuelve ``{"pabellon": ...}`` o ``{}`` si no se puede determinar.
+    """
+    zona = re.search(
+        r'class="[^"]*\bsb-zusatzinfos\b[^"]*"[^>]*>(.*?)</p\s*>',
+        html,
+        re.S | re.I,
+    )
+    fuente = zona.group(1) if zona else html
+    m = re.search(r'href="[^"]*/stadion/[^"]*"[^>]*>([^<]+)</a>', fuente, re.I)
+    if not m:
+        m = re.search(r'Stadium:.*?<a[^>]*>([^<]+)</a>', html, re.S | re.I)
+    if not m:
+        return {}
+    pabellon = _html.unescape(m.group(1)).replace("\xa0", " ").strip()
+    return {"pabellon": pabellon} if pabellon else {}
+
+
+def fetch_sede(acta: str, *, retries: int = 2, timeout: int = 20) -> dict:
+    """Descarga la ficha del partido y devuelve su sede.
+
+    ``acta`` puede ser la URL completa o un id de ``spielbericht``.
+    """
+    if str(acta).isdigit():
+        url = f"https://www.transfermarkt.com/spielbericht/index/spielbericht/{acta}"
+    else:
+        url = str(acta)
+    try:
+        from scripts.comun.http import fetch
+
+        return parse_sede(fetch(url, user_agent=USER_AGENT, retries=retries, timeout=timeout))
+    except Exception as e:  # noqa: BLE001 - la sede es opcional
+        raise ValueError(f"sede tm {acta} falló ({e})") from e
+
+
 def fechas() -> list[str]:
     return []

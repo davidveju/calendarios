@@ -285,6 +285,7 @@ def _fuentes_oficiales():
 def main() -> None:
     ctx = contexto_desde_ejecucion(__name__, __file__)
     json_path = ctx.ruta_estado("partidos.json")
+    sedes_path = ctx.ruta_estado("sedes.json")
     ics_path = ctx.ruta_ics
     zona = ZoneInfo(ctx.zona)
 
@@ -319,6 +320,32 @@ def main() -> None:
         ):
             p["inicio_madrid"] = old["inicio_madrid"]
 
+    # Sedes: caché por acta TM (opcional, nunca tumba la generación).
+    try:
+        sedes = json.loads(sedes_path.read_text(encoding="utf-8")) if sedes_path.exists() else {}
+        if not isinstance(sedes, dict):
+            sedes = {}
+    except Exception as e:  # noqa: BLE001
+        warn(f"sedes {sedes_path} ilegible ({e}); se empieza vacío")
+        sedes = {}
+    for p in partidos:
+        if p.get("sede"):
+            continue
+        acta = str(p.get("acta") or "")
+        if "transfermarkt.com/spielbericht" not in acta:
+            continue
+        clave = str(p.get("uid_evento") or acta.rsplit("/", 1)[-1])
+        if clave not in sedes:
+            try:
+                sedes[clave] = fuentes.fetch_sede(acta)
+                if sedes[clave]:
+                    log(f"sede {p.get('competicion')} {p.get('rival')}: {sedes[clave]}")
+            except Exception as e:  # noqa: BLE001
+                warn(f"sede {clave} ({p.get('rival')}): {e}")
+                sedes[clave] = {}
+        if sedes.get(clave):
+            p["sede"] = sedes[clave]
+
     conteo = Counter(p.get("uid", "?") for p in partidos)
     dups = sorted(u for u, n in conteo.items() if n > 1)
     if dups:
@@ -328,6 +355,7 @@ def main() -> None:
     ics = generar_ics(ctx.nombre, eventos, zona=zona)
 
     escribir_json(json_path, partidos)
+    escribir_json(sedes_path, {k: v for k, v in sedes.items() if v})
     escritura_atomica(ics_path, ics.encode("utf-8"))
 
     jug = sum(1 for p in partidos if p.get("estado") == "jugado")
