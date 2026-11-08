@@ -10,6 +10,10 @@
     "inicio_madrid": "2026-12-17T21:00",
     "rival": "Ajax",
     "ronda": "Jornada 6",
+    "sede": {
+      "ciudad": "Ámsterdam",
+      "pabellon": "Johan Cruijff ArenA"
+    },
     "uid": "getafe-2627-5037511@getafe-calendario",
     "uid_evento": "2050401"
   },
@@ -24,6 +28,10 @@
     "inicio_madrid": "2026-12-10T18:45",
     "rival": "Inter Escaldes",
     "ronda": "Jornada 5",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-5037553@getafe-calendario",
     "uid_evento": "2050384"
   },
@@ -38,6 +46,10 @@
     "inicio_madrid": "2026-11-26T18:45",
     "rival": "Iberia Tbilisi",
     "ronda": "Jornada 4",
+    "sede": {
+      "ciudad": "Tiflis",
+      "pabellon": "Mikheil Meskhi I Stadium "
+    },
     "uid": "getafe-2627-5037615@getafe-calendario",
     "uid_evento": "2050379"
   },
@@ -56,6 +68,10 @@
     "resultado_visitante": 1,
     "rival": "Brighton",
     "ronda": "Jornada 3",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-5037551@getafe-calendario",
     "uid_evento": "2050352",
     "victoria": false
@@ -75,6 +91,10 @@
     "resultado_visitante": 5,
     "rival": "Lugano",
     "ronda": "Jornada 2",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-5037552@getafe-calendario",
     "uid_evento": "2050333",
     "victoria": false
@@ -94,6 +114,10 @@
     "resultado_visitante": 1,
     "rival": "Univ. Craiova",
     "ronda": "Jornada 1",
+    "sede": {
+      "ciudad": "Craiova",
+      "pabellon": "Ion Oblemenco Stadium"
+    },
     "uid": "getafe-2627-5037582@getafe-calendario",
     "uid_evento": "2050321",
     "victoria": false
@@ -113,6 +137,10 @@
     "resultado_visitante": 1,
     "rival": "Partizan",
     "ronda": "Play-offs",
+    "sede": {
+      "ciudad": "Belgrado",
+      "pabellon": "Stadion FK Partizan"
+    },
     "uid": "getafe-2627-5013850@getafe-calendario",
     "uid_evento": "2049292",
     "victoria": false
@@ -132,6 +160,10 @@
     "resultado_visitante": 1,
     "rival": "Partizan",
     "ronda": "Play-offs",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
     "uid": "getafe-2627-5013826@getafe-calendario",
     "uid_evento": "2049268",
     "victoria": true

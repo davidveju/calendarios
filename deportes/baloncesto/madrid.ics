@@ -7,7 +7,7 @@ X-WR-CALNAME:Real Madrid Baloncesto
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el2@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20260924T160000Z
 DTEND:20260924T180000Z
 SUMMARY:🏀 Dubai Basketball - Real Madrid (EuroLeague: 78-77 ❌)
@@ -16,13 +16,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Dubai Basketball\nResult
  .net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:COCA-COLA ARENA\, Al Wasl - سٹی واک - Dubai - United Arab Em
+ irates
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105383@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20260927T170000Z
 DTEND:20260927T190000Z
 SUMMARY:🏀 Real Madrid - Unicaja (Liga Endesa: 89-87 ✅)
@@ -37,7 +39,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el11@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20260929T170000Z
 DTEND:20260929T190000Z
 SUMMARY:🏀 Anadolu Efes Istanbul - Real Madrid (EuroLeague: 94-84 ❌)
@@ -46,13 +48,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Anadolu Efes Istanbul\nR
  tball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:TURKCELL BASKETBALL DEVELOPMENT CENTER\, Kazliçesme Mah. 10. Yil 
+ Caddesi No: 2/1 Zeytinburnu / Turkiye
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el22@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261001T160000Z
 DTEND:20261001T180000Z
 SUMMARY:🏀 Hapoel IBI Tel Aviv - Real Madrid (EuroLeague: 102-98 ❌)
@@ -61,13 +65,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Hapoel IBI Tel Aviv\nRes
  ball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:ARENA 8888 SOFIA
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105389@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261004T103000Z
 DTEND:20261004T123000Z
 SUMMARY:🏀 Monbus Obra - Real Madrid (Liga Endesa: 107-114 ✅)
@@ -81,7 +86,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el35@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261008T184500Z
 DTEND:20261008T204500Z
 SUMMARY:🏀 Real Madrid - Partizan Mozzart Bet Belgrade (EuroLeague: 86-76
@@ -91,14 +96,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Partizan Mozzart Bet B
  leaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105397@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261011T100000Z
 DTEND:20261011T120000Z
 SUMMARY:🏀 Real Madrid - Kids&Us Manresa (Liga Endesa: 120-83 ✅)
@@ -113,7 +118,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el43@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261013T183000Z
 DTEND:20261013T203000Z
 SUMMARY:🏀 Armani Olimpia Milan - Real Madrid (EuroLeague: 89-98 ✅)
@@ -122,13 +127,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Armani Olimpia Milan\nRe
  tball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:UNIPOL FORUM\, Via G. Di Vittorio 6\, 20090 Assago
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el53@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261015T190000Z
 DTEND:20261015T210000Z
 SUMMARY:🏀 Real Madrid - LDLC ASVEL Villeurbanne (EuroLeague: 111-92 ✅)
@@ -137,14 +143,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs LDLC ASVEL Villeurbann
  ebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105407@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261018T103000Z
 DTEND:20261018T123000Z
 SUMMARY:🏀 Real Madrid - Surne Bilbao (Liga Endesa: 119-84 ✅)
@@ -159,7 +165,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el62@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261022T180500Z
 DTEND:20261022T200500Z
 SUMMARY:🏀 Maccabi Rapyd Tel Aviv - Real Madrid (EuroLeague: 99-113 ✅)
@@ -168,13 +174,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Maccabi Rapyd Tel Aviv\n
  sketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:ALEKSANDAR NIKOLIC HALL\, Carlija Caplina 39\, Belgrade 11000\, Se
+ rbia
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105419@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261025T180000Z
 DTEND:20261025T200000Z
 SUMMARY:🏀 iLERNA Lleida - Real Madrid (Liga Endesa: 86-122 ✅)
@@ -188,7 +196,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el73@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261027T200000Z
 DTEND:20261027T220000Z
 SUMMARY:🏀 Kosner Baskonia Vitoria-Gasteiz - Real Madrid (EuroLeague: 86-
@@ -198,13 +206,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Kosner Baskonia Vitoria-
  oleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:BUESA ARENA\, Ctra.  Zurbano s/n\, 01013 Vitoria
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el83@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261029T194500Z
 DTEND:20261029T214500Z
 SUMMARY:🏀 Real Madrid - Fenerbahce Tarfin Istanbul (EuroLeague: 95-76 
@@ -214,14 +223,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Fenerbahce Tarfin Ista
  guebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105425@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261101T113000Z
 DTEND:20261101T133000Z
 SUMMARY:🏀 Real Madrid - Recoletas Salud (Liga Endesa: 90-79 ✅)
@@ -236,7 +245,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el91@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261104T194500Z
 DTEND:20261104T214500Z
 SUMMARY:🏀 Real Madrid - Panathinaikos AKTOR Athens (EuroLeague: 112-115 
@@ -246,14 +255,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Panathinaikos AKTOR At
  aguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105437@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261108T180000Z
 DTEND:20261108T200000Z
 SUMMARY:🏀 Real Madrid - UCAM Murcia (Liga Endesa)
@@ -267,7 +276,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el106@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261112T200000Z
 DTEND:20261112T220000Z
 SUMMARY:🏀 Real Madrid - Crvena Zvezda Meridianbet Belgrade (EuroLeague)
@@ -276,14 +285,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Crvena Zvezda Meridian
  ms/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105446@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261115T180000Z
 DTEND:20261115T200000Z
 SUMMARY:🏀 Kosner Baskonia - Real Madrid (Liga Endesa)
@@ -296,7 +305,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el120@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261118T170000Z
 DTEND:20261118T190000Z
 SUMMARY:🏀 Besiktas Istanbul - Real Madrid (EuroLeague)
@@ -304,13 +313,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Besiktas Istanbul\nActa:
   https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:TURKCELL BASKETBALL DEVELOPMENT CENTER\, Kazliçesme Mah. 10. Yil 
+ Caddesi No: 2/1 Zeytinburnu / Turkiye
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el130@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261120T191500Z
 DTEND:20261120T211500Z
 SUMMARY:🏀 Olympiacos Piraeus - Real Madrid (EuroLeague)
@@ -319,13 +330,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Olympiacos Piraeus\nActa
  /
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:SUNEL ARENA\, Konstantinoupoleos 59\, Ano Liosia\, 13342 Athens\, 
+ Greece
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105455@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261122T180000Z
 DTEND:20261122T200000Z
 SUMMARY:🏀 Real Madrid - Asisa Joventut (Liga Endesa)
@@ -339,7 +352,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el139@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261125T194500Z
 DTEND:20261125T214500Z
 SUMMARY:🏀 Real Madrid - Zalgiris Kaunas (EuroLeague)
@@ -347,14 +360,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Zalgiris Kaunas\nActa:
   https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el145@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261203T194500Z
 DTEND:20261203T214500Z
 SUMMARY:🏀 Real Madrid - FC Barcelona (EuroLeague)
@@ -362,14 +375,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs FC Barcelona\nActa: ht
  tps://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105461@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261206T113000Z
 DTEND:20261206T133000Z
 SUMMARY:🏀 Real Madrid - MoraBanc And (Liga Endesa)
@@ -383,7 +396,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105467@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261208T160000Z
 DTEND:20261208T180000Z
 SUMMARY:🏀 Leyma Coruña - Real Madrid (Liga Endesa)
@@ -396,7 +409,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el154@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261210T194500Z
 DTEND:20261210T214500Z
 SUMMARY:🏀 Paris Basketball - Real Madrid (EuroLeague)
@@ -404,13 +417,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Paris Basketball\nActa:
  https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:ADIDAS ARENA\, 56 Boulevard Ney\, 75018 Paris\, France
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105475@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261212T200000Z
 DTEND:20261212T220000Z
 SUMMARY:🏀 Río Breogán - Real Madrid (Liga Endesa)
@@ -423,7 +437,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el166@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261215T194500Z
 DTEND:20261215T214500Z
 SUMMARY:🏀 Real Madrid - FC Bayern Munich (EuroLeague)
@@ -432,14 +446,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs FC Bayern Munich\nActa
  /
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el174@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261217T194500Z
 DTEND:20261217T214500Z
 SUMMARY:🏀 Real Madrid - Valencia Basket (EuroLeague)
@@ -447,14 +461,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Valencia Basket\nActa:
   https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105491@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261220T180000Z
 DTEND:20261220T200000Z
 SUMMARY:🏀 Casademont Zgz - Real Madrid (Liga Endesa)
@@ -467,7 +481,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el185@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261222T193000Z
 DTEND:20261222T213000Z
 SUMMARY:🏀 Virtus Bologna - Real Madrid (EuroLeague)
@@ -475,13 +489,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Virtus Bologna\nActa: ht
  tps://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:VIRTUS ARENA\, Viale della Fiera\, 40128\, Bologna
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105500@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261227T200000Z
 DTEND:20261227T220000Z
 SUMMARY:🏀 Barça - Real Madrid (Liga Endesa)
@@ -494,7 +509,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el195@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20261229T200000Z
 DTEND:20261229T220000Z
 SUMMARY:🏀 Real Madrid - Dubai Basketball (EuroLeague)
@@ -503,14 +518,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Dubai Basketball\nActa
  /
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105512@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270102T200000Z
 DTEND:20270102T220000Z
 SUMMARY:🏀 Real Madrid - La Laguna TFE (Liga Endesa)
@@ -524,7 +539,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105506@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270104T190000Z
 DTEND:20270104T210000Z
 SUMMARY:🏀 Valencia Basket - Real Madrid (Liga Endesa)
@@ -537,7 +552,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el210@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270107T194500Z
 DTEND:20270107T214500Z
 SUMMARY:🏀 Real Madrid - Olympiacos Piraeus (EuroLeague)
@@ -546,14 +561,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Olympiacos Piraeus\nAc
  ad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105520@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270110T110000Z
 DTEND:20270110T130000Z
 SUMMARY:🏀 Real Madrid - FIATC Girona (Liga Endesa)
@@ -567,7 +582,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el211@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270112T190000Z
 DTEND:20270112T210000Z
 SUMMARY:🏀 Crvena Zvezda Meridianbet Belgrade - Real Madrid (EuroLeague)
@@ -576,13 +591,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Crvena Zvezda Meridianbe
  /real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:BELGRADE ARENA\, Bulevar Arsenija Carnojevica 58\, 11070 Belgrade 
+ - Serbia
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el224@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270114T194500Z
 DTEND:20270114T214500Z
 SUMMARY:🏀 Real Madrid - Anadolu Efes Istanbul (EuroLeague)
@@ -591,14 +608,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Anadolu Efes Istanbul\
  d/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105529@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270116T183000Z
 DTEND:20270116T203000Z
 SUMMARY:🏀 Recoletas Salud - Real Madrid (Liga Endesa)
@@ -611,7 +628,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el236@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270121T194500Z
 DTEND:20270121T214500Z
 SUMMARY:🏀 Real Madrid - Maccabi Rapyd Tel Aviv (EuroLeague)
@@ -620,14 +637,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Maccabi Rapyd Tel Aviv
  id/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105540@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270124T110000Z
 DTEND:20270124T130000Z
 SUMMARY:🏀 Real Madrid - Leyma Coruña (Liga Endesa)
@@ -641,7 +658,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el249@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270129T174500Z
 DTEND:20270129T194500Z
 SUMMARY:🏀 Fenerbahce Tarfin Istanbul - Real Madrid (EuroLeague)
@@ -650,13 +667,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Fenerbahce Tarfin Istanb
  drid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:ULKER SPORTS AND EVENT HALL\, Barbaros Mah. Ihlamur Sok. Batı Ata
+ şehir\, 34764 Istanbul\, Turkiye 
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105554@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270131T180000Z
 DTEND:20270131T200000Z
 SUMMARY:🏀 UCAM Murcia - Real Madrid (Liga Endesa)
@@ -669,7 +688,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el255@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270202T194500Z
 DTEND:20270202T214500Z
 SUMMARY:🏀 Partizan Mozzart Bet Belgrade - Real Madrid (EuroLeague)
@@ -678,13 +697,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Partizan Mozzart Bet Bel
  -madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:BELGRADE ARENA\, Bulevar Arsenija Carnojevica 58\, 11070 Belgrade 
+ - Serbia
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el264@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270204T194500Z
 DTEND:20270204T214500Z
 SUMMARY:🏀 Real Madrid - Paris Basketball (EuroLeague)
@@ -693,14 +714,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Paris Basketball\nActa
  /
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105563@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270207T180000Z
 DTEND:20270207T200000Z
 SUMMARY:🏀 Real Madrid - Kosner Baskonia (Liga Endesa)
@@ -714,7 +735,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el278@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270212T180000Z
 DTEND:20270212T200000Z
 SUMMARY:🏀 Zalgiris Kaunas - Real Madrid (EuroLeague)
@@ -722,13 +743,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Zalgiris Kaunas\nActa: h
  ttps://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:ZALGIRIO ARENA\, Karaliaus Mindaugo Av. 50\, 44287 Kaunas
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105572@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270214T180000Z
 DTEND:20270214T200000Z
 SUMMARY:🏀 Kids&Us Manresa - Real Madrid (Liga Endesa)
@@ -741,7 +763,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el289@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270305T193000Z
 DTEND:20270305T213000Z
 SUMMARY:🏀 FC Barcelona - Real Madrid (EuroLeague)
@@ -749,13 +771,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs FC Barcelona\nActa: http
  s://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:PALAU BLAUGRANA\, Aristides Maillol Av S/N\, 08028 Barcelona
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105580@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270307T170000Z
 DTEND:20270307T190000Z
 SUMMARY:🏀 Real Madrid - Monbus Obra (Liga Endesa)
@@ -769,7 +792,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el298@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270309T194500Z
 DTEND:20270309T214500Z
 SUMMARY:🏀 Real Madrid - Hapoel IBI Tel Aviv (EuroLeague)
@@ -778,14 +801,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Hapoel IBI Tel Aviv\nA
  mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el305@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270311T194500Z
 DTEND:20270311T214500Z
 SUMMARY:🏀 Real Madrid - Virtus Bologna (EuroLeague)
@@ -793,14 +816,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Virtus Bologna\nActa:
  https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105590@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270314T180000Z
 DTEND:20270314T200000Z
 SUMMARY:🏀 Real Madrid - Valencia Basket (Liga Endesa)
@@ -814,7 +837,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el314@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270318T194500Z
 DTEND:20270318T214500Z
 SUMMARY:🏀 Real Madrid - Kosner Baskonia Vitoria-Gasteiz (EuroLeague)
@@ -823,14 +846,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Kosner Baskonia Vitori
  real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105599@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270321T180000Z
 DTEND:20270321T200000Z
 SUMMARY:🏀 FIATC Girona - Real Madrid (Liga Endesa)
@@ -843,7 +866,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el328@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270324T190000Z
 DTEND:20270324T210000Z
 SUMMARY:🏀 FC Bayern Munich - Real Madrid (EuroLeague)
@@ -851,13 +874,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs FC Bayern Munich\nActa:
  https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:SAP GARDEN\, Toni-Merkens-Weg 4\, 80809 Munich - Germany
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el339@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270326T194500Z
 DTEND:20270326T214500Z
 SUMMARY:🏀 Real Madrid - Besiktas Istanbul (EuroLeague)
@@ -866,14 +890,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Besiktas Istanbul\nAct
  d/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105608@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270328T170000Z
 DTEND:20270328T190000Z
 SUMMARY:🏀 Real Madrid - Barça (Liga Endesa)
@@ -887,7 +911,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el346@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270401T183000Z
 DTEND:20270401T203000Z
 SUMMARY:🏀 Valencia Basket - Real Madrid (EuroLeague)
@@ -895,13 +919,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Valencia Basket\nActa: h
  ttps://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:ROIG ARENA\, C/ del Bomber Ramon Duart\, 12\, Quatre Carreres\, 46
+ 013 Valencia 
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105615@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270404T150000Z
 DTEND:20270404T170000Z
 SUMMARY:🏀 Asisa Joventut - Real Madrid (Liga Endesa)
@@ -914,7 +940,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el358@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270406T184500Z
 DTEND:20270406T204500Z
 SUMMARY:🏀 Real Madrid - Armani Olimpia Milan (EuroLeague)
@@ -923,14 +949,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid en casa vs Armani Olimpia Milan\n
  /mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
-LOCATION:Movistar Arena\, Madrid
+LOCATION:MOVISTAR ARENA\, Avenida de Felipe II 1\, 28009\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el362@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270408T180000Z
 DTEND:20270408T200000Z
 SUMMARY:🏀 LDLC ASVEL Villeurbanne - Real Madrid (EuroLeague)
@@ -939,13 +965,15 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs LDLC ASVEL Villeurbanne\
  d/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:LDLC ARENA\, Avenue Simone Veil 5\, 69150 Décines-Charpieu - Fran
+ ce
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105626@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270411T170000Z
 DTEND:20270411T190000Z
 SUMMARY:🏀 La Laguna TFE - Real Madrid (Liga Endesa)
@@ -958,7 +986,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madridbaloncesto-calendario-2026-el376@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270415T181500Z
 DTEND:20270415T201500Z
 SUMMARY:🏀 Panathinaikos AKTOR Athens - Real Madrid (EuroLeague)
@@ -967,13 +995,14 @@ DESCRIPTION:EuroLeague 26/27\nReal Madrid fuera vs Panathinaikos AKTOR Athe
  drid/mad/
 URL:https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/ma
  d/
+LOCATION:TELEKOM CENTER ATHENS\, 37 Kifisias Avenue\, 15123 Marousi
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105632@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270418T103000Z
 DTEND:20270418T123000Z
 SUMMARY:🏀 Real Madrid - Río Breogán (Liga Endesa)
@@ -987,7 +1016,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105641@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270425T103000Z
 DTEND:20270425T123000Z
 SUMMARY:🏀 Real Madrid - iLERNA Lleida (Liga Endesa)
@@ -1001,7 +1030,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105653@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270502T170000Z
 DTEND:20270502T190000Z
 SUMMARY:🏀 Surne Bilbao - Real Madrid (Liga Endesa)
@@ -1014,7 +1043,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105662@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270509T170000Z
 DTEND:20270509T190000Z
 SUMMARY:🏀 Unicaja - Real Madrid (Liga Endesa)
@@ -1027,7 +1056,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105668@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270516T103000Z
 DTEND:20270516T123000Z
 SUMMARY:🏀 Real Madrid - Casademont Zgz (Liga Endesa)
@@ -1041,7 +1070,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-b-2627-acb105672@madridbaloncesto-calendario
-DTSTAMP:20261107T084622Z
+DTSTAMP:20261108T083556Z
 DTSTART:20270521T120000Z
 DTEND:20270521T140000Z
 SUMMARY:🏀 MoraBanc And - Real Madrid (Liga Endesa)

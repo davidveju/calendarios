@@ -73,6 +73,18 @@ def _ronda(partido: dict, competicion: CompeticionFIFA) -> str:
     return fase
 
 
+def _sede(partido: dict) -> dict[str, str] | None:
+    estadio = partido.get("Stadium") or {}
+    pabellon = _texto(estadio.get("Name"))
+    ciudad = _texto(estadio.get("CityName"))
+    sede = {}
+    if pabellon:
+        sede["pabellon"] = pabellon
+    if ciudad:
+        sede["ciudad"] = ciudad
+    return sede or None
+
+
 def _url_partido(partido: dict) -> str:
     return (
         "https://www.fifa.com/en/match-centre/match/"
@@ -150,6 +162,9 @@ def parse_partidos(
             "acta": _url_partido(match),
             "ronda": _ronda(match, competicion),
         }
+        sede = _sede(match)
+        if sede:
+            partido["sede"] = sede
         if estado == "jugado":
             gl, gv = int(goles_local), int(goles_visitante)
             partido["resultado_local"] = gl

@@ -173,6 +173,11 @@ def descripcion(p: dict) -> str:
 
 
 def sede_txt(p: dict) -> str:
+    s = p.get("sede") or {}
+    partes = [s.get("pabellon"), s.get("ciudad") or s.get("direccion")]
+    texto = ", ".join(x for x in partes if x)
+    if texto:
+        return texto
     return CONFIG.casa_pabellon if p.get("casa") else ""
 
 

@@ -10,16 +10,45 @@
       "MatchStatus": 1,
       "Home": {
         "IdTeam": "43969",
-        "TeamName": [{"Locale": "es-es", "Description": "España"}],
+        "TeamName": [
+          {
+            "Locale": "es-es",
+            "Description": "España"
+          }
+        ],
         "Score": null
       },
       "Away": {
         "IdTeam": "43818",
-        "TeamName": [{"Locale": "es-es", "Description": "Irak"}],
+        "TeamName": [
+          {
+            "Locale": "es-es",
+            "Description": "Irak"
+          }
+        ],
         "Score": null
       },
-      "StageName": [{"Locale": "es-es", "Description": "Amistosos 1"}],
-      "GroupName": []
+      "StageName": [
+        {
+          "Locale": "es-es",
+          "Description": "Amistosos 1"
+        }
+      ],
+      "GroupName": [],
+      "Stadium": {
+        "Name": [
+          {
+            "Locale": "es-es",
+            "Description": "RCDE Stadium"
+          }
+        ],
+        "CityName": [
+          {
+            "Locale": "es-es",
+            "Description": "Cornellà"
+          }
+        ]
+      }
     },
     {
       "IdMatch": "400021002",
@@ -31,16 +60,45 @@
       "MatchStatus": 0,
       "Home": {
         "IdTeam": "43969",
-        "TeamName": [{"Locale": "es-es", "Description": "España"}],
+        "TeamName": [
+          {
+            "Locale": "es-es",
+            "Description": "España"
+          }
+        ],
         "Score": 2
       },
       "Away": {
         "IdTeam": "43965",
-        "TeamName": [{"Locale": "es-es", "Description": "Serbia"}],
+        "TeamName": [
+          {
+            "Locale": "es-es",
+            "Description": "Serbia"
+          }
+        ],
         "Score": 0
       },
-      "StageName": [{"Locale": "es-es", "Description": "Amistosos 1"}],
-      "GroupName": []
+      "StageName": [
+        {
+          "Locale": "es-es",
+          "Description": "Amistosos 1"
+        }
+      ],
+      "GroupName": [],
+      "Stadium": {
+        "Name": [
+          {
+            "Locale": "es-es",
+            "Description": "Estadio de La Cartuja"
+          }
+        ],
+        "CityName": [
+          {
+            "Locale": "es-es",
+            "Description": "Sevilla"
+          }
+        ]
+      }
     }
   ]
 }

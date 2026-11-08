@@ -14,6 +14,10 @@
     "resultado_visitante": 0,
     "rival": "Serbia",
     "ronda": "",
+    "sede": {
+      "ciudad": "Villarreal",
+      "pabellon": "Estadio de la Cerámica"
+    },
     "uid": "espana-2026-4844808@espana-calendario",
     "uid_evento": "30sdmksmqmisy6kad0a7xjjf8",
     "victoria": true
@@ -33,6 +37,10 @@
     "resultado_visitante": 0,
     "rival": "Egipto",
     "ronda": "",
+    "sede": {
+      "ciudad": "Cornellà de Llobregat",
+      "pabellon": "RCDE Stadium"
+    },
     "uid": "espana-2026-4844959@espana-calendario",
     "uid_evento": "52cm9g2ph41wy7jcvhjsbkc9g",
     "victoria": false
@@ -52,6 +60,10 @@
     "resultado_visitante": 1,
     "rival": "Irak",
     "ronda": "",
+    "sede": {
+      "ciudad": "A Coruña (La Coruña)",
+      "pabellon": "Estadio Abanca-Riazor"
+    },
     "uid": "espana-2026-4869519@espana-calendario",
     "uid_evento": "1agmn3ulcv1otf3fbd499kutw",
     "victoria": false
@@ -71,6 +83,10 @@
     "resultado_visitante": 3,
     "rival": "Perú",
     "ronda": "",
+    "sede": {
+      "ciudad": "Heroica Puebla de Zaragoza",
+      "pabellon": "Estadio Cuauhtémoc"
+    },
     "uid": "espana-2026-4852541@espana-calendario",
     "uid_evento": "1mfo71qlcxhweg5273srd85ck",
     "victoria": true
@@ -90,6 +106,10 @@
     "resultado_visitante": 0,
     "rival": "Islas de Cabo Verde",
     "ronda": "Primera fase · Grupo H",
+    "sede": {
+      "ciudad": "Atlanta",
+      "pabellon": "Estadio Atlanta"
+    },
     "uid": "espana-2026-4776613@espana-calendario",
     "uid_evento": "400021482",
     "victoria": false
@@ -109,6 +129,10 @@
     "resultado_visitante": 0,
     "rival": "Arabia Saudí",
     "ronda": "Primera fase · Grupo H",
+    "sede": {
+      "ciudad": "Atlanta",
+      "pabellon": "Estadio Atlanta"
+    },
     "uid": "espana-2026-4776637@espana-calendario",
     "uid_evento": "400021483",
     "victoria": true
@@ -128,6 +152,10 @@
     "resultado_visitante": 1,
     "rival": "Uruguay",
     "ronda": "Primera fase · Grupo H",
+    "sede": {
+      "ciudad": "Guadalajara",
+      "pabellon": "Estadio Guadalajara"
+    },
     "uid": "espana-2026-4776661@espana-calendario",
     "uid_evento": "400021484",
     "victoria": true
@@ -147,6 +175,10 @@
     "resultado_visitante": 0,
     "rival": "Austria",
     "ronda": "Dieciseisavos de final",
+    "sede": {
+      "ciudad": "Los Ángeles",
+      "pabellon": "Estadio Los Angeles"
+    },
     "uid": "espana-2026-4776690@espana-calendario",
     "uid_evento": "400021519",
     "victoria": true
@@ -166,6 +198,10 @@
     "resultado_visitante": 1,
     "rival": "Portugal",
     "ronda": "Octavos de final",
+    "sede": {
+      "ciudad": "Dallas",
+      "pabellon": "Estadio Dallas"
+    },
     "uid": "espana-2026-4776702@espana-calendario",
     "uid_evento": "400021529",
     "victoria": true
@@ -185,6 +221,10 @@
     "resultado_visitante": 1,
     "rival": "Bélgica",
     "ronda": "Cuartos de final",
+    "sede": {
+      "ciudad": "Los Ángeles",
+      "pabellon": "Estadio Los Angeles"
+    },
     "uid": "espana-2026-4776704@espana-calendario",
     "uid_evento": "400021538",
     "victoria": true
@@ -204,6 +244,10 @@
     "resultado_visitante": 2,
     "rival": "Francia",
     "ronda": "Semifinal",
+    "sede": {
+      "ciudad": "Dallas",
+      "pabellon": "Estadio Dallas"
+    },
     "uid": "espana-2026-4776707@espana-calendario",
     "uid_evento": "400021541",
     "victoria": true
@@ -223,6 +267,10 @@
     "resultado_visitante": 0,
     "rival": "Argentina",
     "ronda": "Final",
+    "sede": {
+      "ciudad": "Nueva Jersey",
+      "pabellon": "Estadio Nueva York/Nueva Jersey"
+    },
     "uid": "espana-2026-4776710@espana-calendario",
     "uid_evento": "400021543",
     "victoria": true
@@ -238,6 +286,10 @@
     "inicio_madrid": "2026-11-15T20:45",
     "rival": "Inglaterra",
     "ronda": "Fase liga",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Estadio Metropolitano"
+    },
     "uid": "espana-2026-4825127@espana-calendario",
     "uid_evento": "2047904"
   },
@@ -252,6 +304,10 @@
     "inicio_madrid": "2026-11-12T20:45",
     "rival": "Chequia",
     "ronda": "Fase liga",
+    "sede": {
+      "ciudad": "Praga",
+      "pabellon": "Stadion Letná"
+    },
     "uid": "espana-2026-4825130@espana-calendario",
     "uid_evento": "2047872"
   },
@@ -270,6 +326,10 @@
     "resultado_visitante": 2,
     "rival": "Croacia",
     "ronda": "Fase liga",
+    "sede": {
+      "ciudad": "Split",
+      "pabellon": "Stadion Poljud"
+    },
     "uid": "espana-2026-4825114@espana-calendario",
     "uid_evento": "2047946",
     "victoria": true
@@ -289,6 +349,10 @@
     "resultado_visitante": 1,
     "rival": "Chequia",
     "ronda": "Fase liga",
+    "sede": {
+      "ciudad": "Oviedo",
+      "pabellon": "Nuevo Carlos Tartiere"
+    },
     "uid": "espana-2026-4825111@espana-calendario",
     "uid_evento": "2047971",
     "victoria": true
@@ -308,6 +372,10 @@
     "resultado_visitante": 1,
     "rival": "Croacia",
     "ronda": "Fase liga",
+    "sede": {
+      "ciudad": "Sevilla",
+      "pabellon": "Estadio Ramón Sánchez-Pizjuán"
+    },
     "uid": "espana-2026-4824833@espana-calendario",
     "uid_evento": "2047999",
     "victoria": true
@@ -327,6 +395,10 @@
     "resultado_visitante": 3,
     "rival": "Inglaterra",
     "ronda": "Fase liga",
+    "sede": {
+      "ciudad": "Londres",
+      "pabellon": "Wembley Stadium"
+    },
     "uid": "espana-2026-4824834@espana-calendario",
     "uid_evento": "2048018",
     "victoria": true
@@ -342,6 +414,10 @@
     "inicio_madrid": "2026-03-27T19:00",
     "rival": "Argentina",
     "ronda": "Final",
+    "sede": {
+      "ciudad": "Lusail",
+      "pabellon": "Lusail Stadium"
+    },
     "uid": "espana-2026-4785707@espana-calendario",
     "uid_evento": "2047745"
   }

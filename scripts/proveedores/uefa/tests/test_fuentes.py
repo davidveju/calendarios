@@ -49,6 +49,9 @@ class TestUEFA(unittest.TestCase):
         self.assertEqual(p["ronda"], "Jornada 1")
         self.assertIn("/uefachampionsleague/match/2047742/", p["acta"])
         self.assertEqual(p["fuente"], "uefa")
+        self.assertEqual(
+            p["sede"], {"pabellon": "Santiago Bernabéu", "ciudad": "Madrid"}
+        )
 
     def test_partido_pendiente_fuera(self):
         p = next(x for x in self.partidos if x["estado"] == "pendiente")

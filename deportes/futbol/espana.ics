@@ -7,7 +7,7 @@ X-WR-CALNAME:Selección Española de Fútbol
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:espana-2026-4844808@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260327T200000Z
 DTEND:20260327T220000Z
 SUMMARY:⚽ España - Serbia (Amistoso: 3-0 ✅)
@@ -18,13 +18,14 @@ DESCRIPTION:Amistoso internacional\nEspaña en casa vs Serbia\nResultado: E
 URL:https://www.fifa.com/en/match-centre/match/cesdwwnxbc5fmajgroc0hqzy2/de
  zv8l0fzgcxtejl0dwmy1gyc/2m1wojm5bt709wu4kugtytxqs/30sdmksmqmisy6kad0a7xjjf
  8
+LOCATION:Estadio de la Cerámica\, Villarreal
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4844959@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260331T190000Z
 DTEND:20260331T210000Z
 SUMMARY:⚽ España - Egipto (Amistoso: 0-0 🤝)
@@ -35,13 +36,14 @@ DESCRIPTION:Amistoso internacional\nEspaña en casa vs Egipto\nResultado: E
 URL:https://www.fifa.com/en/match-centre/match/cesdwwnxbc5fmajgroc0hqzy2/de
  zv8l0fzgcxtejl0dwmy1gyc/2m1wojm5bt709wu4kugtytxqs/52cm9g2ph41wy7jcvhjsbkc9
  g
+LOCATION:RCDE Stadium\, Cornellà de Llobregat
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4869519@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260604T190000Z
 DTEND:20260604T210000Z
 SUMMARY:⚽ España - Irak (Amistoso: 1-1 🤝)
@@ -52,13 +54,14 @@ DESCRIPTION:Amistoso internacional\nEspaña en casa vs Irak\nResultado: Esp
 URL:https://www.fifa.com/en/match-centre/match/cesdwwnxbc5fmajgroc0hqzy2/de
  zv8l0fzgcxtejl0dwmy1gyc/2m1wojm5bt709wu4kugtytxqs/1agmn3ulcv1otf3fbd499kut
  w
+LOCATION:Estadio Abanca-Riazor\, A Coruña (La Coruña)
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4852541@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260609T020000Z
 DTEND:20260609T040000Z
 SUMMARY:⚽ Perú - España (Amistoso: 1-3 ✅)
@@ -69,13 +72,14 @@ DESCRIPTION:Amistoso internacional\nEspaña fuera vs Perú\nResultado: Espa
 URL:https://www.fifa.com/en/match-centre/match/cesdwwnxbc5fmajgroc0hqzy2/de
  zv8l0fzgcxtejl0dwmy1gyc/2m1wojm5bt709wu4kugtytxqs/1mfo71qlcxhweg5273srd85c
  k
+LOCATION:Estadio Cuauhtémoc\, Heroica Puebla de Zaragoza
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776613@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260615T160000Z
 DTEND:20260615T180000Z
 SUMMARY:⚽ España - Islas de Cabo Verde (Mundial · Primera fase · Grupo
@@ -84,13 +88,14 @@ DESCRIPTION:Copa Mundial 2026 · Primera fase · Grupo H\nEspaña en casa v
  s Islas de Cabo Verde\nResultado: España 0-0 empate 🤝\nActa: https://w
  ww.fifa.com/en/match-centre/match/17/285023/289273/400021482
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021482
+LOCATION:Estadio Atlanta\, Atlanta
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776637@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260621T160000Z
 DTEND:20260621T180000Z
 SUMMARY:⚽ España - Arabia Saudí (Mundial · Primera fase · Grupo H: 4-
@@ -99,13 +104,14 @@ DESCRIPTION:Copa Mundial 2026 · Primera fase · Grupo H\nEspaña en casa v
  s Arabia Saudí\nResultado: España 4-0 victoria ✅\nActa: https://www.fi
  fa.com/en/match-centre/match/17/285023/289273/400021483
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021483
+LOCATION:Estadio Atlanta\, Atlanta
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776661@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260627T000000Z
 DTEND:20260627T020000Z
 SUMMARY:⚽ Uruguay - España (Mundial · Primera fase · Grupo H: 0-1 ✅)
@@ -113,13 +119,14 @@ DESCRIPTION:Copa Mundial 2026 · Primera fase · Grupo H\nEspaña fuera vs
  Uruguay\nResultado: España 1-0 victoria ✅\nActa: https://www.fifa.com/e
  n/match-centre/match/17/285023/289273/400021484
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289273/400021484
+LOCATION:Estadio Guadalajara\, Guadalajara
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776690@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260702T190000Z
 DTEND:20260702T210000Z
 SUMMARY:⚽ España - Austria (Mundial · Dieciseisavos de final: 3-0 ✅)
@@ -127,13 +134,14 @@ DESCRIPTION:Copa Mundial 2026 · Dieciseisavos de final\nEspaña en casa vs
   Austria\nResultado: España 3-0 victoria ✅\nActa: https://www.fifa.com/
  en/match-centre/match/17/285023/289287/400021519
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519
+LOCATION:Estadio Los Angeles\, Los Ángeles
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776702@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260706T190000Z
 DTEND:20260706T210000Z
 SUMMARY:⚽ Portugal - España (Mundial · Octavos de final: 0-1 ✅)
@@ -141,13 +149,14 @@ DESCRIPTION:Copa Mundial 2026 · Octavos de final\nEspaña fuera vs Portuga
  l\nResultado: España 1-0 victoria ✅\nActa: https://www.fifa.com/en/matc
  h-centre/match/17/285023/289288/400021529
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529
+LOCATION:Estadio Dallas\, Dallas
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776704@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260710T190000Z
 DTEND:20260710T210000Z
 SUMMARY:⚽ España - Bélgica (Mundial · Cuartos de final: 2-1 ✅)
@@ -155,13 +164,14 @@ DESCRIPTION:Copa Mundial 2026 · Cuartos de final\nEspaña en casa vs Bélg
  ica\nResultado: España 2-1 victoria ✅\nActa: https://www.fifa.com/en/ma
  tch-centre/match/17/285023/289289/400021538
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538
+LOCATION:Estadio Los Angeles\, Los Ángeles
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776707@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260714T190000Z
 DTEND:20260714T210000Z
 SUMMARY:⚽ Francia - España (Mundial · Semifinal: 0-2 ✅)
@@ -169,13 +179,14 @@ DESCRIPTION:Copa Mundial 2026 · Semifinal\nEspaña fuera vs Francia\nResul
  tado: España 2-0 victoria ✅\nActa: https://www.fifa.com/en/match-centre
  /match/17/285023/289290/400021541
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541
+LOCATION:Estadio Dallas\, Dallas
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4776710@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260719T190000Z
 DTEND:20260719T210000Z
 SUMMARY:⚽ España - Argentina (Mundial · Final: 1-0 ✅)
@@ -183,13 +194,14 @@ DESCRIPTION:Copa Mundial 2026 · Final\nEspaña en casa vs Argentina\nResul
  tado: España 1-0 victoria ✅\nActa: https://www.fifa.com/en/match-centre
  /match/17/285023/289292/400021543
 URL:https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543
+LOCATION:Estadio Nueva York/Nueva Jersey\, Nueva Jersey
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4824834@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260926T184500Z
 DTEND:20260926T204500Z
 SUMMARY:⚽ Inglaterra - España (Nations · Fase liga: 2-3 ✅)
@@ -197,13 +209,14 @@ DESCRIPTION:UEFA Nations League 26/27 · Fase liga\nEspaña fuera vs Inglat
  erra\nResultado: España 3-2 victoria ✅\nActa: https://www.uefa.com/uefa
  nationsleague/match/2048018/
 URL:https://www.uefa.com/uefanationsleague/match/2048018/
+LOCATION:Wembley Stadium\, Londres
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4824833@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20260929T184500Z
 DTEND:20260929T204500Z
 SUMMARY:⚽ España - Croacia (Nations · Fase liga: 4-1 ✅)
@@ -211,13 +224,14 @@ DESCRIPTION:UEFA Nations League 26/27 · Fase liga\nEspaña en casa vs Croa
  cia\nResultado: España 4-1 victoria ✅\nActa: https://www.uefa.com/uefan
  ationsleague/match/2047999/
 URL:https://www.uefa.com/uefanationsleague/match/2047999/
+LOCATION:Estadio Ramón Sánchez-Pizjuán\, Sevilla
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4825111@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20261003T184500Z
 DTEND:20261003T204500Z
 SUMMARY:⚽ España - Chequia (Nations · Fase liga: 3-1 ✅)
@@ -225,13 +239,14 @@ DESCRIPTION:UEFA Nations League 26/27 · Fase liga\nEspaña en casa vs Cheq
  uia\nResultado: España 3-1 victoria ✅\nActa: https://www.uefa.com/uefan
  ationsleague/match/2047971/
 URL:https://www.uefa.com/uefanationsleague/match/2047971/
+LOCATION:Nuevo Carlos Tartiere\, Oviedo
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4825114@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20261006T184500Z
 DTEND:20261006T204500Z
 SUMMARY:⚽ Croacia - España (Nations · Fase liga: 1-2 ✅)
@@ -239,13 +254,14 @@ DESCRIPTION:UEFA Nations League 26/27 · Fase liga\nEspaña fuera vs Croaci
  a\nResultado: España 2-1 victoria ✅\nActa: https://www.uefa.com/uefanat
  ionsleague/match/2047946/
 URL:https://www.uefa.com/uefanationsleague/match/2047946/
+LOCATION:Stadion Poljud\, Split
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4825130@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20261112T194500Z
 DTEND:20261112T214500Z
 SUMMARY:⚽ Chequia - España (Nations · Fase liga)
@@ -253,13 +269,14 @@ DESCRIPTION:UEFA Nations League 26/27 · Fase liga\nEspaña fuera vs Chequi
  a\nInicio: 12/11/2026 20:45 (Madrid)\nActa: https://www.uefa.com/uefanatio
  nsleague/match/2047872/
 URL:https://www.uefa.com/uefanationsleague/match/2047872/
+LOCATION:Stadion Letná\, Praga
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:espana-2026-4825127@espana-calendario
-DTSTAMP:20261108T072552Z
+DTSTAMP:20261108T083558Z
 DTSTART:20261115T194500Z
 DTEND:20261115T214500Z
 SUMMARY:⚽ España - Inglaterra (Nations · Fase liga)
@@ -267,6 +284,7 @@ DESCRIPTION:UEFA Nations League 26/27 · Fase liga\nEspaña en casa vs Ingl
  aterra\nInicio: 15/11/2026 20:45 (Madrid)\nActa: https://www.uefa.com/uefa
  nationsleague/match/2047904/
 URL:https://www.uefa.com/uefanationsleague/match/2047904/
+LOCATION:Estadio Metropolitano\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0

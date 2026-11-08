@@ -136,17 +136,22 @@
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "Primera FEB 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "feb_partido_id": "2535786",
     "fecha_jornada": "06/11/2026",
     "inicio_madrid": "2026-11-07T19:00:00",
     "jornada": 7,
+    "resultado_equipo": 71,
+    "resultado_local": 73,
+    "resultado_rival": 73,
+    "resultado_visitante": 71,
     "rival": "Grupo Alega Cantabria",
     "sede": {
       "direccion": "Torrelavega (Cantabria)",
       "pabellon": "Pabellón Vicente Trueba"
     },
-    "uid": "estu-2627-j07@estudiantes-calendario"
+    "uid": "estu-2627-j07@estudiantes-calendario",
+    "victoria": false
   },
   {
     "acta": "https://baloncestoenvivo.feb.es/Partido.aspx?p=2535793",

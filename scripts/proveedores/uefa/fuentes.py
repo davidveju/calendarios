@@ -63,6 +63,26 @@ def _ronda(partido: dict) -> str:
     return " · ".join(partes) or base
 
 
+def _sede(partido: dict) -> dict[str, str] | None:
+    estadio = partido.get("stadium") or {}
+    traducciones = estadio.get("translations") or {}
+    pabellon = (
+        (traducciones.get("officialName") or {}).get("ES")
+        or (traducciones.get("mediaName") or {}).get("ES")
+        or (traducciones.get("name") or {}).get("ES")
+        or estadio.get("name")
+        or ""
+    )
+    ciudad = ((estadio.get("city") or {}).get("translations") or {}).get("name") or {}
+    ciudad = ciudad.get("ES") or ""
+    sede = {}
+    if pabellon:
+        sede["pabellon"] = pabellon
+    if ciudad:
+        sede["ciudad"] = ciudad
+    return sede or None
+
+
 def _inicio_madrid(partido: dict) -> str:
     crudo = (partido.get("kickOffTime") or {}).get("dateTime") or ""
     if not crudo:
@@ -136,6 +156,9 @@ def parse_partidos(
             "acta": f"https://www.uefa.com/{competicion.slug}/match/{match_id}/",
             "ronda": _ronda(match),
         }
+        sede = _sede(match)
+        if sede:
+            partido["sede"] = sede
         if estado == "jugado":
             gl, gv = int(goles_local), int(goles_visitante)
             partido["resultado_local"] = gl

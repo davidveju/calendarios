@@ -47,6 +47,7 @@ class TestFIFA(unittest.TestCase):
         self.assertEqual(p["ronda"], "")
         self.assertIn("/match-centre/match/", p["acta"])
         self.assertEqual(p["fuente"], "fifa")
+        self.assertEqual(p["sede"], {"pabellon": "RCDE Stadium", "ciudad": "Cornellà"})
 
     def test_partido_jugado(self):
         p = next(x for x in self.partidos if x["estado"] == "jugado")
