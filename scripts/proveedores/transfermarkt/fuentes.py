@@ -89,16 +89,138 @@ def _competicion_oculta(config, etapa: str) -> str:
     return _competicion_por_etapa(etapa)
 
 
+COMPETICIONES_CLUB = {
+    "liga": "LaLiga {temporada}",
+    "copa": "Copa del Rey {temporada}",
+    "champions": "Champions League {temporada}",
+    "europa": "Europa League {temporada}",
+    "conference": "Conference League {temporada}",
+}
+
+
+def _nombre_competicion(config, codigo: str) -> str:
+    """Nombre visible de la competición según la configuración del calendario."""
+    for comp in getattr(config, "competiciones", ()):
+        if comp.codigo == codigo:
+            return comp.nombre.format(temporada=config.temporada)
+    return COMPETICIONES_CLUB.get(codigo, "Fútbol {temporada}").format(
+        temporada=config.temporada
+    )
+
+
+def _competicion_configurada(texto: str, config) -> str | None:
+    """Código de la competición configurada cuya clave aparece más a la derecha.
+
+    Se usa la última aparición porque el HTML incluye estadísticas anteriores y
+    la cabecera real de la tabla es lo más cercano al partido.
+    """
+    texto = (texto or "").lower()
+    candidatos: list[tuple[int, str]] = []
+    for comp in getattr(config, "competiciones", ()):
+        for clave in comp.claves:
+            pos = texto.rfind(clave.lower())
+            if pos != -1:
+                candidatos.append((pos, comp.codigo))
+    if not candidatos:
+        return None
+    candidatos.sort()
+    return candidatos[-1][1]
+
+
+def _competicion_club(texto: str) -> str:
+    """Heurística histórica para las competiciones de clubes."""
+    texto = (texto or "").lower()
+    candidatos: list[tuple[int, str]] = []
+    for key, comp in (
+        ("champions", "champions"),
+        ("conference", "conference"),
+        ("europa league", "europa"),
+        ("copa", "copa"),
+        ("laliga", "liga"),
+    ):
+        pos = texto.rfind(key)
+        if pos != -1:
+            candidatos.append((pos, comp))
+    if not candidatos:
+        return "liga"
+    candidatos.sort()
+    return candidatos[-1][1]
+
+
+RONDAS = {
+    "group stage": "Fase de grupos",
+    "league phase": "Fase de liga",
+    "knockout phase play-offs": "Play-offs de eliminatorias",
+    "play-off round": "Ronda de play-off",
+    "play-offs": "Play-offs",
+    "qualifying round": "Ronda previa",
+    "1st qualifying round": "Primera ronda previa",
+    "first qualifying round": "Primera ronda previa",
+    "2nd qualifying round": "Segunda ronda previa",
+    "second qualifying round": "Segunda ronda previa",
+    "3rd qualifying round": "Tercera ronda previa",
+    "third qualifying round": "Tercera ronda previa",
+    "first round": "Primera ronda",
+    "second round": "Segunda ronda",
+    "third round": "Tercera ronda",
+    "round of 32": "Dieciseisavos",
+    "round of 16": "Octavos",
+    "quarter-finals": "Cuartos",
+    "semi-finals": "Semifinales",
+    "final": "Final",
+    "regular season": "Temporada regular",
+    "championship round": "Ronda por el título",
+    "relegation round": "Ronda por la permanencia",
+}
+
+
+def traducir_ronda(ronda: str) -> str:
+    """Traduce al español las rondas que publica Transfermarkt.
+
+    Si no reconoce el texto, devuelve el original para no perder información.
+    """
+    ronda = (ronda or "").strip()
+    if not ronda:
+        return ""
+    bajo = ronda.lower()
+
+    grupo = re.fullmatch(r"group\s+(.+)", bajo)
+    if grupo:
+        valor = grupo.group(1).strip()
+        if valor.startswith("stage"):
+            return "Fase de grupos"
+        return f"Grupo {valor.upper()}"
+
+    # "Qualifying Round 1st leg", "Round of 16 2nd leg"...
+    pierna = re.fullmatch(r"(.*?)\s+(1st|2nd)\s+leg", bajo)
+    if pierna:
+        base = traducir_ronda(pierna.group(1))
+        vuelta = "ida" if pierna.group(2) == "1st" else "vuelta"
+        return f"{base}, {vuelta}" if base else vuelta
+
+    return RONDAS.get(bajo, ronda)
+
+
 def parse_partido(row_html: str, config, competicion_override: str | None = None) -> dict | None:
     """Normaliza una fila HTML de Transfermarkt. None si no es partido del equipo."""
     cells = re.findall(r"<td[^>]*>(.*?)</td>", row_html, re.S)
-    if len(cells) < 11:
+    if len(cells) < 8:
         return None
-    etapa_txt = _limpia_cell(cells[0])
-    fecha_txt = _limpia_cell(cells[1])
-    hora_txt = _limpia_cell(cells[2])
-    home_name = _limpia_cell(cells[4])
-    away_name = _limpia_cell(cells[6])
+    # La tabla de amistosos no tiene columna de jornada; la de competiciones sí.
+    if _parse_date(_limpia_cell(cells[0])) is not None:
+        etapa_txt = ""
+        fecha_txt = _limpia_cell(cells[0])
+        hora_txt = _limpia_cell(cells[1])
+        home_name = _limpia_cell(cells[3])
+        away_name = _limpia_cell(cells[5])
+    elif len(cells) >= 11:
+        etapa_txt = _limpia_cell(cells[0])
+        fecha_txt = _limpia_cell(cells[1])
+        hora_txt = _limpia_cell(cells[2])
+        home_name = _limpia_cell(cells[4])
+        away_name = _limpia_cell(cells[6])
+    else:
+        return None
     resultado_td = cells[-1] if cells else ""
     resultado_txt = _limpia_cell(resultado_td)
     # url estable del partido
@@ -130,7 +252,9 @@ def parse_partido(row_html: str, config, competicion_override: str | None = None
     result_match = re.search(r"(\d+)\s*:\s*(\d+)", resultado_txt)
     res_local = None
     res_visit = None
-    if result_match:
+    if re.search(r"\b(?:ppd|canc|postponed|cancelled|canceled|abd)\b", resultado_txt, re.I):
+        estado = "aplazado"
+    elif result_match:
         estado = "jugado"
         res_local = int(result_match.group(1))
         res_visit = int(result_match.group(2))
@@ -139,13 +263,7 @@ def parse_partido(row_html: str, config, competicion_override: str | None = None
     uid = f"{config.uid_prefix}-{uid_code}@{config.uid_dominio}"
 
     competicion = competicion_override or _competicion_por_etapa(etapa_txt)
-    competicion_nombre = {
-        "liga": f"LaLiga {config.temporada}",
-        "copa": f"Copa del Rey {config.temporada}",
-        "champions": f"Champions League {config.temporada}",
-        "europa": f"Europa League {config.temporada}",
-        "conference": f"Conference League {config.temporada}",
-    }.get(competicion, f"Fútbol {config.temporada}")
+    competicion_nombre = _nombre_competicion(config, competicion)
 
     data = {
         "uid": uid,
@@ -188,26 +306,18 @@ def extraer_partidos(html: str, config) -> list[dict]:
         content = table_match.group(1)
         if "spielbericht/index/spielbericht/" not in content:
             continue
-        preceding = html[max(0, table_match.start() - 2500):table_match.start()].lower()
-        current_comp = "liga"
-        candidatos = []
-        for key, comp in (
-            ("champions", "champions"),
-            ("conference", "conference"),
-            ("europa league", "europa"),
-            ("copa", "copa"),
-            ("laliga", "liga"),
-        ):
-            pos = preceding.rfind(key)
-            if pos != -1:
-                candidatos.append((pos, comp))
-        if candidatos:
-            candidatos.sort()
-            current_comp = candidatos[-1][1]
+        preceding = html[max(0, table_match.start() - 2500):table_match.start()]
+        current_comp = _competicion_configurada(preceding, config)
+        if current_comp is None:
+            current_comp = _competicion_club(preceding)
         for tag_match in re.finditer(r"<(thead|tr)\b[^>]*>(.*?)</\1>", content, re.S):
             tag = tag_match.group(1)
             inner = tag_match.group(2)
             if tag == "thead":
+                configurada = _competicion_configurada(inner, config)
+                if configurada is not None:
+                    current_comp = configurada
+                    continue
                 low = inner.lower()
                 if "champions" in low or "champions-league" in low:
                     current_comp = "champions"

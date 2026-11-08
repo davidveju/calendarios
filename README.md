@@ -13,6 +13,7 @@ nada.
 | 🏀 Real Madrid Baloncesto | [madrid.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/baloncesto/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
 | ⚽ Getafe CF | [getafe.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/getafe.ics) | lunes, miércoles y viernes 12:00 UTC |
 | ⚽ Real Madrid | [madrid.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/madrid.ics) | lunes, miércoles y viernes 12:00 UTC |
+| ⚽ Selección Española | [espana.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/deportes/futbol/espana.ics) | lunes, miércoles y viernes 12:00 UTC |
 | 🎉 Festivos de Madrid | [madrid.ics](https://raw.githubusercontent.com/davidveju/calendarios/main/festivos/madrid.ics) | el 1 de cada mes 08:00 UTC |
 
 

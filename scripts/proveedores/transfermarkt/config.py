@@ -6,6 +6,19 @@ from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
+class CompeticionTM:
+    """Regla para reconocer una competición en la cabecera de Transfermarkt.
+
+    ``claves`` son fragmentos de texto que aparecen en la cabecera de la tabla
+    (por ejemplo ``"world cup"``). ``nombre`` admite ``{temporada}``.
+    """
+
+    codigo: str
+    nombre: str
+    claves: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
 class ConfigTM:
     """Parámetros que cambian de un equipo a otro."""
 
@@ -17,3 +30,4 @@ class ConfigTM:
     uid_dominio: str
     season_id: str = "2026"
     casa_pabellon: str = ""
+    competiciones: tuple[CompeticionTM, ...] = ()

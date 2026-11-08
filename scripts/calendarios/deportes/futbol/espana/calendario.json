@@ -1,0 +1,10 @@
+{
+  "nombre": "Selección Española de Fútbol",
+  "descripcion": "Partidos de la Selección Española de Fútbol en todas las competiciones",
+  "ics": "deportes/futbol/espana.ics",
+  "generador": "generar.py",
+  "datos": [
+    "partidos.json"
+  ],
+  "zona": "Europe/Madrid"
+}
