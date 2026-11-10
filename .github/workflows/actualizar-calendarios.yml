@@ -91,10 +91,12 @@ jobs:
             echo "Sin cambios."
           else
             # DTSTAMP cambia en cada ejecución: si es lo único que cambia, no se publica.
-            if ! git diff --cached -U0 -- deportes festivos estado \
-                | grep -E '^[+-][^-+]' \
-                | grep -v '^[+-]DTSTAMP:' \
-                | grep -q .; then
+            # Sin tuberías: con pipefail, el SIGPIPE de `grep -q` al cerrar
+            # antes de tiempo marcaba "sin cambios" aunque los hubiera.
+            git diff --cached -U0 -- deportes festivos estado > /tmp/cambios.diff
+            grep -E '^[+-][^-+]' /tmp/cambios.diff > /tmp/lineas.txt || true
+            grep -v '^[+-]DTSTAMP:' /tmp/lineas.txt > /tmp/reales.txt || true
+            if [ ! -s /tmp/reales.txt ]; then
               echo "Sin cambios reales (solo DTSTAMP)."
               git reset --quiet
             else
