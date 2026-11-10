@@ -1,0 +1,41 @@
+{
+ "id": 102383,
+ "name": "Temporada 2026/2027 - LALIGA EA SPORTS - RCD Espanyol de Barcelona - Getafe CF - 14",
+ "slug": "temporada-2026-2027-laliga-ea-sports-rcd-espanyol-de-barcelona-getafe-cf-14",
+ "date": "2026-11-30T20:00:00+00:00",
+ "time": "2026-11-30T20:00:00+00:00",
+ "status": "PreMatch",
+ "gameweek": {
+  "id": 10388,
+  "week": 14,
+  "name": "Jornada 14",
+  "shortname": "J14",
+  "date": "2026-11-29T00:00:00+00:00",
+  "highlight_note": "*Los partidos podrían sufrir modificaciones por lo que LALIGA recomienda verificar regularmente los horarios y fechas de los partidos a través de la web y de los canales oficiales de venta de entradas para estar debidamente informados de cualquier cambio que pudiera ocurrir. En caso de modificación, cancelación o suspensión de un partido por fuerza mayor o causas sobrevenidas ajenas a LALIGA que así lo justifiquen se informará a la mayor brevedad posible a través de los canales de comunicación de LALIGA."
+ },
+ "home_score": null,
+ "away_score": null,
+ "home_team": {
+  "id": 8,
+  "slug": "rcd-espanyol",
+  "name": "RCD Espanyol de Barcelona",
+  "nickname": "RCD Espanyol de Barcelona",
+  "boundname": "RCD Espanyol de Barcelona",
+  "shortname": "ESP"
+ },
+ "away_team": {
+  "id": 9,
+  "slug": "getafe-cf",
+  "name": "Getafe Club de Fútbol SAD",
+  "nickname": "Getafe CF",
+  "boundname": "Getafe CF",
+  "shortname": "GET"
+ },
+ "venue": {
+  "id": 8,
+  "name": "RCDE Stadium",
+  "address": "Avenida Baix Llobregat, 100 Cornellá Llobregat (Barcelona)",
+  "city": "Cornellà de Llobregat",
+  "slug": "rcde-stadium"
+ }
+}

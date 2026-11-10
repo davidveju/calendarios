@@ -7,62 +7,59 @@ X-WR-CALNAME:Real Madrid
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:madrid-2627-4909472@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260822T193000Z
 DTEND:20260822T213000Z
-SUMMARY:⚽ Espanyol - Real Madrid (Liga: 1-2 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Espanyol\nResultado: Real Ma
- drid 2-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/40
- 1882912/real-madrid-espanyol
-URL:https://www.espn.com/soccer/match/_/gameId/401882912/real-madrid-espany
- ol
-LOCATION:RCDE Stadium\, Barcelona
+SUMMARY:⚽ RCD Espanyol de Barcelona - Real Madrid (J2: 1-2 ✅)
+DESCRIPTION:LaLiga 26/27 · J2\nReal Madrid fuera vs RCD Espanyol de Barcel
+ ona\nResultado: Real Madrid 2-1 victoria ✅\nActa: https://www.laliga.com
+ /laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:RCDE Stadium\, Cornellà de Llobregat
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909447@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260826T190000Z
 DTEND:20260826T210000Z
-SUMMARY:⚽ Real Madrid - Real Sociedad (Liga: 4-1 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Real Sociedad\nResultado: 
- Real Madrid 4-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/ga
- meId/401882919/real-sociedad-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882919/real-sociedad-real
- -madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Real Sociedad (J1: 4-1 ✅)
+DESCRIPTION:LaLiga 26/27 · J1\nReal Madrid en casa vs Real Sociedad\nResul
+ tado: Real Madrid 4-1 victoria ✅\nActa: https://www.laliga.com/laliga-ea
+ sports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909485@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260830T150000Z
 DTEND:20260830T170000Z
-SUMMARY:⚽ Real Madrid - Málaga (Liga: 4-0 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Málaga\nResultado: Real M
- adrid 4-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/4
- 01882899/malaga-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882899/malaga-real-madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Málaga (J3: 4-0 ✅)
+DESCRIPTION:LaLiga 26/27 · J3\nReal Madrid en casa vs Málaga\nResultado: 
+ Real Madrid 4-0 victoria ✅\nActa: https://www.laliga.com/laliga-easports
+ /resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909498@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260904T190000Z
 DTEND:20260904T210000Z
-SUMMARY:⚽ Real Betis - Real Madrid (Liga: 1-0 ❌)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Real Betis\nResultado: Real 
- Madrid 0-1 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/4
- 01882894/real-madrid-real-betis
-URL:https://www.espn.com/soccer/match/_/gameId/401882894/real-madrid-real-b
- etis
+SUMMARY:⚽ Real Betis - Real Madrid (J4: 1-0 ❌)
+DESCRIPTION:LaLiga 26/27 · J4\nReal Madrid fuera vs Real Betis\nResultado:
+  Real Madrid 0-1 derrota ❌\nActa: https://www.laliga.com/laliga-easports
+ /resultados
+URL:https://www.laliga.com/laliga-easports/resultados
 LOCATION:Estadio La Cartuja\, Sevilla
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -70,7 +67,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035860@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260908T190000Z
 DTEND:20260908T210000Z
 SUMMARY:⚽ Real Madrid - Inter (Champions · Jornada 1: 2-1 ✅)
@@ -85,30 +82,29 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909530@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260912T190000Z
 DTEND:20260912T210000Z
-SUMMARY:⚽ Real Madrid - Rayo Vallecano (Liga: 4-1 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Rayo Vallecano\nResultado:
-  Real Madrid 4-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/g
- ameId/401882880/rayo-vallecano-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882880/rayo-vallecano-rea
- l-madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Rayo Vallecano (J5: 4-1 ✅)
+DESCRIPTION:LaLiga 26/27 · J5\nReal Madrid en casa vs Rayo Vallecano\nResu
+ ltado: Real Madrid 4-1 victoria ✅\nActa: https://www.laliga.com/laliga-e
+ asports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909564@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260915T193000Z
 DTEND:20260915T213000Z
-SUMMARY:⚽ Elche - Real Madrid (Liga: 2-3 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Elche\nResultado: Real Madri
- d 3-2 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/40188
- 2872/real-madrid-elche
-URL:https://www.espn.com/soccer/match/_/gameId/401882872/real-madrid-elche
+SUMMARY:⚽ Elche - Real Madrid (J6: 2-3 ✅)
+DESCRIPTION:LaLiga 26/27 · J6\nReal Madrid fuera vs Elche\nResultado: Real
+  Madrid 3-2 victoria ✅\nActa: https://www.laliga.com/laliga-easports/res
+ ultados
+URL:https://www.laliga.com/laliga-easports/resultados
 LOCATION:Estadio Martínez Valero\, Elche
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -116,15 +112,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909609@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20260920T141500Z
 DTEND:20260920T161500Z
-SUMMARY:⚽ Atlético Madrid - Real Madrid (Liga: 2-1 ❌)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Atlético Madrid\nResultado:
-  Real Madrid 1-2 derrota ❌\nActa: https://www.espn.com/soccer/match/_/ga
- meId/401882865/real-madrid-atletico-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882865/real-madrid-atleti
- co-madrid
+SUMMARY:⚽ Atlético de Madrid - Real Madrid (J7: 2-1 ❌)
+DESCRIPTION:LaLiga 26/27 · J7\nReal Madrid fuera vs Atlético de Madrid\nR
+ esultado: Real Madrid 1-2 derrota ❌\nActa: https://www.laliga.com/laliga
+ -easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
 LOCATION:Riyadh Air Metropolitano\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -132,23 +127,22 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909726@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261010T190000Z
 DTEND:20261010T210000Z
-SUMMARY:⚽ Real Madrid - Villarreal (Liga: 1-0 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Villarreal\nResultado: Rea
- l Madrid 1-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameI
- d/401882848/villarreal-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882848/villarreal-real-ma
- drid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Villarreal (J8: 1-0 ✅)
+DESCRIPTION:LaLiga 26/27 · J8\nReal Madrid en casa vs Villarreal\nResultad
+ o: Real Madrid 1-0 victoria ✅\nActa: https://www.laliga.com/laliga-easpo
+ rts/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035896@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261014T190000Z
 DTEND:20261014T210000Z
 SUMMARY:⚽ Roma - Real Madrid (Champions · Jornada 2: 3-4 ✅)
@@ -163,23 +157,22 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909735@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261018T190000Z
 DTEND:20261018T210000Z
-SUMMARY:⚽ Real Madrid - Sevilla (Liga: 4-1 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Sevilla\nResultado: Real M
- adrid 4-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/4
- 01882839/sevilla-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882839/sevilla-real-madri
- d
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Sevilla FC (J9: 4-1 ✅)
+DESCRIPTION:LaLiga 26/27 · J9\nReal Madrid en casa vs Sevilla FC\nResultad
+ o: Real Madrid 4-1 victoria ✅\nActa: https://www.laliga.com/laliga-easpo
+ rts/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035862@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261021T190000Z
 DTEND:20261021T210000Z
 SUMMARY:⚽ Real Madrid - Leipzig (Champions · Jornada 3: 4-1 ✅)
@@ -194,15 +187,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918419@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261025T200000Z
 DTEND:20261025T220000Z
-SUMMARY:⚽ Barcelona - Real Madrid (Liga: 1-2 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Barcelona\nResultado: Real M
- adrid 2-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/4
- 01882832/real-madrid-barcelona
-URL:https://www.espn.com/soccer/match/_/gameId/401882832/real-madrid-barcel
- ona
+SUMMARY:⚽ FC Barcelona - Real Madrid (J10: 1-2 ✅)
+DESCRIPTION:LaLiga 26/27 · J10\nReal Madrid fuera vs FC Barcelona\nResulta
+ do: Real Madrid 2-1 victoria ✅\nActa: https://www.laliga.com/laliga-easp
+ orts/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
 LOCATION:Spotify Camp Nou\, Barcelona
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -210,23 +202,22 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918432@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261101T151500Z
 DTEND:20261101T171500Z
-SUMMARY:⚽ Racing Santander - Real Madrid (Liga: 0-3 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Racing Santander\nResultado:
-  Real Madrid 3-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/g
- ameId/401882819/real-madrid-racing-santander
-URL:https://www.espn.com/soccer/match/_/gameId/401882819/real-madrid-racing
- -santander
-LOCATION:El Sardineros\, Santander
+SUMMARY:⚽ R. Racing Club - Real Madrid (J11: 0-3 ✅)
+DESCRIPTION:LaLiga 26/27 · J11\nReal Madrid fuera vs R. Racing Club\nResul
+ tado: Real Madrid 3-0 victoria ✅\nActa: https://www.laliga.com/laliga-ea
+ sports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:El Sardinero\, Santander
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035975@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261104T174500Z
 DTEND:20261104T194500Z
 SUMMARY:⚽ AEK Athens - Real Madrid (Champions · Jornada 4: 2-3 ✅)
@@ -241,39 +232,37 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918443@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261107T200000Z
 DTEND:20261107T220000Z
-SUMMARY:⚽ Valencia - Real Madrid (Liga: 0-3 ✅)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Valencia\nResultado: Real Ma
- drid 3-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/40
- 1882808/real-madrid-valencia
-URL:https://www.espn.com/soccer/match/_/gameId/401882808/real-madrid-valenc
- ia
-LOCATION:Mestalla Stadium\, Manises
+SUMMARY:⚽ Valencia - Real Madrid (J12: 0-3 ✅)
+DESCRIPTION:LaLiga 26/27 · J12\nReal Madrid fuera vs Valencia\nResultado: 
+ Real Madrid 3-0 victoria ✅\nActa: https://www.laliga.com/laliga-easports
+ /resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Camp de Mestalla\, València
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918453@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
-SUMMARY:⚽ Real Madrid - Celta Vigo (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Celta Vigo\nInicio: 21/11/
- 2026 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018
- 82798/celta-vigo-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882798/celta-vigo-real-ma
- drid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Celta (J13)
+DESCRIPTION:LaLiga 26/27 · J13\nReal Madrid en casa vs Celta\nInicio: 21/1
+ 1/2026 21:00 (Madrid)\nActa: https://www.laliga.com/laliga-easports/result
+ ados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035861@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 SUMMARY:⚽ Real Madrid - PSV (Champions · Jornada 5)
@@ -288,54 +277,52 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918462@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
-SUMMARY:⚽ Real Madrid - Alavés (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Alavés\nInicio: 28/11/202
- 6 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018827
- 89/alaves-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882789/alaves-real-madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Deportivo Alavés (J14)
+DESCRIPTION:LaLiga 26/27 · J14\nReal Madrid en casa vs Deportivo Alavés\n
+ Inicio: 28/11/2026 21:00 (Madrid)\nActa: https://www.laliga.com/laliga-eas
+ ports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918553@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261202T180000Z
 DTEND:20261202T200000Z
-SUMMARY:⚽ Real Sociedad - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Real Sociedad\nInicio: 02/12
- /2026 19:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401
- 882698/real-madrid-real-sociedad
-URL:https://www.espn.com/soccer/match/_/gameId/401882698/real-madrid-real-s
- ociedad
-LOCATION:Reale Arena\, San Sebastian
+SUMMARY:⚽ Real Sociedad - Real Madrid (J23)
+DESCRIPTION:LaLiga 26/27 · J23\nReal Madrid fuera vs Real Sociedad\nInicio
+ : 02/12/2026 19:00 (Madrid)\nActa: https://www.laliga.com/laliga-easports/
+ resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Anoeta\, Donostia
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918466@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261206T110000Z
 DTEND:20261206T130000Z
-SUMMARY:⚽ Athletic Club - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Athletic Club\nInicio provis
- ional: 06/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.c
- om/soccer/match/_/gameId/401882785/real-madrid-athletic-club
-URL:https://www.espn.com/soccer/match/_/gameId/401882785/real-madrid-athlet
- ic-club
-LOCATION:San Mamés\, Bilbao
+SUMMARY:⚽ Athletic Club - Real Madrid (J15)
+DESCRIPTION:LaLiga 26/27 · J15\nReal Madrid fuera vs Athletic Club\nInicio
+  provisional: 06/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www
+ .laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Estadio San Mamés\, Bilbo
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035880@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261209T200000Z
 DTEND:20261209T220000Z
 SUMMARY:⚽ Arsenal - Real Madrid (Champions · Jornada 6)
@@ -350,85 +337,82 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918482@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261213T110000Z
 DTEND:20261213T130000Z
-SUMMARY:⚽ Real Madrid - Osasuna (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Osasuna\nInicio provisiona
- l: 13/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/s
- occer/match/_/gameId/401882769/osasuna-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882769/osasuna-real-madri
- d
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - CA Osasuna (J16)
+DESCRIPTION:LaLiga 26/27 · J16\nReal Madrid en casa vs CA Osasuna\nInicio 
+ provisional: 13/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.
+ laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918488@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20261220T110000Z
 DTEND:20261220T130000Z
-SUMMARY:⚽ Deportivo - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Deportivo\nInicio provisiona
- l: 20/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/s
- occer/match/_/gameId/401882763/real-madrid-deportivo
-URL:https://www.espn.com/soccer/match/_/gameId/401882763/real-madrid-deport
- ivo
-LOCATION:Riazor\, La Coruña
+SUMMARY:⚽ RC Deportivo - Real Madrid (J17)
+DESCRIPTION:LaLiga 26/27 · J17\nReal Madrid fuera vs RC Deportivo\nInicio 
+ provisional: 20/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.
+ laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Estadio ABANCA-RIAZOR\, A Coruña
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918502@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270103T110000Z
 DTEND:20270103T130000Z
-SUMMARY:⚽ Real Madrid - Getafe (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Getafe\nInicio provisional
- : 03/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/so
- ccer/match/_/gameId/401882749/getafe-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882749/getafe-real-madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Getafe (J18)
+DESCRIPTION:LaLiga 26/27 · J18\nReal Madrid en casa vs Getafe\nInicio prov
+ isional: 03/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.lali
+ ga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918512@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270110T110000Z
 DTEND:20270110T130000Z
-SUMMARY:⚽ Real Madrid - Levante (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Levante\nInicio provisiona
- l: 10/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/s
- occer/match/_/gameId/401882739/levante-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882739/levante-real-madri
- d
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Levante UD (J19)
+DESCRIPTION:LaLiga 26/27 · J19\nReal Madrid en casa vs Levante UD\nInicio 
+ provisional: 10/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.
+ laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918521@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270117T110000Z
 DTEND:20270117T130000Z
-SUMMARY:⚽ Málaga - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Málaga\nInicio provisional:
-  17/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
- cer/match/_/gameId/401882730/real-madrid-malaga
-URL:https://www.espn.com/soccer/match/_/gameId/401882730/real-madrid-malaga
-LOCATION:La Rosaleda\, Malaga
+SUMMARY:⚽ Málaga - Real Madrid (J20)
+DESCRIPTION:LaLiga 26/27 · J20\nReal Madrid fuera vs Málaga\nInicio provi
+ sional: 17/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.lalig
+ a.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:La Rosaleda\, Málaga
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035863@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270119T200000Z
 DTEND:20270119T220000Z
 SUMMARY:⚽ Real Madrid - LASK (Champions · Jornada 7)
@@ -443,23 +427,22 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918532@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270124T110000Z
 DTEND:20270124T130000Z
-SUMMARY:⚽ Real Madrid - Real Betis (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Real Betis\nInicio provisi
- onal: 24/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.co
- m/soccer/match/_/gameId/401882719/real-betis-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882719/real-betis-real-ma
- drid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Real Betis (J21)
+DESCRIPTION:LaLiga 26/27 · J21\nReal Madrid en casa vs Real Betis\nInicio 
+ provisional: 24/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.
+ laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035955@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270127T200000Z
 DTEND:20270127T220000Z
 SUMMARY:⚽ Shakhtar - Real Madrid (Champions · Jornada 8)
@@ -474,15 +457,14 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918542@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270131T110000Z
 DTEND:20270131T130000Z
-SUMMARY:⚽ Rayo Vallecano - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Rayo Vallecano\nInicio provi
- sional: 31/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.
- com/soccer/match/_/gameId/401882709/real-madrid-rayo-vallecano
-URL:https://www.espn.com/soccer/match/_/gameId/401882709/real-madrid-rayo-v
- allecano
+SUMMARY:⚽ Rayo Vallecano - Real Madrid (J22)
+DESCRIPTION:LaLiga 26/27 · J22\nReal Madrid fuera vs Rayo Vallecano\nInici
+ o provisional: 31/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://ww
+ w.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
 LOCATION:Estadio de Vallecas\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
@@ -490,237 +472,225 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918560@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270214T110000Z
 DTEND:20270214T130000Z
-SUMMARY:⚽ Real Madrid - Athletic Club (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Athletic Club\nInicio prov
- isional: 14/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn
- .com/soccer/match/_/gameId/401882691/athletic-club-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882691/athletic-club-real
- -madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Athletic Club (J24)
+DESCRIPTION:LaLiga 26/27 · J24\nReal Madrid en casa vs Athletic Club\nInic
+ io provisional: 14/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://w
+ ww.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918573@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270221T110000Z
 DTEND:20270221T130000Z
-SUMMARY:⚽ Sevilla - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Sevilla\nInicio provisional:
-  21/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
- cer/match/_/gameId/401882678/real-madrid-sevilla
-URL:https://www.espn.com/soccer/match/_/gameId/401882678/real-madrid-sevill
- a
-LOCATION:Ramón Sánchez Pizjuán Stadium\, Sevilla
+SUMMARY:⚽ Sevilla FC - Real Madrid (J25)
+DESCRIPTION:LaLiga 26/27 · J25\nReal Madrid fuera vs Sevilla FC\nInicio pr
+ ovisional: 21/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.la
+ liga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Ramón Sánchez-Pizjuán\, Sevilla
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918583@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270228T110000Z
 DTEND:20270228T130000Z
-SUMMARY:⚽ Real Madrid - Valencia (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Valencia\nInicio provision
- al: 28/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
- soccer/match/_/gameId/401882668/valencia-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882668/valencia-real-madr
- id
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Valencia (J26)
+DESCRIPTION:LaLiga 26/27 · J26\nReal Madrid en casa vs Valencia\nInicio pr
+ ovisional: 28/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.la
+ liga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918594@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270307T110000Z
 DTEND:20270307T130000Z
-SUMMARY:⚽ Villarreal - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Villarreal\nInicio provision
- al: 07/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
- soccer/match/_/gameId/401882657/real-madrid-villarreal
-URL:https://www.espn.com/soccer/match/_/gameId/401882657/real-madrid-villar
- real
-LOCATION:Estadio de la Cerámica\, Villarreal
+SUMMARY:⚽ Villarreal - Real Madrid (J27)
+DESCRIPTION:LaLiga 26/27 · J27\nReal Madrid fuera vs Villarreal\nInicio pr
+ ovisional: 07/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.la
+ liga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Estadio de la Cerámica\, Vila-real
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918604@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270314T110000Z
 DTEND:20270314T130000Z
-SUMMARY:⚽ Real Madrid - Espanyol (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Espanyol\nInicio provision
- al: 14/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
- soccer/match/_/gameId/401882647/espanyol-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882647/espanyol-real-madr
- id
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - RCD Espanyol de Barcelona (J28)
+DESCRIPTION:LaLiga 26/27 · J28\nReal Madrid en casa vs RCD Espanyol de Bar
+ celona\nInicio provisional: 14/03/2027 12:00 (Madrid\, por confirmar)\nAct
+ a: https://www.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918606@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270321T110000Z
 DTEND:20270321T130000Z
-SUMMARY:⚽ Celta Vigo - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Celta Vigo\nInicio provision
- al: 21/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
- soccer/match/_/gameId/401882645/real-madrid-celta-vigo
-URL:https://www.espn.com/soccer/match/_/gameId/401882645/real-madrid-celta-
- vigo
-LOCATION:Balaidos\, Vigo
+SUMMARY:⚽ Celta - Real Madrid (J29)
+DESCRIPTION:LaLiga 26/27 · J29\nReal Madrid fuera vs Celta\nInicio provisi
+ onal: 21/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.laliga.
+ com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Estadio ABANCA Balaídos\, Vigo
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918631@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270404T100000Z
 DTEND:20270404T120000Z
-SUMMARY:⚽ Real Madrid - Atlético Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Atlético Madrid\nInicio p
- rovisional: 04/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.e
- spn.com/soccer/match/_/gameId/401882628/atletico-madrid-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882628/atletico-madrid-re
- al-madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Atlético de Madrid (J30)
+DESCRIPTION:LaLiga 26/27 · J30\nReal Madrid en casa vs Atlético de Madrid
+ \nInicio provisional: 04/04/2027 12:00 (Madrid\, por confirmar)\nActa: htt
+ ps://www.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918637@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270411T100000Z
 DTEND:20270411T120000Z
-SUMMARY:⚽ Osasuna - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Osasuna\nInicio provisional:
-  11/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
- cer/match/_/gameId/401882622/real-madrid-osasuna
-URL:https://www.espn.com/soccer/match/_/gameId/401882622/real-madrid-osasun
- a
-LOCATION:El Sadar\, Pamplona
+SUMMARY:⚽ CA Osasuna - Real Madrid (J31)
+DESCRIPTION:LaLiga 26/27 · J31\nReal Madrid fuera vs CA Osasuna\nInicio pr
+ ovisional: 11/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.la
+ liga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Estadio El Sadar\, Pamplona
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918649@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270418T100000Z
 DTEND:20270418T120000Z
-SUMMARY:⚽ Getafe - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Getafe\nInicio provisional: 
- 18/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/socc
- er/match/_/gameId/401882610/real-madrid-getafe
-URL:https://www.espn.com/soccer/match/_/gameId/401882610/real-madrid-getafe
-LOCATION:Estadio Coliseum\, Getafe
+SUMMARY:⚽ Getafe - Real Madrid (J32)
+DESCRIPTION:LaLiga 26/27 · J32\nReal Madrid fuera vs Getafe\nInicio provis
+ ional: 18/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.laliga
+ .com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Coliseum\, Getafe
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918659@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270421T100000Z
 DTEND:20270421T120000Z
-SUMMARY:⚽ Real Madrid - Elche (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Elche\nInicio provisional:
-  21/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
- cer/match/_/gameId/401882600/elche-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882600/elche-real-madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - Elche (J33)
+DESCRIPTION:LaLiga 26/27 · J33\nReal Madrid en casa vs Elche\nInicio provi
+ sional: 21/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.lalig
+ a.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918669@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270502T100000Z
 DTEND:20270502T120000Z
-SUMMARY:⚽ Levante - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Levante\nInicio provisional:
-  02/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
- cer/match/_/gameId/401882590/real-madrid-levante
-URL:https://www.espn.com/soccer/match/_/gameId/401882590/real-madrid-levant
- e
-LOCATION:Estadi Ciutat de València\, Manises
+SUMMARY:⚽ Levante UD - Real Madrid (J34)
+DESCRIPTION:LaLiga 26/27 · J34\nReal Madrid fuera vs Levante UD\nInicio pr
+ ovisional: 02/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.la
+ liga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Estadio Ciutat de València\, València
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918680@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270509T100000Z
 DTEND:20270509T120000Z
-SUMMARY:⚽ Real Madrid - Barcelona (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Barcelona\nInicio provisio
- nal: 09/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com
- /soccer/match/_/gameId/401882579/barcelona-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882579/barcelona-real-mad
- rid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - FC Barcelona (J35)
+DESCRIPTION:LaLiga 26/27 · J35\nReal Madrid en casa vs FC Barcelona\nInici
+ o provisional: 09/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://ww
+ w.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918690@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270516T100000Z
 DTEND:20270516T120000Z
-SUMMARY:⚽ Real Madrid - Racing Santander (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Racing Santander\nInicio p
- rovisional: 16/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.e
- spn.com/soccer/match/_/gameId/401882569/racing-santander-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882569/racing-santander-r
- eal-madrid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - R. Racing Club (J36)
+DESCRIPTION:LaLiga 26/27 · J36\nReal Madrid en casa vs R. Racing Club\nIni
+ cio provisional: 16/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://
+ www.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918703@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270523T100000Z
 DTEND:20270523T120000Z
-SUMMARY:⚽ Alavés - Real Madrid (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Alavés\nInicio provisional:
-  23/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
- cer/match/_/gameId/401882566/real-madrid-alaves
-URL:https://www.espn.com/soccer/match/_/gameId/401882566/real-madrid-alaves
-LOCATION:Mendizorrotza\, Vitoria-Gasteiz
+SUMMARY:⚽ Deportivo Alavés - Real Madrid (J37)
+DESCRIPTION:LaLiga 26/27 · J37\nReal Madrid fuera vs Deportivo Alavés\nIn
+ icio provisional: 23/05/2027 12:00 (Madrid\, por confirmar)\nActa: https:/
+ /www.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Mendizorroza\, Vitoria-Gasteiz
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918701@madrid-calendario
-DTSTAMP:20261110T105807Z
+DTSTAMP:20261110T110445Z
 DTSTART:20270530T100000Z
 DTEND:20270530T120000Z
-SUMMARY:⚽ Real Madrid - Deportivo (Liga)
-DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Deportivo\nInicio provisio
- nal: 30/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com
- /soccer/match/_/gameId/401882548/deportivo-real-madrid
-URL:https://www.espn.com/soccer/match/_/gameId/401882548/deportivo-real-mad
- rid
-LOCATION:Santiago Bernabéu\, Madrid
+SUMMARY:⚽ Real Madrid - RC Deportivo (J38)
+DESCRIPTION:LaLiga 26/27 · J38\nReal Madrid en casa vs RC Deportivo\nInici
+ o provisional: 30/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://ww
+ w.laliga.com/laliga-easports/resultados
+URL:https://www.laliga.com/laliga-easports/resultados
+LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0

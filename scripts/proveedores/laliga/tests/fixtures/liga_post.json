@@ -1,0 +1,41 @@
+{
+ "id": 102368,
+ "name": "Temporada 2026/2027 - LALIGA EA SPORTS - Villarreal CF - Getafe CF - 12",
+ "slug": "temporada-2026-2027-laliga-ea-sports-villarreal-cf-getafe-cf-12",
+ "date": "2026-11-08T17:30:00+00:00",
+ "time": "2026-11-08T17:30:00+00:00",
+ "status": "FullTime",
+ "gameweek": {
+  "id": 10386,
+  "week": 12,
+  "name": "Jornada 12",
+  "shortname": "J12",
+  "date": "2026-11-08T00:00:00+00:00",
+  "highlight_note": "Los partidos podrían sufrir modificaciones por lo que LALIGA recomienda verificar regularmente los horarios y fechas de los partidos a través de la web y de los canales oficiales de venta de entradas para estar debidamente informados de cualquier cambio que pudiera ocurrir. En caso de modificación, cancelación o suspensión de un partido por fuerza mayor o causas sobrevenidas ajenas a LALIGA que así lo justifiquen se informará a la mayor brevedad posible a través de los canales de comunicación de LALIGA."
+ },
+ "home_score": 2,
+ "away_score": 0,
+ "home_team": {
+  "id": 20,
+  "slug": "villarreal-cf",
+  "name": "Villarreal Club de Fútbol SAD",
+  "nickname": "Villarreal CF",
+  "boundname": "Villarreal CF",
+  "shortname": "VIL"
+ },
+ "away_team": {
+  "id": 9,
+  "slug": "getafe-cf",
+  "name": "Getafe Club de Fútbol SAD",
+  "nickname": "Getafe CF",
+  "boundname": "Getafe CF",
+  "shortname": "GET"
+ },
+ "venue": {
+  "id": 20,
+  "name": "Estadio de la Cerámica",
+  "address": "Estadio de la Cerámica. Calle Blasco Ibáñez, 2. 12540",
+  "city": "Vila-real",
+  "slug": "estadio-de-la-ceramica"
+ }
+}

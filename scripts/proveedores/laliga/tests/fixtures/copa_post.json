@@ -1,0 +1,40 @@
+{
+ "id": 105113,
+ "name": "Temporada 2026/2027 - Copa del Rey - Lebrijana - Getafe CF - 3",
+ "slug": "temporada-2026-2027-copa-del-rey-lebrijana-getafe-cf-3",
+ "date": "2026-10-29T18:00:00+00:00",
+ "time": "2026-10-29T18:00:00+00:00",
+ "status": "FullTime",
+ "gameweek": {
+  "id": 10617,
+  "week": 3,
+  "name": "1º eliminatoria",
+  "shortname": "PO1",
+  "date": "2026-10-29T19:00:00+00:00"
+ },
+ "home_score": 2,
+ "away_score": 3,
+ "home_team": {
+  "id": 1789,
+  "slug": "lebrijana",
+  "name": "UB Lebrijana",
+  "nickname": "Lebrijana",
+  "boundname": "Lebrijana",
+  "shortname": "LEB"
+ },
+ "away_team": {
+  "id": 9,
+  "slug": "getafe-cf",
+  "name": "Getafe Club de Fútbol SAD",
+  "nickname": "Getafe CF",
+  "boundname": "Getafe CF",
+  "shortname": "GET"
+ },
+ "venue": {
+  "id": 364,
+  "name": "Municipal de Lebrija",
+  "address": "Calle Salvador Allende, 5, 41740 Lebrija",
+  "city": "Lebrija",
+  "slug": "municipal-de-lebrija"
+ }
+}

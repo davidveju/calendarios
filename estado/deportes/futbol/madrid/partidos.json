@@ -164,747 +164,747 @@
     "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882912/real-madrid-espanyol",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-08-22T21:30",
-    "resultado_equipo": 2,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 2,
-    "rival": "Espanyol",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Barcelona",
-      "pabellon": "RCDE Stadium"
-    },
-    "uid": "madrid-2627-4909472@madrid-calendario",
-    "uid_evento": "401882912",
-    "victoria": true
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882919/real-sociedad-real-madrid",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-08-26T21:00",
-    "resultado_equipo": 4,
-    "resultado_local": 4,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
-    "rival": "Real Sociedad",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-30T12:00",
+    "rival": "RC Deportivo",
+    "ronda": "38",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4909447@madrid-calendario",
-    "uid_evento": "401882919",
-    "victoria": true
+    "uid": "madrid-2627-4918701@madrid-calendario",
+    "uid_evento": "102627"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882899/malaga-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-08-30T17:00",
-    "resultado_equipo": 4,
-    "resultado_local": 4,
-    "resultado_rival": 0,
-    "resultado_visitante": 0,
-    "rival": "Málaga",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4909485@madrid-calendario",
-    "uid_evento": "401882899",
-    "victoria": true
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882894/real-madrid-real-betis",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-04T21:00",
-    "resultado_equipo": 0,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 0,
-    "rival": "Real Betis",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-23T12:00",
+    "rival": "Deportivo Alavés",
+    "ronda": "37",
+    "sede": {
+      "ciudad": "Vitoria-Gasteiz",
+      "pabellon": "Mendizorroza"
+    },
+    "uid": "madrid-2627-4918703@madrid-calendario",
+    "uid_evento": "102609"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-16T12:00",
+    "rival": "R. Racing Club",
+    "ronda": "36",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918690@madrid-calendario",
+    "uid_evento": "102606"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-09T12:00",
+    "rival": "FC Barcelona",
+    "ronda": "35",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918680@madrid-calendario",
+    "uid_evento": "102596"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-02T12:00",
+    "rival": "Levante UD",
+    "ronda": "34",
+    "sede": {
+      "ciudad": "València",
+      "pabellon": "Estadio Ciutat de València"
+    },
+    "uid": "madrid-2627-4918669@madrid-calendario",
+    "uid_evento": "102585"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-21T12:00",
+    "rival": "Elche",
+    "ronda": "33",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918659@madrid-calendario",
+    "uid_evento": "102575"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-18T12:00",
+    "rival": "Getafe",
+    "ronda": "32",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "madrid-2627-4918649@madrid-calendario",
+    "uid_evento": "102565"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-11T12:00",
+    "rival": "CA Osasuna",
+    "ronda": "31",
+    "sede": {
+      "ciudad": "Pamplona",
+      "pabellon": "Estadio El Sadar"
+    },
+    "uid": "madrid-2627-4918637@madrid-calendario",
+    "uid_evento": "102553"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-04T12:00",
+    "rival": "Atlético de Madrid",
+    "ronda": "30",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918631@madrid-calendario",
+    "uid_evento": "102547"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-03-21T12:00",
+    "rival": "Celta",
+    "ronda": "29",
+    "sede": {
+      "ciudad": "Vigo",
+      "pabellon": "Estadio ABANCA Balaídos"
+    },
+    "uid": "madrid-2627-4918606@madrid-calendario",
+    "uid_evento": "102530"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-03-14T12:00",
+    "rival": "RCD Espanyol de Barcelona",
+    "ronda": "28",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918604@madrid-calendario",
+    "uid_evento": "102528"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-03-07T12:00",
+    "rival": "Villarreal",
+    "ronda": "27",
+    "sede": {
+      "ciudad": "Vila-real",
+      "pabellon": "Estadio de la Cerámica"
+    },
+    "uid": "madrid-2627-4918594@madrid-calendario",
+    "uid_evento": "102518"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-02-28T12:00",
+    "rival": "Valencia",
+    "ronda": "26",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918583@madrid-calendario",
+    "uid_evento": "102507"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-02-21T12:00",
+    "rival": "Sevilla FC",
+    "ronda": "25",
     "sede": {
       "ciudad": "Sevilla",
-      "pabellon": "Estadio La Cartuja"
+      "pabellon": "Ramón Sánchez-Pizjuán"
     },
-    "uid": "madrid-2627-4909498@madrid-calendario",
-    "uid_evento": "401882894",
-    "victoria": false
+    "uid": "madrid-2627-4918573@madrid-calendario",
+    "uid_evento": "102497"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882880/rayo-vallecano-real-madrid",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-12T21:00",
-    "resultado_equipo": 4,
-    "resultado_local": 4,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-02-14T12:00",
+    "rival": "Athletic Club",
+    "ronda": "24",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918560@madrid-calendario",
+    "uid_evento": "102484"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-31T12:00",
     "rival": "Rayo Vallecano",
-    "ronda": "",
+    "ronda": "22",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "pabellon": "Estadio de Vallecas"
     },
-    "uid": "madrid-2627-4909530@madrid-calendario",
-    "uid_evento": "401882880",
-    "victoria": true
+    "uid": "madrid-2627-4918542@madrid-calendario",
+    "uid_evento": "102466"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882872/real-madrid-elche",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-15T21:30",
-    "resultado_equipo": 3,
-    "resultado_local": 2,
-    "resultado_rival": 2,
-    "resultado_visitante": 3,
-    "rival": "Elche",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Elche",
-      "pabellon": "Estadio Martínez Valero"
-    },
-    "uid": "madrid-2627-4909564@madrid-calendario",
-    "uid_evento": "401882872",
-    "victoria": true
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882865/real-madrid-atletico-madrid",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-20T16:15",
-    "resultado_equipo": 1,
-    "resultado_local": 2,
-    "resultado_rival": 2,
-    "resultado_visitante": 1,
-    "rival": "Atlético Madrid",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Riyadh Air Metropolitano"
-    },
-    "uid": "madrid-2627-4909609@madrid-calendario",
-    "uid_evento": "401882865",
-    "victoria": false
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882848/villarreal-real-madrid",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-10-10T21:00",
-    "resultado_equipo": 1,
-    "resultado_local": 1,
-    "resultado_rival": 0,
-    "resultado_visitante": 0,
-    "rival": "Villarreal",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-24T12:00",
+    "rival": "Real Betis",
+    "ronda": "21",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4909726@madrid-calendario",
-    "uid_evento": "401882848",
-    "victoria": true
+    "uid": "madrid-2627-4918532@madrid-calendario",
+    "uid_evento": "102456"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882839/sevilla-real-madrid",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-17T12:00",
+    "rival": "Málaga",
+    "ronda": "20",
+    "sede": {
+      "ciudad": "Málaga",
+      "pabellon": "La Rosaleda"
+    },
+    "uid": "madrid-2627-4918521@madrid-calendario",
+    "uid_evento": "102445"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-10-18T21:00",
-    "resultado_equipo": 4,
-    "resultado_local": 4,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
-    "rival": "Sevilla",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-10T12:00",
+    "rival": "Levante UD",
+    "ronda": "19",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4909735@madrid-calendario",
-    "uid_evento": "401882839",
-    "victoria": true
+    "uid": "madrid-2627-4918512@madrid-calendario",
+    "uid_evento": "102436"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882832/real-madrid-barcelona",
-    "casa": false,
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-10-25T21:00",
-    "resultado_equipo": 2,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 2,
-    "rival": "Barcelona",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-03T12:00",
+    "rival": "Getafe",
+    "ronda": "18",
     "sede": {
-      "ciudad": "Barcelona",
-      "pabellon": "Spotify Camp Nou"
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4918419@madrid-calendario",
-    "uid_evento": "401882832",
-    "victoria": true
+    "uid": "madrid-2627-4918502@madrid-calendario",
+    "uid_evento": "102426"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882819/real-madrid-racing-santander",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-11-01T16:15",
-    "resultado_equipo": 3,
-    "resultado_local": 0,
-    "resultado_rival": 0,
-    "resultado_visitante": 3,
-    "rival": "Racing Santander",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-20T12:00",
+    "rival": "RC Deportivo",
+    "ronda": "17",
     "sede": {
-      "ciudad": "Santander",
-      "pabellon": "El Sardineros"
+      "ciudad": "A Coruña",
+      "pabellon": "Estadio ABANCA-RIAZOR"
     },
-    "uid": "madrid-2627-4918432@madrid-calendario",
-    "uid_evento": "401882819",
-    "victoria": true
+    "uid": "madrid-2627-4918488@madrid-calendario",
+    "uid_evento": "102412"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882808/real-madrid-valencia",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-13T12:00",
+    "rival": "CA Osasuna",
+    "ronda": "16",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918482@madrid-calendario",
+    "uid_evento": "102406"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-06T12:00",
+    "rival": "Athletic Club",
+    "ronda": "15",
+    "sede": {
+      "ciudad": "Bilbo",
+      "pabellon": "Estadio San Mamés"
+    },
+    "uid": "madrid-2627-4918466@madrid-calendario",
+    "uid_evento": "102390"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-02T19:00",
+    "rival": "Real Sociedad",
+    "ronda": "23",
+    "sede": {
+      "ciudad": "Donostia",
+      "pabellon": "Anoeta"
+    },
+    "uid": "madrid-2627-4918553@madrid-calendario",
+    "uid_evento": "102477"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-11-28T21:00",
+    "rival": "Deportivo Alavés",
+    "ronda": "14",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918462@madrid-calendario",
+    "uid_evento": "102386"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-11-21T21:00",
+    "rival": "Celta",
+    "ronda": "13",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4918453@madrid-calendario",
+    "uid_evento": "102377"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
+    "fuente": "laliga",
     "inicio_madrid": "2026-11-07T21:00",
     "resultado_equipo": 3,
     "resultado_local": 0,
     "resultado_rival": 0,
     "resultado_visitante": 3,
     "rival": "Valencia",
-    "ronda": "",
+    "ronda": "12",
     "sede": {
-      "ciudad": "Manises",
-      "pabellon": "Mestalla Stadium"
+      "ciudad": "València",
+      "pabellon": "Camp de Mestalla"
     },
     "uid": "madrid-2627-4918443@madrid-calendario",
-    "uid_evento": "401882808",
+    "uid_evento": "102367",
     "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882798/celta-vigo-real-madrid",
-    "casa": true,
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-11-21T21:00",
-    "rival": "Celta Vigo",
-    "ronda": "",
+    "fuente": "laliga",
+    "inicio_madrid": "2026-11-01T16:15",
+    "resultado_equipo": 3,
+    "resultado_local": 0,
+    "resultado_rival": 0,
+    "resultado_visitante": 3,
+    "rival": "R. Racing Club",
+    "ronda": "11",
     "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "ciudad": "Santander",
+      "pabellon": "El Sardinero"
     },
-    "uid": "madrid-2627-4918453@madrid-calendario",
-    "uid_evento": "401882798"
+    "uid": "madrid-2627-4918432@madrid-calendario",
+    "uid_evento": "102356",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882789/alaves-real-madrid",
-    "casa": true,
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-11-28T21:00",
-    "rival": "Alavés",
-    "ronda": "",
+    "fuente": "laliga",
+    "inicio_madrid": "2026-10-25T21:00",
+    "resultado_equipo": 2,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 2,
+    "rival": "FC Barcelona",
+    "ronda": "10",
     "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "ciudad": "Barcelona",
+      "pabellon": "Spotify Camp Nou"
     },
-    "uid": "madrid-2627-4918462@madrid-calendario",
-    "uid_evento": "401882789"
+    "uid": "madrid-2627-4918419@madrid-calendario",
+    "uid_evento": "102343",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882698/real-madrid-real-sociedad",
-    "casa": false,
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-12-02T19:00",
-    "rival": "Real Sociedad",
-    "ronda": "",
+    "fuente": "laliga",
+    "inicio_madrid": "2026-10-18T21:00",
+    "resultado_equipo": 4,
+    "resultado_local": 4,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Sevilla FC",
+    "ronda": "9",
     "sede": {
-      "ciudad": "San Sebastian",
-      "pabellon": "Reale Arena"
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4918553@madrid-calendario",
-    "uid_evento": "401882698"
+    "uid": "madrid-2627-4909735@madrid-calendario",
+    "uid_evento": "102336",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882785/real-madrid-athletic-club",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2026-12-06T12:00",
-    "rival": "Athletic Club",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Bilbao",
-      "pabellon": "San Mamés"
-    },
-    "uid": "madrid-2627-4918466@madrid-calendario",
-    "uid_evento": "401882785"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882769/osasuna-real-madrid",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2026-12-13T12:00",
-    "rival": "Osasuna",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-10-10T21:00",
+    "resultado_equipo": 1,
+    "resultado_local": 1,
+    "resultado_rival": 0,
+    "resultado_visitante": 0,
+    "rival": "Villarreal",
+    "ronda": "8",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4918482@madrid-calendario",
-    "uid_evento": "401882769"
+    "uid": "madrid-2627-4909726@madrid-calendario",
+    "uid_evento": "102327",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882763/real-madrid-deportivo",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2026-12-20T12:00",
-    "rival": "Deportivo",
-    "ronda": "",
-    "sede": {
-      "ciudad": "La Coruña",
-      "pabellon": "Riazor"
-    },
-    "uid": "madrid-2627-4918488@madrid-calendario",
-    "uid_evento": "401882763"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882749/getafe-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-03T12:00",
-    "rival": "Getafe",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-20T16:15",
+    "resultado_equipo": 1,
+    "resultado_local": 2,
+    "resultado_rival": 2,
+    "resultado_visitante": 1,
+    "rival": "Atlético de Madrid",
+    "ronda": "7",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "pabellon": "Riyadh Air Metropolitano"
     },
-    "uid": "madrid-2627-4918502@madrid-calendario",
-    "uid_evento": "401882749"
+    "uid": "madrid-2627-4909609@madrid-calendario",
+    "uid_evento": "102310",
+    "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882739/levante-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-10T12:00",
-    "rival": "Levante",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918512@madrid-calendario",
-    "uid_evento": "401882739"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882730/real-madrid-malaga",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-17T12:00",
-    "rival": "Málaga",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-15T21:30",
+    "resultado_equipo": 3,
+    "resultado_local": 2,
+    "resultado_rival": 2,
+    "resultado_visitante": 3,
+    "rival": "Elche",
+    "ronda": "6",
     "sede": {
-      "ciudad": "Malaga",
-      "pabellon": "La Rosaleda"
+      "ciudad": "Elche",
+      "pabellon": "Estadio Martínez Valero"
     },
-    "uid": "madrid-2627-4918521@madrid-calendario",
-    "uid_evento": "401882730"
+    "uid": "madrid-2627-4909564@madrid-calendario",
+    "uid_evento": "102303",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882719/real-betis-real-madrid",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-24T12:00",
-    "rival": "Real Betis",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918532@madrid-calendario",
-    "uid_evento": "401882719"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882709/real-madrid-rayo-vallecano",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-31T12:00",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-12T21:00",
+    "resultado_equipo": 4,
+    "resultado_local": 4,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
     "rival": "Rayo Vallecano",
-    "ronda": "",
+    "ronda": "5",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Estadio de Vallecas"
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4918542@madrid-calendario",
-    "uid_evento": "401882709"
+    "uid": "madrid-2627-4909530@madrid-calendario",
+    "uid_evento": "102295",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882691/athletic-club-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-02-14T12:00",
-    "rival": "Athletic Club",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918560@madrid-calendario",
-    "uid_evento": "401882691"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882678/real-madrid-sevilla",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-02-21T12:00",
-    "rival": "Sevilla",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-04T21:00",
+    "resultado_equipo": 0,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 0,
+    "rival": "Real Betis",
+    "ronda": "4",
     "sede": {
       "ciudad": "Sevilla",
-      "pabellon": "Ramón Sánchez Pizjuán Stadium"
+      "pabellon": "Estadio La Cartuja"
     },
-    "uid": "madrid-2627-4918573@madrid-calendario",
-    "uid_evento": "401882678"
+    "uid": "madrid-2627-4909498@madrid-calendario",
+    "uid_evento": "102281",
+    "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882668/valencia-real-madrid",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-02-28T12:00",
-    "rival": "Valencia",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-08-30T17:00",
+    "resultado_equipo": 4,
+    "resultado_local": 4,
+    "resultado_rival": 0,
+    "resultado_visitante": 0,
+    "rival": "Málaga",
+    "ronda": "3",
     "sede": {
       "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
+      "pabellon": "Bernabéu"
     },
-    "uid": "madrid-2627-4918583@madrid-calendario",
-    "uid_evento": "401882668"
+    "uid": "madrid-2627-4909485@madrid-calendario",
+    "uid_evento": "102276",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882657/real-madrid-villarreal",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-08-26T21:00",
+    "resultado_equipo": 4,
+    "resultado_local": 4,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Real Sociedad",
+    "ronda": "1",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "madrid-2627-4909447@madrid-calendario",
+    "uid_evento": "102256",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-03-07T12:00",
-    "rival": "Villarreal",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-08-22T21:30",
+    "resultado_equipo": 2,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 2,
+    "rival": "RCD Espanyol de Barcelona",
+    "ronda": "2",
     "sede": {
-      "ciudad": "Villarreal",
-      "pabellon": "Estadio de la Cerámica"
+      "ciudad": "Cornellà de Llobregat",
+      "pabellon": "RCDE Stadium"
     },
-    "uid": "madrid-2627-4918594@madrid-calendario",
-    "uid_evento": "401882657"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882647/espanyol-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-03-14T12:00",
-    "rival": "Espanyol",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918604@madrid-calendario",
-    "uid_evento": "401882647"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882645/real-madrid-celta-vigo",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-03-21T12:00",
-    "rival": "Celta Vigo",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Vigo",
-      "pabellon": "Balaidos"
-    },
-    "uid": "madrid-2627-4918606@madrid-calendario",
-    "uid_evento": "401882645"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882628/atletico-madrid-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-04T12:00",
-    "rival": "Atlético Madrid",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918631@madrid-calendario",
-    "uid_evento": "401882628"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882622/real-madrid-osasuna",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-11T12:00",
-    "rival": "Osasuna",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Pamplona",
-      "pabellon": "El Sadar"
-    },
-    "uid": "madrid-2627-4918637@madrid-calendario",
-    "uid_evento": "401882622"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882610/real-madrid-getafe",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-18T12:00",
-    "rival": "Getafe",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "madrid-2627-4918649@madrid-calendario",
-    "uid_evento": "401882610"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882600/elche-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-21T12:00",
-    "rival": "Elche",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918659@madrid-calendario",
-    "uid_evento": "401882600"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882590/real-madrid-levante",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-02T12:00",
-    "rival": "Levante",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Manises",
-      "pabellon": "Estadi Ciutat de València"
-    },
-    "uid": "madrid-2627-4918669@madrid-calendario",
-    "uid_evento": "401882590"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882579/barcelona-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-09T12:00",
-    "rival": "Barcelona",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918680@madrid-calendario",
-    "uid_evento": "401882579"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882569/racing-santander-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-16T12:00",
-    "rival": "Racing Santander",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918690@madrid-calendario",
-    "uid_evento": "401882569"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882566/real-madrid-alaves",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-23T12:00",
-    "rival": "Alavés",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Vitoria-Gasteiz",
-      "pabellon": "Mendizorrotza"
-    },
-    "uid": "madrid-2627-4918703@madrid-calendario",
-    "uid_evento": "401882566"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882548/deportivo-real-madrid",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-30T12:00",
-    "rival": "Deportivo",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918701@madrid-calendario",
-    "uid_evento": "401882548"
+    "uid": "madrid-2627-4909472@madrid-calendario",
+    "uid_evento": "102263",
+    "victoria": true
   }
 ]

@@ -22,8 +22,9 @@ from scripts.comun.http import fetch
 from scripts.comun.ics import MADRID, Evento, generar_ics
 from scripts.comun.log import log, warn
 
-from scripts.calendarios.deportes.futbol.getafe.config import CONFIG, CONFIG_ESPN, CONFIG_UEFA
+from scripts.calendarios.deportes.futbol.getafe.config import CONFIG, CONFIG_ESPN, CONFIG_LALIGA, CONFIG_UEFA
 from scripts.proveedores.espn import fuentes as espn
+from scripts.proveedores.laliga import fuentes as laliga
 from scripts.proveedores.transfermarkt import fuentes
 from scripts.proveedores.uefa import fuentes as uefa
 
@@ -233,16 +234,21 @@ def main() -> None:
     prev = _cargar_previo(json_path)
     prev_by_uid = {p["uid"]: p for p in prev if isinstance(p, dict) and p.get("uid")}
 
-    try:
-        tm_partidos = _fetch_liga()
-    except Exception as e:  # noqa: BLE001
-        warn(f"transfermarkt: fallo ({e}); se intenta ESPN")
+    tm_partidos = None
+    for nombre, obtener in (
+        ("laliga", lambda: laliga.fetch_competiciones(CONFIG_LALIGA)),
+        ("transfermarkt", _fetch_liga),
+        ("espn", lambda: espn.fetch_competiciones(CONFIG_ESPN)),
+    ):
         try:
-            tm_partidos = espn.fetch_competiciones(CONFIG_ESPN)
-            log(f"espn: {len(tm_partidos)} partidos como fallback")
-        except Exception as e2:  # noqa: BLE001
-            warn(f"espn: fallo ({e2}); se usan solo las fuentes oficiales")
-            tm_partidos = None
+            tm_partidos = obtener()
+        except Exception as e:  # noqa: BLE001
+            warn(f"{nombre}: fallo ({e})")
+        else:
+            log(f"{nombre}: {len(tm_partidos)} partidos")
+            break
+    if tm_partidos is None:
+        warn("sin fuente agregada; se usan solo las fuentes oficiales")
 
     try:
         partidos = fusionar(prev, recolectar(tm_partidos, _fuentes_oficiales()))

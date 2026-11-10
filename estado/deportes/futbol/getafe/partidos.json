@@ -169,770 +169,770 @@
     "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882926/getafe-alaves",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-08-15T19:30",
-    "resultado_equipo": 0,
-    "resultado_local": 3,
-    "resultado_rival": 3,
-    "resultado_visitante": 0,
-    "rival": "Alavés",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Vitoria-Gasteiz",
-      "pabellon": "Mendizorrotza"
-    },
-    "uid": "getafe-2627-4909440@getafe-calendario",
-    "uid_evento": "401882926",
-    "victoria": false
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882911/racing-santander-getafe",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-08-23T19:30",
-    "resultado_equipo": 1,
-    "resultado_local": 1,
-    "resultado_rival": 0,
-    "resultado_visitante": 0,
-    "rival": "Racing Santander",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-30T12:00",
+    "rival": "FC Barcelona",
+    "ronda": "38",
     "sede": {
       "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
+      "pabellon": "Coliseum"
     },
-    "uid": "getafe-2627-4909473@getafe-calendario",
-    "uid_evento": "401882911",
-    "victoria": true
+    "uid": "getafe-2627-4918697@getafe-calendario",
+    "uid_evento": "102623"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882901/getafe-osasuna",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-08-31T19:30",
-    "resultado_equipo": 0,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 0,
-    "rival": "Osasuna",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Pamplona",
-      "pabellon": "El Sadar"
-    },
-    "uid": "getafe-2627-4909483@getafe-calendario",
-    "uid_evento": "401882901",
-    "victoria": false
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882891/celta-vigo-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-07T19:00",
-    "resultado_equipo": 1,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
-    "rival": "Celta Vigo",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4909501@getafe-calendario",
-    "uid_evento": "401882891",
-    "victoria": false
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882884/deportivo-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-13T18:30",
-    "resultado_equipo": 1,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
-    "rival": "Deportivo",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4909526@getafe-calendario",
-    "uid_evento": "401882884",
-    "victoria": false
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882874/getafe-real-betis",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-17T19:00",
-    "resultado_equipo": 0,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 0,
-    "rival": "Real Betis",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-23T12:00",
+    "rival": "Sevilla FC",
+    "ronda": "37",
     "sede": {
       "ciudad": "Sevilla",
-      "pabellon": "Estadio Benito Villamarín"
+      "pabellon": "Ramón Sánchez-Pizjuán"
     },
-    "uid": "getafe-2627-4909562@getafe-calendario",
-    "uid_evento": "401882874",
-    "victoria": false
+    "uid": "getafe-2627-4918710@getafe-calendario",
+    "uid_evento": "102616"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882861/malaga-getafe",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-16T12:00",
+    "rival": "Levante UD",
+    "ronda": "36",
+    "sede": {
+      "ciudad": "València",
+      "pabellon": "Estadio Ciutat de València"
+    },
+    "uid": "getafe-2627-4918687@getafe-calendario",
+    "uid_evento": "102603"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-09-20T14:00",
-    "resultado_equipo": 1,
-    "resultado_local": 1,
-    "resultado_rival": 0,
-    "resultado_visitante": 0,
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-09T12:00",
+    "rival": "Elche",
+    "ronda": "35",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918676@getafe-calendario",
+    "uid_evento": "102592"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-05-02T12:00",
     "rival": "Málaga",
-    "ronda": "",
+    "ronda": "34",
     "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
+      "ciudad": "Málaga",
+      "pabellon": "La Rosaleda"
     },
-    "uid": "getafe-2627-4909613@getafe-calendario",
-    "uid_evento": "401882861",
-    "victoria": true
+    "uid": "getafe-2627-4918670@getafe-calendario",
+    "uid_evento": "102586"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882853/getafe-barcelona",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-10-10T18:30",
-    "resultado_equipo": 0,
-    "resultado_local": 3,
-    "resultado_rival": 3,
-    "resultado_visitante": 0,
-    "rival": "Barcelona",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Barcelona",
-      "pabellon": "Spotify Camp Nou"
-    },
-    "uid": "getafe-2627-4909721@getafe-calendario",
-    "uid_evento": "401882853",
-    "victoria": false
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882842/rayo-vallecano-getafe",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-10-19T21:00",
-    "resultado_equipo": 1,
-    "resultado_local": 1,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-21T12:00",
+    "rival": "Real Betis",
+    "ronda": "33",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918656@getafe-calendario",
+    "uid_evento": "102572"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-18T12:00",
+    "rival": "Real Madrid",
+    "ronda": "32",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918649@getafe-calendario",
+    "uid_evento": "102565"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-11T12:00",
+    "rival": "Valencia",
+    "ronda": "31",
+    "sede": {
+      "ciudad": "València",
+      "pabellon": "Camp de Mestalla"
+    },
+    "uid": "getafe-2627-4918641@getafe-calendario",
+    "uid_evento": "102557"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-04-04T12:00",
+    "rival": "RCD Espanyol de Barcelona",
+    "ronda": "30",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918628@getafe-calendario",
+    "uid_evento": "102544"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-03-21T12:00",
+    "rival": "Atlético de Madrid",
+    "ronda": "29",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Riyadh Air Metropolitano"
+    },
+    "uid": "getafe-2627-4918605@getafe-calendario",
+    "uid_evento": "102529"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-03-14T12:00",
+    "rival": "Real Sociedad",
+    "ronda": "28",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918600@getafe-calendario",
+    "uid_evento": "102524"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-03-07T12:00",
+    "rival": "RC Deportivo",
+    "ronda": "27",
+    "sede": {
+      "ciudad": "A Coruña",
+      "pabellon": "Estadio ABANCA-RIAZOR"
+    },
+    "uid": "getafe-2627-4918587@getafe-calendario",
+    "uid_evento": "102511"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-02-28T12:00",
+    "rival": "Deportivo Alavés",
+    "ronda": "26",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918578@getafe-calendario",
+    "uid_evento": "102502"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-02-21T12:00",
     "rival": "Rayo Vallecano",
-    "ronda": "",
+    "ronda": "25",
     "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
+      "ciudad": "Madrid",
+      "pabellon": "Estadio de Vallecas"
     },
-    "uid": "getafe-2627-4909732@getafe-calendario",
-    "uid_evento": "401882842",
-    "victoria": false
+    "uid": "getafe-2627-4918572@getafe-calendario",
+    "uid_evento": "102496"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882835/getafe-athletic-club",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-10-25T14:00",
-    "resultado_equipo": 0,
-    "resultado_local": 4,
-    "resultado_rival": 4,
-    "resultado_visitante": 0,
-    "rival": "Athletic Club",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-02-14T12:00",
+    "rival": "R. Racing Club",
+    "ronda": "24",
     "sede": {
-      "ciudad": "Bilbao",
-      "pabellon": "San Mamés"
+      "ciudad": "Santander",
+      "pabellon": "El Sardinero"
     },
-    "uid": "getafe-2627-4918416@getafe-calendario",
-    "uid_evento": "401882835",
-    "victoria": false
+    "uid": "getafe-2627-4918559@getafe-calendario",
+    "uid_evento": "102483"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882821/sevilla-getafe",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-11-01T14:00",
-    "resultado_equipo": 3,
-    "resultado_local": 3,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
-    "rival": "Sevilla",
-    "ronda": "",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-02-07T12:00",
+    "rival": "Villarreal",
+    "ronda": "23",
     "sede": {
       "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
+      "pabellon": "Coliseum"
     },
-    "uid": "getafe-2627-4918430@getafe-calendario",
-    "uid_evento": "401882821",
-    "victoria": true
+    "uid": "getafe-2627-4918552@getafe-calendario",
+    "uid_evento": "102476"
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882807/getafe-villarreal",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-31T12:00",
+    "rival": "Celta",
+    "ronda": "22",
+    "sede": {
+      "ciudad": "Vigo",
+      "pabellon": "Estadio ABANCA Balaídos"
+    },
+    "uid": "getafe-2627-4918537@getafe-calendario",
+    "uid_evento": "102461"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-24T12:00",
+    "rival": "CA Osasuna",
+    "ronda": "21",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918530@getafe-calendario",
+    "uid_evento": "102454"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-17T12:00",
+    "rival": "Athletic Club",
+    "ronda": "20",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918519@getafe-calendario",
+    "uid_evento": "102443"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-10T12:00",
+    "rival": "Elche",
+    "ronda": "19",
+    "sede": {
+      "ciudad": "Elche",
+      "pabellon": "Estadio Martínez Valero"
+    },
+    "uid": "getafe-2627-4918509@getafe-calendario",
+    "uid_evento": "102433"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2027-01-03T12:00",
+    "rival": "Real Madrid",
+    "ronda": "18",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Bernabéu"
+    },
+    "uid": "getafe-2627-4918502@getafe-calendario",
+    "uid_evento": "102426"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-20T12:00",
+    "rival": "Levante UD",
+    "ronda": "17",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918490@getafe-calendario",
+    "uid_evento": "102414"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-13T12:00",
+    "rival": "Real Sociedad",
+    "ronda": "16",
+    "sede": {
+      "ciudad": "Donostia",
+      "pabellon": "Anoeta"
+    },
+    "uid": "getafe-2627-4918483@getafe-calendario",
+    "uid_evento": "102407"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-06T12:00",
+    "rival": "Valencia",
+    "ronda": "15",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918469@getafe-calendario",
+    "uid_evento": "102393"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-11-30T21:00",
+    "rival": "RCD Espanyol de Barcelona",
+    "ronda": "14",
+    "sede": {
+      "ciudad": "Cornellà de Llobregat",
+      "pabellon": "RCDE Stadium"
+    },
+    "uid": "getafe-2627-4918459@getafe-calendario",
+    "uid_evento": "102383"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-11-22T21:00",
+    "rival": "Atlético de Madrid",
+    "ronda": "13",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4918448@getafe-calendario",
+    "uid_evento": "102372"
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
+    "fuente": "laliga",
     "inicio_madrid": "2026-11-08T18:30",
     "resultado_equipo": 0,
     "resultado_local": 2,
     "resultado_rival": 2,
     "resultado_visitante": 0,
     "rival": "Villarreal",
-    "ronda": "",
+    "ronda": "12",
     "sede": {
-      "ciudad": "Villarreal",
+      "ciudad": "Vila-real",
       "pabellon": "Estadio de la Cerámica"
     },
     "uid": "getafe-2627-4918444@getafe-calendario",
-    "uid_evento": "401882807",
+    "uid_evento": "102368",
     "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882803/atletico-madrid-getafe",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-11-22T21:00",
-    "rival": "Atlético Madrid",
-    "ronda": "",
+    "fuente": "laliga",
+    "inicio_madrid": "2026-11-01T14:00",
+    "resultado_equipo": 3,
+    "resultado_local": 3,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Sevilla FC",
+    "ronda": "11",
     "sede": {
       "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
+      "pabellon": "Coliseum"
     },
-    "uid": "getafe-2627-4918448@getafe-calendario",
-    "uid_evento": "401882803"
+    "uid": "getafe-2627-4918430@getafe-calendario",
+    "uid_evento": "102354",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882792/getafe-espanyol",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
-    "inicio_madrid": "2026-11-30T21:00",
-    "rival": "Espanyol",
-    "ronda": "",
+    "fuente": "laliga",
+    "inicio_madrid": "2026-10-25T14:00",
+    "resultado_equipo": 0,
+    "resultado_local": 4,
+    "resultado_rival": 4,
+    "resultado_visitante": 0,
+    "rival": "Athletic Club",
+    "ronda": "10",
+    "sede": {
+      "ciudad": "Bilbo",
+      "pabellon": "Estadio San Mamés"
+    },
+    "uid": "getafe-2627-4918416@getafe-calendario",
+    "uid_evento": "102340",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-10-19T21:00",
+    "resultado_equipo": 1,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Rayo Vallecano",
+    "ronda": "9",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4909732@getafe-calendario",
+    "uid_evento": "102333",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-10-10T18:30",
+    "resultado_equipo": 0,
+    "resultado_local": 3,
+    "resultado_rival": 3,
+    "resultado_visitante": 0,
+    "rival": "FC Barcelona",
+    "ronda": "8",
     "sede": {
       "ciudad": "Barcelona",
-      "pabellon": "RCDE Stadium"
+      "pabellon": "Spotify Camp Nou"
     },
-    "uid": "getafe-2627-4918459@getafe-calendario",
-    "uid_evento": "401882792"
+    "uid": "getafe-2627-4909721@getafe-calendario",
+    "uid_evento": "102322",
+    "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882782/valencia-getafe",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2026-12-06T12:00",
-    "rival": "Valencia",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918469@getafe-calendario",
-    "uid_evento": "401882782"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882768/getafe-real-sociedad",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2026-12-13T12:00",
-    "rival": "Real Sociedad",
-    "ronda": "",
-    "sede": {
-      "ciudad": "San Sebastian",
-      "pabellon": "Reale Arena"
-    },
-    "uid": "getafe-2627-4918483@getafe-calendario",
-    "uid_evento": "401882768"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882761/levante-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2026-12-20T12:00",
-    "rival": "Levante",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918490@getafe-calendario",
-    "uid_evento": "401882761"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882749/getafe-real-madrid",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-03T12:00",
-    "rival": "Real Madrid",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "getafe-2627-4918502@getafe-calendario",
-    "uid_evento": "401882749"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882742/getafe-elche",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-10T12:00",
-    "rival": "Elche",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Elche",
-      "pabellon": "Estadio Martínez Valero"
-    },
-    "uid": "getafe-2627-4918509@getafe-calendario",
-    "uid_evento": "401882742"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882732/athletic-club-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-17T12:00",
-    "rival": "Athletic Club",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918519@getafe-calendario",
-    "uid_evento": "401882732"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882721/osasuna-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-24T12:00",
-    "rival": "Osasuna",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918530@getafe-calendario",
-    "uid_evento": "401882721"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882714/getafe-celta-vigo",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-01-31T12:00",
-    "rival": "Celta Vigo",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Vigo",
-      "pabellon": "Balaidos"
-    },
-    "uid": "getafe-2627-4918537@getafe-calendario",
-    "uid_evento": "401882714"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882699/villarreal-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-02-07T12:00",
-    "rival": "Villarreal",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918552@getafe-calendario",
-    "uid_evento": "401882699"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882692/getafe-racing-santander",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-02-14T12:00",
-    "rival": "Racing Santander",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Santander",
-      "pabellon": "El Sardineros"
-    },
-    "uid": "getafe-2627-4918559@getafe-calendario",
-    "uid_evento": "401882692"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882679/getafe-rayo-vallecano",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-02-21T12:00",
-    "rival": "Rayo Vallecano",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Estadio de Vallecas"
-    },
-    "uid": "getafe-2627-4918572@getafe-calendario",
-    "uid_evento": "401882679"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882673/alaves-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-02-28T12:00",
-    "rival": "Alavés",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918578@getafe-calendario",
-    "uid_evento": "401882673"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882664/getafe-deportivo",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-03-07T12:00",
-    "rival": "Deportivo",
-    "ronda": "",
-    "sede": {
-      "ciudad": "La Coruña",
-      "pabellon": "Riazor"
-    },
-    "uid": "getafe-2627-4918587@getafe-calendario",
-    "uid_evento": "401882664"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882651/real-sociedad-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-03-14T12:00",
-    "rival": "Real Sociedad",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918600@getafe-calendario",
-    "uid_evento": "401882651"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882646/getafe-atletico-madrid",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-03-21T12:00",
-    "rival": "Atlético Madrid",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Madrid",
-      "pabellon": "Riyadh Air Metropolitano"
-    },
-    "uid": "getafe-2627-4918605@getafe-calendario",
-    "uid_evento": "401882646"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882631/espanyol-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-04T12:00",
-    "rival": "Espanyol",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918628@getafe-calendario",
-    "uid_evento": "401882631"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882618/getafe-valencia",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-11T12:00",
-    "rival": "Valencia",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Manises",
-      "pabellon": "Mestalla Stadium"
-    },
-    "uid": "getafe-2627-4918641@getafe-calendario",
-    "uid_evento": "401882618"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882610/real-madrid-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-18T12:00",
-    "rival": "Real Madrid",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918649@getafe-calendario",
-    "uid_evento": "401882610"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882603/real-betis-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-04-21T12:00",
-    "rival": "Real Betis",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
-    },
-    "uid": "getafe-2627-4918656@getafe-calendario",
-    "uid_evento": "401882603"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882589/getafe-malaga",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-02T12:00",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-20T14:00",
+    "resultado_equipo": 1,
+    "resultado_local": 1,
+    "resultado_rival": 0,
+    "resultado_visitante": 0,
     "rival": "Málaga",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Malaga",
-      "pabellon": "La Rosaleda"
-    },
-    "uid": "getafe-2627-4918670@getafe-calendario",
-    "uid_evento": "401882589"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882583/elche-getafe",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-09T12:00",
-    "rival": "Elche",
-    "ronda": "",
+    "ronda": "7",
     "sede": {
       "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
+      "pabellon": "Coliseum"
     },
-    "uid": "getafe-2627-4918676@getafe-calendario",
-    "uid_evento": "401882583"
+    "uid": "getafe-2627-4909613@getafe-calendario",
+    "uid_evento": "102314",
+    "victoria": true
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882572/getafe-levante",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-16T12:00",
-    "rival": "Levante",
-    "ronda": "",
-    "sede": {
-      "ciudad": "Manises",
-      "pabellon": "Estadi Ciutat de València"
-    },
-    "uid": "getafe-2627-4918687@getafe-calendario",
-    "uid_evento": "401882572"
-  },
-  {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882559/getafe-sevilla",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-23T12:00",
-    "rival": "Sevilla",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-17T19:00",
+    "resultado_equipo": 0,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 0,
+    "rival": "Real Betis",
+    "ronda": "6",
     "sede": {
       "ciudad": "Sevilla",
-      "pabellon": "Ramón Sánchez Pizjuán Stadium"
+      "pabellon": "Estadio La Cartuja"
     },
-    "uid": "getafe-2627-4918710@getafe-calendario",
-    "uid_evento": "401882559"
+    "uid": "getafe-2627-4909562@getafe-calendario",
+    "uid_evento": "102301",
+    "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401882552/barcelona-getafe",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "espn",
-    "inicio_madrid": "2027-05-30T12:00",
-    "rival": "Barcelona",
-    "ronda": "",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-13T18:30",
+    "resultado_equipo": 1,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "RC Deportivo",
+    "ronda": "5",
     "sede": {
       "ciudad": "Getafe",
-      "pabellon": "Estadio Coliseum"
+      "pabellon": "Coliseum"
     },
-    "uid": "getafe-2627-4918697@getafe-calendario",
-    "uid_evento": "401882552"
+    "uid": "getafe-2627-4909526@getafe-calendario",
+    "uid_evento": "102291",
+    "victoria": false
   },
   {
-    "acta": "https://www.espn.com/soccer/match/_/gameId/401928526/getafe-ub-lebrijana",
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-09-07T19:00",
+    "resultado_equipo": 1,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Celta",
+    "ronda": "4",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4909501@getafe-calendario",
+    "uid_evento": "102284",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-08-31T19:30",
+    "resultado_equipo": 0,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 0,
+    "rival": "CA Osasuna",
+    "ronda": "3",
+    "sede": {
+      "ciudad": "Pamplona",
+      "pabellon": "Estadio El Sadar"
+    },
+    "uid": "getafe-2627-4909483@getafe-calendario",
+    "uid_evento": "102274",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-08-23T19:30",
+    "resultado_equipo": 1,
+    "resultado_local": 1,
+    "resultado_rival": 0,
+    "resultado_visitante": 0,
+    "rival": "R. Racing Club",
+    "ronda": "2",
+    "sede": {
+      "ciudad": "Getafe",
+      "pabellon": "Coliseum"
+    },
+    "uid": "getafe-2627-4909473@getafe-calendario",
+    "uid_evento": "102264",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.laliga.com/laliga-easports/resultados",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-08-15T19:30",
+    "resultado_equipo": 0,
+    "resultado_local": 3,
+    "resultado_rival": 3,
+    "resultado_visitante": 0,
+    "rival": "Deportivo Alavés",
+    "ronda": "1",
+    "sede": {
+      "ciudad": "Vitoria-Gasteiz",
+      "pabellon": "Mendizorroza"
+    },
+    "uid": "getafe-2627-4909440@getafe-calendario",
+    "uid_evento": "102249",
+    "victoria": false
+  },
+  {
+    "acta": "https://www.laliga.com/otras-competiciones/copa-del-rey",
     "casa": false,
     "competicion": "copa",
     "competicion_nombre": "Copa del Rey 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "espn",
+    "fuente": "laliga",
     "inicio_madrid": "2026-10-29T19:00",
     "resultado_equipo": 3,
     "resultado_local": 2,
     "resultado_rival": 2,
     "resultado_visitante": 3,
-    "rival": "UB Lebrijana",
-    "ronda": "",
+    "rival": "Lebrijana",
+    "ronda": "1º eliminatoria",
     "sede": {
       "ciudad": "Lebrija",
-      "pabellon": "Estadio Municipal de Lebrija"
+      "pabellon": "Municipal de Lebrija"
     },
     "uid": "getafe-2627-5074788@getafe-calendario",
-    "uid_evento": "401928526",
+    "uid_evento": "105113",
     "victoria": true
   }
 ]
