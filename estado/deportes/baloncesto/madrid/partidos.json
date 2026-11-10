@@ -136,9 +136,13 @@
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-08T19:00",
+    "resultado_equipo": 90,
+    "resultado_local": 90,
+    "resultado_rival": 71,
+    "resultado_visitante": 71,
     "rival": "UCAM Murcia",
     "ronda": "J7",
     "sede": {
@@ -146,7 +150,8 @@
       "pabellon": "Movistar Arena"
     },
     "sede_club_id": 9,
-    "uid": "madrid-b-2627-acb105437@madridbaloncesto-calendario"
+    "uid": "madrid-b-2627-acb105437@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
     "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",

@@ -175,3 +175,20 @@ def recolectar(
     if not combinados:
         raise ValueError("ninguna fuente devolvió partidos")
     return combinados
+
+
+def pendientes_pasados(partidos: Sequence[dict], *, ahora: datetime | None = None) -> list[dict]:
+    """Partidos con fecha pasada que siguen en estado pendiente.
+
+    Un pendiente con fecha pasada indica que la fuente aún no publica el
+    resultado (o que la fuente falló y se conservó el histórico). Sirve para
+    avisar en logs en lugar de dejar el ICS desactualizado en silencio.
+    """
+    ref = ahora or datetime.now()
+    return [
+        p
+        for p in partidos
+        if p.get("estado") == "pendiente"
+        and (f := _fecha(p)) is not None
+        and f < ref
+    ]

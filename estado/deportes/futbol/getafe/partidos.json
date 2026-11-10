@@ -415,17 +415,22 @@
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "fuente": "transfermarkt",
     "inicio_madrid": "2026-11-08T18:30",
+    "resultado_equipo": 0,
+    "resultado_local": 2,
+    "resultado_rival": 2,
+    "resultado_visitante": 0,
     "rival": "Villarreal",
     "ronda": "12",
     "sede": {
       "pabellon": "La Cerámica"
     },
     "uid": "getafe-2627-4918444@getafe-calendario",
-    "uid_evento": "4918444"
+    "uid_evento": "4918444",
+    "victoria": false
   },
   {
     "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918448",

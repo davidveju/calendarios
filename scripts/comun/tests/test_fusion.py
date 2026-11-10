@@ -96,6 +96,30 @@ class TestRecolectar(unittest.TestCase):
         with self.assertRaises(ValueError):
             fusion.recolectar(None, [])
 
+
+class TestPendientesPasados(unittest.TestCase):
+    def test_detecta_pendiente_con_fecha_pasada(self):
+        from datetime import datetime
+
+        partidos = [
+            {"estado": "pendiente", "inicio_madrid": "2026-11-08T18:30",
+             "competicion": "liga", "rival": "Villarreal"},
+            {"estado": "jugado", "inicio_madrid": "2026-11-08T18:30",
+             "competicion": "liga", "rival": "Otro"},
+            {"estado": "pendiente", "inicio_madrid": "2026-12-01T18:30",
+             "competicion": "liga", "rival": "Futuro"},
+        ]
+        pasados = fusion.pendientes_pasados(partidos, ahora=datetime(2026, 11, 10, 12, 0))
+        self.assertEqual([p["rival"] for p in pasados], ["Villarreal"])
+
+    def test_sin_fecha_no_cuenta(self):
+        from datetime import datetime
+
+        partidos = [{"estado": "pendiente", "rival": "Sin fecha"}]
+        self.assertEqual(
+            fusion.pendientes_pasados(partidos, ahora=datetime(2026, 11, 10)), []
+        )
+
     def test_deduplica_misma_fecha(self):
         oficial = {
             "competicion": "champions",

@@ -24,6 +24,21 @@ USER_AGENT = (
     "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 
+# Transfermarkt sirve una página vacía (sin filas de partidos) a clientes que
+# no parecen un navegador. El ``Referer`` propio ayuda a superarlo.
+HEADERS = {"Referer": "https://www.transfermarkt.com/"}
+
+
+def diagnostico(html: str) -> str:
+    """Resume qué devolvió Transfermarkt cuando no se pudo extraer nada.
+
+    Sirve para distinguir en los logs un bloqueo (página de consentimiento o
+    anti-bots) de un simple cambio de formato.
+    """
+    titulo = re.search(r"<title>(.*?)</title>", html or "", re.S | re.I)
+    texto = _limpia_cell(titulo.group(1)) if titulo else "sin <title>"
+    return f"{len(html or '')} bytes, título {texto[:80]!r}"
+
 
 def _limpia_cell(html_fragment: str) -> str:
     return _html.unescape(re.sub(r"<[^>]+>", " ", html_fragment)).replace("\xa0", " ").strip()
@@ -372,7 +387,7 @@ def fetch_sede(acta: str, *, retries: int = 2, timeout: int = 20) -> dict:
     try:
         from scripts.comun.http import fetch
 
-        return parse_sede(fetch(url, user_agent=USER_AGENT, retries=retries, timeout=timeout))
+        return parse_sede(fetch(url, user_agent=USER_AGENT, headers=HEADERS, retries=retries, timeout=timeout))
     except Exception as e:  # noqa: BLE001 - la sede es opcional
         raise ValueError(f"sede tm {acta} falló ({e})") from e
 

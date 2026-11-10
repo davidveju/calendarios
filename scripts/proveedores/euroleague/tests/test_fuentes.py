@@ -77,6 +77,39 @@ class TestEuroLeague(unittest.TestCase):
         self.assertTrue(cfg.season_code.startswith("E"))
         self.assertEqual(cfg.team_code, "MAD")
 
+    def test_reintenta_pagina_xml(self):
+        """Si la API devuelve XML transitorio, se reintenta la página."""
+        import time
+        from unittest import mock
+
+        pagina = json.dumps(
+            {
+                "data": [
+                    {
+                        "gameCode": 123,
+                        "round": 4,
+                        "roundName": "Round 4",
+                        "played": True,
+                        "utcDate": "2026-10-08T18:30:00Z",
+                        "local": {"club": {"code": "MAD", "name": "Real Madrid"}, "score": 86},
+                        "road": {"club": {"code": "PAR", "name": "Parisan"}, "score": 76},
+                        "venue": {"name": "Movistar Arena", "address": "Madrid"},
+                    }
+                ],
+                "total": 1,
+            }
+        )
+        with (
+            mock.patch(
+                "scripts.comun.http.fetch",
+                side_effect=["<xml/>", pagina],
+            ),
+            mock.patch.object(time, "sleep"),
+        ):
+            partidos = fuentes.fetch_partidos(CONFIG)
+        self.assertEqual(len(partidos), 1)
+        self.assertEqual(partidos[0]["rival"], "Parisan")
+
 
 if __name__ == "__main__":
     unittest.main()

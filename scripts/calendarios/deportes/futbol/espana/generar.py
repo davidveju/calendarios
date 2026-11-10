@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 
 from scripts.comun.archivos import escribir_json, escritura_atomica
 from scripts.comun.contexto import contexto_desde_ejecucion
-from scripts.comun.fusion import fusionar, recolectar
+from scripts.comun.fusion import fusionar, pendientes_pasados, recolectar
 from scripts.comun.http import fetch
 from scripts.comun.ics import MADRID, Evento, generar_ics
 from scripts.comun.log import log, warn
@@ -253,10 +253,10 @@ def _fetch_partidos() -> list[dict]:
         team_id=CONFIG.team_id,
         season_id=CONFIG.season_id,
     )
-    html = fetch(url, user_agent=fuentes.USER_AGENT)
+    html = fetch(url, user_agent=fuentes.USER_AGENT, headers=fuentes.HEADERS)
     partidos = fuentes.extraer_partidos(html, CONFIG)
     if not partidos:
-        raise ValueError("transfermarkt: no se obtuvo ningún partido")
+        raise ValueError(f"transfermarkt: no se obtuvo ningún partido ({fuentes.diagnostico(html)})")
     return partidos
 
 
@@ -309,6 +309,14 @@ def main() -> None:
     # Acumulación: los partidos de temporadas anteriores se conservan.
     claves_actuales = {p["uid"] for p in partidos}
     partidos = [p for p in prev if p.get("uid") not in claves_actuales] + partidos
+
+    pasados = pendientes_pasados(partidos)
+    if pasados:
+        detalle = ", ".join(
+            f"{p.get('inicio_madrid', '?')[:10]} {p.get('competicion', '?')} {p.get('rival', '?')}"
+            for p in pasados[:5]
+        )
+        warn(f"pendientes con fecha pasada: {len(pasados)} ({detalle})")
 
     for p in partidos:
         old = prev_by_uid.get(p["uid"])

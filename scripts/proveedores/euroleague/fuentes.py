@@ -92,9 +92,11 @@ def parse_games(payload_text: str, config) -> list[dict]:
 
 
 def fetch_partidos(config) -> list[dict]:
+    import time
+
     from scripts.comun.http import fetch
 
-    page_size = 300
+    page_size = 100
     offset = 0
     texto_acumulado: list[str] = []
     # La API pagina; concatenamos en un structure for parsing.
@@ -105,8 +107,18 @@ def fetch_partidos(config) -> list[dict]:
             f"https://api-live.euroleague.net/v2/competitions/E/seasons/"
             f"{config.season_code}/games?limit={page_size}&offset={offset}"
         )
-        txt = fetch(url, timeout=30)
-        data = json.loads(txt)
+        # La API a veces responde 200 con XML en lugar de JSON (fallo
+        # transitorio de serialización); se reintenta la página.
+        data = None
+        for intento in range(1, 4):
+            txt = fetch(url, timeout=30)
+            try:
+                data = json.loads(txt)
+                break
+            except (TypeError, ValueError):
+                if intento >= 3:
+                    raise
+                time.sleep(2 * intento)
         games = data.get("data", [])
         if not games:
             break

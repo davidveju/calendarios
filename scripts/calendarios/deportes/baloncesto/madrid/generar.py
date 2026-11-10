@@ -12,6 +12,7 @@ from zoneinfo import ZoneInfo
 
 from scripts.comun.archivos import escribir_json, escritura_atomica
 from scripts.comun.contexto import contexto_desde_ejecucion
+from scripts.comun.fusion import pendientes_pasados
 from scripts.comun.http import fetch
 from scripts.comun.ics import MADRID, Evento, generar_ics
 from scripts.comun.log import log, warn
@@ -171,6 +172,14 @@ def main() -> None:
         partidos = prev
     if not partidos:
         raise ValueError("ACB: no se obtuvo ningún partido")
+
+    pasados = pendientes_pasados(partidos)
+    if pasados:
+        detalle = ", ".join(
+            f"{p.get('inicio_madrid', '?')[:10]} {p.get('competicion', '?')} {p.get('rival', '?')}"
+            for p in pasados[:5]
+        )
+        warn(f"pendientes con fecha pasada: {len(pasados)} ({detalle})")
 
     # Sedes ACB: pabellón del equipo local (clubId), caché opcional.
     try:

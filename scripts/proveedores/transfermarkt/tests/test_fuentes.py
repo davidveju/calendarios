@@ -93,6 +93,15 @@ class TestSede(unittest.TestCase):
     def test_parse_sede_vacia(self):
         self.assertEqual(fuentes.parse_sede("<html></html>"), {})
 
+    def test_diagnostico(self):
+        html = "<html><head><title>Getafe CF - Schedule | Transfermarkt</title></head></html>"
+        diag = fuentes.diagnostico(html)
+        self.assertIn("bytes", diag)
+        self.assertIn("Getafe CF", diag)
+
+    def test_diagnostico_sin_titulo(self):
+        self.assertIn("sin <title>", fuentes.diagnostico("<html></html>"))
+
 
 class TestSeleccion(unittest.TestCase):
     def _leer(self, nombre: str) -> str:
