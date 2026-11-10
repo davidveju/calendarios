@@ -7,67 +7,70 @@ X-WR-CALNAME:Real Madrid
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:madrid-2627-4909472@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260822T193000Z
 DTEND:20260822T213000Z
-SUMMARY:⚽ Espanyol - Real Madrid (J2: 1-2 ✅)
-DESCRIPTION:LaLiga 26/27 · J2\nReal Madrid fuera vs Espanyol\nResultado: R
- eal Madrid 2-1 victoria ✅\nActa: https://www.transfermarkt.com/spielberi
- cht/index/spielbericht/4909472
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909472
-LOCATION:RCDE Stadium
+SUMMARY:⚽ Espanyol - Real Madrid (Liga: 1-2 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Espanyol\nResultado: Real Ma
+ drid 2-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/40
+ 1882912/real-madrid-espanyol
+URL:https://www.espn.com/soccer/match/_/gameId/401882912/real-madrid-espany
+ ol
+LOCATION:RCDE Stadium\, Barcelona
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909447@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260826T190000Z
 DTEND:20260826T210000Z
-SUMMARY:⚽ Real Madrid - Real Sociedad (J1: 4-1 ✅)
-DESCRIPTION:LaLiga 26/27 · J1\nReal Madrid en casa vs Real Sociedad\nResul
- tado: Real Madrid 4-1 victoria ✅\nActa: https://www.transfermarkt.com/sp
- ielbericht/index/spielbericht/4909447
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909447
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Real Sociedad (Liga: 4-1 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Real Sociedad\nResultado: 
+ Real Madrid 4-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/ga
+ meId/401882919/real-sociedad-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882919/real-sociedad-real
+ -madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909485@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260830T150000Z
 DTEND:20260830T170000Z
-SUMMARY:⚽ Real Madrid - Málaga CF (J3: 4-0 ✅)
-DESCRIPTION:LaLiga 26/27 · J3\nReal Madrid en casa vs Málaga CF\nResultad
- o: Real Madrid 4-0 victoria ✅\nActa: https://www.transfermarkt.com/spiel
- bericht/index/spielbericht/4909485
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909485
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Málaga (Liga: 4-0 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Málaga\nResultado: Real M
+ adrid 4-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/4
+ 01882899/malaga-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882899/malaga-real-madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909498@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260904T190000Z
 DTEND:20260904T210000Z
-SUMMARY:⚽ Real Betis - Real Madrid (J4: 1-0 ❌)
-DESCRIPTION:LaLiga 26/27 · J4\nReal Madrid fuera vs Real Betis\nResultado:
-  Real Madrid 0-1 derrota ❌\nActa: https://www.transfermarkt.com/spielber
- icht/index/spielbericht/4909498
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909498
-LOCATION:La Cartuja
+SUMMARY:⚽ Real Betis - Real Madrid (Liga: 1-0 ❌)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Real Betis\nResultado: Real 
+ Madrid 0-1 derrota ❌\nActa: https://www.espn.com/soccer/match/_/gameId/4
+ 01882894/real-madrid-real-betis
+URL:https://www.espn.com/soccer/match/_/gameId/401882894/real-madrid-real-b
+ etis
+LOCATION:Estadio La Cartuja\, Sevilla
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035860@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260908T190000Z
 DTEND:20260908T210000Z
 SUMMARY:⚽ Real Madrid - Inter (Champions · Jornada 1: 2-1 ✅)
@@ -82,67 +85,70 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909530@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260912T190000Z
 DTEND:20260912T210000Z
-SUMMARY:⚽ Real Madrid - Rayo Vallecano (J5: 4-1 ✅)
-DESCRIPTION:LaLiga 26/27 · J5\nReal Madrid en casa vs Rayo Vallecano\nResu
- ltado: Real Madrid 4-1 victoria ✅\nActa: https://www.transfermarkt.com/s
- pielbericht/index/spielbericht/4909530
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909530
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Rayo Vallecano (Liga: 4-1 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Rayo Vallecano\nResultado:
+  Real Madrid 4-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/g
+ ameId/401882880/rayo-vallecano-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882880/rayo-vallecano-rea
+ l-madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909564@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260915T193000Z
 DTEND:20260915T213000Z
-SUMMARY:⚽ Elche CF - Real Madrid (J6: 2-3 ✅)
-DESCRIPTION:LaLiga 26/27 · J6\nReal Madrid fuera vs Elche CF\nResultado: R
- eal Madrid 3-2 victoria ✅\nActa: https://www.transfermarkt.com/spielberi
- cht/index/spielbericht/4909564
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909564
-LOCATION:Manuel Martínez Valero
+SUMMARY:⚽ Elche - Real Madrid (Liga: 2-3 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Elche\nResultado: Real Madri
+ d 3-2 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/40188
+ 2872/real-madrid-elche
+URL:https://www.espn.com/soccer/match/_/gameId/401882872/real-madrid-elche
+LOCATION:Estadio Martínez Valero\, Elche
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909609@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20260920T141500Z
 DTEND:20260920T161500Z
-SUMMARY:⚽ Atlético - Real Madrid (J7: 2-1 ❌)
-DESCRIPTION:LaLiga 26/27 · J7\nReal Madrid fuera vs Atlético\nResultado: 
- Real Madrid 1-2 derrota ❌\nActa: https://www.transfermarkt.com/spielberi
- cht/index/spielbericht/4909609
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909609
-LOCATION:Riyadh Air Metropolitano
+SUMMARY:⚽ Atlético Madrid - Real Madrid (Liga: 2-1 ❌)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Atlético Madrid\nResultado:
+  Real Madrid 1-2 derrota ❌\nActa: https://www.espn.com/soccer/match/_/ga
+ meId/401882865/real-madrid-atletico-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882865/real-madrid-atleti
+ co-madrid
+LOCATION:Riyadh Air Metropolitano\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909726@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261010T190000Z
 DTEND:20261010T210000Z
-SUMMARY:⚽ Real Madrid - Villarreal (J8: 1-0 ✅)
-DESCRIPTION:LaLiga 26/27 · J8\nReal Madrid en casa vs Villarreal\nResultad
- o: Real Madrid 1-0 victoria ✅\nActa: https://www.transfermarkt.com/spiel
- bericht/index/spielbericht/4909726
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909726
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Villarreal (Liga: 1-0 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Villarreal\nResultado: Rea
+ l Madrid 1-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameI
+ d/401882848/villarreal-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882848/villarreal-real-ma
+ drid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035896@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261014T190000Z
 DTEND:20261014T210000Z
 SUMMARY:⚽ Roma - Real Madrid (Champions · Jornada 2: 3-4 ✅)
@@ -157,22 +163,23 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4909735@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261018T190000Z
 DTEND:20261018T210000Z
-SUMMARY:⚽ Real Madrid - Sevilla FC (J9: 4-1 ✅)
-DESCRIPTION:LaLiga 26/27 · J9\nReal Madrid en casa vs Sevilla FC\nResultad
- o: Real Madrid 4-1 victoria ✅\nActa: https://www.transfermarkt.com/spiel
- bericht/index/spielbericht/4909735
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4909735
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Sevilla (Liga: 4-1 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Sevilla\nResultado: Real M
+ adrid 4-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/4
+ 01882839/sevilla-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882839/sevilla-real-madri
+ d
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035862@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261021T190000Z
 DTEND:20261021T210000Z
 SUMMARY:⚽ Real Madrid - Leipzig (Champions · Jornada 3: 4-1 ✅)
@@ -187,37 +194,39 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918419@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261025T200000Z
 DTEND:20261025T220000Z
-SUMMARY:⚽ Barcelona - Real Madrid (J10: 1-2 ✅)
-DESCRIPTION:LaLiga 26/27 · J10\nReal Madrid fuera vs Barcelona\nResultado:
-  Real Madrid 2-1 victoria ✅\nActa: https://www.transfermarkt.com/spielbe
- richt/index/spielbericht/4918419
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918419
-LOCATION:Spotify Camp Nou
+SUMMARY:⚽ Barcelona - Real Madrid (Liga: 1-2 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Barcelona\nResultado: Real M
+ adrid 2-1 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/4
+ 01882832/real-madrid-barcelona
+URL:https://www.espn.com/soccer/match/_/gameId/401882832/real-madrid-barcel
+ ona
+LOCATION:Spotify Camp Nou\, Barcelona
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918432@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261101T151500Z
 DTEND:20261101T171500Z
-SUMMARY:⚽ Racing - Real Madrid (J11: 0-3 ✅)
-DESCRIPTION:LaLiga 26/27 · J11\nReal Madrid fuera vs Racing\nResultado: Re
- al Madrid 3-0 victoria ✅\nActa: https://www.transfermarkt.com/spielberic
- ht/index/spielbericht/4918432
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918432
-LOCATION:El Sardinero
+SUMMARY:⚽ Racing Santander - Real Madrid (Liga: 0-3 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Racing Santander\nResultado:
+  Real Madrid 3-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/g
+ ameId/401882819/real-madrid-racing-santander
+URL:https://www.espn.com/soccer/match/_/gameId/401882819/real-madrid-racing
+ -santander
+LOCATION:El Sardineros\, Santander
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035975@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261104T174500Z
 DTEND:20261104T194500Z
 SUMMARY:⚽ AEK Athens - Real Madrid (Champions · Jornada 4: 2-3 ✅)
@@ -232,37 +241,39 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918443@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261107T200000Z
 DTEND:20261107T220000Z
-SUMMARY:⚽ Valencia - Real Madrid (J12: 0-3 ✅)
-DESCRIPTION:LaLiga 26/27 · J12\nReal Madrid fuera vs Valencia\nResultado: 
- Real Madrid 3-0 victoria ✅\nActa: https://www.transfermarkt.com/spielber
- icht/index/spielbericht/4918443
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918443
-LOCATION:Mestalla
+SUMMARY:⚽ Valencia - Real Madrid (Liga: 0-3 ✅)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Valencia\nResultado: Real Ma
+ drid 3-0 victoria ✅\nActa: https://www.espn.com/soccer/match/_/gameId/40
+ 1882808/real-madrid-valencia
+URL:https://www.espn.com/soccer/match/_/gameId/401882808/real-madrid-valenc
+ ia
+LOCATION:Mestalla Stadium\, Manises
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918453@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261121T200000Z
 DTEND:20261121T220000Z
-SUMMARY:⚽ Real Madrid - Celta (J13)
-DESCRIPTION:LaLiga 26/27 · J13\nReal Madrid en casa vs Celta\nInicio: 21/1
- 1/2026 21:00 (Madrid)\nActa: https://www.transfermarkt.com/spielbericht/in
- dex/spielbericht/4918453
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918453
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Celta Vigo (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Celta Vigo\nInicio: 21/11/
+ 2026 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018
+ 82798/celta-vigo-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882798/celta-vigo-real-ma
+ drid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035861@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261124T200000Z
 DTEND:20261124T220000Z
 SUMMARY:⚽ Real Madrid - PSV (Champions · Jornada 5)
@@ -277,52 +288,54 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918462@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261128T200000Z
 DTEND:20261128T220000Z
-SUMMARY:⚽ Real Madrid - Alavés (J14)
-DESCRIPTION:LaLiga 26/27 · J14\nReal Madrid en casa vs Alavés\nInicio: 28
- /11/2026 21:00 (Madrid)\nActa: https://www.transfermarkt.com/spielbericht/
- index/spielbericht/4918462
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918462
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Alavés (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Alavés\nInicio: 28/11/202
+ 6 21:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/4018827
+ 89/alaves-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882789/alaves-real-madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918553@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261202T180000Z
 DTEND:20261202T200000Z
-SUMMARY:⚽ Real Sociedad - Real Madrid (J23)
-DESCRIPTION:LaLiga 26/27 · J23\nReal Madrid fuera vs Real Sociedad\nInicio
- : 02/12/2026 19:00 (Madrid)\nActa: https://www.transfermarkt.com/spielberi
- cht/index/spielbericht/4918553
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918553
-LOCATION:Anoeta
+SUMMARY:⚽ Real Sociedad - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Real Sociedad\nInicio: 02/12
+ /2026 19:00 (Madrid)\nActa: https://www.espn.com/soccer/match/_/gameId/401
+ 882698/real-madrid-real-sociedad
+URL:https://www.espn.com/soccer/match/_/gameId/401882698/real-madrid-real-s
+ ociedad
+LOCATION:Reale Arena\, San Sebastian
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918466@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261206T110000Z
 DTEND:20261206T130000Z
-SUMMARY:⚽ Athletic Club - Real Madrid (J15)
-DESCRIPTION:LaLiga 26/27 · J15\nReal Madrid fuera vs Athletic Club\nInicio
-  provisional: 06/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www
- .transfermarkt.com/spielbericht/index/spielbericht/4918466
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918466
-LOCATION:San Mamés
+SUMMARY:⚽ Athletic Club - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Athletic Club\nInicio provis
+ ional: 06/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.c
+ om/soccer/match/_/gameId/401882785/real-madrid-athletic-club
+URL:https://www.espn.com/soccer/match/_/gameId/401882785/real-madrid-athlet
+ ic-club
+LOCATION:San Mamés\, Bilbao
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035880@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261209T200000Z
 DTEND:20261209T220000Z
 SUMMARY:⚽ Arsenal - Real Madrid (Champions · Jornada 6)
@@ -337,82 +350,85 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918482@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261213T110000Z
 DTEND:20261213T130000Z
-SUMMARY:⚽ Real Madrid - CA Osasuna (J16)
-DESCRIPTION:LaLiga 26/27 · J16\nReal Madrid en casa vs CA Osasuna\nInicio 
- provisional: 13/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.
- transfermarkt.com/spielbericht/index/spielbericht/4918482
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918482
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Osasuna (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Osasuna\nInicio provisiona
+ l: 13/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/s
+ occer/match/_/gameId/401882769/osasuna-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882769/osasuna-real-madri
+ d
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918488@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20261220T110000Z
 DTEND:20261220T130000Z
-SUMMARY:⚽ Dep. A Coruña - Real Madrid (J17)
-DESCRIPTION:LaLiga 26/27 · J17\nReal Madrid fuera vs Dep. A Coruña\nInici
- o provisional: 20/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://ww
- w.transfermarkt.com/spielbericht/index/spielbericht/4918488
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918488
-LOCATION:Abanca Riazor
+SUMMARY:⚽ Deportivo - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Deportivo\nInicio provisiona
+ l: 20/12/2026 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/s
+ occer/match/_/gameId/401882763/real-madrid-deportivo
+URL:https://www.espn.com/soccer/match/_/gameId/401882763/real-madrid-deport
+ ivo
+LOCATION:Riazor\, La Coruña
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918502@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270103T110000Z
 DTEND:20270103T130000Z
-SUMMARY:⚽ Real Madrid - Getafe (J18)
-DESCRIPTION:LaLiga 26/27 · J18\nReal Madrid en casa vs Getafe\nInicio prov
- isional: 03/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tran
- sfermarkt.com/spielbericht/index/spielbericht/4918502
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918502
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Getafe (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Getafe\nInicio provisional
+ : 03/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/so
+ ccer/match/_/gameId/401882749/getafe-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882749/getafe-real-madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918512@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270110T110000Z
 DTEND:20270110T130000Z
-SUMMARY:⚽ Real Madrid - Levante (J19)
-DESCRIPTION:LaLiga 26/27 · J19\nReal Madrid en casa vs Levante\nInicio pro
- visional: 10/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tra
- nsfermarkt.com/spielbericht/index/spielbericht/4918512
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918512
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Levante (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Levante\nInicio provisiona
+ l: 10/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/s
+ occer/match/_/gameId/401882739/levante-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882739/levante-real-madri
+ d
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918521@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270117T110000Z
 DTEND:20270117T130000Z
-SUMMARY:⚽ Málaga CF - Real Madrid (J20)
-DESCRIPTION:LaLiga 26/27 · J20\nReal Madrid fuera vs Málaga CF\nInicio pr
- ovisional: 17/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tr
- ansfermarkt.com/spielbericht/index/spielbericht/4918521
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918521
-LOCATION:La Rosaleda
+SUMMARY:⚽ Málaga - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Málaga\nInicio provisional:
+  17/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
+ cer/match/_/gameId/401882730/real-madrid-malaga
+URL:https://www.espn.com/soccer/match/_/gameId/401882730/real-madrid-malaga
+LOCATION:La Rosaleda\, Malaga
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035863@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270119T200000Z
 DTEND:20270119T220000Z
 SUMMARY:⚽ Real Madrid - LASK (Champions · Jornada 7)
@@ -427,22 +443,23 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918532@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270124T110000Z
 DTEND:20270124T130000Z
-SUMMARY:⚽ Real Madrid - Real Betis (J21)
-DESCRIPTION:LaLiga 26/27 · J21\nReal Madrid en casa vs Real Betis\nInicio 
- provisional: 24/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.
- transfermarkt.com/spielbericht/index/spielbericht/4918532
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918532
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Real Betis (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Real Betis\nInicio provisi
+ onal: 24/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.co
+ m/soccer/match/_/gameId/401882719/real-betis-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882719/real-betis-real-ma
+ drid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-5035955@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270127T200000Z
 DTEND:20270127T220000Z
 SUMMARY:⚽ Shakhtar - Real Madrid (Champions · Jornada 8)
@@ -457,240 +474,253 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918542@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270131T110000Z
 DTEND:20270131T130000Z
-SUMMARY:⚽ Rayo Vallecano - Real Madrid (J22)
-DESCRIPTION:LaLiga 26/27 · J22\nReal Madrid fuera vs Rayo Vallecano\nInici
- o provisional: 31/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://ww
- w.transfermarkt.com/spielbericht/index/spielbericht/4918542
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918542
-LOCATION:Estadio de Vallecas
+SUMMARY:⚽ Rayo Vallecano - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Rayo Vallecano\nInicio provi
+ sional: 31/01/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.
+ com/soccer/match/_/gameId/401882709/real-madrid-rayo-vallecano
+URL:https://www.espn.com/soccer/match/_/gameId/401882709/real-madrid-rayo-v
+ allecano
+LOCATION:Estadio de Vallecas\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918560@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270214T110000Z
 DTEND:20270214T130000Z
-SUMMARY:⚽ Real Madrid - Athletic Club (J24)
-DESCRIPTION:LaLiga 26/27 · J24\nReal Madrid en casa vs Athletic Club\nInic
- io provisional: 14/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://w
- ww.transfermarkt.com/spielbericht/index/spielbericht/4918560
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918560
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Athletic Club (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Athletic Club\nInicio prov
+ isional: 14/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn
+ .com/soccer/match/_/gameId/401882691/athletic-club-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882691/athletic-club-real
+ -madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918573@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270221T110000Z
 DTEND:20270221T130000Z
-SUMMARY:⚽ Sevilla FC - Real Madrid (J25)
-DESCRIPTION:LaLiga 26/27 · J25\nReal Madrid fuera vs Sevilla FC\nInicio pr
- ovisional: 21/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tr
- ansfermarkt.com/spielbericht/index/spielbericht/4918573
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918573
-LOCATION:Ramón Sánchez-Pizjuán
+SUMMARY:⚽ Sevilla - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Sevilla\nInicio provisional:
+  21/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
+ cer/match/_/gameId/401882678/real-madrid-sevilla
+URL:https://www.espn.com/soccer/match/_/gameId/401882678/real-madrid-sevill
+ a
+LOCATION:Ramón Sánchez Pizjuán Stadium\, Sevilla
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918583@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270228T110000Z
 DTEND:20270228T130000Z
-SUMMARY:⚽ Real Madrid - Valencia (J26)
-DESCRIPTION:LaLiga 26/27 · J26\nReal Madrid en casa vs Valencia\nInicio pr
- ovisional: 28/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tr
- ansfermarkt.com/spielbericht/index/spielbericht/4918583
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918583
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Valencia (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Valencia\nInicio provision
+ al: 28/02/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
+ soccer/match/_/gameId/401882668/valencia-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882668/valencia-real-madr
+ id
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918594@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270307T110000Z
 DTEND:20270307T130000Z
-SUMMARY:⚽ Villarreal - Real Madrid (J27)
-DESCRIPTION:LaLiga 26/27 · J27\nReal Madrid fuera vs Villarreal\nInicio pr
- ovisional: 07/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tr
- ansfermarkt.com/spielbericht/index/spielbericht/4918594
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918594
-LOCATION:La Cerámica
+SUMMARY:⚽ Villarreal - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Villarreal\nInicio provision
+ al: 07/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
+ soccer/match/_/gameId/401882657/real-madrid-villarreal
+URL:https://www.espn.com/soccer/match/_/gameId/401882657/real-madrid-villar
+ real
+LOCATION:Estadio de la Cerámica\, Villarreal
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918604@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270314T110000Z
 DTEND:20270314T130000Z
-SUMMARY:⚽ Real Madrid - Espanyol (J28)
-DESCRIPTION:LaLiga 26/27 · J28\nReal Madrid en casa vs Espanyol\nInicio pr
- ovisional: 14/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tr
- ansfermarkt.com/spielbericht/index/spielbericht/4918604
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918604
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Espanyol (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Espanyol\nInicio provision
+ al: 14/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
+ soccer/match/_/gameId/401882647/espanyol-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882647/espanyol-real-madr
+ id
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918606@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270321T110000Z
 DTEND:20270321T130000Z
-SUMMARY:⚽ Celta - Real Madrid (J29)
-DESCRIPTION:LaLiga 26/27 · J29\nReal Madrid fuera vs Celta\nInicio provisi
- onal: 21/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.transfe
- rmarkt.com/spielbericht/index/spielbericht/4918606
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918606
-LOCATION:Abanca Balaídos
+SUMMARY:⚽ Celta Vigo - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Celta Vigo\nInicio provision
+ al: 21/03/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/
+ soccer/match/_/gameId/401882645/real-madrid-celta-vigo
+URL:https://www.espn.com/soccer/match/_/gameId/401882645/real-madrid-celta-
+ vigo
+LOCATION:Balaidos\, Vigo
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918631@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270404T100000Z
 DTEND:20270404T120000Z
-SUMMARY:⚽ Real Madrid - Atlético (J30)
-DESCRIPTION:LaLiga 26/27 · J30\nReal Madrid en casa vs Atlético\nInicio p
- rovisional: 04/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.t
- ransfermarkt.com/spielbericht/index/spielbericht/4918631
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918631
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Atlético Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Atlético Madrid\nInicio p
+ rovisional: 04/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.e
+ spn.com/soccer/match/_/gameId/401882628/atletico-madrid-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882628/atletico-madrid-re
+ al-madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918637@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270411T100000Z
 DTEND:20270411T120000Z
-SUMMARY:⚽ CA Osasuna - Real Madrid (J31)
-DESCRIPTION:LaLiga 26/27 · J31\nReal Madrid fuera vs CA Osasuna\nInicio pr
- ovisional: 11/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tr
- ansfermarkt.com/spielbericht/index/spielbericht/4918637
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918637
-LOCATION:El Sadar
+SUMMARY:⚽ Osasuna - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Osasuna\nInicio provisional:
+  11/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
+ cer/match/_/gameId/401882622/real-madrid-osasuna
+URL:https://www.espn.com/soccer/match/_/gameId/401882622/real-madrid-osasun
+ a
+LOCATION:El Sadar\, Pamplona
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918649@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270418T100000Z
 DTEND:20270418T120000Z
-SUMMARY:⚽ Getafe - Real Madrid (J32)
-DESCRIPTION:LaLiga 26/27 · J32\nReal Madrid fuera vs Getafe\nInicio provis
- ional: 18/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.transf
- ermarkt.com/spielbericht/index/spielbericht/4918649
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918649
-LOCATION:Coliseum
+SUMMARY:⚽ Getafe - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Getafe\nInicio provisional: 
+ 18/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/socc
+ er/match/_/gameId/401882610/real-madrid-getafe
+URL:https://www.espn.com/soccer/match/_/gameId/401882610/real-madrid-getafe
+LOCATION:Estadio Coliseum\, Getafe
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918659@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270421T100000Z
 DTEND:20270421T120000Z
-SUMMARY:⚽ Real Madrid - Elche CF (J33)
-DESCRIPTION:LaLiga 26/27 · J33\nReal Madrid en casa vs Elche CF\nInicio pr
- ovisional: 21/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tr
- ansfermarkt.com/spielbericht/index/spielbericht/4918659
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918659
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Elche (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Elche\nInicio provisional:
+  21/04/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
+ cer/match/_/gameId/401882600/elche-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882600/elche-real-madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918669@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270502T100000Z
 DTEND:20270502T120000Z
-SUMMARY:⚽ Levante - Real Madrid (J34)
-DESCRIPTION:LaLiga 26/27 · J34\nReal Madrid fuera vs Levante\nInicio provi
- sional: 02/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.trans
- fermarkt.com/spielbericht/index/spielbericht/4918669
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918669
-LOCATION:Ciutat de València
+SUMMARY:⚽ Levante - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Levante\nInicio provisional:
+  02/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
+ cer/match/_/gameId/401882590/real-madrid-levante
+URL:https://www.espn.com/soccer/match/_/gameId/401882590/real-madrid-levant
+ e
+LOCATION:Estadi Ciutat de València\, Manises
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918680@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270509T100000Z
 DTEND:20270509T120000Z
-SUMMARY:⚽ Real Madrid - Barcelona (J35)
-DESCRIPTION:LaLiga 26/27 · J35\nReal Madrid en casa vs Barcelona\nInicio p
- rovisional: 09/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.t
- ransfermarkt.com/spielbericht/index/spielbericht/4918680
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918680
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Barcelona (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Barcelona\nInicio provisio
+ nal: 09/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com
+ /soccer/match/_/gameId/401882579/barcelona-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882579/barcelona-real-mad
+ rid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918690@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270516T100000Z
 DTEND:20270516T120000Z
-SUMMARY:⚽ Real Madrid - Racing (J36)
-DESCRIPTION:LaLiga 26/27 · J36\nReal Madrid en casa vs Racing\nInicio prov
- isional: 16/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.tran
- sfermarkt.com/spielbericht/index/spielbericht/4918690
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918690
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Racing Santander (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Racing Santander\nInicio p
+ rovisional: 16/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.e
+ spn.com/soccer/match/_/gameId/401882569/racing-santander-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882569/racing-santander-r
+ eal-madrid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918703@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270523T100000Z
 DTEND:20270523T120000Z
-SUMMARY:⚽ Alavés - Real Madrid (J37)
-DESCRIPTION:LaLiga 26/27 · J37\nReal Madrid fuera vs Alavés\nInicio provi
- sional: 23/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.trans
- fermarkt.com/spielbericht/index/spielbericht/4918703
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918703
-LOCATION:Mendizorroza
+SUMMARY:⚽ Alavés - Real Madrid (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid fuera vs Alavés\nInicio provisional:
+  23/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com/soc
+ cer/match/_/gameId/401882566/real-madrid-alaves
+URL:https://www.espn.com/soccer/match/_/gameId/401882566/real-madrid-alaves
+LOCATION:Mendizorrotza\, Vitoria-Gasteiz
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:madrid-2627-4918701@madrid-calendario
-DTSTAMP:20261108T084109Z
+DTSTAMP:20261110T105807Z
 DTSTART:20270530T100000Z
 DTEND:20270530T120000Z
-SUMMARY:⚽ Real Madrid - Dep. A Coruña (J38)
-DESCRIPTION:LaLiga 26/27 · J38\nReal Madrid en casa vs Dep. A Coruña\nIni
- cio provisional: 30/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://
- www.transfermarkt.com/spielbericht/index/spielbericht/4918701
-URL:https://www.transfermarkt.com/spielbericht/index/spielbericht/4918701
-LOCATION:Santiago Bernabéu
+SUMMARY:⚽ Real Madrid - Deportivo (Liga)
+DESCRIPTION:LaLiga 26/27\nReal Madrid en casa vs Deportivo\nInicio provisio
+ nal: 30/05/2027 12:00 (Madrid\, por confirmar)\nActa: https://www.espn.com
+ /soccer/match/_/gameId/401882548/deportivo-real-madrid
+URL:https://www.espn.com/soccer/match/_/gameId/401882548/deportivo-real-mad
+ rid
+LOCATION:Santiago Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 STATUS:TENTATIVE
 SEQUENCE:0

@@ -164,709 +164,747 @@
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909447",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "jugado",
-    "fecha_provisional": false,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2026-08-26T21:00",
-    "resultado_equipo": 4,
-    "resultado_local": 4,
-    "resultado_rival": 1,
-    "resultado_visitante": 1,
-    "rival": "Real Sociedad",
-    "ronda": "1",
-    "sede": {
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4909447@madrid-calendario",
-    "uid_evento": "4909447",
-    "victoria": true
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909472",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882912/real-madrid-espanyol",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-08-22T21:30",
     "resultado_equipo": 2,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 2,
     "rival": "Espanyol",
-    "ronda": "2",
+    "ronda": "",
     "sede": {
+      "ciudad": "Barcelona",
       "pabellon": "RCDE Stadium"
     },
     "uid": "madrid-2627-4909472@madrid-calendario",
-    "uid_evento": "4909472",
+    "uid_evento": "401882912",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909485",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882919/real-sociedad-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
+    "inicio_madrid": "2026-08-26T21:00",
+    "resultado_equipo": 4,
+    "resultado_local": 4,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
+    "rival": "Real Sociedad",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Santiago Bernabéu"
+    },
+    "uid": "madrid-2627-4909447@madrid-calendario",
+    "uid_evento": "401882919",
+    "victoria": true
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882899/malaga-real-madrid",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "jugado",
+    "fecha_provisional": false,
+    "fuente": "espn",
     "inicio_madrid": "2026-08-30T17:00",
     "resultado_equipo": 4,
     "resultado_local": 4,
     "resultado_rival": 0,
     "resultado_visitante": 0,
-    "rival": "Málaga CF",
-    "ronda": "3",
+    "rival": "Málaga",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4909485@madrid-calendario",
-    "uid_evento": "4909485",
+    "uid_evento": "401882899",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909498",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882894/real-madrid-real-betis",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-09-04T21:00",
     "resultado_equipo": 0,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 0,
     "rival": "Real Betis",
-    "ronda": "4",
+    "ronda": "",
     "sede": {
-      "pabellon": "La Cartuja"
+      "ciudad": "Sevilla",
+      "pabellon": "Estadio La Cartuja"
     },
     "uid": "madrid-2627-4909498@madrid-calendario",
-    "uid_evento": "4909498",
+    "uid_evento": "401882894",
     "victoria": false
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909530",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882880/rayo-vallecano-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-09-12T21:00",
     "resultado_equipo": 4,
     "resultado_local": 4,
     "resultado_rival": 1,
     "resultado_visitante": 1,
     "rival": "Rayo Vallecano",
-    "ronda": "5",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4909530@madrid-calendario",
-    "uid_evento": "4909530",
+    "uid_evento": "401882880",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909564",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882872/real-madrid-elche",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-09-15T21:30",
     "resultado_equipo": 3,
     "resultado_local": 2,
     "resultado_rival": 2,
     "resultado_visitante": 3,
-    "rival": "Elche CF",
-    "ronda": "6",
+    "rival": "Elche",
+    "ronda": "",
     "sede": {
-      "pabellon": "Manuel Martínez Valero"
+      "ciudad": "Elche",
+      "pabellon": "Estadio Martínez Valero"
     },
     "uid": "madrid-2627-4909564@madrid-calendario",
-    "uid_evento": "4909564",
+    "uid_evento": "401882872",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909609",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882865/real-madrid-atletico-madrid",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-09-20T16:15",
     "resultado_equipo": 1,
     "resultado_local": 2,
     "resultado_rival": 2,
     "resultado_visitante": 1,
-    "rival": "Atlético",
-    "ronda": "7",
+    "rival": "Atlético Madrid",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Riyadh Air Metropolitano"
     },
     "uid": "madrid-2627-4909609@madrid-calendario",
-    "uid_evento": "4909609",
+    "uid_evento": "401882865",
     "victoria": false
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909726",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882848/villarreal-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-10-10T21:00",
     "resultado_equipo": 1,
     "resultado_local": 1,
     "resultado_rival": 0,
     "resultado_visitante": 0,
     "rival": "Villarreal",
-    "ronda": "8",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4909726@madrid-calendario",
-    "uid_evento": "4909726",
+    "uid_evento": "401882848",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4909735",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882839/sevilla-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-10-18T21:00",
     "resultado_equipo": 4,
     "resultado_local": 4,
     "resultado_rival": 1,
     "resultado_visitante": 1,
-    "rival": "Sevilla FC",
-    "ronda": "9",
+    "rival": "Sevilla",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4909735@madrid-calendario",
-    "uid_evento": "4909735",
+    "uid_evento": "401882839",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918419",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882832/real-madrid-barcelona",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-10-25T21:00",
     "resultado_equipo": 2,
     "resultado_local": 1,
     "resultado_rival": 1,
     "resultado_visitante": 2,
     "rival": "Barcelona",
-    "ronda": "10",
+    "ronda": "",
     "sede": {
+      "ciudad": "Barcelona",
       "pabellon": "Spotify Camp Nou"
     },
     "uid": "madrid-2627-4918419@madrid-calendario",
-    "uid_evento": "4918419",
+    "uid_evento": "401882832",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918432",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882819/real-madrid-racing-santander",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-11-01T16:15",
     "resultado_equipo": 3,
     "resultado_local": 0,
     "resultado_rival": 0,
     "resultado_visitante": 3,
-    "rival": "Racing",
-    "ronda": "11",
+    "rival": "Racing Santander",
+    "ronda": "",
     "sede": {
-      "pabellon": "El Sardinero"
+      "ciudad": "Santander",
+      "pabellon": "El Sardineros"
     },
     "uid": "madrid-2627-4918432@madrid-calendario",
-    "uid_evento": "4918432",
+    "uid_evento": "401882819",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918443",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882808/real-madrid-valencia",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "jugado",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-11-07T21:00",
     "resultado_equipo": 3,
     "resultado_local": 0,
     "resultado_rival": 0,
     "resultado_visitante": 3,
     "rival": "Valencia",
-    "ronda": "12",
+    "ronda": "",
     "sede": {
-      "pabellon": "Mestalla"
+      "ciudad": "Manises",
+      "pabellon": "Mestalla Stadium"
     },
     "uid": "madrid-2627-4918443@madrid-calendario",
-    "uid_evento": "4918443",
+    "uid_evento": "401882808",
     "victoria": true
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918453",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882798/celta-vigo-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-11-21T21:00",
-    "rival": "Celta",
-    "ronda": "13",
+    "rival": "Celta Vigo",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918453@madrid-calendario",
-    "uid_evento": "4918453"
+    "uid_evento": "401882798"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918462",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882789/alaves-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-11-28T21:00",
     "rival": "Alavés",
-    "ronda": "14",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918462@madrid-calendario",
-    "uid_evento": "4918462"
+    "uid_evento": "401882789"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918466",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2026-12-06T12:00",
-    "rival": "Athletic Club",
-    "ronda": "15",
-    "sede": {
-      "pabellon": "San Mamés"
-    },
-    "uid": "madrid-2627-4918466@madrid-calendario",
-    "uid_evento": "4918466"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918482",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2026-12-13T12:00",
-    "rival": "CA Osasuna",
-    "ronda": "16",
-    "sede": {
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918482@madrid-calendario",
-    "uid_evento": "4918482"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918488",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2026-12-20T12:00",
-    "rival": "Dep. A Coruña",
-    "ronda": "17",
-    "sede": {
-      "pabellon": "Abanca Riazor"
-    },
-    "uid": "madrid-2627-4918488@madrid-calendario",
-    "uid_evento": "4918488"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918502",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2027-01-03T12:00",
-    "rival": "Getafe",
-    "ronda": "18",
-    "sede": {
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918502@madrid-calendario",
-    "uid_evento": "4918502"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918512",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2027-01-10T12:00",
-    "rival": "Levante",
-    "ronda": "19",
-    "sede": {
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918512@madrid-calendario",
-    "uid_evento": "4918512"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918521",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2027-01-17T12:00",
-    "rival": "Málaga CF",
-    "ronda": "20",
-    "sede": {
-      "pabellon": "La Rosaleda"
-    },
-    "uid": "madrid-2627-4918521@madrid-calendario",
-    "uid_evento": "4918521"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918532",
-    "casa": true,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2027-01-24T12:00",
-    "rival": "Real Betis",
-    "ronda": "21",
-    "sede": {
-      "pabellon": "Santiago Bernabéu"
-    },
-    "uid": "madrid-2627-4918532@madrid-calendario",
-    "uid_evento": "4918532"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918542",
-    "casa": false,
-    "competicion": "liga",
-    "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
-    "fecha_provisional": true,
-    "fuente": "transfermarkt",
-    "inicio_madrid": "2027-01-31T12:00",
-    "rival": "Rayo Vallecano",
-    "ronda": "22",
-    "sede": {
-      "pabellon": "Estadio de Vallecas"
-    },
-    "uid": "madrid-2627-4918542@madrid-calendario",
-    "uid_evento": "4918542"
-  },
-  {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918553",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882698/real-madrid-real-sociedad",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": false,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2026-12-02T19:00",
     "rival": "Real Sociedad",
-    "ronda": "23",
+    "ronda": "",
     "sede": {
-      "pabellon": "Anoeta"
+      "ciudad": "San Sebastian",
+      "pabellon": "Reale Arena"
     },
     "uid": "madrid-2627-4918553@madrid-calendario",
-    "uid_evento": "4918553"
+    "uid_evento": "401882698"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918560",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882785/real-madrid-athletic-club",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
+    "inicio_madrid": "2026-12-06T12:00",
+    "rival": "Athletic Club",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Bilbao",
+      "pabellon": "San Mamés"
+    },
+    "uid": "madrid-2627-4918466@madrid-calendario",
+    "uid_evento": "401882785"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882769/osasuna-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
+    "inicio_madrid": "2026-12-13T12:00",
+    "rival": "Osasuna",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Santiago Bernabéu"
+    },
+    "uid": "madrid-2627-4918482@madrid-calendario",
+    "uid_evento": "401882769"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882763/real-madrid-deportivo",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
+    "inicio_madrid": "2026-12-20T12:00",
+    "rival": "Deportivo",
+    "ronda": "",
+    "sede": {
+      "ciudad": "La Coruña",
+      "pabellon": "Riazor"
+    },
+    "uid": "madrid-2627-4918488@madrid-calendario",
+    "uid_evento": "401882763"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882749/getafe-real-madrid",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
+    "inicio_madrid": "2027-01-03T12:00",
+    "rival": "Getafe",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Santiago Bernabéu"
+    },
+    "uid": "madrid-2627-4918502@madrid-calendario",
+    "uid_evento": "401882749"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882739/levante-real-madrid",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
+    "inicio_madrid": "2027-01-10T12:00",
+    "rival": "Levante",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Santiago Bernabéu"
+    },
+    "uid": "madrid-2627-4918512@madrid-calendario",
+    "uid_evento": "401882739"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882730/real-madrid-malaga",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
+    "inicio_madrid": "2027-01-17T12:00",
+    "rival": "Málaga",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Malaga",
+      "pabellon": "La Rosaleda"
+    },
+    "uid": "madrid-2627-4918521@madrid-calendario",
+    "uid_evento": "401882730"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882719/real-betis-real-madrid",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
+    "inicio_madrid": "2027-01-24T12:00",
+    "rival": "Real Betis",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Santiago Bernabéu"
+    },
+    "uid": "madrid-2627-4918532@madrid-calendario",
+    "uid_evento": "401882719"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882709/real-madrid-rayo-vallecano",
+    "casa": false,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
+    "inicio_madrid": "2027-01-31T12:00",
+    "rival": "Rayo Vallecano",
+    "ronda": "",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Estadio de Vallecas"
+    },
+    "uid": "madrid-2627-4918542@madrid-calendario",
+    "uid_evento": "401882709"
+  },
+  {
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882691/athletic-club-real-madrid",
+    "casa": true,
+    "competicion": "liga",
+    "competicion_nombre": "LaLiga 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": true,
+    "fuente": "espn",
     "inicio_madrid": "2027-02-14T12:00",
     "rival": "Athletic Club",
-    "ronda": "24",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918560@madrid-calendario",
-    "uid_evento": "4918560"
+    "uid_evento": "401882691"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918573",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882678/real-madrid-sevilla",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-02-21T12:00",
-    "rival": "Sevilla FC",
-    "ronda": "25",
+    "rival": "Sevilla",
+    "ronda": "",
     "sede": {
-      "pabellon": "Ramón Sánchez-Pizjuán"
+      "ciudad": "Sevilla",
+      "pabellon": "Ramón Sánchez Pizjuán Stadium"
     },
     "uid": "madrid-2627-4918573@madrid-calendario",
-    "uid_evento": "4918573"
+    "uid_evento": "401882678"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918583",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882668/valencia-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-02-28T12:00",
     "rival": "Valencia",
-    "ronda": "26",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918583@madrid-calendario",
-    "uid_evento": "4918583"
+    "uid_evento": "401882668"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918594",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882657/real-madrid-villarreal",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-03-07T12:00",
     "rival": "Villarreal",
-    "ronda": "27",
+    "ronda": "",
     "sede": {
-      "pabellon": "La Cerámica"
+      "ciudad": "Villarreal",
+      "pabellon": "Estadio de la Cerámica"
     },
     "uid": "madrid-2627-4918594@madrid-calendario",
-    "uid_evento": "4918594"
+    "uid_evento": "401882657"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918604",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882647/espanyol-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-03-14T12:00",
     "rival": "Espanyol",
-    "ronda": "28",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918604@madrid-calendario",
-    "uid_evento": "4918604"
+    "uid_evento": "401882647"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918606",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882645/real-madrid-celta-vigo",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-03-21T12:00",
-    "rival": "Celta",
-    "ronda": "29",
+    "rival": "Celta Vigo",
+    "ronda": "",
     "sede": {
-      "pabellon": "Abanca Balaídos"
+      "ciudad": "Vigo",
+      "pabellon": "Balaidos"
     },
     "uid": "madrid-2627-4918606@madrid-calendario",
-    "uid_evento": "4918606"
+    "uid_evento": "401882645"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918631",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882628/atletico-madrid-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-04-04T12:00",
-    "rival": "Atlético",
-    "ronda": "30",
+    "rival": "Atlético Madrid",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918631@madrid-calendario",
-    "uid_evento": "4918631"
+    "uid_evento": "401882628"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918637",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882622/real-madrid-osasuna",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-04-11T12:00",
-    "rival": "CA Osasuna",
-    "ronda": "31",
+    "rival": "Osasuna",
+    "ronda": "",
     "sede": {
+      "ciudad": "Pamplona",
       "pabellon": "El Sadar"
     },
     "uid": "madrid-2627-4918637@madrid-calendario",
-    "uid_evento": "4918637"
+    "uid_evento": "401882622"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918649",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882610/real-madrid-getafe",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-04-18T12:00",
     "rival": "Getafe",
-    "ronda": "32",
+    "ronda": "",
     "sede": {
-      "pabellon": "Coliseum"
+      "ciudad": "Getafe",
+      "pabellon": "Estadio Coliseum"
     },
     "uid": "madrid-2627-4918649@madrid-calendario",
-    "uid_evento": "4918649"
+    "uid_evento": "401882610"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918659",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882600/elche-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-04-21T12:00",
-    "rival": "Elche CF",
-    "ronda": "33",
+    "rival": "Elche",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918659@madrid-calendario",
-    "uid_evento": "4918659"
+    "uid_evento": "401882600"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918669",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882590/real-madrid-levante",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-05-02T12:00",
     "rival": "Levante",
-    "ronda": "34",
+    "ronda": "",
     "sede": {
-      "pabellon": "Ciutat de València"
+      "ciudad": "Manises",
+      "pabellon": "Estadi Ciutat de València"
     },
     "uid": "madrid-2627-4918669@madrid-calendario",
-    "uid_evento": "4918669"
+    "uid_evento": "401882590"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918680",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882579/barcelona-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-05-09T12:00",
     "rival": "Barcelona",
-    "ronda": "35",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918680@madrid-calendario",
-    "uid_evento": "4918680"
+    "uid_evento": "401882579"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918690",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882569/racing-santander-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-05-16T12:00",
-    "rival": "Racing",
-    "ronda": "36",
+    "rival": "Racing Santander",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918690@madrid-calendario",
-    "uid_evento": "4918690"
+    "uid_evento": "401882569"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918703",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882566/real-madrid-alaves",
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-05-23T12:00",
     "rival": "Alavés",
-    "ronda": "37",
+    "ronda": "",
     "sede": {
-      "pabellon": "Mendizorroza"
+      "ciudad": "Vitoria-Gasteiz",
+      "pabellon": "Mendizorrotza"
     },
     "uid": "madrid-2627-4918703@madrid-calendario",
-    "uid_evento": "4918703"
+    "uid_evento": "401882566"
   },
   {
-    "acta": "https://www.transfermarkt.com/spielbericht/index/spielbericht/4918701",
+    "acta": "https://www.espn.com/soccer/match/_/gameId/401882548/deportivo-real-madrid",
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
     "fecha_provisional": true,
-    "fuente": "transfermarkt",
+    "fuente": "espn",
     "inicio_madrid": "2027-05-30T12:00",
-    "rival": "Dep. A Coruña",
-    "ronda": "38",
+    "rival": "Deportivo",
+    "ronda": "",
     "sede": {
+      "ciudad": "Madrid",
       "pabellon": "Santiago Bernabéu"
     },
     "uid": "madrid-2627-4918701@madrid-calendario",
-    "uid_evento": "4918701"
+    "uid_evento": "401882548"
   }
 ]
