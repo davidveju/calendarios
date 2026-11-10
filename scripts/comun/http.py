@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import gzip
 import time
 import urllib.error
 import urllib.request
@@ -53,8 +54,11 @@ def fetch(
         try:
             req = urllib.request.Request(url, headers=cabeceras)
             with urllib.request.urlopen(req, timeout=timeout) as respuesta:
+                raw = respuesta.read()
+                if respuesta.headers.get("Content-Encoding", "").lower() == "gzip":
+                    raw = gzip.decompress(raw)
                 charset = respuesta.headers.get_content_charset() or "utf-8"
-                return respuesta.read().decode(charset, "replace")
+                return raw.decode(charset, "replace")
         except Exception as e:  # noqa: BLE001 - se reintenta y se informa al final
             ultimo = e
             log(f"fetch {url}: intento {intento}/{retries} falló ({e})")

@@ -1,0 +1,215 @@
+{
+ "id": "401882807",
+ "uid": "s:600~l:740~e:401882807",
+ "date": "2026-11-08T17:30Z",
+ "name": "Getafe at Villarreal",
+ "shortName": "GET @ VIL",
+ "season": {
+  "year": 2026,
+  "type": 14357,
+  "slug": "2026-27-laliga"
+ },
+ "competitions": [
+  {
+   "id": "401882807",
+   "uid": "s:600~l:740~e:401882807~c:401882807",
+   "date": "2026-11-08T17:30Z",
+   "startDate": "2026-11-08T17:30Z",
+   "attendance": 17102,
+   "timeValid": true,
+   "recent": false,
+   "status": {
+    "clock": 5400.0,
+    "displayClock": "90'+3'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   },
+   "venue": {
+    "id": "55",
+    "fullName": "Estadio de la Cerámica",
+    "address": {
+     "city": "Villarreal",
+     "country": "Spain"
+    }
+   },
+   "format": {
+    "regulation": {
+     "periods": 2
+    }
+   },
+   "altGameNote": "LALIGA",
+   "notes": [],
+   "broadcast": "",
+   "competitors": [
+    {
+     "id": "102",
+     "uid": "s:600~t:102",
+     "type": "team",
+     "order": 0,
+     "homeAway": "home",
+     "winner": true,
+     "form": "WLLWW",
+     "score": "2",
+     "team": {
+      "id": "102",
+      "abbreviation": "VIL",
+      "displayName": "Villarreal"
+     },
+     "statistics": [
+      {
+       "name": "appearances",
+       "abbreviation": "APP",
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "abbreviation": "FC",
+       "displayValue": "6"
+      },
+      {
+       "name": "wonCorners",
+       "abbreviation": "CW",
+       "displayValue": "9"
+      },
+      {
+       "name": "goalAssists",
+       "abbreviation": "A",
+       "displayValue": "2"
+      },
+      {
+       "name": "possessionPct",
+       "abbreviation": "PP",
+       "displayValue": "72.4"
+      },
+      {
+       "name": "shotAssists",
+       "abbreviation": "SHAST",
+       "displayValue": "16"
+      },
+      {
+       "name": "shotsOnTarget",
+       "abbreviation": "SOG",
+       "displayValue": "7"
+      },
+      {
+       "name": "totalGoals",
+       "abbreviation": "G",
+       "displayValue": "2"
+      },
+      {
+       "name": "totalShots",
+       "abbreviation": "SHOT",
+       "displayValue": "22"
+      }
+     ]
+    },
+    {
+     "id": "2922",
+     "uid": "s:600~t:2922",
+     "type": "team",
+     "order": 1,
+     "homeAway": "away",
+     "winner": false,
+     "form": "LLWWL",
+     "score": "0",
+     "team": {
+      "id": "2922",
+      "abbreviation": "GET",
+      "displayName": "Getafe"
+     },
+     "statistics": [
+      {
+       "name": "appearances",
+       "abbreviation": "APP",
+       "displayValue": "0"
+      },
+      {
+       "name": "foulsCommitted",
+       "abbreviation": "FC",
+       "displayValue": "13"
+      },
+      {
+       "name": "wonCorners",
+       "abbreviation": "CW",
+       "displayValue": "4"
+      },
+      {
+       "name": "goalAssists",
+       "abbreviation": "A",
+       "displayValue": "0"
+      },
+      {
+       "name": "possessionPct",
+       "abbreviation": "PP",
+       "displayValue": "27.6"
+      },
+      {
+       "name": "shotAssists",
+       "abbreviation": "SHAST",
+       "displayValue": "7"
+      },
+      {
+       "name": "shotsOnTarget",
+       "abbreviation": "SOG",
+       "displayValue": "1"
+      },
+      {
+       "name": "totalGoals",
+       "abbreviation": "G",
+       "displayValue": "0"
+      },
+      {
+       "name": "totalShots",
+       "abbreviation": "SHOT",
+       "displayValue": "9"
+      }
+     ]
+    }
+   ],
+   "wasSuspended": false,
+   "playByPlayAvailable": true,
+   "playByPlayAthletes": true
+  }
+ ],
+ "status": {
+  "clock": 5400.0,
+  "displayClock": "90'+3'",
+  "period": 2,
+  "type": {
+   "id": "28",
+   "name": "STATUS_FULL_TIME",
+   "state": "post",
+   "completed": true,
+   "description": "Full Time",
+   "detail": "FT",
+   "shortDetail": "FT"
+  }
+ },
+ "venue": {
+  "displayName": "Estadio de la Cerámica"
+ },
+ "links": [
+  {
+   "language": "en-US",
+   "rel": [
+    "summary",
+    "desktop",
+    "event"
+   ],
+   "href": "https://www.espn.com/soccer/match/_/gameId/401882807/getafe-villarreal",
+   "text": "Summary",
+   "shortText": "Summary",
+   "isExternal": false,
+   "isPremium": false,
+   "isHidden": false
+  }
+ ]
+}

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from datetime import datetime
 
+from scripts.proveedores.espn.config import ConfigESPN, LigaESPN
 from scripts.proveedores.transfermarkt.config import ConfigTM
 from scripts.proveedores.uefa.config import CompeticionUEFA, ConfigUEFA
 
@@ -38,4 +39,20 @@ CONFIG_UEFA = ConfigUEFA(
             slug="uefaconferenceleague",
         ),
     ),
+)
+
+# Fallback cuando Transfermarkt bloquea (p. ej. CI): API pública sin clave.
+CONFIG_ESPN = ConfigESPN(
+    team_id="2922",
+    team_name="Getafe",
+    temporada=_season,
+    uid_prefix=_uid_prefix,
+    uid_dominio="getafe-calendario",
+    ligas=(
+        LigaESPN(codigo="liga", slug="esp.1", nombre="LaLiga {temporada}"),
+        LigaESPN(
+            codigo="copa", slug="esp.copa_del_rey", nombre="Copa del Rey {temporada}"
+        ),
+    ),
+    casa_estadio="Coliseum, Getafe",
 )

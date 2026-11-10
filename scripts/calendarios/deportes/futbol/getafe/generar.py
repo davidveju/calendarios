@@ -22,7 +22,8 @@ from scripts.comun.http import fetch
 from scripts.comun.ics import MADRID, Evento, generar_ics
 from scripts.comun.log import log, warn
 
-from scripts.calendarios.deportes.futbol.getafe.config import CONFIG, CONFIG_UEFA
+from scripts.calendarios.deportes.futbol.getafe.config import CONFIG, CONFIG_ESPN, CONFIG_UEFA
+from scripts.proveedores.espn import fuentes as espn
 from scripts.proveedores.transfermarkt import fuentes
 from scripts.proveedores.uefa import fuentes as uefa
 
@@ -235,8 +236,13 @@ def main() -> None:
     try:
         tm_partidos = _fetch_liga()
     except Exception as e:  # noqa: BLE001
-        warn(f"transfermarkt: fallo ({e}); se usan solo las fuentes oficiales")
-        tm_partidos = None
+        warn(f"transfermarkt: fallo ({e}); se intenta ESPN")
+        try:
+            tm_partidos = espn.fetch_competiciones(CONFIG_ESPN)
+            log(f"espn: {len(tm_partidos)} partidos como fallback")
+        except Exception as e2:  # noqa: BLE001
+            warn(f"espn: fallo ({e2}); se usan solo las fuentes oficiales")
+            tm_partidos = None
 
     try:
         partidos = fusionar(prev, recolectar(tm_partidos, _fuentes_oficiales()))
