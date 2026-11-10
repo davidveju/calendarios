@@ -14,20 +14,23 @@ otra ICS.
 
 ## Fuentes de datos
 
-Cada calendario combina fuentes oficiales cuando están disponibles y conserva
-Transfermarkt como respaldo:
+Cada calendario combina fuentes oficiales cuando están disponibles, con
+respaldo en cadena si la primaria falla:
 
-| Calendario | Competición | Fuente primaria | Respaldo |
+| Calendario | Competición | Fuente primaria | Respaldos |
 |---|---|---|---|
-| Getafe CF | LaLiga, Copa del Rey | Transfermarkt | estado previo |
+| Getafe CF | LaLiga, Copa del Rey | LALIGA (API oficial) | Transfermarkt → ESPN |
 | Getafe CF | Conference League | UEFA (`match.uefa.com`) | Transfermarkt |
-| Real Madrid | LaLiga | Transfermarkt | estado previo |
+| Real Madrid | LaLiga, Copa del Rey | LALIGA (API oficial) | Transfermarkt → ESPN |
 | Real Madrid | Champions League | UEFA (`match.uefa.com`) | Transfermarkt |
 | Selección Española | Amistosos, Mundial | FIFA (`api.fifa.com`) | Transfermarkt |
 | Selección Española | Nations League, Finalissima | UEFA (`match.uefa.com`) | Transfermarkt |
 
-Los proveedores (`scripts/proveedores/uefa/`, `scripts/proveedores/fifa/`,
-`scripts/proveedores/transfermarkt/`) son genéricos: reciben una configuración y
+Transfermarkt no responde desde las IPs de GitHub Actions (bloqueo
+anti-bots: sirve una página vacía), así que en CI la Liga/Copa se actualiza
+vía LALIGA, con ESPN como último recurso. Los proveedores
+(`scripts/proveedores/laliga/`, `uefa/`, `fifa/`, `transfermarkt/`,
+`scripts/proveedores/espn/`) son genéricos: reciben una configuración y
 devuelven partidos normalizados. Al cambiar de fuente se conservan los `uid` del
 estado previo para no duplicar eventos en los calendarios suscritos.
 

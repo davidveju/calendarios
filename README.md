@@ -58,7 +58,7 @@ calendarios/
 │   │   └── tests/                  # tests del motor
 │   ├── proveedores/                # lógica compartida de fuentes externas
 │   │   ├── feb/ acb/ euroleague/   # baloncesto
-│   │   ├── transfermarkt/ uefa/ fifa/  # fútbol (oficiales + respaldo)
+│   │   ├── transfermarkt/ laliga/ espn/ uefa/ fifa/  # fútbol (oficiales + respaldos)
 │   │   └── openholidays/           # festivos
 │   ├── calendarios/                # código y configuración de cada calendario
 │   │   └── deportes/
