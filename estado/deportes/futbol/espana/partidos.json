@@ -298,10 +298,14 @@
     "casa": false,
     "competicion": "nations",
     "competicion_nombre": "UEFA Nations League 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "fuente": "uefa",
     "inicio_madrid": "2026-11-12T20:45",
+    "resultado_equipo": 2,
+    "resultado_local": 0,
+    "resultado_rival": 0,
+    "resultado_visitante": 2,
     "rival": "Chequia",
     "ronda": "Fase liga",
     "sede": {
@@ -309,7 +313,8 @@
       "pabellon": "Stadion Letná"
     },
     "uid": "espana-2026-4825130@espana-calendario",
-    "uid_evento": "2047872"
+    "uid_evento": "2047872",
+    "victoria": true
   },
   {
     "acta": "https://www.uefa.com/uefanationsleague/match/2047946/",

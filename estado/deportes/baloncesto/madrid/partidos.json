@@ -1076,9 +1076,13 @@
     "casa": true,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-12T21:00",
+    "resultado_equipo": 105,
+    "resultado_local": 105,
+    "resultado_rival": 84,
+    "resultado_visitante": 84,
     "rival": "Crvena Zvezda Meridianbet Belgrade",
     "ronda": "Round 11",
     "sede": {
@@ -1086,7 +1090,8 @@
       "pabellon": "MOVISTAR ARENA"
     },
     "uid": "madridbaloncesto-calendario-2026-el106@madridbaloncesto-calendario",
-    "uid_evento": "106"
+    "uid_evento": "106",
+    "victoria": true
   },
   {
     "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
