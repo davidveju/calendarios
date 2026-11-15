@@ -158,17 +158,22 @@
     "casa": false,
     "competicion": "liga",
     "competicion_nombre": "Primera FEB 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "feb_partido_id": "2535793",
     "fecha_jornada": "13/11/2026",
     "inicio_madrid": "2026-11-14T18:00:00",
     "jornada": 8,
+    "resultado_equipo": 101,
+    "resultado_local": 97,
+    "resultado_rival": 97,
+    "resultado_visitante": 101,
     "rival": "Coviran Granada",
     "sede": {
       "direccion": "Granada (Granada)",
       "pabellon": "Palacio Deportes Granada"
     },
-    "uid": "estu-2627-j08@estudiantes-calendario"
+    "uid": "estu-2627-j08@estudiantes-calendario",
+    "victoria": true
   },
   {
     "acta": "https://baloncestoenvivo.feb.es/Partido.aspx?p=2535799",
