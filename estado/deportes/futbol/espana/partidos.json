@@ -280,10 +280,14 @@
     "casa": true,
     "competicion": "nations",
     "competicion_nombre": "UEFA Nations League 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "fuente": "uefa",
     "inicio_madrid": "2026-11-15T20:45",
+    "resultado_equipo": 2,
+    "resultado_local": 2,
+    "resultado_rival": 3,
+    "resultado_visitante": 3,
     "rival": "Inglaterra",
     "ronda": "Fase liga",
     "sede": {
@@ -291,7 +295,8 @@
       "pabellon": "Estadio Metropolitano"
     },
     "uid": "espana-2026-4825127@espana-calendario",
-    "uid_evento": "2047904"
+    "uid_evento": "2047904",
+    "victoria": false
   },
   {
     "acta": "https://www.uefa.com/uefanationsleague/match/2047872/",

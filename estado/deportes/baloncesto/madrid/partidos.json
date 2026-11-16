@@ -158,9 +158,13 @@
     "casa": false,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-15T19:00",
+    "resultado_equipo": 98,
+    "resultado_local": 84,
+    "resultado_rival": 84,
+    "resultado_visitante": 98,
     "rival": "Kosner Baskonia",
     "ronda": "J8",
     "sede": {
@@ -168,7 +172,8 @@
       "pabellon": "Fernando Buesa Arena"
     },
     "sede_club_id": 3,
-    "uid": "madrid-b-2627-acb105446@madridbaloncesto-calendario"
+    "uid": "madrid-b-2627-acb105446@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
     "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",

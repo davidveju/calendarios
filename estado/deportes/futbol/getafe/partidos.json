@@ -588,9 +588,9 @@
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "fecha_provisional": true,
+    "fecha_provisional": false,
     "fuente": "laliga",
-    "inicio_madrid": "2026-12-06T12:00",
+    "inicio_madrid": "2026-12-06T18:30",
     "rival": "Valencia",
     "ronda": "15",
     "sede": {
