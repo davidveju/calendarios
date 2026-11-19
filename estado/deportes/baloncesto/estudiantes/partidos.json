@@ -645,17 +645,22 @@
     "casa": false,
     "competicion": "copa",
     "competicion_nombre": "Copa España 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "feb_partido_id": "2550809",
     "fecha_jornada": "17/11/2026",
     "inicio_madrid": "2026-11-18T20:00:00",
     "jornada": 2,
+    "resultado_equipo": 85,
+    "resultado_local": 70,
+    "resultado_rival": 70,
+    "resultado_visitante": 85,
     "rival": "Caceres Patrimonio de la Humanidad",
     "ronda": "1/8",
     "sede": {
       "direccion": "Cáceres (Cáceres)",
       "pabellon": "Pabellón Multiusos Ciudad de Cáceres"
     },
-    "uid": "estu-2627-copa-j02@estudiantes-calendario"
+    "uid": "estu-2627-copa-j02@estudiantes-calendario",
+    "victoria": true
   }
 ]

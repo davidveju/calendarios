@@ -1064,9 +1064,13 @@
     "casa": false,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-18T18:00",
+    "resultado_equipo": 79,
+    "resultado_local": 83,
+    "resultado_rival": 83,
+    "resultado_visitante": 79,
     "rival": "Besiktas Istanbul",
     "ronda": "Round 12",
     "sede": {
@@ -1074,7 +1078,8 @@
       "pabellon": "TURKCELL BASKETBALL DEVELOPMENT CENTER"
     },
     "uid": "madridbaloncesto-calendario-2026-el120@madridbaloncesto-calendario",
-    "uid_evento": "120"
+    "uid_evento": "120",
+    "victoria": false
   },
   {
     "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
