@@ -276,6 +276,34 @@
     "victoria": true
   },
   {
+    "acta": "https://www.uefa.com/uefanationsleague/match/2050897/",
+    "casa": false,
+    "competicion": "nations",
+    "competicion_nombre": "UEFA Nations League 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "uefa",
+    "inicio_madrid": "2027-03-28T20:45",
+    "rival": "Francia",
+    "ronda": "Cuartos de final",
+    "uid": "espana-2026-uefa-2050897@espana-calendario",
+    "uid_evento": "2050897"
+  },
+  {
+    "acta": "https://www.uefa.com/uefanationsleague/match/2050900/",
+    "casa": true,
+    "competicion": "nations",
+    "competicion_nombre": "UEFA Nations League 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "uefa",
+    "inicio_madrid": "2027-03-25T20:45",
+    "rival": "Francia",
+    "ronda": "Cuartos de final",
+    "uid": "espana-2026-uefa-2050900@espana-calendario",
+    "uid_evento": "2050900"
+  },
+  {
     "acta": "https://www.uefa.com/uefanationsleague/match/2047904/",
     "casa": true,
     "competicion": "nations",

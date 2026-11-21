@@ -234,7 +234,7 @@
     "estado": "pendiente",
     "feb_partido_id": "2535826",
     "fecha_jornada": "18/12/2026",
-    "inicio_madrid": "2026-12-18T20:45:00",
+    "inicio_madrid": "2026-12-20T18:00:00",
     "jornada": 12,
     "rival": "Grupo Ureta Tizona Burgos",
     "sede": {
@@ -662,5 +662,23 @@
     },
     "uid": "estu-2627-copa-j02@estudiantes-calendario",
     "victoria": true
+  },
+  {
+    "acta": "https://www.feb.es/competiciones/Partido.aspx?p=2551414",
+    "casa": false,
+    "competicion": "copa",
+    "competicion_nombre": "Copa España 26/27",
+    "estado": "pendiente",
+    "feb_partido_id": "2551414",
+    "fecha_jornada": "15/12/2026",
+    "inicio_madrid": "2026-12-16T20:00:00",
+    "jornada": 3,
+    "rival": "Grupo Ureta Tizona Burgos",
+    "ronda": "1/4",
+    "sede": {
+      "direccion": "Burgos (Burgos)",
+      "pabellon": "Polideportivo Municipal el Plantio"
+    },
+    "uid": "estu-2627-copa-j03@estudiantes-calendario"
   }
 ]

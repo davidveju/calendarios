@@ -693,7 +693,7 @@
     "estado": "pendiente",
     "fecha_provisional": false,
     "inicio_madrid": "2027-03-26T20:45",
-    "rival": "Besiktas Istanbul",
+    "rival": "Besiktas Fuzul Istanbul",
     "ronda": "Round 34",
     "sede": {
       "direccion": "Avenida de Felipe II 1, 28009, Madrid",
@@ -1047,9 +1047,13 @@
     "casa": false,
     "competicion": "euroliga",
     "competicion_nombre": "EuroLeague 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-20T20:15",
+    "resultado_equipo": 76,
+    "resultado_local": 92,
+    "resultado_rival": 92,
+    "resultado_visitante": 76,
     "rival": "Olympiacos Piraeus",
     "ronda": "Round 13",
     "sede": {
@@ -1057,7 +1061,8 @@
       "pabellon": "SUNEL ARENA"
     },
     "uid": "madridbaloncesto-calendario-2026-el130@madridbaloncesto-calendario",
-    "uid_evento": "130"
+    "uid_evento": "130",
+    "victoria": false
   },
   {
     "acta": "https://www.euroleaguebasketball.net/en/euroleague/teams/real-madrid/mad/",
@@ -1071,7 +1076,7 @@
     "resultado_local": 83,
     "resultado_rival": 83,
     "resultado_visitante": 79,
-    "rival": "Besiktas Istanbul",
+    "rival": "Besiktas Fuzul Istanbul",
     "ronda": "Round 12",
     "sede": {
       "direccion": "Kazliçesme Mah. 10. Yil Caddesi No: 2/1 Zeytinburnu / Turkiye",
