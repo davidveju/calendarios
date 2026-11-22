@@ -618,10 +618,14 @@
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "fuente": "laliga",
     "inicio_madrid": "2026-11-21T21:00",
+    "resultado_equipo": 2,
+    "resultado_local": 2,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
     "rival": "Celta",
     "ronda": "13",
     "sede": {
@@ -629,7 +633,8 @@
       "pabellon": "Bernabéu"
     },
     "uid": "madrid-2627-4918453@madrid-calendario",
-    "uid_evento": "102377"
+    "uid_evento": "102377",
+    "victoria": true
   },
   {
     "acta": "https://www.laliga.com/laliga-easports/resultados",
