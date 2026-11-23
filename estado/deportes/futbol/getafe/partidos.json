@@ -623,10 +623,14 @@
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "fuente": "laliga",
     "inicio_madrid": "2026-11-22T21:00",
+    "resultado_equipo": 0,
+    "resultado_local": 0,
+    "resultado_rival": 3,
+    "resultado_visitante": 3,
     "rival": "Atlético de Madrid",
     "ronda": "13",
     "sede": {
@@ -634,7 +638,8 @@
       "pabellon": "Coliseum"
     },
     "uid": "getafe-2627-4918448@getafe-calendario",
-    "uid_evento": "102372"
+    "uid_evento": "102372",
+    "victoria": false
   },
   {
     "acta": "https://www.laliga.com/laliga-easports/resultados",

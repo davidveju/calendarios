@@ -180,17 +180,22 @@
     "casa": true,
     "competicion": "liga",
     "competicion_nombre": "Primera FEB 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "feb_partido_id": "2535799",
     "fecha_jornada": "20/11/2026",
     "inicio_madrid": "2026-11-22T12:00:00",
     "jornada": 9,
+    "resultado_equipo": 64,
+    "resultado_local": 64,
+    "resultado_rival": 65,
+    "resultado_visitante": 65,
     "rival": "Club Ourense Baloncesto",
     "sede": {
       "direccion": "Madrid (Madrid)",
       "pabellon": "Movistar Arena"
     },
-    "uid": "estu-2627-j09@estudiantes-calendario"
+    "uid": "estu-2627-j09@estudiantes-calendario",
+    "victoria": false
   },
   {
     "acta": "https://baloncestoenvivo.feb.es/Partido.aspx?p=2535812",

@@ -180,9 +180,13 @@
     "casa": true,
     "competicion": "acb",
     "competicion_nombre": "Liga Endesa 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "inicio_madrid": "2026-11-22T19:00",
+    "resultado_equipo": 91,
+    "resultado_local": 91,
+    "resultado_rival": 88,
+    "resultado_visitante": 88,
     "rival": "Asisa Joventut",
     "ronda": "J9",
     "sede": {
@@ -190,7 +194,8 @@
       "pabellon": "Movistar Arena"
     },
     "sede_club_id": 9,
-    "uid": "madrid-b-2627-acb105455@madridbaloncesto-calendario"
+    "uid": "madrid-b-2627-acb105455@madridbaloncesto-calendario",
+    "victoria": true
   },
   {
     "acta": "https://acb.com/es/liga/equipos/real-madrid-9/partidos",
