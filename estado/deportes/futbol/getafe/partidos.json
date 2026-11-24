@@ -570,9 +570,9 @@
     "competicion": "liga",
     "competicion_nombre": "LaLiga 26/27",
     "estado": "pendiente",
-    "fecha_provisional": true,
+    "fecha_provisional": false,
     "fuente": "laliga",
-    "inicio_madrid": "2026-12-13T12:00",
+    "inicio_madrid": "2026-12-13T18:30",
     "rival": "Real Sociedad",
     "ronda": "16",
     "sede": {
@@ -916,6 +916,24 @@
     "uid": "getafe-2627-4909440@getafe-calendario",
     "uid_evento": "102249",
     "victoria": false
+  },
+  {
+    "acta": "https://www.laliga.com/otras-competiciones/copa-del-rey",
+    "casa": false,
+    "competicion": "copa",
+    "competicion_nombre": "Copa del Rey 26/27",
+    "estado": "pendiente",
+    "fecha_provisional": false,
+    "fuente": "laliga",
+    "inicio_madrid": "2026-12-02T21:00",
+    "rival": "Real Ávila",
+    "ronda": "2º eliminatoria",
+    "sede": {
+      "ciudad": "Madrid",
+      "pabellon": "Municipal Adolfo Suárez"
+    },
+    "uid": "getafe-2627-105239@getafe-calendario",
+    "uid_evento": "105239"
   },
   {
     "acta": "https://www.laliga.com/otras-competiciones/copa-del-rey",
