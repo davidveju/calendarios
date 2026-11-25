@@ -58,10 +58,14 @@
     "casa": true,
     "competicion": "champions",
     "competicion_nombre": "Champions League 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "fuente": "uefa",
     "inicio_madrid": "2026-11-24T21:00",
+    "resultado_equipo": 5,
+    "resultado_local": 5,
+    "resultado_rival": 1,
+    "resultado_visitante": 1,
     "rival": "PSV",
     "ronda": "Jornada 5",
     "sede": {
@@ -69,7 +73,8 @@
       "pabellon": "Estadio Santiago Bernabéu"
     },
     "uid": "madrid-2627-5035861@madrid-calendario",
-    "uid_evento": "2049625"
+    "uid_evento": "2049625",
+    "victoria": true
   },
   {
     "acta": "https://www.uefa.com/uefachampionsleague/match/2049622/",
