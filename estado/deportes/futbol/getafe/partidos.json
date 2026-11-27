@@ -40,10 +40,14 @@
     "casa": false,
     "competicion": "conference",
     "competicion_nombre": "Conference League 26/27",
-    "estado": "pendiente",
+    "estado": "jugado",
     "fecha_provisional": false,
     "fuente": "uefa",
     "inicio_madrid": "2026-11-26T18:45",
+    "resultado_equipo": 0,
+    "resultado_local": 1,
+    "resultado_rival": 1,
+    "resultado_visitante": 0,
     "rival": "Iberia Tbilisi",
     "ronda": "Jornada 4",
     "sede": {
@@ -51,7 +55,8 @@
       "pabellon": "Mikheil Meskhi I Stadium "
     },
     "uid": "getafe-2627-5037615@getafe-calendario",
-    "uid_evento": "2050379"
+    "uid_evento": "2050379",
+    "victoria": false
   },
   {
     "acta": "https://www.uefa.com/uefaconferenceleague/match/2050352/",
